@@ -1,2 +1,2 @@
-# wordtree
-wordtrees of most common words in ebts
+# word-frequency
+most common words in ebts
