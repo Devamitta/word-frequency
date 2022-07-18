@@ -25,4 +25,4 @@ ngrams_text = get_ngrams(text, 5)
 for row in range(100):
     word = ebt_freq_list[row]
     g = search_and_draw(corpus=ngrams_text, keyword=word, max_n=5)
-    g.render(f"output/pics/{word}") 
+    g.render(f"pics/{word}") 
