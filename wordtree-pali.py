@@ -7,11 +7,11 @@ from wordtree import search_and_draw
 import pandas as pd
 
 # open ebts.txt
-with open ("../frequency maps/output/rawtext/ebts.txt", "r") as f:
+with open ("input/ebts.txt", "r") as f:
 	text = str(f.read())
 
 # open ebt freq csv and make a list
-ebt_freq_df = pd.read_csv("../frequency maps/output/word count csvs/ebts.csv", header =None, sep="\t")
+ebt_freq_df = pd.read_csv("input/ebts.csv", header =None, sep="\t")
 ebt_freq_list = ebt_freq_df[0].to_list()
 # print(ebt_freq_list[:100])
 
@@ -25,4 +25,4 @@ ngrams_text = get_ngrams(text, 5)
 for row in range(100):
     word = ebt_freq_list[row]
     g = search_and_draw(corpus=ngrams_text, keyword=word, max_n=5)
-    g.render(f"output/{word}") 
+    g.render(f"output/pics/{word}") 
