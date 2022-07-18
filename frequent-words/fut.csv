@@ -49,13 +49,3 @@ vigamissati	fut	√gam 1 (go)	issati fut	1.0	{'vigamissanti': 1}
 viññassati	fut	√ñā 5 (know)	ssati fut	1.0	{'viññassanti': 1}
 silokamanukassati	fut		ati fut	1.0	{'silokamanukassāmi': 1}
 gabbhamessati	fut		ssati fut	1.0	{'gabbhamessāmi': 1}
-sessati	fut	√sī 1 (lie, sleep)	ssati fut	1.0	{'sessaṃ': 1}
-monissati	fut	√mun 5 (think, know)	issati fut	1.0	{'monissaṃ': 1}
-pahāssati	fut	√hā 1 (abandon)	ssati fut	1.0	{'pahāssaṃ': 1}
-vihāhiti	fut	√har 1 (live)	hiti fut	1.0	{'vihāhisi': 1}
-bhāhiti	fut	√bhā 1 (shine, speak)	hiti fut	1.0	{'bhāhisi': 1}
-parinibbāhiti	fut	√vā 1 (blow, emit odour)	hiti fut	1.0	{'parinibbāhisi': 1}
-palehiti	fut	√pal 8 (run away, flee)	hiti fut	1.0	{'palehiti': 1}
-nappahossati	fut	√hū 1 (be)	ssati fut	0.0	{}
-pahossati	fut	√hū 1 (be)	ssati fut	0.0	{}
-anukassati	fut	√kass 1 (drag, draw along)	ssati fut	0.0	{}
