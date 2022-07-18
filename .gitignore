@@ -1,0 +1,4 @@
+output/
+output_replaced/
+__pycache__/wordtree.cpython-310.pyc
+.vscode/settings.json
