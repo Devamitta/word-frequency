@@ -3,14 +3,14 @@ import numpy as np
 from pandas_ods_reader import read_ods 
 import re
 
-df = read_ods("input/frequent-words.ods")
+df = read_ods("original-sources/frequent-words.ods")
 df.fillna("", inplace=True)
 
 # sort by frequency
 df = df.sort_values(by=['count'], ascending = False)
 
-# make lenght first 1000
-# df = df.loc[1:1000]
+# save first 1000
+df.head(1000)[['headword', 'count']].to_csv("curated-sources/1000-words.csv", sep="\t", index=None)
 
 # filter a masc
 test1 = df['pos'] == "masc"

@@ -7,11 +7,11 @@ from wordtree import search_and_draw
 import pandas as pd
 
 # open ebts.txt
-with open ("input/ebts.txt", "r") as f:
+with open ("original-sources/ebts.txt", "r") as f:
 	text = str(f.read())
 
 # open ebt freq csv and make a list
-ebt_freq_df = pd.read_csv("input/ebts.csv", header =None, sep="\t")
+ebt_freq_df = pd.read_csv("curated-sources/1000-words.csv", header =None, sep="\t")
 ebt_freq_list = ebt_freq_df[0].to_list()
 # print(ebt_freq_list[:100])
 
