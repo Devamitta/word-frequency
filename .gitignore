@@ -3,3 +3,4 @@ output-replaced/
 pics/
 __pycache__/wordtree.cpython-310.pyc
 .vscode/settings.json
+.~lock.frequent-words.ods#
