@@ -1,51 +1,51 @@
-headword	pos	root	pattern	count	found
-etadavoca	aor		avoca aor	3168.0	{'etadavoca': 2667, 'etadavocuṃ': 386, 'etadavocaṃ': 111, 'etadavocumha': 4}
-ahosi	aor	√hū 1 (be)	ahosi aor	3104.0	{'ahosi': 2163, 'ahesuṃ': 376, 'ahu': 310, 'ahosiṃ': 163, 'ahuvattha': 33, 'ahuṃ': 28, 'ahuvā': 12, 'ahumhā': 10, 'ahesumha': 5, 'ahumha': 4}
-tenupasaṅkami	aor		i aor	1846.0	{'tenupasaṅkami': 1396, 'tenupasaṅkamiṃsu': 319, 'tenupasaṅkamiṃ': 69, 'tenupasaṅkama': 48, 'tenupasaṅkamimha': 11, 'tenupasaṅkamimhā': 3}
-maggi	aor	√magg 8 (seek, search)	i aor	1218.0	{'maggaṃ': 639, 'maggo': 553, 'maggā': 24, 'magga': 1, 'maggiṃ': 1}
-nisīdi	aor	√sad 1 (sink, sit, settle)	i aor isuṃ	1192.0	{'nisīdi': 877, 'nisīdiṃsu': 251, 'nisīdiṃ': 37, 'nisīda': 16, 'nisīdimha': 3, 'nisīdimhā': 1, 'nisīdā': 5, 'nisīdī': 2}
-bhavi	aor	√bhū 1 (be)	i aor	1059.0	{'bhavaṃ': 866, 'bhavo': 131, 'bhava': 33, 'bhavā': 29}
-kiri	aor	√kir 1 (scatter, sprinkle)	i aor	759.0	{'kira': 754, 'kirā': 5}
-āmantesi	aor	√mant 8 (counsel, invite)	esi aor	747.0	{'āmantesi': 740, 'āmantesiṃ': 6, 'āmantesuṃ': 1}
-avoca	aor	√vac 1 (say, speak)	avoca aor	661.0	{'avoca': 505, 'avaca': 111, 'avacuttha': 18, 'avocumhā': 13, 'avacāsi': 8, 'avocumha': 2, 'avocaṃ': 1, 'avociṃ': 1, 'avocisuṃ': 1, 'avaciṃsu': 1}
-sayi	aor	√sī 1 (lie, sleep)	i aor	654.0	{'sayaṃ': 653, 'sayiṃsu': 1}
-paññāyi	aor	√ñā 5 (know)	i aor	628.0	{'paññāya': 577, 'paññāyittha': 43, 'paññāyiṃsu': 7, 'paññāyā': 1}
-yati	aor		i aor	600.0	{'yato': 588, 'yataṃ': 10, 'yatā': 2}
-udapādi	aor	√pad 3 (go, step)	i aor	519.0	{'udapādi': 469, 'udapādiṃ': 36, 'udapādī': 14}
-assosi	aor	√su 4 (hear)	assosi aor	501.0	{'assosuṃ': 166, 'assu': 228, 'assosi': 83, 'assumha': 11, 'assuttha': 7, 'assosiṃ': 6}
-passi	aor	√dis 1 (see)	i aor aṃsu	472.0	{'passaṃ': 269, 'passa': 197, 'passi': 3, 'passī': 1, 'passo': 1, 'passā': 1}
-tāyi	aor	√tā 3 (protect, preserve)	i aor	435.0	{'tāya': 296, 'tāyaṃ': 131, 'tāyo': 8}
-uttari	aor	√tar 1 (cross)	i aor	434.0	{'uttari': 186, 'uttariṃ': 125, 'uttaro': 41, 'uttaraṃ': 49, 'uttarā': 16, 'uttara': 15, 'uttarī': 2}
-paccassosi	aor	√su 4 (hear)	i aor	385.0	{'paccassosuṃ': 256, 'paccassosi': 129}
-āsavi	aor	√su 1 (flow)	i aor	376.0	{'āsavā': 360, 'āsavo': 13, 'āsavaṃ': 3}
-ārocesi	aor	√ruc 1 (shine, like)	esi aor	357.0	{'ārocesuṃ': 228, 'ārocesi': 128, 'ārocesiṃ': 1}
-sikkhi	aor	√sikkh 1 (learn, train)	i aor	325.0	{'sikkhā': 177, 'sikkhaṃ': 143, 'sikkhi': 5}
-addasa	aor	√dis 1 (see)	ddasa aor	315.0	{'addasaṃ': 118, 'addasa': 86, 'addasaṃsu': 37, 'addasāma': 24, 'addakkhuṃ': 17, 'addakkhi': 14, 'adda': 4, 'adakkhi': 3, 'addā': 3, 'addasāsiṃ': 2, 'addasāsi': 2, 'addakkhiṃ': 3, 'addasuṃ': 2}
-āhari	aor	√har 1 (carry)	hari aor	306.0	{'āhaṃsu': 297, 'āhāsi': 5, 'āhariṃsu': 2, 'āhari': 1, 'āhariṃ': 1}
-nandi	aor	√nand 1 (delight, enjoy)	i aor	305.0	{'nandī': 79, 'nando': 60, 'nandiṃ': 34, 'nandaṃ': 22, 'nanda': 89, 'nandi': 12, 'nandā': 9}
-vijji	aor	√vid 3 (be found, exist)	i aor	304.0	{'vijjā': 277, 'vijjaṃ': 24, 'vijjiṃsu': 2, 'vijjittha': 1}
-apāyi	aor	√pā 1 (drink)	i aor	291.0	{'apāyaṃ': 281, 'apāyi': 3, 'apāyiṃ': 2, 'apāyimha': 2, 'apāyā': 2, 'apāyo': 1}
-vasi	aor	√vas 1 (live)	i aor	273.0	{'vasaṃ': 162, 'vasī': 35, 'vasi': 20, 'vasā': 18, 'vaso': 14, 'vasa': 13, 'vasittha': 4, 'vasiṃ': 3, 'vasimhā': 2, 'vasuṃ': 1, 'vasimha': 1}
-vigarahi	aor	√garah 1 (blame)	i aor	270.0	{'vigarahi': 270}
-aṭṭhāsi	aor	√ṭhā 1 (stand)	āsi aor	261.0	{'aṭṭhāsi': 171, 'aṭṭhaṃsu': 68, 'aṭṭhāsiṃ': 17, 'aṭṭhamhā': 5}
-sammodi	aor	√mud 1 (be soft, happy)	i aor	261.0	{'sammodi': 194, 'sammodiṃsu': 53, 'sammodiṃ': 10, 'sammodimha': 3, 'sammodimhā': 1}
-mahi	aor	√mah 1 (venerate)	i aor	255.0	{'mahā': 158, 'mahī': 34, 'mahiṃ': 17, 'mahaṃ': 22, 'maha': 23, 'mahi': 1}
-panassi	aor	√nas 3 (be lost, disappear)	i aor	234.0	{'panassa': 211, 'panassaṃ': 11, 'panassā': 12}
-phali	aor	√phal 1 (split open)	i aor	232.0	{'phalaṃ': 199, 'phalā': 20, 'phaliṃsu': 9, 'phaliṃ': 2, 'phalī': 2}
-jīvi	aor	√jīv 1 (live)	i aor	229.0	{'jīvaṃ': 198, 'jīva': 19, 'jīvā': 9, 'jīvo': 2, 'jīviṃ': 1}
-pakkāmi	aor	√kam 1 (go)	i aor isuṃ	224.0	{'pakkāmi': 200, 'pakkāmiṃ': 4, 'pakkāmuṃ': 4, 'pakkāmī': 16}
-vadesi	aor	√vad 1 (say, speak)	esi aor	222.0	{'vadesi': 222}
-āsi	aor	√as 1 (be)	āsi aor irreg	218.0	{'āsi': 83, 'āsiṃ': 107, 'āsuṃ': 28}
-jāni	aor	√ñā 5 (know)	i aor	212.0	{'jānaṃ': 200, 'jāna': 4, 'jāniṃ': 3, 'jānimha': 2, 'jāni': 1, 'jāno': 1, 'jānā': 1}
-gacchi	aor	√gam 1 (go)	i aor	212.0	{'gaccha': 190, 'gacchaṃ': 20, 'gacchiṃ': 1, 'gacchi': 1}
-vihāsi	aor	√har 1 (live)	hari aor	205.0	{'vihāsi': 75, 'vihāsiṃ': 67, 'vihariṃsu': 31, 'viharittha': 11, 'vihariṃ': 6, 'vihaṃsu': 5, 'vihari': 4, 'viharimhā': 4, 'vihāsuṃ': 2}
-vihari	aor	√har 1 (live)	hari aor	205.0	{'vihāsi': 75, 'vihāsiṃ': 67, 'vihariṃsu': 31, 'viharittha': 11, 'vihariṃ': 6, 'vihaṃsu': 5, 'vihari': 4, 'viharimhā': 4, 'vihāsuṃ': 2}
-pāvisi	aor	√vis 1 (enter)	i aor	202.0	{'pāvisi': 148, 'pāvisiṃ': 30, 'pāvisiṃsu': 9, 'pāvisī': 11, 'pāvisuṃ': 3, 'pāvisimha': 1}
-jhāyi	aor	√jhā 3 (think, meditate)	i aor	196.0	{'jhāyī': 176, 'jhāya': 7, 'jhāyaṃ': 6, 'jhāyiṃ': 5, 'jhāyi': 2}
-nadi	aor	√nad 1 (roar)	i aor	187.0	{'nadī': 124, 'nadiṃ': 59, 'nadi': 2, 'nado': 2}
-abhinandi	aor	√nand 1 (delight, enjoy)	i aor	184.0	{'abhinandi': 15, 'abhinandiṃsu': 10, 'abhinandiṃ': 9, 'abhinandimha': 3, 'abhinanduṃ': 96, 'abhinandimhā': 1, 'abhinandī': 50}
-icchi	aor	√is 1 (wish for)	i aor	184.0	{'icchā': 119, 'iccho': 16, 'icchiṃsu': 10, 'icchaṃ': 32, 'icchiṃ': 6, 'icchi': 1}
-abbhaññāsi	aor	√ñā 5 (know)	āsi aor iṃsu	180.0	{'abbhaññāsiṃ': 113, 'abbhaññāsi': 39, 'abbhaññaṃsu': 19, 'abbhaññiṃsu': 9}
-kanti	aor	√kat 2 (cut)	i aor	179.0	{'kantā': 140, 'kanto': 23, 'kantaṃ': 15, 'kanta': 1}
-muni	aor	√mun 5 (think, know)	i aor	175.0	{'muni': 99, 'muniṃ': 26, 'munī': 49, 'muno': 1}
-sahi	aor	√sah 1 (overcome, prevail)	i aor	175.0	{'saha': 169, 'sahā': 6}
+headword	count
+etadavoca	3168.0
+ahosi	3104.0
+tenupasaṅkami	1846.0
+maggi	1218.0
+nisīdi	1192.0
+bhavi	1059.0
+kiri	759.0
+āmantesi	747.0
+avoca	661.0
+sayi	654.0
+paññāyi	628.0
+yati	600.0
+udapādi	519.0
+assosi	501.0
+passi	472.0
+tāyi	435.0
+uttari	434.0
+paccassosi	385.0
+āsavi	376.0
+ārocesi	357.0
+sikkhi	325.0
+addasa	315.0
+āhari	306.0
+nandi	305.0
+vijji	304.0
+apāyi	291.0
+vasi	273.0
+vigarahi	270.0
+aṭṭhāsi	261.0
+sammodi	261.0
+mahi	255.0
+panassi	234.0
+phali	232.0
+jīvi	229.0
+pakkāmi	224.0
+vadesi	222.0
+āsi	218.0
+jāni	212.0
+gacchi	212.0
+vihāsi	205.0
+vihari	205.0
+pāvisi	202.0
+jhāyi	196.0
+nadi	187.0
+abhinandi	184.0
+icchi	184.0
+abbhaññāsi	180.0
+kanti	179.0
+muni	175.0
+sahi	175.0

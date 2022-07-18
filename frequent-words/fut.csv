@@ -1,51 +1,51 @@
-headword	pos	root	pattern	count	found
-gamissati	fut	√gam 1 (go)	issati fut	182.0	{'gamissāmi': 65, 'gamissanti': 27, 'gamissasi': 29, 'gamissati': 19, 'gamissaṃ': 9, 'gamissāma': 32, 'gamissase': 1}
-dassati	fut	√dā 1 (give)	ssati fut	148.0	{'dassanti': 29, 'dassati': 29, 'dassāma': 28, 'dassāmi': 37, 'dassasi': 11, 'dassatha': 9, 'dassaṃ': 5}
-dakkhati	fut	√dis 1 (see)	ati fut	125.0	{'dakkhati': 27, 'dakkhanti': 83, 'dakkhasi': 11, 'dakkhāmi': 1, 'dakkhāma': 1, 'dakkhaṃ': 1, 'dakkhatha': 1}
-ṭhassati	fut	√ṭhā 1 (stand)	ssati fut	118.0	{'ṭhassati': 71, 'ṭhassanti': 37, 'ṭhassasi': 3, 'ṭhassāmi': 7}
-vakkhati	fut	√vac 1 (say, speak)	ati fut	81.0	{'vakkhati': 36, 'vakkhāmi': 25, 'vakkhanti': 12, 'vakkhatha': 3, 'vakkhāma': 3, 'vakkhasi': 2}
-ñassati	fut	√ñā 5 (know)	ssati fut	56.0	{'ñassati': 48, 'ñassāma': 7, 'ñassasi': 1}
-kāhasi	fut	√kar 7 (do, make)	ati fut	46.0	{'kāhāmi': 17, 'kāhasi': 11, 'kāhanti': 11, 'kāhati': 5, 'kāhāma': 1, 'kāhatha': 1}
-kāhati	fut	√kar 7 (do, make)	ati fut	46.0	{'kāhāmi': 17, 'kāhasi': 11, 'kāhanti': 11, 'kāhati': 5, 'kāhāma': 1, 'kāhatha': 1}
-lacchati	fut	√labh 1 (get)	ati fut	39.0	{'lacchati': 17, 'lacchāma': 11, 'lacchasi': 5, 'lacchāmi': 3, 'lacchase': 2, 'lacchanti': 1}
-hessati	fut	√hū 1 (be)	ati fut	39.0	{'hessati': 14, 'hessāmi': 11, 'hessaṃ': 6, 'hessanti': 4, 'hessasi': 3, 'hessāma': 1}
-āgamissati	fut	√gam 1 (go)	issati fut	31.0	{'āgamissati': 24, 'āgamissanti': 5, 'āgamissasi': 1, 'āgamissāmi': 1}
-sakkhiti	fut	√sak 4 (be able, powerful)	hiti fut	23.0	{'sakkhiṃ': 12, 'sakkhiti': 9, 'sakkhinti': 1, 'sakkhisi': 1}
-hehiti	fut	√hū 1 (be)	hiti fut	22.0	{'hehiti': 18, 'hehisi': 4}
-sossati	fut	√su 4 (hear)	ssati fut	19.0	{'sossasi': 6, 'sossati': 5, 'sossanti': 1, 'sossāmi': 1, 'sossaṃ': 1, 'sossāma': 5}
-kassati	fut	√kar 7 (do, make)	ssati fut	18.0	{'kassaṃ': 14, 'kassāmi': 3, 'kassāma': 1}
-sakkhissati	fut	√sak 4 (be able, powerful)	issati fut	15.0	{'sakkhissasi': 9, 'sakkhissanti': 4, 'sakkhissati': 2}
-adhigamissati	fut	√gam 1 (go)	issati fut	15.0	{'adhigamissasi': 6, 'adhigamissati': 8, 'adhigamissanti': 1}
-gahessati	fut	√gah 6 (grasp)	ssati fut	15.0	{'gahessati': 10, 'gahessasi': 2, 'gahessanti': 1, 'gahessaṃ': 1, 'gahessāmi': 1}
-paṭihaṅkhati	fut	√han 1 (strike, kill)	ati fut	14.0	{'paṭihaṅkhāmi': 13, 'paṭihaṅkhāma': 1}
-vacchati	fut	√vas 1 (live)	ati fut	12.0	{'vacchaṃ': 8, 'vacchāmi': 2, 'vacchati': 1, 'vacchasi': 1}
-hohiti	fut	√hū 1 (be)	hiti fut	12.0	{'hohisi': 9, 'hohiti': 3}
-pavakkhati	fut	√vac 1 (say, speak)	ati fut	10.0	{'pavakkhāmi': 6, 'pavakkhati': 3, 'pavakkhanti': 1}
-checchati	fut	√chid 2 (cut, steal)	ati fut	10.0	{'checchasi': 4, 'checchati': 3, 'checchaṃ': 3}
-vihassati	fut	√har 1 (live)	ssati fut	10.0	{'vihassati': 4, 'vihassaṃ': 3, 'vihassāmi': 2, 'vihassāma': 1}
-sakkhati	fut	√sak 4 (be able, powerful)	ati fut	6.0	{'sakkhati': 4, 'sakkhasi': 2}
-ucchecchati	fut		ati fut	6.0	{'ucchecchāmi': 6}
-anuppadassati	fut	√dā 1 (give)	ssati fut	5.0	{'anuppadassati': 1, 'anuppadassāma': 2, 'anuppadassāmi': 2}
-kāhiti	fut	√kar 7 (do, make)	hiti fut	5.0	{'kāhiti': 3, 'kāhisi': 1, 'kāhinti': 1}
-nessati	fut	√nī 1 (lead, carry)	ssati fut	5.0	{'nessatha': 2, 'nessati': 1, 'nessasi': 1, 'nessaṃ': 1}
-upehiti	fut	√i 1 (come, go)	hiti fut	4.0	{'upehisi': 4}
-paccāgamissati	fut	√gam 1 (go)	issati fut	4.0	{'paccāgamissati': 3, 'paccāgamissāmi': 1}
-paccanubhossati	fut	√bhū 1 (be)	ssati fut	4.0	{'paccanubhossanti': 3, 'paccanubhossati': 1}
-niggahessati	fut	√gah 6 (grasp)	ssati fut	3.0	{'niggahessāmi': 3}
-upaññissati	fut	√ñā 5 (know)	issati fut	3.0	{'upaññissaṃ': 2, 'upaññissati': 1}
-parinibbissati	fut	√vā 1 (blow, emit odour)	issati fut	3.0	{'parinibbissaṃ': 2, 'parinibbissati': 1}
-pavekkhati	fut	√vis 1 (enter)	ati fut	3.0	{'pavekkhāmi': 2, 'pavekkhāma': 1}
-gagghati	fut	√gam 1 (go)	ati fut	2.0	{'gagghasi': 2}
-pacessati	fut	√ci 5 (gather, accumulate)	ssati fut	2.0	{'pacessati': 2}
-byakkhissati	fut	√kar 7 (do, make)	ssati fut	2.0	{'byakkhissaṃ': 2}
-uggamissati	fut	√gam 1 (go)	issati fut	2.0	{'uggamissati': 2}
-āhañchati	fut	√han 1 (strike, kill)	ati fut	2.0	{'āhañchaṃ': 2}
-vicessati	fut	√ci 5 (gather, accumulate)	ssati fut	2.0	{'vicessati': 2}
-vihessati	fut		ati fut	2.0	{'vihessati': 2}
-anuggahessati	fut	√gah 6 (grasp)	ssati fut	2.0	{'anuggahessāmi': 2}
-viññissati	fut	√ñā 5 (know)	issati fut	2.0	{'viññissanti': 2}
-jessati	fut	√ji 1 (conquer)	ssati fut	1.0	{'jessati': 1}
-vigamissati	fut	√gam 1 (go)	issati fut	1.0	{'vigamissanti': 1}
-viññassati	fut	√ñā 5 (know)	ssati fut	1.0	{'viññassanti': 1}
-silokamanukassati	fut		ati fut	1.0	{'silokamanukassāmi': 1}
-gabbhamessati	fut		ssati fut	1.0	{'gabbhamessāmi': 1}
+headword	count
+gamissati	182.0
+dassati	148.0
+dakkhati	125.0
+ṭhassati	118.0
+vakkhati	81.0
+ñassati	56.0
+kāhasi	46.0
+kāhati	46.0
+lacchati	39.0
+hessati	39.0
+āgamissati	31.0
+sakkhiti	23.0
+hehiti	22.0
+sossati	19.0
+kassati	18.0
+sakkhissati	15.0
+adhigamissati	15.0
+gahessati	15.0
+paṭihaṅkhati	14.0
+vacchati	12.0
+hohiti	12.0
+pavakkhati	10.0
+checchati	10.0
+vihassati	10.0
+sakkhati	6.0
+ucchecchati	6.0
+anuppadassati	5.0
+kāhiti	5.0
+nessati	5.0
+upehiti	4.0
+paccāgamissati	4.0
+paccanubhossati	4.0
+niggahessati	3.0
+upaññissati	3.0
+parinibbissati	3.0
+pavekkhati	3.0
+gagghati	2.0
+pacessati	2.0
+byakkhissati	2.0
+uggamissati	2.0
+āhañchati	2.0
+vicessati	2.0
+vihessati	2.0
+anuggahessati	2.0
+viññissati	2.0
+jessati	1.0
+vigamissati	1.0
+viññassati	1.0
+silokamanukassati	1.0
+gabbhamessati	1.0

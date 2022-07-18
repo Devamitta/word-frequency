@@ -1,51 +1,51 @@
-headword	pos	root	pattern	count	found
-dhamma	masc	√dhar 1 (hold, carry, endure)	a masc	12531.0	{'dhammā': 2961, 'dhammaṃ': 2802, 'dhamme': 1736, 'dhammo': 1531, 'dhammehi': 1179, 'dhammesu': 1100, 'dhammānaṃ': 755, 'dhammena': 246, 'dhammassa': 168, 'dhammato': 16, 'dhammāya': 2, 'dhamma': 34, 'dhammasmiṃ': 1}
-brāhmaṇa	masc	√brah 1 (increase)	a masc	4151.0	{'brāhmaṇa': 1277, 'brāhmaṇo': 1188, 'brāhmaṇā': 682, 'brāhmaṇaṃ': 334, 'brāhmaṇassa': 248, 'brāhmaṇānaṃ': 144, 'brāhmaṇe': 87, 'brāhmaṇena': 71, 'brāhmaṇesu': 60, 'brāhmaṇehi': 59, 'brāhmaṇebhi': 1}
-samaya	masc	√i 1 (come, go)	a masc	3913.0	{'samayena': 1945, 'samaye': 880, 'samayaṃ': 883, 'samayo': 145, 'samayā': 60}
-loka	masc	√lok 8 (look)	a masc	3778.0	{'loke': 1329, 'lokaṃ': 748, 'loko': 785, 'lokasmiṃ': 454, 'lokassa': 336, 'lokā': 95, 'lokena': 10, 'lokamhi': 7, 'lokamhā': 6, 'lokānaṃ': 4, 'lokasmā': 2, 'lokesu': 1, 'loka': 1}
-ānanda	masc	√nand 1 (delight, enjoy)	a masc	3447.0	{'ānanda': 2292, 'ānando': 715, 'ānandaṃ': 245, 'ānandassa': 109, 'ānandena': 52, 'ānande': 23, 'ānandā': 10, 'ānandehi': 1}
-kāya	masc	√ci 5 (gather, accumulate)	a masc	3281.0	{'kāyassa': 1136, 'kāyena': 716, 'kāyaṃ': 482, 'kāye': 367, 'kāyo': 378, 'kāyā': 85, 'kāyasmiṃ': 70, 'kāya': 30, 'kāyasmā': 6, 'kāyato': 2, 'kāyamhā': 2, 'kāyesu': 1, 'kāyamhi': 1, 'kāyānaṃ': 5}
-gotama	masc		a masc	2818.0	{'gotama': 1052, 'gotamo': 1007, 'gotamaṃ': 336, 'gotamassa': 256, 'gotamena': 119, 'gotame': 29, 'gotamā': 19}
-attha	masc	√ar 1 (move, attain)	a masc	2769.0	{'atthaṃ': 1396, 'attho': 532, 'atthāya': 291, 'atthe': 269, 'atthassa': 85, 'atthena': 31, 'atthato': 25, 'atthā': 35, 'atthesu': 5, 'atthānaṃ': 4, 'atthamhi': 2, 'atthamhā': 1, 'attha': 93}
-satta	masc	√as 1 (be)	a masc	2714.0	{'sattā': 1114, 'satta': 885, 'sattānaṃ': 304, 'satte': 210, 'satto': 123, 'sattassa': 44, 'sattesu': 15, 'sattehi': 12, 'sattaṃ': 6, 'sattāya': 1}
-samaṇa	masc	√sam 3 (exert, strive)	a masc	2218.0	{'samaṇo': 942, 'samaṇā': 408, 'samaṇassa': 244, 'samaṇaṃ': 227, 'samaṇena': 96, 'samaṇesu': 74, 'samaṇa': 79, 'samaṇe': 59, 'samaṇehi': 48, 'samaṇānaṃ': 34, 'samaṇebhi': 7}
-tathāgata	masc		a masc	2170.0	{'tathāgato': 1149, 'tathāgatassa': 452, 'tathāgataṃ': 192, 'tathāgatena': 186, 'tathāgate': 110, 'tathāgatā': 47, 'tathāgatānaṃ': 34}
-purisa	masc		a masc	2155.0	{'puriso': 1260, 'purisassa': 282, 'purisaṃ': 244, 'purisa': 162, 'purisā': 87, 'purisena': 82, 'purise': 15, 'purisānaṃ': 10, 'purisehi': 7, 'purisesu': 5, 'purisasmiṃ': 1}
-deva	masc	√div 3 (shine)	a masc	2138.0	{'devā': 643, 'devānaṃ': 461, 'deva': 468, 'devo': 193, 'deve': 183, 'devesu': 69, 'devehi': 41, 'devena': 36, 'devassa': 26, 'devaṃ': 13, 'devato': 4, 'devamhi': 1}
-puggala	masc		a masc	1980.0	{'puggalo': 1154, 'puggalaṃ': 242, 'puggalā': 239, 'puggalassa': 178, 'puggale': 58, 'puggalānaṃ': 49, 'puggalena': 38, 'puggalesu': 19, 'puggalehi': 3}
-sāriputta	masc		a masc	1836.0	{'sāriputta': 995, 'sāriputto': 532, 'sāriputtaṃ': 137, 'sāriputtassa': 124, 'sāriputtena': 36, 'sāriputte': 6, 'sāriputtā': 5, 'sāriputtamhi': 1}
-buddha	masc	√budh 3 (know, wake up)	a masc	1517.0	{'buddho': 943, 'buddhe': 186, 'buddhaṃ': 143, 'buddhassa': 123, 'buddhānaṃ': 55, 'buddhā': 33, 'buddhena': 20, 'buddha': 7, 'buddhamhā': 2, 'buddhehi': 2, 'buddhesu': 2, 'buddhato': 1}
-saṅgha	masc	√ghaṭ 1 (join together)	a masc	1396.0	{'saṅgho': 348, 'saṅghe': 344, 'saṅghassa': 325, 'saṅghaṃ': 211, 'saṅghena': 128, 'saṅghamhā': 18, 'saṅghato': 7, 'saṅghā': 6, 'saṅghasmiṃ': 3, 'saṅghamhi': 3, 'saṅghānaṃ': 2, 'saṅgha': 1}
-magga	masc	√magg 8 (seek, search)	a masc	1356.0	{'maggaṃ': 639, 'maggo': 553, 'maggassa': 46, 'magge': 44, 'maggena': 42, 'maggā': 24, 'maggamhi': 3, 'maggānaṃ': 2, 'maggehi': 2, 'magga': 1}
-bhava	masc	√bhū 1 (be)	a masc	1156.0	{'bhavaṃ': 866, 'bhavo': 131, 'bhave': 42, 'bhava': 33, 'bhavā': 29, 'bhavassa': 21, 'bhavānaṃ': 19, 'bhavesu': 7, 'bhavāya': 5, 'bhavasmiṃ': 2, 'bhavena': 1}
-diṭṭha	masc		a masc	1130.0	{'diṭṭhaṃ': 200, 'diṭṭho': 130, 'diṭṭhe': 108, 'diṭṭhā': 64, 'diṭṭhena': 18, 'diṭṭhassa': 5, 'diṭṭhato': 3, 'diṭṭha': 601, 'diṭṭhasmiṃ': 1}
-kāma	masc	√kam 8 (desire)	a masc	1117.0	{'kāmā': 242, 'kāmehi': 240, 'kāmesu': 217, 'kāme': 158, 'kāmānaṃ': 140, 'kāmaṃ': 88, 'kāmo': 14, 'kāma': 11, 'kāmena': 4, 'kāmato': 3}
-bheda	masc	√bhid 2 (break, split)	a masc	1076.0	{'bhedā': 995, 'bhedāya': 58, 'bhedo': 19, 'bhedaṃ': 4}
-catuttha	masc		a masc	1019.0	{'catutthaṃ': 769, 'catuttho': 170, 'catutthassa': 23, 'catutthe': 20, 'catutthā': 18, 'catutthena': 10, 'catutthasmiṃ': 3, 'catutthāya': 2, 'catutthānaṃ': 2, 'catutthamhi': 2}
-saṅkhāra	masc	√kar 7 (do, make)	a masc	1013.0	{'saṅkhārā': 494, 'saṅkhāre': 222, 'saṅkhāresu': 116, 'saṅkhārānaṃ': 100, 'saṅkhāro': 31, 'saṅkhārehi': 26, 'saṅkhāraṃ': 23, 'saṅkhāra': 1}
-kāla	masc	√kal 8 (spend time)	a masc	1004.0	{'kālaṃ': 420, 'kālena': 316, 'kālo': 139, 'kāle': 90, 'kālā': 15, 'kālamhi': 3, 'kālesu': 2, 'kālassa': 19}
-sammāsambuddha	masc		a masc	965.0	{'sammāsambuddho': 408, 'sammāsambuddhassa': 270, 'sammāsambuddhena': 128, 'sammāsambuddhā': 60, 'sammāsambuddhaṃ': 68, 'sammāsambuddhe': 7, 'sammāsambuddhesu': 6, 'sammāsambuddhehi': 5, 'sammāsambuddhānaṃ': 4, 'sammāsambuddha': 9}
-āsava	masc	√su 1 (flow)	a masc	959.0	{'āsavānaṃ': 493, 'āsavā': 360, 'āsavehi': 75, 'āsavo': 13, 'āsave': 11, 'āsavaṃ': 3, 'āsavena': 2, 'āsavesu': 2}
-ariyasāvaka	masc		a masc	910.0	{'ariyasāvako': 768, 'ariyasāvakassa': 136, 'ariyasāvakena': 5, 'ariyasāvakā': 1}
-manussa	masc		a masc	894.0	{'manussā': 418, 'manussānaṃ': 187, 'manussesu': 142, 'manusse': 57, 'manusso': 48, 'manussehi': 28, 'manussassa': 5, 'manussaṃ': 4, 'manussena': 4, 'manussato': 1}
-kata	masc	√kar 7 (do, make)	a masc	854.0	{'kataṃ': 700, 'katā': 63, 'katassa': 32, 'kato': 19, 'katānaṃ': 18, 'kate': 10, 'katena': 6, 'katato': 4, 'kata': 1, 'katāya': 1}
-sattha	masc	√ar 1 (move, attain)	a masc	833.0	{'satthā': 661, 'satthaṃ': 83, 'satthena': 56, 'sattho': 16, 'satthe': 13, 'satthāya': 1, 'satthato': 1, 'satthassa': 1, 'sattha': 1}
-vaṇṇa	masc	√var 1 (cover, dress, restrain)	a masc	812.0	{'vaṇṇaṃ': 326, 'vaṇṇo': 192, 'vaṇṇena': 124, 'vaṇṇā': 69, 'vaṇṇānaṃ': 40, 'vaṇṇe': 23, 'vaṇṇasmiṃ': 14, 'vaṇṇassa': 10, 'vaṇṇāya': 5, 'vaṇṇehi': 6, 'vaṇṇesu': 1, 'vaṇṇa': 2}
-sāvaka	masc	√su 4 (hear)	a masc	803.0	{'sāvakā': 287, 'sāvakānaṃ': 226, 'sāvako': 144, 'sāvake': 68, 'sāvakaṃ': 23, 'sāvakehi': 17, 'sāvakena': 13, 'sāvakassa': 13, 'sāvakesu': 12}
-araha	masc	√arah 1 (deserve, be worthy)	a masc	795.0	{'arahaṃ': 457, 'arahato': 277, 'arahā': 50, 'araho': 7, 'araha': 4}
-sakka	masc	√sak 4 (be able, powerful)	a masc	793.0	{'sakko': 295, 'sakkā': 185, 'sakkassa': 80, 'sakkaṃ': 75, 'sakkesu': 49, 'sakka': 49, 'sakkato': 41, 'sakkena': 15, 'sakke': 2, 'sakkāya': 2}
-pubba	masc		a masc	783.0	{'pubbe': 573, 'pubbā': 21, 'pubbo': 15, 'pubbena': 8, 'pubbaṃ': 1, 'pubba': 165}
-niraya	masc	√i 1 (come, go)	a masc	780.0	{'nirayaṃ': 456, 'niraye': 180, 'nirayā': 63, 'nirayo': 51, 'nirayamhi': 16, 'nirayesu': 7, 'nirayena': 6, 'nirayato': 1}
-saddha	masc	√dhā 1 (place, support)	a masc	770.0	{'saddhā': 246, 'saddho': 195, 'saddhāya': 135, 'saddhaṃ': 93, 'saddhassa': 50, 'saddha': 17, 'saddhe': 12, 'saddhena': 12, 'saddhehi': 10}
-ārāma	masc	√ram 1 (delight, please)	a masc	745.0	{'ārāme': 579, 'ārāmo': 77, 'ārāmaṃ': 76, 'ārāmassa': 6, 'ārāmā': 4, 'ārāmena': 3}
-thera	masc	√ṭhā 1 (stand)	a masc	722.0	{'thero': 388, 'therā': 186, 'there': 42, 'therānaṃ': 27, 'therehi': 22, 'thera': 21, 'therassa': 16, 'theraṃ': 15, 'theresu': 4, 'theramhi': 1}
-putta	masc		a masc	716.0	{'putto': 210, 'puttā': 132, 'puttaṃ': 116, 'putte': 80, 'putta': 50, 'puttehi': 41, 'puttānaṃ': 26, 'puttena': 23, 'puttassa': 25, 'puttesu': 9, 'puttamhi': 4}
-paribbājaka	masc	√vaj 1 (go on)	a masc	704.0	{'paribbājako': 229, 'paribbājakā': 220, 'paribbājakānaṃ': 112, 'paribbājakassa': 39, 'paribbājakaṃ': 38, 'paribbājake': 21, 'paribbājakehi': 21, 'paribbājakena': 17, 'paribbājakesu': 6, 'paribbājaka': 1}
-ayya	masc		a masc	678.0	{'ayye': 243, 'ayyo': 155, 'ayyā': 124, 'ayyāya': 60, 'ayyassa': 46, 'ayyaṃ': 20, 'ayyānaṃ': 12, 'ayyena': 11, 'ayya': 5, 'ayyehi': 2}
-anāthapiṇḍika	masc		a masc	674.0	{'anāthapiṇḍikassa': 572, 'anāthapiṇḍiko': 66, 'anāthapiṇḍikaṃ': 33, 'anāthapiṇḍikā': 1, 'anāthapiṇḍike': 1, 'anāthapiṇḍikena': 1}
-pabbajita	masc	√vaj 1 (go on)	a masc	656.0	{'pabbajito': 337, 'pabbajitā': 109, 'pabbajitena': 75, 'pabbajitassa': 56, 'pabbajitaṃ': 27, 'pabbajite': 19, 'pabbajitānaṃ': 18, 'pabbajitesu': 9, 'pabbajitāya': 4, 'pabbajitehi': 2}
-aṭṭha	masc	√ar 1 (move, attain)	a masc	653.0	{'aṭṭha': 533, 'aṭṭhānaṃ': 100, 'aṭṭhamhā': 5, 'aṭṭhā': 14, 'aṭṭho': 1}
-ādīnava	masc	√dī 3 (be afflicted)	a masc	642.0	{'ādīnavo': 245, 'ādīnavaṃ': 264, 'ādīnavā': 98, 'ādīnavato': 35}
-upāsaka	masc	√ās 1 (sit)	a masc	632.0	{'upāsako': 220, 'upāsakaṃ': 132, 'upāsakā': 131, 'upāsakassa': 45, 'upāsakānaṃ': 36, 'upāsake': 25, 'upāsakehi': 18, 'upāsakena': 14, 'upāsaka': 6, 'upāsakesu': 5}
-nirodha	masc	√rudh 2 (obstruct)	a masc	604.0	{'nirodho': 215, 'nirodhāya': 184, 'nirodhā': 142, 'nirodhaṃ': 50, 'nirodhena': 8, 'nirodhe': 5}
-chanda	masc	√chand 8 (desire, please)	a masc	595.0	{'chando': 352, 'chandaṃ': 200, 'chandā': 19, 'chandassa': 12, 'chanda': 5, 'chandāya': 4, 'chande': 2, 'chandena': 1}
+headword	count
+dhamma	12531.0
+brāhmaṇa	4151.0
+samaya	3913.0
+loka	3778.0
+ānanda	3447.0
+kāya	3281.0
+gotama	2818.0
+attha	2769.0
+satta	2714.0
+samaṇa	2218.0
+tathāgata	2170.0
+purisa	2155.0
+deva	2138.0
+puggala	1980.0
+sāriputta	1836.0
+buddha	1517.0
+saṅgha	1396.0
+magga	1356.0
+bhava	1156.0
+diṭṭha	1130.0
+kāma	1117.0
+bheda	1076.0
+catuttha	1019.0
+saṅkhāra	1013.0
+kāla	1004.0
+sammāsambuddha	965.0
+āsava	959.0
+ariyasāvaka	910.0
+manussa	894.0
+kata	854.0
+sattha	833.0
+vaṇṇa	812.0
+sāvaka	803.0
+araha	795.0
+sakka	793.0
+pubba	783.0
+niraya	780.0
+saddha	770.0
+ārāma	745.0
+thera	722.0
+putta	716.0
+paribbājaka	704.0
+ayya	678.0
+anāthapiṇḍika	674.0
+pabbajita	656.0
+aṭṭha	653.0
+ādīnava	642.0
+upāsaka	632.0
+nirodha	604.0
+chanda	595.0

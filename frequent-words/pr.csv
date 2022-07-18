@@ -1,51 +1,51 @@
-headword	pos	root	pattern	count	found
-hoti	pr	√hū 1 (be)	hoti pr	19313.0	{'hoti': 17534, 'honti': 1202, 'hotu': 279, 'homi': 96, 'hohi': 82, 'hotha': 58, 'hontu': 34, 'hosi': 16, 'homa': 12}
-viharati	pr	√har 1 (live)	ati pr	5581.0	{'viharati': 3758, 'viharanti': 450, 'viharāmi': 443, 'vihareyya': 146, 'viharantaṃ': 83, 'viharatha': 114, 'vihareyyaṃ': 172, 'viharataṃ': 38, 'viharāma': 35, 'viharāhi': 36, 'viharissanti': 40, 'viharissati': 39, 'viharissāmi': 43, 'viharasi': 26, 'viharante': 24, 'vihareyyuṃ': 28, 'viharissāma': 40, 'viharemu': 8, 'vihareyyāsi': 7, 'viharissasi': 6, 'viharissatha': 25, 'viharatu': 4, 'vihara': 4, 'vihareyyātha': 4, 'viharissaṃ': 3, 'vihare': 2, 'vihareyyāma': 1, 'viharassu': 1, 'viharemase': 1}
-atthi	pr	√as 1 (be)	atthi pr	3596.0	{'atthi': 1750, 'santi': 644, 'asmā': 86, 'asi': 180, 'amha': 41, 'amhā': 18, 'asmi': 471, 'atthu': 55, 'attha': 93, 'santu': 1, 'amhi': 253, 'asma': 2, 'asmase': 2}
-bhavati	pr	√bhū 1 (be)	ati pr	2823.0	{'bhavissati': 1251, 'bhavanti': 380, 'bhavissanti': 373, 'bhavantaṃ': 208, 'bhavati': 104, 'bhavissāmi': 126, 'bhavissāma': 125, 'bhavataṃ': 45, 'bhave': 42, 'bhavissasi': 29, 'bhava': 33, 'bhaveyya': 19, 'bhavantu': 11, 'bhaveyyaṃ': 11, 'bhavāhi': 9, 'bhavāmi': 8, 'bhaveyyātha': 7, 'bhavante': 7, 'bhavatha': 6, 'bhaveyyuṃ': 6, 'bhavissatha': 5, 'bhavāmase': 4, 'bhavāma': 4, 'bhavassu': 3, 'bhavetha': 1, 'bhaveyyāma': 1, 'bhavasi': 1, 'bhaveyyāsi': 1, 'bhavatu': 1, 'bhavissaṃ': 1, 'bhavissate': 1}
-karoti	pr	√kar 7 (do, make)	karoti pr	2597.0	{'karoti': 741, 'karonti': 321, 'kareyya': 242, 'karotha': 208, 'karohi': 169, 'karissati': 164, 'karomi': 119, 'karissāmi': 149, 'karissanti': 85, 'kareyyaṃ': 57, 'kareyyuṃ': 57, 'karosi': 45, 'karissasi': 30, 'kayirātha': 26, 'kurute': 24, 'karassu': 23, 'karissāma': 30, 'karoma': 16, 'karontu': 15, 'karotu': 12, 'kare': 11, 'kareyyāma': 16, 'kareyyāsi': 16, 'kareyyātha': 6, 'kurutaṃ': 4, 'karissatha': 3, 'karissaṃ': 3, 'kareyyāmi': 2, 'karomasi': 1, 'karomase': 1, 'kuruse': 1}
-pajānāti	pr	√ñā 5 (know)	āti pr	2534.0	{'pajānāti': 1939, 'pajānanti': 184, 'pajānāmi': 230, 'pajāneyyaṃ': 90, 'pajānāsi': 28, 'pajānātha': 17, 'pajāneyya': 11, 'pajānissati': 13, 'pajānissāmi': 4, 'pajānassu': 3, 'pajānāma': 12, 'pajānāhi': 3}
-vadati	pr	√vad 1 (say, speak)	ati pr	2432.0	{'vadāmi': 1194, 'vadeyya': 703, 'vadanti': 133, 'vadeyyuṃ': 109, 'vadati': 98, 'vadeyyaṃ': 55, 'vadetha': 37, 'vadeyyāsi': 21, 'vade': 16, 'vadema': 11, 'vadeyyātha': 10, 'vademase': 8, 'vadatu': 8, 'vada': 6, 'vadeyyāma': 4, 'vadantu': 4, 'vadasi': 4, 'vadante': 4, 'vadate': 3, 'vadase': 1, 'vadantaṃ': 1, 'vadatha': 1, 'vadataṃ': 1}
-vuccati	pr	√vac 1 (say, speak)	ati pr	2195.0	{'vuccati': 2009, 'vuccanti': 169, 'vucceyya': 6, 'vuccate': 6, 'vuccare': 5}
-gacchati	pr	√gam 1 (go)	ati pr	2118.0	{'gacchati': 814, 'gacchanti': 413, 'gaccha': 190, 'gaccheyya': 191, 'gacchāmi': 146, 'gacchāma': 84, 'gacchatha': 55, 'gacchantaṃ': 44, 'gacchasi': 26, 'gacche': 22, 'gaccheyyaṃ': 42, 'gacchatu': 14, 'gaccheyyuṃ': 16, 'gacchissanti': 11, 'gacchāhi': 9, 'gaccheyyāma': 8, 'gacchantu': 5, 'gacchissatha': 2, 'gacchissati': 2, 'gacchante': 2, 'gaccheyyāsi': 2, 'gacchemu': 2, 'gacchāmase': 2, 'gacchataṃ': 1, 'gacchassu': 1, 'gacchissaṃ': 1, 'gacchate': 8, 'gacchissāmi': 5}
-passati	pr	√dis 1 (see)	ati pr	1869.0	{'passati': 683, 'passāmi': 434, 'passa': 197, 'passeyya': 149, 'passanti': 93, 'passasi': 56, 'passatha': 59, 'passāma': 40, 'passe': 26, 'passeyyaṃ': 38, 'passeyyāsi': 15, 'passantu': 12, 'passemu': 7, 'passantaṃ': 6, 'passeyyāma': 14, 'passataṃ': 5, 'passatu': 6, 'passāhi': 4, 'passissanti': 3, 'passeyyuṃ': 3, 'passissati': 3, 'passare': 2, 'passissāmi': 2, 'passeyyātha': 2, 'passetha': 2, 'passase': 2, 'passema': 2, 'passissasi': 1, 'passissāma': 2, 'passavho': 1}
-uppajjati	pr	√pad 3 (go, step)	ati pr	1820.0	{'uppajjati': 1275, 'uppajjanti': 297, 'uppajjeyya': 131, 'uppajjeyyuṃ': 68, 'uppajjissati': 26, 'uppajjissanti': 6, 'uppajjataṃ': 6, 'uppajje': 3, 'uppajja': 2, 'uppajjare': 2, 'uppajjate': 2, 'uppajjantu': 1, 'uppajjissatha': 1}
-natthi	pr	√as 1 (be)	natthi pr	1803.0	{'natthi': 1788, 'namhi': 15}
-jānāti	pr	√ñā 5 (know)	āti pr	1776.0	{'jānāti': 611, 'jānāmi': 351, 'jānanti': 179, 'jānāsi': 119, 'jāneyya': 99, 'jānāhi': 84, 'jāneyyāsi': 65, 'jānātha': 65, 'jānāma': 42, 'jāneyyuṃ': 27, 'jānemu': 24, 'jāneyyātha': 24, 'jānissanti': 15, 'jāneyyaṃ': 13, 'jānissāmi': 12, 'jānissāma': 11, 'jānātu': 11, 'jānissati': 7, 'jānantaṃ': 5, 'jāneyyāma': 4, 'jānahi': 3, 'jāne': 2, 'jānissasi': 1, 'jānissaṃ': 1, 'jānassu': 1}
-maññati	pr	√man 3 (think)	ati pr	1527.0	{'maññasi': 443, 'maññati': 351, 'maññatha': 207, 'maññe': 196, 'maññeyya': 130, 'maññanti': 72, 'maññissanti': 21, 'maññāmi': 12, 'maññeyyātha': 11, 'maññeyyuṃ': 11, 'maññetha': 6, 'maññate': 6, 'maññissati': 3, 'maññatu': 3, 'maññataṃ': 1, 'maññantu': 1, 'maññare': 1, 'maññavho': 1, 'mañña': 46, 'maññeyyāsi': 5}
-vadeti	pr	√vad 1 (say, speak)	eti pr	1429.0	{'vadeyya': 703, 'vadesi': 222, 'vadeti': 155, 'vadeyyuṃ': 109, 'vadehi': 73, 'vadeyyaṃ': 55, 'vadetha': 37, 'vadeyyāsi': 21, 'vade': 16, 'vadema': 11, 'vadeyyātha': 10, 'vademase': 8, 'vadeyyāma': 4, 'vadetu': 2, 'vadessāmi': 2, 'vademi': 1}
-bhāveti	pr	√bhū 1 (be)	eti pr	1174.0	{'bhāveti': 887, 'bhāveyyāsi': 48, 'bhāvemi': 34, 'bhāvehi': 35, 'bhāveyya': 29, 'bhāvessanti': 28, 'bhāvessati': 28, 'bhāvetha': 27, 'bhāvesi': 16, 'bhāventi': 15, 'bhāvessasi': 11, 'bhāveyyaṃ': 8, 'bhāvetu': 4, 'bhāventaṃ': 2, 'bhāvessāma': 1, 'bhāve': 1}
-deseti	pr	√dis 1 (point out, explain)	eti pr	1111.0	{'deseti': 414, 'desessāmi': 257, 'desetu': 100, 'desenti': 72, 'desemi': 47, 'deseyyaṃ': 51, 'desesi': 36, 'desessanti': 47, 'deseyya': 24, 'desetha': 14, 'desema': 14, 'desentaṃ': 11, 'desassu': 5, 'deseyyuṃ': 5, 'desessati': 4, 'desessāma': 3, 'desessatha': 3, 'dese': 3, 'desessasi': 1}
-saṃvattati	pr	√vatt 1 (be, proceed)	ati pr	1107.0	{'saṃvattati': 708, 'saṃvattanti': 341, 'saṃvatteyya': 35, 'saṃvattissati': 7, 'saṃvattissanti': 1, 'saṃvatteyyuṃ': 15}
-deti	pr	√dā 1 (give)	eti pr	1069.0	{'deti': 367, 'dissati': 205, 'dissanti': 123, 'dehi': 121, 'denti': 95, 'detha': 111, 'demi': 16, 'dentu': 13, 'desi': 5, 'dema': 7, 'deyyaṃ': 3, 'dissasi': 2, 'dessanti': 1}
-paññāyati	pr	√ñā 5 (know)	ati pr	1013.0	{'paññāya': 577, 'paññāyati': 232, 'paññāyissati': 81, 'paññāyanti': 30, 'paññāyetha': 83, 'paññāyissasi': 2, 'paññāyate': 2, 'paññāyissanti': 5, 'paññāyase': 1}
-upapajjati	pr	√pad 3 (go, step)	ati pr	922.0	{'upapajjati': 543, 'upapajjanti': 164, 'upapajjeyya': 89, 'upapajjissati': 15, 'upapajja': 14, 'upapajjare': 8, 'upapajje': 8, 'upapajjāmi': 4, 'upapajjatha': 4, 'upapajjetha': 3, 'upapajjissanti': 4, 'upapajjeyyātha': 3, 'upapajjeyyāma': 3, 'upapajjissasi': 2, 'upapajjantaṃ': 2, 'upapajjissāmi': 1, 'upapajjeyyaṃ': 52, 'upapajjeyyuṃ': 3}
-neti	pr	√nī 1 (lead, carry)	eti pr	900.0	{'netaṃ': 799, 'ne': 31, 'neti': 21, 'nenti': 10, 'nemi': 8, 'neyyaṃ': 6, 'nehi': 5, 'nassu': 2, 'nessatha': 2, 'nessati': 1, 'nessasi': 1, 'nessaṃ': 1, 'nesi': 13}
-carati	pr	√car 1 (move, walk)	ati pr	887.0	{'carati': 280, 'caranti': 182, 'care': 86, 'cara': 69, 'carāmi': 45, 'carantaṃ': 35, 'carissāmi': 28, 'careyya': 28, 'carissati': 30, 'careyyaṃ': 14, 'caratha': 12, 'carasi': 12, 'carāma': 14, 'carissanti': 8, 'carissāma': 7, 'careyyāma': 6, 'carassu': 6, 'carataṃ': 5, 'carissasi': 4, 'carante': 3, 'carāhi': 3, 'carāmase': 2, 'caratu': 1, 'carissatha': 1, 'carantu': 1, 'carissaṃ': 1, 'careyyāsi': 1, 'caretho': 1, 'caretha': 1, 'carate': 1}
-bhāsati	pr	√bhās 1 (speak)	ati pr	833.0	{'bhāsati': 349, 'bhāseyya': 96, 'bhāsanti': 52, 'bhāsasi': 39, 'bhāsate': 28, 'bhāseyyuṃ': 25, 'bhāsissati': 28, 'bhāse': 8, 'bhāsase': 8, 'bhāsantaṃ': 5, 'bhāseyyāsi': 4, 'bhāsatu': 4, 'bhāsissāma': 3, 'bhāsa': 3, 'bhāsissatha': 2, 'bhāsissasi': 2, 'bhāsassu': 8, 'bhāsare': 2, 'bhāsantu': 2, 'bhāsissaṃ': 2, 'bhāsante': 1, 'bhāsatha': 1, 'bhāsissāmi': 159, 'bhāseyyāma': 2}
-āmanteti	pr	√mant 8 (counsel, invite)	eti pr	798.0	{'āmantesi': 740, 'āmantehi': 17, 'āmanteti': 41}
-labhati	pr	√labh 1 (get)	ati pr	768.0	{'labhati': 387, 'labhetha': 71, 'labhate': 58, 'labheyya': 69, 'labheyyaṃ': 35, 'labhanti': 29, 'labhāmi': 27, 'labheyyāma': 13, 'labheyyuṃ': 12, 'labhe': 10, 'labhāma': 10, 'labhataṃ': 8, 'labhissati': 5, 'labhāmase': 5, 'labhatu': 4, 'labhasi': 4, 'labhissāma': 3, 'labha': 3, 'labhissāmi': 3, 'labhissanti': 2, 'labheyyātha': 2, 'labhantu': 2, 'labhissatha': 1, 'labhare': 1, 'labhetho': 1, 'labhassu': 1, 'labhase': 1, 'labhemu': 1}
-kirati	pr	√kir 1 (scatter, sprinkle)	ati pr	754.0	{'kira': 754}
-tiṭṭhati	pr	√ṭhā 1 (stand)	ati pr	745.0	{'tiṭṭhati': 354, 'tiṭṭhanti': 106, 'tiṭṭheyya': 77, 'tiṭṭhatu': 67, 'tiṭṭhantu': 33, 'tiṭṭha': 16, 'tiṭṭhasi': 15, 'tiṭṭhāmi': 10, 'tiṭṭhe': 9, 'tiṭṭhante': 4, 'tiṭṭhatha': 4, 'tiṭṭhantaṃ': 9, 'tiṭṭhate': 30, 'tiṭṭheyyāsi': 2, 'tiṭṭheyyuṃ': 2, 'tiṭṭhataṃ': 2, 'tiṭṭhissatha': 1, 'tiṭṭhissāmi': 1, 'tiṭṭheyyāmi': 1, 'tiṭṭhāhi': 1, 'tiṭṭhāma': 1}
-suṇāti	pr	√su 4 (hear)	āti pr	739.0	{'suṇātha': 294, 'suṇāti': 153, 'suṇātu': 84, 'suṇanti': 55, 'suṇāhi': 51, 'suṇantu': 26, 'suṇāma': 21, 'suṇeyya': 18, 'suṇāmi': 8, 'suṇeyyāma': 7, 'suṇeyyaṃ': 5, 'suṇāsi': 4, 'suṇissati': 3, 'suṇeyyuṃ': 3, 'suṇe': 3, 'suṇeyyātha': 2, 'suṇissāmi': 1, 'suṇissanti': 1}
-dhāreti	pr	√dhar 8 (wear, hold, carry)	eti pr	737.0	{'dhāreti': 159, 'dhāretu': 133, 'dhāremi': 74, 'dhāreyya': 72, 'dhārenti': 31, 'dhārehi': 53, 'dhāresi': 27, 'dhāretha': 37, 'dhārema': 20, 'dhāreyyātha': 30, 'dhāreyyāma': 7, 'dhāreyyāsi': 11, 'dhāressanti': 52, 'dhāressatha': 5, 'dhāre': 5, 'dhāressasi': 2, 'dhārissanti': 1, 'dhāressati': 1, 'dhāreyyuṃ': 1, 'dhārentaṃ': 1, 'dhāressāma': 15}
-vijjati	pr	√vid 3 (be found, exist)	ati pr	712.0	{'vijjati': 675, 'vijjanti': 19, 'vijjāhi': 9, 'vijjare': 5, 'vijjetha': 2, 'vijjate': 2}
-dammi	pr	√dā 1 (give)	dammi pr	684.0	{'deti': 367, 'denti': 95, 'detha': 111, 'dammi': 82, 'demi': 16, 'desi': 5, 'dema': 7, 'damma': 1}
-damma	pr	√dā 1 (give)	dammi pr	684.0	{'deti': 367, 'denti': 95, 'detha': 111, 'dammi': 82, 'demi': 16, 'desi': 5, 'dema': 7, 'damma': 1}
-samanupassati	pr	√dis 1 (see)	ati pr	617.0	{'samanupassati': 282, 'samanupassāmi': 206, 'samanupassanti': 39, 'samanupassāma': 16, 'samanupasseyyātha': 12, 'samanupassasi': 9, 'samanupassatha': 9, 'samanupasseyyuṃ': 4, 'samanupassa': 40}
-āgacchati	pr	√gam 1 (go)	ati pr	613.0	{'āgacchati': 158, 'āgaccheyya': 166, 'āgacchanti': 82, 'āgacchantaṃ': 78, 'āgacchatu': 23, 'āgacchante': 15, 'āgacchasi': 13, 'āgaccheyyuṃ': 20, 'āgacchāmi': 17, 'āgacchantu': 9, 'āgaccheyyāma': 6, 'āgacchissanti': 3, 'āgaccheyyātha': 2, 'āgacchāma': 2, 'āgacchate': 2, 'āgaccha': 8, 'āgacchatha': 4, 'āgacchissati': 1, 'āgaccheyyātho': 1, 'āgaccheyyāsi': 2, 'āgaccheyyaṃ': 1}
-paññapeti	pr	√ñā 5 (know)	eti pr	595.0	{'paññapenti': 331, 'paññapeti': 108, 'paññapemi': 30, 'paññapesi': 25, 'paññapessanti': 19, 'paññapeyya': 15, 'paññapehi': 20, 'paññapessāmi': 17, 'paññapema': 10, 'paññapeyyaṃ': 2, 'paññapessāma': 2, 'paññapetha': 12, 'paññapessati': 2, 'paññapentu': 2}
-āpajjati	pr	√pad 3 (go, step)	ati pr	575.0	{'āpajjati': 330, 'āpajjanti': 60, 'āpajjeyya': 51, 'āpajjissāma': 15, 'āpajjissanti': 14, 'āpajjeyyuṃ': 14, 'āpajjeyyaṃ': 10, 'āpajjeyyātha': 9, 'āpajjissati': 50, 'āpajjissasi': 7, 'āpajjissatha': 5, 'āpajjatha': 3, 'āpajjante': 3, 'āpajjasi': 1, 'āpajjāhi': 1, 'āpajja': 2}
-āpajjate	pr	√pad 3 (go, step)	ati pr	575.0	{'āpajjati': 330, 'āpajjanti': 60, 'āpajjeyya': 51, 'āpajjissāma': 15, 'āpajjissanti': 14, 'āpajjeyyuṃ': 14, 'āpajjeyyaṃ': 10, 'āpajjeyyātha': 9, 'āpajjissati': 50, 'āpajjissasi': 7, 'āpajjissatha': 5, 'āpajjatha': 3, 'āpajjante': 3, 'āpajjasi': 1, 'āpajjāhi': 1, 'āpajja': 2}
-pucchati	pr	√pucch 1 (ask, question)	ati pr	575.0	{'pucchāmi': 155, 'puccheyyuṃ': 69, 'pucchanti': 54, 'pucchati': 43, 'pucchāma': 54, 'puccha': 36, 'puccheyya': 34, 'pucchasi': 19, 'puccheyyaṃ': 31, 'pucchassu': 11, 'pucchatha': 10, 'puccheyyāma': 10, 'pucchissanti': 8, 'pucchissāmi': 8, 'pucchissāma': 7, 'puccheyyāsi': 7, 'puccheyyātha': 6, 'pucchissati': 4, 'pucchatu': 4, 'pucchissatha': 1, 'pucchemu': 1, 'pucchavho': 1, 'pucchāhi': 1, 'pucchantu': 1}
-bhuñjati	pr	√bhuj 2 (use, eat, enjoy)	ati pr	542.0	{'bhuñjati': 151, 'bhuñja': 61, 'bhuñjanti': 54, 'bhuñjeyya': 46, 'bhuñjāmi': 39, 'bhuñjāma': 23, 'bhuñjassu': 19, 'bhuñjissanti': 17, 'bhuñjissāma': 19, 'bhuñjatha': 31, 'bhuñjatu': 13, 'bhuñje': 13, 'bhuñjasi': 7, 'bhuñjissatha': 7, 'bhuñjāhi': 7, 'bhuñjantu': 5, 'bhuñjeyyuṃ': 5, 'bhuñjeyyaṃ': 5, 'bhuñjantaṃ': 4, 'bhuñjeyyāsi': 4, 'bhuñjissasi': 3, 'bhuñjare': 3, 'bhuñjase': 2, 'bhuñjissati': 1, 'bhuñjetha': 1, 'bhuñjissaṃ': 1, 'bhuñjate': 1}
-byākaroti	pr	√kar 7 (do, make)	oti pr	535.0	{'byākaroti': 111, 'byākareyya': 113, 'byākareyyaṃ': 77, 'byākarissati': 42, 'byākareyyātha': 26, 'byākareyyāsi': 41, 'byākarohi': 20, 'byākarissāmi': 27, 'byākaromi': 14, 'byākaronti': 13, 'byākareyyuṃ': 11, 'byākarotu': 11, 'byākareyyāma': 9, 'byākarissasi': 5, 'byākaroma': 4, 'byākarosi': 3, 'byākarotha': 2, 'byākarontu': 1, 'byākarissāma': 5}
-eti	pr	√i 1 (come, go)	eti pr 2	477.0	{'ehi': 247, 'etha': 78, 'etu': 30, 'eti': 20, 'ehiti': 6, 'eyyāsi': 5, 'enti': 5, 'esi': 2, 'eyya': 2, 'ehisi': 2, 'ehinti': 1, 'essaṃ': 1, 'emi': 1}
-bhaṇati	pr	√bhaṇ 1 (talk, speak)	ati pr	469.0	{'bhaṇati': 242, 'bhaṇissanti': 50, 'bhaṇe': 38, 'bhaṇasi': 18, 'bhaṇanti': 14, 'bhaṇa': 13, 'bhaṇāmi': 60, 'bhaṇatha': 8, 'bhaṇantaṃ': 7, 'bhaṇeyya': 7, 'bhaṇeyyaṃ': 4, 'bhaṇataṃ': 2, 'bhaṇāma': 2, 'bhaṇāmase': 1, 'bhaṇante': 1, 'bhaṇissāmi': 2}
-nappajānāti	pr	√ñā 5 (know)	āti pr	462.0	{'nappajānāti': 268, 'nappajānanti': 173, 'nappajānāmi': 14, 'nappajāneyya': 5, 'nappajāneyyaṃ': 2}
-asati	pr	√as 1 (eat)	ati pr	452.0	{'asati': 348, 'asantaṃ': 72, 'asataṃ': 17, 'asante': 12, 'asissāmi': 1, 'asissaṃ': 1, 'asanti': 1}
-veti	pr	√i 1 (come, go)	eti pr	452.0	{'ve': 334, 'veraṃ': 92, 'veti': 17, 'vessaṃ': 4, 'vessanti': 5}
-pajahati	pr	√hā 1 (abandon)	ati pr	440.0	{'pajahati': 156, 'pajahatha': 146, 'pajaha': 38, 'pajahanti': 33, 'pajaheyyāsi': 12, 'pajaheyya': 16, 'pajahissāma': 8, 'pajaheyyāma': 4, 'pajahissati': 4, 'pajahe': 4, 'pajahissanti': 4, 'pajahassu': 3, 'pajaheyyātha': 3, 'pajaheyyaṃ': 6, 'pajahissaṃ': 1, 'pajahāma': 1, 'pajahasi': 1}
-aññāti	pr	√ñā 5 (know)	āti pr	438.0	{'aññe': 349, 'aññāsi': 79, 'aññāhi': 10}
-sikkhati	pr	√sikkh 1 (learn, train)	ati pr	436.0	{'sikkhati': 334, 'sikkheyya': 17, 'sikkhataṃ': 10, 'sikkhetha': 10, 'sikkhanti': 8, 'sikkhissāmi': 12, 'sikkhatha': 8, 'sikkhe': 8, 'sikkhissati': 6, 'sikkhissanti': 5, 'sikkhassu': 5, 'sikkhissasi': 3, 'sikkhema': 2, 'sikkhare': 2, 'sikkhāmi': 1, 'sikkhantu': 1, 'sikkheyyaṃ': 1, 'sikkhasi': 1, 'sikkheyyāma': 2}
-samādapeti	pr	√ādā 3 (take, seize)	eti pr	430.0	{'samādapeti': 346, 'samādapesi': 54, 'samādapenti': 9, 'samādapeyya': 8, 'samādapessanti': 6, 'samādapemi': 4, 'samādapeyyuṃ': 2, 'samādapentaṃ': 1}
+headword	count
+hoti	19313.0
+viharati	5581.0
+atthi	3596.0
+bhavati	2823.0
+karoti	2597.0
+pajānāti	2534.0
+vadati	2432.0
+vuccati	2195.0
+gacchati	2118.0
+passati	1869.0
+uppajjati	1820.0
+natthi	1803.0
+jānāti	1776.0
+maññati	1527.0
+vadeti	1429.0
+bhāveti	1174.0
+deseti	1111.0
+saṃvattati	1107.0
+deti	1069.0
+paññāyati	1013.0
+upapajjati	922.0
+neti	900.0
+carati	887.0
+bhāsati	833.0
+āmanteti	798.0
+labhati	768.0
+kirati	754.0
+tiṭṭhati	745.0
+suṇāti	739.0
+dhāreti	737.0
+vijjati	712.0
+dammi	684.0
+damma	684.0
+samanupassati	617.0
+āgacchati	613.0
+paññapeti	595.0
+āpajjati	575.0
+āpajjate	575.0
+pucchati	575.0
+bhuñjati	542.0
+byākaroti	535.0
+eti	477.0
+bhaṇati	469.0
+nappajānāti	462.0
+asati	452.0
+veti	452.0
+pajahati	440.0
+aññāti	438.0
+sikkhati	436.0
+samādapeti	430.0

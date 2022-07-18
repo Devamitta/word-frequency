@@ -1,51 +1,51 @@
-headword	pos	root	pattern	count	found
-bhikkhu	masc	√bhikkh 1 (beg)	u masc	37331.0	{'bhikkhave': 21771, 'bhikkhu': 7867, 'bhikkhū': 3783, 'bhikkhuno': 1397, 'bhikkhuṃ': 699, 'bhikkhūnaṃ': 665, 'bhikkhunā': 567, 'bhikkhūhi': 205, 'bhikkhussa': 150, 'bhikkhūsu': 61, 'bhikkhavo': 152, 'bhikkhunaṃ': 6, 'bhikkhusu': 4, 'bhikkhumhi': 2, 'bhikkhusmiṃ': 1, 'bhikkhuto': 1}
-hetu	masc	√hi 7 (impel)	u masc	1334.0	{'hetu': 1282, 'hetuṃ': 17, 'hetū': 21, 'hetunā': 7, 'hetumhi': 5, 'hetūsu': 1, 'hetussa': 1}
-garu	masc	√gar 1 (esteem, be heavy)	u masc	320.0	{'garuṃ': 245, 'garu': 56, 'garūnaṃ': 11, 'garuno': 7, 'garū': 1}
-phāsu	masc	√phus 1 (touch)	u masc	129.0	{'phāsu': 95, 'phāsuṃ': 33, 'phāsussa': 1}
-ajātasattu	masc		u masc	92.0	{'ajātasattu': 61, 'ajātasattuṃ': 13, 'ajātasattussa': 11, 'ajātasattuno': 4, 'ajātasattunā': 3}
-hu	masc	√han 1 (strike, kill)	u masc	91.0	{'have': 90, 'huto': 1}
-maccu	masc	√mar 1 (die)	u masc	78.0	{'maccuno': 36, 'maccu': 23, 'maccunā': 15, 'maccussa': 3, 'maccuto': 1}
-brahmāyu	masc		u masc	61.0	{'brahmāyu': 44, 'brahmāyussa': 8, 'brahmāyuṃ': 8, 'brahmāyuno': 1}
-pāpabhikkhu	masc		u masc	57.0	{'pāpabhikkhu': 46, 'pāpabhikkhū': 10, 'pāpabhikkhuno': 1}
-nhāru	masc		u masc	45.0	{'nhāru': 26, 'nhāruṃ': 15, 'nhārussa': 1, 'nhārunā': 1, 'nhārū': 2}
-agaru	masc		u masc	39.0	{'agaru': 31, 'agaruṃ': 7, 'agarū': 1}
-reṇu	masc		u masc	39.0	{'reṇu': 21, 'reṇuṃ': 11, 'reṇussa': 6, 'reṇunā': 1}
-kuru	masc		u masc	39.0	{'kurūnaṃ': 27, 'kurūsu': 10, 'kuruṃ': 2}
-paṃsu	masc		u masc	38.0	{'paṃsu': 24, 'paṃsuṃ': 11, 'paṃsunā': 3}
-pasu	masc		u masc	34.0	{'pasuṃ': 12, 'pasū': 6, 'pasavo': 6, 'pasave': 4, 'pasuto': 3, 'pasu': 3}
-ekabhikkhu	masc		u masc	28.0	{'ekabhikkhuṃ': 1, 'ekabhikkhu': 23, 'ekabhikkhussa': 4}
-susu	masc		u masc	28.0	{'susū': 13, 'susu': 15}
-sattu	masc		u masc	26.0	{'sattu': 13, 'sattavo': 7, 'sattuṃ': 5, 'sattunā': 1}
-aviddasu	masc	√vid 1 (know)	u masc	25.0	{'aviddasuno': 13, 'aviddasu': 6, 'aviddasū': 6}
-leḍḍu	masc		u masc	24.0	{'leḍḍunā': 20, 'leḍḍūhi': 1, 'leḍḍu': 1, 'leḍḍuṃ': 1, 'leḍḍussa': 1}
-ahetu	masc		u masc	24.0	{'ahetū': 17, 'ahetu': 4, 'ahetuṃ': 2, 'ahetunā': 1}
-bhagu	masc		u masc	23.0	{'bhagu': 18, 'bhaguno': 3, 'bhaguṃ': 2}
-aṇu	masc		u masc	23.0	{'aṇuṃ': 22, 'aṇuto': 1}
-sineru	masc		u masc	22.0	{'sineru': 10, 'sinerussa': 9, 'sineruṃ': 3}
-bāhu	masc	√bah 1 (increase)	u masc	22.0	{'bāhuṃ': 17, 'bāhu': 4, 'bāhū': 1}
-usu	masc		u masc	18.0	{'usunā': 6, 'usuṃ': 4, 'usū': 3, 'usūhi': 3, 'usu': 2}
-rāhu	masc		u masc	18.0	{'rāhu': 11, 'rāhuṃ': 4, 'rāhunā': 3}
-ūru	masc		u masc	17.0	{'ūrūhi': 5, 'ūruṃ': 5, 'ūrū': 3, 'ūrūsu': 2, 'ūru': 2}
-maṅku	masc		u masc	16.0	{'maṅku': 12, 'maṅkū': 2, 'maṅkuṃ': 1, 'maṅkuto': 1}
-phaggu	masc		u masc	15.0	{'phagguno': 11, 'phaggunaṃ': 3, 'phaggu': 1}
-aphāsu	masc	√phus 1 (touch)	u masc	14.0	{'aphāsuṃ': 10, 'aphāsu': 4}
-ādiccabandhu	masc		u masc	14.0	{'ādiccabandhunaṃ': 10, 'ādiccabandhu': 2, 'ādiccabandhussa': 1, 'ādiccabandhuṃ': 1}
-takkahetu	masc		u masc	12.0	{'takkahetu': 12}
-nayahetu	masc		u masc	12.0	{'nayahetu': 12}
-bhūnahu	masc		u masc	11.0	{'bhūnahu': 8, 'bhūnahuno': 3}
-viddasu	masc	√vid 1 (know)	u masc	11.0	{'viddasuno': 10, 'viddasu': 1}
-veḷu	masc		u masc	11.0	{'veḷu': 5, 'veḷuṃ': 5, 'veḷunā': 1}
-nahāru	masc	√nah 3 (bind, arm)	u masc	10.0	{'nahāru': 9, 'nahārū': 1}
-ucchu	masc		u masc	9.0	{'ucchumhā': 3, 'ucchu': 3, 'ucchuṃ': 2, 'ucchumhi': 1}
-bandhu	masc	√bandh 1 (bind, tie)	u masc	9.0	{'bandhave': 4, 'bandhū': 2, 'bandhunaṃ': 1, 'bandhu': 1, 'bandhavo': 1}
-brahmabandhu	masc		u masc	9.0	{'brahmabandhu': 7, 'brahmabandhū': 1, 'brahmabandhuṃ': 1}
-ayosaṅku	masc		u masc	9.0	{'ayosaṅkunā': 7, 'ayosaṅkū': 2}
-kamaṇḍalu	masc		u masc	8.0	{'kamaṇḍaluṃ': 8}
-tharu	masc		u masc	7.0	{'tharusmiṃ': 7}
-milakkhu	masc		u masc	7.0	{'milakkhūsu': 4, 'milakkhussa': 1, 'milakkhu': 1, 'milakkhū': 1}
-khāṇu	masc		u masc	6.0	{'khāṇuṃ': 6}
-setu	masc	√si 5 (bind)	u masc	6.0	{'setu': 4, 'setuṃ': 2}
-ruru	masc		u masc	6.0	{'ruru': 3, 'rurū': 2, 'ruruṃ': 1}
-kappāsapicu	masc		u masc	6.0	{'kappāsapicuno': 4, 'kappāsapicu': 2}
-mittaddu	masc		u masc	6.0	{'mittadduno': 5, 'mittaddu': 1}
+headword	count
+bhikkhu	37331.0
+hetu	1334.0
+garu	320.0
+phāsu	129.0
+ajātasattu	92.0
+hu	91.0
+maccu	78.0
+brahmāyu	61.0
+pāpabhikkhu	57.0
+nhāru	45.0
+agaru	39.0
+reṇu	39.0
+kuru	39.0
+paṃsu	38.0
+pasu	34.0
+ekabhikkhu	28.0
+susu	28.0
+sattu	26.0
+aviddasu	25.0
+leḍḍu	24.0
+ahetu	24.0
+bhagu	23.0
+aṇu	23.0
+sineru	22.0
+bāhu	22.0
+usu	18.0
+rāhu	18.0
+ūru	17.0
+maṅku	16.0
+phaggu	15.0
+aphāsu	14.0
+ādiccabandhu	14.0
+takkahetu	12.0
+nayahetu	12.0
+bhūnahu	11.0
+viddasu	11.0
+veḷu	11.0
+nahāru	10.0
+ucchu	9.0
+bandhu	9.0
+brahmabandhu	9.0
+ayosaṅku	9.0
+kamaṇḍalu	8.0
+tharu	7.0
+milakkhu	7.0
+khāṇu	6.0
+setu	6.0
+ruru	6.0
+kappāsapicu	6.0
+mittaddu	6.0

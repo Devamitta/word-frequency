@@ -1,51 +1,51 @@
-headword	pos	root	pattern	count	found
-kī	masc		ī masc	3398.0	{'kiṃ': 2441, 'kissa': 754, 'kismiṃ': 144, 'kimhi': 55, 'ki': 3, 'kī': 1}
-udāyī	masc	√i 1 (come, go)	ī masc	530.0	{'udāyi': 285, 'udāyī': 154, 'udāyiṃ': 61, 'udāyissa': 20, 'udāyinā': 10}
-diṭṭhī	masc	√dis 1 (see)	ī masc	432.0	{'diṭṭhi': 257, 'diṭṭhiṃ': 137, 'diṭṭhīnaṃ': 18, 'diṭṭhīsu': 9, 'diṭṭhī': 9, 'diṭṭhissa': 1, 'diṭṭhīhi': 1}
-sabrahmacārī	masc		ī masc	388.0	{'sabrahmacārīnaṃ': 141, 'sabrahmacārī': 92, 'sabrahmacārīsu': 77, 'sabrahmacārīhi': 41, 'sabrahmacāriṃ': 30, 'sabrahmacārino': 7}
-vipassī	masc	√dis 1 (see)	ī masc	299.0	{'vipassissa': 165, 'vipassī': 95, 'vipassiṃ': 17, 'vipassino': 12, 'vipassinā': 4, 'vipassimhi': 3, 'vipassinaṃ': 2, 'vipassi': 1}
-yānī	masc	√yā 1 (go)	ī masc	298.0	{'yāni': 286, 'yānissa': 12}
-gāmaṇī	masc		ī masc	277.0	{'gāmaṇi': 272, 'gāmaṇiṃ': 3, 'gāmaṇinā': 1, 'gāmaṇī': 1}
-jhāyī	masc	√jhā 3 (think, meditate)	ī masc	241.0	{'jhāyī': 176, 'jhāyīnaṃ': 24, 'jhāyino': 16, 'jhāyinaṃ': 6, 'jhāyiṃ': 5, 'jhāyibhi': 4, 'jhāyinā': 4, 'jhāyi': 2, 'jhāyissa': 2, 'jhāyīhi': 2}
-cakkavattī	masc		ī masc	233.0	{'cakkavattī': 140, 'cakkavattissa': 59, 'cakkavattiṃ': 19, 'cakkavatti': 11, 'cakkavattimhi': 3, 'cakkavattino': 1}
-gihī	masc	√gah 6 (grasp)	ī masc	218.0	{'gihī': 109, 'gihīnaṃ': 50, 'gihissa': 11, 'gihinā': 7, 'gihīhi': 7, 'gihi': 23, 'gihino': 7, 'gihiṃ': 4}
-tapassī	masc	√tap 1 (burn, radiate heat)	ī masc	170.0	{'tapassī': 89, 'tapassino': 26, 'tapassi': 26, 'tapassiṃ': 16, 'tapassinaṃ': 7, 'tapassinā': 4, 'tapassīnaṃ': 2}
-sukhī	masc	√sukh 1 (please, be comfortable)	ī masc	164.0	{'sukhino': 97, 'sukhī': 61, 'sukhiṃ': 6}
-dhammī	masc		ī masc	158.0	{'dhammiṃ': 131, 'dhammī': 25, 'dhammino': 1, 'dhamminaṃ': 1}
-pāṇī	masc	√an 1 (breath, blow)	ī masc	145.0	{'pāṇinā': 85, 'pāṇinaṃ': 19, 'pāṇino': 15, 'pāṇīhi': 8, 'pāṇiṃ': 7, 'pāṇi': 4, 'pāṇibhi': 4, 'pāṇīnaṃ': 2, 'pāṇimhi': 1}
-kāmabhogī	masc		ī masc	139.0	{'kāmabhogī': 95, 'kāmabhogino': 26, 'kāmabhogīnaṃ': 9, 'kāmabhoginā': 6, 'kāmabhoginaṃ': 3}
-sārathī	masc		ī masc	134.0	{'sārathi': 84, 'sārathiṃ': 21, 'sārathinā': 20, 'sārathīnaṃ': 3, 'sārathī': 5, 'sārathissa': 1}
-medhāvī	masc	√medh 1 (be wise)	ī masc	130.0	{'medhāvī': 106, 'medhāviṃ': 14, 'medhāvino': 7, 'medhāvi': 2, 'medhāvīnaṃ': 1}
-hatthī	masc		ī masc	130.0	{'hatthī': 58, 'hatthissa': 19, 'hatthīhi': 10, 'hatthīnaṃ': 8, 'hatthiṃ': 12, 'hatthinā': 7, 'hatthi': 5, 'hatthismiṃ': 7, 'hatthino': 2, 'hatthinaṃ': 2}
-brahmacārī	masc		ī masc	124.0	{'brahmacārī': 67, 'brahmacārino': 33, 'brahmacāriṃ': 8, 'brahmacāri': 7, 'brahmacārinaṃ': 6, 'brahmacārinā': 2, 'brahmacārini': 1}
-dehī	masc		ī masc	121.0	{'dehi': 121}
-mātalī	masc		ī masc	104.0	{'mātali': 94, 'mātaliṃ': 6, 'mātalī': 2, 'mātalissa': 1, 'mātalino': 1}
-muṭṭhassatī	masc		ī masc	95.0	{'muṭṭhassati': 33, 'muṭṭhassatino': 19, 'muṭṭhassatissa': 12, 'muṭṭhassatī': 12, 'muṭṭhassatīhi': 9, 'muṭṭhassatiṃ': 5, 'muṭṭhassatīnaṃ': 4, 'muṭṭhassatinā': 1}
-purisadammasārathī	masc		ī masc	94.0	{'purisadammasārathi': 93, 'purisadammasārathinā': 1}
-pakkhī	masc		ī masc	87.0	{'pakkhī': 58, 'pakkhi': 6, 'pakkhiṃ': 6, 'pakkhino': 5, 'pakkhīnaṃ': 4, 'pakkhinaṃ': 4, 'pakkhinā': 2, 'pakkhīhi': 2}
-vasī	masc	√vas 1 (want, control)	ī masc	85.0	{'vasī': 35, 'vasimhi': 23, 'vasi': 20, 'vasiṃ': 3, 'vasimhā': 2, 'vasino': 2}
-mahesī	masc		ī masc	84.0	{'mahesino': 18, 'mahesī': 17, 'mahesiṃ': 17, 'mahesi': 13, 'mahesinā': 6, 'mahesinaṃ': 5, 'mahesīhi': 4, 'mahesibhi': 3, 'mahesissa': 1}
-dhammacārī	masc		ī masc	79.0	{'dhammacārī': 66, 'dhammacārino': 9, 'dhammacāriṃ': 4}
-arūpī	masc	√rūp 8 (form, produce)	ī masc	74.0	{'arūpī': 35, 'arūpiṃ': 27, 'arūpino': 11, 'arūpīsu': 1}
-maccharī	masc		ī masc	66.0	{'maccharī': 44, 'maccharissa': 10, 'maccharino': 6, 'macchariṃ': 4, 'macchari': 1, 'maccharinā': 1}
-samacārī	masc		ī masc	64.0	{'samacārī': 55, 'samacārino': 9}
-adhammacārī	masc		ī masc	63.0	{'adhammacārī': 62, 'adhammacārino': 1}
-visamacārī	masc		ī masc	59.0	{'visamacārī': 59}
-vasavattī	masc		ī masc	51.0	{'vasavattī': 34, 'vasavattino': 7, 'vasavattissa': 3, 'vasavattinaṃ': 3, 'vasavattinā': 2, 'vasavattiṃ': 1, 'vasavatti': 1}
-sikhī	masc		ī masc	51.0	{'sikhī': 23, 'sikhissa': 20, 'sikhino': 4, 'sikhimhi': 1, 'sikhiṃ': 1, 'sikhīhi': 1, 'sikhi': 1}
-māyāvī	masc		ī masc	50.0	{'māyāvī': 31, 'māyāvino': 9, 'māyāvissa': 7, 'māyāviṃ': 2, 'māyāvi': 1}
-paranimmitavasavattī	masc		ī masc	50.0	{'paranimmitavasavattīnaṃ': 26, 'paranimmitavasavattī': 15, 'paranimmitavasavattino': 6, 'paranimmitavasavattīhi': 3}
-jāṇussoṇī	masc		ī masc	48.0	{'jāṇussoṇi': 40, 'jāṇussoṇiṃ': 7, 'jāṇussoṇī': 1}
-sakkhī	masc	√akkh 1 (see)	ī masc	45.0	{'sakkhi': 22, 'sakkhiṃ': 12, 'sakkhī': 9, 'sakkhimhā': 2}
-bhāgī	masc	√bhaj 1 (divide, distribute)	ī masc	42.0	{'bhāgī': 38, 'bhāgino': 4}
-caṅkī	masc		ī masc	40.0	{'caṅkī': 35, 'caṅkiṃ': 4, 'caṅkissa': 1}
-gavesī	masc	√gaves 1 (seek, search)	ī masc	39.0	{'gavesī': 30, 'gavesissa': 5, 'gavesiṃ': 3, 'gavesinā': 1}
-antevāsī	masc		ī masc	39.0	{'antevāsī': 20, 'antevāsiṃ': 12, 'antevāsinā': 5, 'antevāsissa': 1, 'antevāsimhi': 1}
-kalī	masc		ī masc	37.0	{'kali': 14, 'kaliṃ': 13, 'kalinā': 6, 'kalī': 4}
-kevalī	masc		ī masc	37.0	{'kevalī': 19, 'kevalino': 13, 'kevalinaṃ': 5}
-jālī	masc	√jal 8 (hide, conceal)	ī masc	37.0	{'jāliṃ': 17, 'jālī': 7, 'jālino': 5, 'jālini': 2, 'jāli': 2, 'jālinā': 2, 'jālinaṃ': 1, 'jālissa': 1}
-dīghatapassī	masc		ī masc	36.0	{'dīghatapassī': 21, 'dīghatapassiṃ': 8, 'dīghatapassinā': 6, 'dīghatapassi': 1}
-sirī	masc		ī masc	36.0	{'sirī': 23, 'siriṃ': 7, 'siri': 6}
-atithī	masc		ī masc	36.0	{'atithī': 11, 'atithismiṃ': 8, 'atithīnaṃ': 8, 'atithi': 6, 'atithiṃ': 2, 'atithīsu': 1}
-kārī	masc	√kar 7 (do, make)	ī masc	35.0	{'kārī': 32, 'kārino': 2, 'kārissa': 1}
-jī	masc	√ji 1 (conquer)	ī masc	34.0	{'jinaṃ': 19, 'jino': 11, 'jinā': 2, 'jimhā': 2}
+headword	count
+kī	3398.0
+udāyī	530.0
+diṭṭhī	432.0
+sabrahmacārī	388.0
+vipassī	299.0
+yānī	298.0
+gāmaṇī	277.0
+jhāyī	241.0
+cakkavattī	233.0
+gihī	218.0
+tapassī	170.0
+sukhī	164.0
+dhammī	158.0
+pāṇī	145.0
+kāmabhogī	139.0
+sārathī	134.0
+medhāvī	130.0
+hatthī	130.0
+brahmacārī	124.0
+dehī	121.0
+mātalī	104.0
+muṭṭhassatī	95.0
+purisadammasārathī	94.0
+pakkhī	87.0
+vasī	85.0
+mahesī	84.0
+dhammacārī	79.0
+arūpī	74.0
+maccharī	66.0
+samacārī	64.0
+adhammacārī	63.0
+visamacārī	59.0
+vasavattī	51.0
+sikhī	51.0
+māyāvī	50.0
+paranimmitavasavattī	50.0
+jāṇussoṇī	48.0
+sakkhī	45.0
+bhāgī	42.0
+caṅkī	40.0
+gavesī	39.0
+antevāsī	39.0
+kalī	37.0
+kevalī	37.0
+jālī	37.0
+dīghatapassī	36.0
+sirī	36.0
+atithī	36.0
+kārī	35.0
+jī	34.0
