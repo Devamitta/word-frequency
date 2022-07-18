@@ -1,0 +1,306 @@
+headword	pos	root	pattern	count	found
+gahapati	masc		i masc	1586.0	{'gahapati': 1139, 'gahapatayo': 191, 'gahapatissa': 91, 'gahapatiṃ': 84, 'gahapatino': 25, 'gahapatinā': 16, 'gahapatī': 32, 'gahapatīhi': 5, 'gahapatimhi': 2, 'gahapatīnaṃ': 1}
+samādhi	masc	√dhā 1 (place, support)	i masc	721.0	{'samādhismiṃ': 305, 'samādhi': 188, 'samādhiṃ': 110, 'samādhissa': 38, 'samādhimhi': 29, 'samādhimhā': 28, 'samādhinā': 15, 'samādhī': 8}
+sammāsamādhi	masc		i masc	355.0	{'sammāsamādhi': 204, 'sammāsamādhiṃ': 80, 'sammāsamādhimhi': 30, 'sammāsamādhissa': 24, 'sammāsamādhino': 8, 'sammāsamādhī': 4, 'sammāsamādhinā': 4, 'sammāsamādhīhi': 1}
+aggi	masc	√agg 1 (move crookedly)	i masc	335.0	{'aggi': 131, 'aggiṃ': 117, 'agginā': 35, 'aggissa': 15, 'aggī': 22, 'aggito': 7, 'aggimhi': 4, 'aggismiṃ': 3, 'aggīnaṃ': 1}
+pasenadi	masc		i masc	320.0	{'pasenadi': 212, 'pasenadissa': 57, 'pasenadiṃ': 37, 'pasenadinā': 10, 'pasenadimhi': 4}
+gāmaṇi	masc		i masc	277.0	{'gāmaṇi': 272, 'gāmaṇiṃ': 3, 'gāmaṇinā': 1, 'gāmaṇī': 1}
+jhāyi	masc	√jhā 3 (think, meditate)	i masc	241.0	{'jhāyī': 176, 'jhāyīnaṃ': 24, 'jhāyino': 16, 'jhāyinaṃ': 6, 'jhāyiṃ': 5, 'jhāyibhi': 4, 'jhāyinā': 4, 'jhāyi': 2, 'jhāyissa': 2, 'jhāyīhi': 2}
+asi	masc	√as 3 (throw, hurl)	i masc	231.0	{'asito': 20, 'asiṃ': 23, 'asi': 180, 'asī': 4, 'asinā': 3, 'asīhi': 1}
+muni	masc	√mun 5 (think, know)	i masc	201.0	{'muni': 99, 'muniṃ': 26, 'munī': 49, 'munino': 16, 'munayo': 6, 'muninā': 3, 'muninaṃ': 2}
+isi	masc		i masc	201.0	{'isayo': 51, 'isi': 54, 'isiṃ': 27, 'isīnaṃ': 23, 'isī': 13, 'isinaṃ': 9, 'isinā': 8, 'isīhi': 7, 'isino': 5, 'isissa': 2, 'isibhi': 1, 'isībhi': 1}
+asuci	masc	√suc 1 (be pure, bright)	i masc	183.0	{'asuci': 98, 'asucinā': 25, 'asuciṃ': 28, 'asucino': 14, 'asucismiṃ': 12, 'asucī': 5, 'asucismā': 1}
+upāli	masc		i masc	163.0	{'upāli': 122, 'upālissa': 27, 'upāliṃ': 12, 'upālinā': 2}
+ñāti	masc	√ñā 5 (know)	i masc	156.0	{'ñātī': 50, 'ñātīnaṃ': 25, 'ñāti': 31, 'ñātibhi': 13, 'ñātīhi': 12, 'ñātayo': 11, 'ñātinaṃ': 5, 'ñātito': 3, 'ñātīsu': 3, 'ñātiṃ': 3}
+licchavi	masc		i masc	150.0	{'licchavī': 106, 'licchavi': 21, 'licchavīnaṃ': 11, 'licchavayo': 5, 'licchavīhi': 4, 'licchavissa': 2, 'licchaviṃ': 1}
+thapati	masc		i masc	147.0	{'thapati': 103, 'thapatayo': 22, 'thapatiṃ': 10, 'thapatissa': 6, 'thapatinā': 4, 'thapatino': 1, 'thapatī': 1}
+pāṇi	masc		i masc	146.0	{'pāṇinā': 85, 'pāṇinaṃ': 19, 'pāṇino': 15, 'pāṇīhi': 8, 'pāṇiṃ': 7, 'pāṇi': 4, 'pāṇibhi': 4, 'pāṇīnaṃ': 2, 'pāṇimhi': 1, 'pāṇayo': 1}
+maṇi	masc		i masc	140.0	{'maṇi': 50, 'maṇiṃ': 35, 'maṇimhi': 27, 'maṇinā': 11, 'maṇī': 9, 'maṇayo': 4, 'maṇissa': 3, 'maṇino': 1}
+sārathi	masc		i masc	134.0	{'sārathi': 84, 'sārathiṃ': 21, 'sārathinā': 20, 'sārathīnaṃ': 3, 'sārathī': 5, 'sārathissa': 1}
+brahmacāri	masc		i masc	131.0	{'brahmacārī': 67, 'brahmacārino': 33, 'brahmacāriṃ': 8, 'brahmacārayo': 8, 'brahmacāri': 7, 'brahmacārinaṃ': 6, 'brahmacārinā': 2}
+añjali	masc	√añj 1 (pay respect)	i masc	128.0	{'añjaliṃ': 119, 'añjalismiṃ': 6, 'añjalinā': 2, 'añjalissa': 1}
+pati	masc	√pat 3 (command, control)	i masc	117.0	{'pati': 55, 'patiṃ': 22, 'patito': 11, 'patī': 11, 'patinā': 9, 'patino': 9}
+dhanañjāni	masc		i masc	98.0	{'dhanañjāni': 72, 'dhanañjānī': 10, 'dhanañjāniṃ': 8, 'dhanañjānissa': 7, 'dhanañjāninā': 1}
+bhaddāli	masc		i masc	96.0	{'bhaddāli': 94, 'bhaddāliṃ': 1, 'bhaddālī': 1}
+purisadammasārathi	masc		i masc	94.0	{'purisadammasārathi': 93, 'purisadammasārathinā': 1}
+mahāli	masc	√mah 1 (increase)	i masc	87.0	{'mahāli': 87}
+upadhi	masc	√dhā 1 (place, support)	i masc	86.0	{'upadhiṃ': 26, 'upadhi': 31, 'upadhī': 8, 'upadhayo': 6, 'upadhismiṃ': 5, 'upadhīsu': 5, 'upadhīhi': 4, 'upadhīnaṃ': 1}
+mahesi	masc		i masc	84.0	{'mahesino': 18, 'mahesī': 17, 'mahesiṃ': 17, 'mahesi': 13, 'mahesinā': 6, 'mahesinaṃ': 5, 'mahesīhi': 4, 'mahesibhi': 3, 'mahesissa': 1}
+aṭṭhi	masc	√ar 1 (move, attain)	i masc	82.0	{'aṭṭhiṃ': 49, 'aṭṭhi': 24, 'aṭṭhī': 2, 'aṭṭhīnaṃ': 1, 'aṭṭhito': 6}
+senāpati	masc		i masc	75.0	{'senāpati': 45, 'senāpatissa': 11, 'senāpatiṃ': 8, 'senāpatīnaṃ': 6, 'senāpatinā': 2, 'senāpatī': 3}
+kāsi	masc		i masc	74.0	{'kāsīnaṃ': 16, 'kāsīsu': 10, 'kāsi': 37, 'kāsīhi': 4, 'kāsinaṃ': 2, 'kāsissa': 2, 'kāsī': 1, 'kāsayo': 1, 'kāsiṃ': 1}
+cetosamādhi	masc		i masc	73.0	{'cetosamādhiṃ': 54, 'cetosamādhissa': 11, 'cetosamādhi': 3, 'cetosamādhismiṃ': 3, 'cetosamādhimhi': 2}
+sahampati	masc		i masc	68.0	{'sahampati': 60, 'sahampatissa': 4, 'sahampatiṃ': 3, 'sahampatinā': 1}
+pāyāsi	masc		i masc	67.0	{'pāyāsi': 57, 'pāyāsissa': 5, 'pāyāsiṃ': 5}
+dānapati	masc		i masc	67.0	{'dānapati': 49, 'dānapatī': 13, 'dānapatiṃ': 3, 'dānapatino': 2}
+ādi	masc		i masc	64.0	{'ādissa': 30, 'ādayo': 10, 'ādiṃ': 9, 'ādi': 5, 'ādito': 3, 'ādinā': 2, 'ādīhi': 2, 'ādīsu': 2, 'ādīnaṃ': 1}
+pajāpati	masc		i masc	64.0	{'pajāpatiṃ': 30, 'pajāpati': 23, 'pajāpatissa': 5, 'pajāpatito': 3, 'pajāpatī': 2, 'pajāpatismiṃ': 1}
+mātukucchi	masc		i masc	63.0	{'mātukucchiṃ': 28, 'mātukucchimhā': 21, 'mātukucchismiṃ': 12, 'mātukucchismā': 2}
+pokkharasāti	masc		i masc	62.0	{'pokkharasāti': 33, 'pokkharasātissa': 19, 'pokkharasātiṃ': 4, 'pokkharasātinā': 5, 'pokkharasātī': 1}
+ānāpānassatisamādhi	masc		i masc	59.0	{'ānāpānassatisamādhi': 48, 'ānāpānassatisamādhiṃ': 5, 'ānāpānassatisamādhimhi': 3, 'ānāpānassatisamādhinā': 2, 'ānāpānassatisamādhissa': 1}
+sāli	masc		i masc	54.0	{'sālīnaṃ': 20, 'sāliṃ': 18, 'sāli': 7, 'sālī': 4, 'sālino': 3, 'sālayo': 2}
+piti	masc		i masc	52.0	{'pitito': 52}
+subhūti	masc	√bhū 1 (be)	i masc	51.0	{'subhūti': 48, 'subhūtiṃ': 2, 'subhūtinā': 1}
+jāṇussoṇi	masc		i masc	48.0	{'jāṇussoṇi': 40, 'jāṇussoṇiṃ': 7, 'jāṇussoṇī': 1}
+byādhi	masc	√dhā 1 (place, support)	i masc	47.0	{'byādhiṃ': 14, 'byādhi': 15, 'byādhito': 8, 'byādhinā': 6, 'byādhayo': 3, 'byādhī': 1}
+acci	masc	√acc 1 (shine, praise)	i masc	47.0	{'accayo': 28, 'acci': 14, 'acciṃ': 3, 'accī': 1, 'accito': 1}
+sakkhi	masc	√akkh 1 (see)	i masc	45.0	{'sakkhi': 22, 'sakkhiṃ': 12, 'sakkhī': 9, 'sakkhimhā': 2}
+disampati	masc		i masc	45.0	{'disampati': 35, 'disampatissa': 4, 'disampatimhi': 4, 'disampatiṃ': 1, 'disampatinā': 1}
+vepacitti	masc		i masc	45.0	{'vepacitti': 30, 'vepacittiṃ': 8, 'vepacittinā': 3, 'vepacittino': 2, 'vepacittissa': 2}
+ahi	masc		i masc	41.0	{'ahi': 22, 'ahiṃ': 9, 'ahinā': 6, 'ahīnaṃ': 3, 'ahito': 1}
+nimmānarati	masc		i masc	39.0	{'nimmānaratīnaṃ': 14, 'nimmānaratī': 13, 'nimmānaratino': 11, 'nimmānaratīhi': 1}
+kucchi	masc	√kus 1 (fill, enfold)	i masc	38.0	{'kucchiṃ': 23, 'kucchinā': 6, 'kucchismiṃ': 5, 'kucchi': 4}
+sāti	masc		i masc	38.0	{'sāti': 22, 'sātiṃ': 12, 'sātissa': 4}
+atithi	masc		i masc	37.0	{'atithī': 11, 'atithismiṃ': 8, 'atithīnaṃ': 8, 'atithi': 6, 'atithiṃ': 2, 'atithayo': 1, 'atithīsu': 1}
+kali	masc		i masc	37.0	{'kali': 14, 'kaliṃ': 13, 'kalinā': 6, 'kalī': 4}
+nimi	masc		i masc	36.0	{'nimi': 13, 'nimiṃ': 13, 'nimissa': 8, 'niminā': 1, 'nimī': 1}
+kīṭāgiri	masc		i masc	33.0	{'kīṭāgirismiṃ': 17, 'kīṭāgirismā': 7, 'kīṭāgiriṃ': 6, 'kīṭāgiri': 3}
+assaji	masc		i masc	31.0	{'assaji': 23, 'assajiṃ': 4, 'assajinā': 2, 'assajissa': 2}
+pukkusāti	masc		i masc	30.0	{'pukkusāti': 26, 'pukkusātiṃ': 4}
+dhi	masc	√dhā 1 (place, support)	i masc	30.0	{'dhī': 3, 'dhi': 27}
+avadhi	masc		i masc	29.0	{'avadhi': 24, 'avadhī': 3, 'avadhiṃ': 2}
+bali	masc	√bal 1 (be strong, live)	i masc	28.0	{'baliṃ': 13, 'balī': 12, 'balinā': 2, 'balino': 1}
+makkhali	masc		i masc	28.0	{'makkhali': 20, 'makkhaliṃ': 6, 'makkhalinā': 1, 'makkhalissa': 1}
+seṭṭhi	masc		i masc	27.0	{'seṭṭhi': 15, 'seṭṭhissa': 5, 'seṭṭhinā': 4, 'seṭṭhiṃ': 2, 'seṭṭhī': 1}
+patti	masc	√pad 3 (go, step)	i masc	27.0	{'pattī': 14, 'patti': 6, 'pattiṃ': 4, 'pattibhi': 2, 'pattinaṃ': 1}
+sandhi	masc	√dhā 1 (place, support)	i masc	26.0	{'sandhiṃ': 20, 'sandhito': 2, 'sandhi': 2, 'sandhayo': 1, 'sandhino': 1}
+joti	masc	√jut 1 (shine)	i masc	25.0	{'jotiṃ': 14, 'joti': 11}
+giri	masc		i masc	23.0	{'giriṃ': 12, 'girī': 3, 'girinā': 1, 'girino': 1, 'girismiṃ': 5, 'giri': 1}
+saññāti	masc		i masc	23.0	{'saññāti': 22, 'saññātiṃ': 1}
+masi	masc		i masc	22.0	{'masiṃ': 12, 'masi': 10}
+saṅgāmaji	masc		i masc	21.0	{'saṅgāmaji': 8, 'saṅgāmajissa': 8, 'saṅgāmajiṃ': 5}
+kimi	masc		i masc	21.0	{'kimi': 7, 'kimīhi': 6, 'kimī': 4, 'kiminā': 2, 'kimayo': 1, 'kiminaṃ': 1}
+dīpi	masc		i masc	20.0	{'dīpi': 6, 'dīpīhi': 5, 'dīpino': 3, 'dīpīnaṃ': 2, 'dīpinā': 2, 'dīpissa': 1, 'dīpī': 1}
+sakhi	masc		i masc	20.0	{'sakhino': 5, 'sakhī': 4, 'sakhīnaṃ': 4, 'sakhiṃ': 3, 'sakhinaṃ': 2, 'sakhinā': 1, 'sakhi': 1}
+nidhi	masc	√dhā 1 (place, support)	i masc	19.0	{'nidhiṃ': 10, 'nidhi': 8, 'nidhī': 1}
+isigili	masc		i masc	19.0	{'isigilismiṃ': 15, 'isigili': 2, 'isigiliṃ': 1, 'isigilissa': 1}
+adhipati	masc	√pat 3 (command, control)	i masc	17.0	{'adhipati': 12, 'adhipatiṃ': 3, 'adhipatīnaṃ': 1, 'adhipatī': 1}
+kiki	masc		i masc	17.0	{'kikī': 12, 'kikissa': 3, 'kikiṃ': 1, 'kikinā': 1}
+brāhmaṇisi	masc		i masc	17.0	{'brāhmaṇisayo': 9, 'brāhmaṇisīnaṃ': 8}
+paṇidhi	masc	√dhā 1 (place, support)	i masc	16.0	{'paṇidhi': 13, 'paṇidhī': 3}
+kesi	masc		i masc	16.0	{'kesi': 12, 'kesī': 2, 'kesiṃ': 2}
+mahāmuni	masc		i masc	15.0	{'mahāmuni': 12, 'mahāmuniṃ': 3}
+kapi	masc		i masc	14.0	{'kapi': 11, 'kapino': 2, 'kapī': 1}
+hari	masc	√har 1 (carry)	i masc	13.0	{'harito': 4, 'harīsu': 2, 'harī': 2, 'harayo': 1, 'harissa': 4}
+rājisi	masc		i masc	13.0	{'rājisi': 5, 'rājisimhi': 2, 'rājisiṃ': 2, 'rājisayo': 2, 'rājisissa': 1, 'rājisī': 1}
+assadammasārathi	masc		i masc	13.0	{'assadammasārathi': 12, 'assadammasārathiṃ': 1}
+surabhi	masc		i masc	12.0	{'surabhī': 6, 'surabhiṃ': 3, 'surabhi': 3}
+yamataggi	masc		i masc	12.0	{'yamataggi': 12}
+bhūtapati	masc		i masc	12.0	{'bhūtapatī': 6, 'bhūtapati': 4, 'bhūtapatiṃ': 2}
+rāgaggi	masc		i masc	12.0	{'rāgaggi': 8, 'rāgagginā': 3, 'rāgaggiṃ': 1}
+rattapāṇi	masc		i masc	11.0	{'rattapāṇi': 8, 'rattapāṇiṃ': 3}
+mohaggi	masc		i masc	11.0	{'mohaggi': 7, 'mohagginā': 3, 'mohaggiṃ': 1}
+dosaggi	masc		i masc	11.0	{'dosaggi': 7, 'dosagginā': 3, 'dosaggiṃ': 1}
+nemi	masc		i masc	10.0	{'nemi': 8, 'nemiṃ': 2}
+gavampati	masc		i masc	10.0	{'gavampati': 8, 'gavampatiṃ': 2}
+timi	masc		i masc	10.0	{'timi': 10}
+osadhi	masc		i masc	10.0	{'osadhīnaṃ': 5, 'osadhī': 4, 'osadhi': 1}
+rāsi	masc		i masc	9.0	{'rāsi': 7, 'rāsī': 2}
+sannidhi	masc	√dhā 1 (place, support)	i masc	9.0	{'sannidhiṃ': 8, 'sannidhī': 1}
+mahodadhi	masc		i masc	8.0	{'mahodadhiṃ': 5, 'mahodadhi': 2, 'mahodadhī': 1}
+muṭṭhi	masc		i masc	8.0	{'muṭṭhinā': 5, 'muṭṭhiṃ': 1, 'muṭṭhī': 1, 'muṭṭhīhi': 1}
+mittadubbhi	masc		i masc	8.0	{'mittadubbhī': 7, 'mittadubbhiṃ': 1}
+jānipati	masc		i masc	8.0	{'jānipatayo': 8}
+vāladhi	masc		i masc	8.0	{'vāladhi': 5, 'vāladhiṃ': 3}
+bhūmipati	masc		i masc	8.0	{'bhūmipati': 5, 'bhūmipatī': 2, 'bhūmipatiṃ': 1}
+vīhi	masc		i masc	8.0	{'vīhīnaṃ': 3, 'vīhī': 3, 'vīhi': 2}
+sakuṇagghi	masc		i masc	7.0	{'sakuṇagghi': 6, 'sakuṇagghiṃ': 1}
+dakkhiṇeyyaggi	masc		i masc	7.0	{'dakkhiṇeyyaggi': 6, 'dakkhiṇeyyaggiṃ': 1}
+daḷhanemi	masc		i masc	7.0	{'daḷhanemi': 5, 'daḷhanemissa': 1, 'daḷhanemiṃ': 1}
+yamadaggi	masc		i masc	6.0	{'yamadaggi': 3, 'yamadaggino': 3}
+namuci	masc	√muc 2 (release, free)	i masc	6.0	{'namucino': 3, 'namucī': 2, 'namuci': 1}
+gahapataggi	masc		i masc	6.0	{'gahapataggi': 6}
+vasali	masc		i masc	6.0	{'vasali': 3, 'vasalī': 3}
+anodhi	masc	√dhā 1 (place, support)	i masc	6.0	{'anodhiṃ': 6}
+āhuneyyaggi	masc		i masc	6.0	{'āhuneyyaggi': 6}
+mahāsenāpati	masc		i masc	6.0	{'mahāsenāpatīnaṃ': 6}
+bhāti	masc		i masc	6.0	{'bhāti': 6}
+maddakucchi	masc		i masc	6.0	{'maddakucchismiṃ': 5, 'maddakucchiṃ': 1}
+tejasi	masc		i masc	6.0	{'tejasi': 3, 'tejasī': 3}
+hatthidammasārathi	masc		i masc	5.0	{'hatthidammasārathi': 4, 'hatthidammasārathī': 1}
+udadhi	masc		i masc	5.0	{'udadhinaṃ': 1, 'udadhi': 1, 'udadhī': 1, 'udadhiṃ': 1, 'udadhismā': 1}
+sahali	masc		i masc	5.0	{'sahali': 3, 'sahalī': 2}
+vanappati	masc		i masc	5.0	{'vanappati': 2, 'vanappatī': 2, 'vanappatiṃ': 1}
+ari	masc		i masc	5.0	{'arī': 2, 'ari': 2, 'ariṃ': 1}
+mudumūsi	masc		i masc	4.0	{'mudumūsi': 3, 'mudumūsiṃ': 1}
+kaṭṭhaggi	masc		i masc	4.0	{'kaṭṭhaggi': 2, 'kaṭṭhaggito': 2}
+attasammāpaṇidhi	masc		i masc	4.0	{'attasammāpaṇidhi': 4}
+vajirapāṇi	masc		i masc	4.0	{'vajirapāṇiṃ': 2, 'vajirapāṇī': 1, 'vajirapāṇi': 1}
+dāmali	masc		i masc	4.0	{'dāmali': 4}
+mahīpati	masc		i masc	4.0	{'mahīpati': 3, 'mahīpatissa': 1}
+pākārasandhi	masc		i masc	4.0	{'pākārasandhiṃ': 4}
+gini	masc	√agg 1 (move crookedly)	i masc	3.0	{'gini': 3}
+kavi	masc	√ku 1 (sing, sound)	i masc	3.0	{'kavi': 1, 'kavinā': 1, 'kavī': 1}
+samīti	masc		i masc	3.0	{'samīti': 3}
+sakyamuni	masc		i masc	3.0	{'sakyamunī': 3}
+sakalikaggi	masc		i masc	3.0	{'sakalikaggissa': 1, 'sakalikaggito': 2}
+dīghalaṭṭhi	masc		i masc	3.0	{'dīghalaṭṭhi': 3}
+buli	masc		i masc	3.0	{'bulayo': 3}
+upādhi	masc		i masc	2.0	{'upādhi': 1, 'upādhī': 1}
+gomayaggi	masc		i masc	2.0	{'gomayaggito': 2}
+goliyāni	masc		i masc	2.0	{'goliyāni': 1, 'goliyāniṃ': 1}
+upanidhi	masc	√dhā 1 (place, support)	i masc	2.0	{'upanidhi': 2}
+uṇṇanābhi	masc		i masc	2.0	{'uṇṇanābhī': 1, 'uṇṇanābhi': 1}
+gandhasannidhi	masc		i masc	2.0	{'gandhasannidhiṃ': 2}
+cittakali	masc		i masc	2.0	{'cittakaliṃ': 1, 'cittakali': 1}
+vatthasannidhi	masc		i masc	2.0	{'vatthasannidhiṃ': 2}
+bondi	masc		i masc	2.0	{'bondi': 2}
+atithibali	masc		i masc	2.0	{'atithibaliṃ': 2}
+sayanasannidhi	masc		i masc	2.0	{'sayanasannidhiṃ': 2}
+bāhuraggi	masc		i masc	2.0	{'bāhuraggi': 2}
+manopaṇidhi	masc		i masc	2.0	{'manopaṇidhi': 2}
+ālokasandhi	masc		i masc	2.0	{'ālokasandhiṃ': 2}
+rājabali	masc		i masc	2.0	{'rājabaliṃ': 2}
+ojasi	masc		i masc	2.0	{'ojasi': 2}
+dhammasenāpati	masc		i masc	2.0	{'dhammasenāpatinā': 1, 'dhammasenāpatiṃ': 1}
+annasannidhi	masc		i masc	2.0	{'annasannidhiṃ': 2}
+pānasannidhi	masc		i masc	2.0	{'pānasannidhiṃ': 2}
+āmisasannidhi	masc		i masc	2.0	{'āmisasannidhiṃ': 2}
+yānasannidhi	masc		i masc	2.0	{'yānasannidhiṃ': 2}
+tilamuṭṭhi	masc		i masc	2.0	{'tilamuṭṭhiṃ': 1, 'tilamuṭṭhi': 1}
+pāsarāsi	masc		i masc	2.0	{'pāsarāsiṃ': 2}
+tiṇaggi	masc		i masc	2.0	{'tiṇaggito': 2}
+udakarāsi	masc		i masc	2.0	{'udakarāsi': 2}
+bheṇḍi	masc		i masc	2.0	{'bheṇḍiṃ': 2}
+dhammani	masc		i masc	2.0	{'dhammani': 1, 'dhammaniṃ': 1}
+odhi	masc	√dhā 1 (place, support)	i masc	2.0	{'odhinā': 1, 'odhiṃ': 1}
+vegabbhari	masc		i masc	2.0	{'vegabbhari': 2}
+taṇḍulamuṭṭhi	masc		i masc	1.0	{'taṇḍulamuṭṭhiṃ': 1}
+ādhipati	masc		i masc	1.0	{'ādhipati': 1}
+ārakkhasārathi	masc		i masc	1.0	{'ārakkhasārathi': 1}
+dhaññarāsi	masc		i masc	1.0	{'dhaññarāsissa': 1}
+cintākavi	masc		i masc	1.0	{'cintākavi': 1}
+devīsi	masc		i masc	1.0	{'devīsi': 1}
+uṇṇānābhi	masc		i masc	1.0	{'uṇṇānābhi': 1}
+ekaṃsabhāvitasamādhi	masc		i masc	1.0	{'ekaṃsabhāvitasamādhi': 1}
+caturodadhi	masc		i masc	1.0	{'caturodadhī': 1}
+kālānusāri	masc		i masc	1.0	{'kālānusāri': 1}
+dhurasamādhi	masc		i masc	1.0	{'dhurasamādhi': 1}
+naradammasārathi	masc		i masc	1.0	{'naradammasārathi': 1}
+thūli	masc		i masc	1.0	{'thūlayo': 1}
+thusaggi	masc		i masc	1.0	{'thusaggimhi': 1}
+saññāpetabbavidhi	masc		i masc	1.0	{'saññāpetabbavidhi': 1}
+khīrapaṇṇi	masc		i masc	1.0	{'khīrapaṇṇino': 1}
+golissāni	masc		i masc	1.0	{'golissāni': 1}
+kiṭāgiri	masc		i masc	1.0	{'kiṭāgiri': 1}
+gulissāni	masc		i masc	1.0	{'gulissāni': 1}
+khali	masc		i masc	1.0	{'khali': 1}
+atthakavi	masc		i masc	1.0	{'atthakavi': 1}
+moḷi	masc		i masc	1.0	{'moḷiṃ': 1}
+phalasamādhi	masc		i masc	1.0	{'phalasamādhi': 1}
+pokkharasādi	masc		i masc	1.0	{'pokkharasādi': 1}
+yaññassāmi	masc		i masc	1.0	{'yaññassāmi': 1}
+brahmāsahampati	masc		i masc	1.0	{'brahmāsahampati': 1}
+mūsi	masc	√mus 1 (steal)	i masc	1.0	{'mūsi': 1}
+manussādhipati	masc		i masc	1.0	{'manussādhipatī': 1}
+manujādhipati	masc		i masc	1.0	{'manujādhipati': 1}
+mahāpuppharāsi	masc		i masc	1.0	{'mahāpuppharāsi': 1}
+mahiddhi	masc		i masc	1.0	{'mahiddhiṃ': 1}
+mahāgini	masc		i masc	1.0	{'mahāgini': 1}
+appamāṇasamādhi	masc		i masc	1.0	{'appamāṇasamādhinā': 1}
+byappathi	masc	√path 1 (go, move)	i masc	1.0	{'byappathayo': 1}
+puppharāsi	masc		i masc	1.0	{'puppharāsimhā': 1}
+addi	masc		i masc	1.0	{'addito': 1}
+sucitti	masc		i masc	1.0	{'sucitti': 1}
+ravi	masc		i masc	1.0	{'ravi': 1}
+bhūmisenāpati	masc		i masc	1.0	{'bhūmisenāpati': 1}
+aṅgārarāsi	masc		i masc	1.0	{'aṅgārarāsiṃ': 1}
+kareri	masc		i masc	1.0	{'karerī': 1}
+abhividhi	masc		i masc	0.0	{}
+padasandhi	masc		i masc	0.0	{}
+paṇhi	masc		i masc	0.0	{}
+paṭaggi	masc		i masc	0.0	{}
+byañjanasandhi	masc		i masc	0.0	{}
+balarāsi	masc		i masc	0.0	{}
+bāṇadhi	masc		i masc	0.0	{}
+bahubbīhi	masc		i masc	0.0	{}
+buddhamuni	masc		i masc	0.0	{}
+bundi	masc		i masc	0.0	{}
+nīlamaṇi	masc		i masc	0.0	{}
+avi	masc		i masc	0.0	{}
+aggini	masc	√agg 1 (move crookedly)	i masc	0.0	{}
+aggaseṭṭhi	masc		i masc	0.0	{}
+appanāsamādhi	masc		i masc	0.0	{}
+arahattaphalasamādhi	masc		i masc	0.0	{}
+abuddhi	masc		i masc	0.0	{}
+abhisandhi	masc		i masc	0.0	{}
+amaṇi	masc		i masc	0.0	{}
+ali	masc		i masc	0.0	{}
+āgamasandhi	masc		i masc	0.0	{}
+dhūmaggi	masc		i masc	0.0	{}
+dhītupati	masc		i masc	0.0	{}
+naraggi	masc		i masc	0.0	{}
+cūḷāmaṇi	masc		i masc	0.0	{}
+ghi	masc	√ghaṭ 8 (strike, kill)	i masc	0.0	{}
+jaṭharaggi	masc		i masc	0.0	{}
+cintāmaṇi	masc		i masc	0.0	{}
+cimi	masc		i masc	0.0	{}
+devisi	masc		i masc	0.0	{}
+dampati	masc		i masc	0.0	{}
+dhakkhiṇaggi	masc		i masc	0.0	{}
+niggahītasandhi	masc		i masc	0.0	{}
+dinapati	masc		i masc	0.0	{}
+thusarāsi	masc		i masc	0.0	{}
+dāvaggi	masc		i masc	0.0	{}
+pasupati	masc		i masc	0.0	{}
+petti	masc		i masc	0.0	{}
+pupphamuṭṭhi	masc		i masc	0.0	{}
+makaci	masc		i masc	0.0	{}
+mahāseṭṭhi	masc		i masc	0.0	{}
+mahāmaṇi	masc		i masc	0.0	{}
+mahāsandhi	masc		i masc	0.0	{}
+palālarāsi	masc		i masc	0.0	{}
+maggaphalasamādhi	masc		i masc	0.0	{}
+maggasamādhi	masc		i masc	0.0	{}
+tiṇamuṭṭhi	masc		i masc	0.0	{}
+camūpati	masc		i masc	0.0	{}
+tārakāpati	masc		i masc	0.0	{}
+catubrahmavihārasamādhi	masc		i masc	0.0	{}
+tividhaggi	masc		i masc	0.0	{}
+jaladhi	masc		i masc	0.0	{}
+jāyāpati	masc		i masc	0.0	{}
+jalamaggi	masc		i masc	0.0	{}
+jalanidhi	masc		i masc	0.0	{}
+sīhasenāpati	masc		i masc	0.0	{}
+sekhuniyaseṭṭhi	masc		i masc	0.0	{}
+saṅkāraggi	masc		i masc	0.0	{}
+rittamuṭṭhi	masc		i masc	0.0	{}
+vūpasamanabyādhi	masc		i masc	0.0	{}
+yati	masc		i masc	0.0	{}
+veṇubali	masc		i masc	0.0	{}
+vāyasāri	masc		i masc	0.0	{}
+sokaggi	masc		i masc	0.0	{}
+muttarāsi	masc		i masc	0.0	{}
+muttāvali	masc		i masc	0.0	{}
+sumati	masc	√man 3 (think)	i masc	0.0	{}
+vanaspati	masc		i masc	0.0	{}
+sarasandhi	masc		i masc	0.0	{}
+vyañjanasandhi	masc		i masc	0.0	{}
+muggarāsi	masc		i masc	0.0	{}
+suppaguṇasamādhi	masc		i masc	0.0	{}
+mātāpetti	masc		i masc	0.0	{}
+sosabyādhi	masc		i masc	0.0	{}
+vidhi	masc	√dhā 1 (place, support)	i masc	0.0	{}
+vyādhi	masc	√dhā 1 (place, support)	i masc	0.0	{}
+seṭṭhisenāpati	masc		i masc	0.0	{}
+sīlasamādhi	masc		i masc	0.0	{}
+migāraseṭṭhi	masc		i masc	0.0	{}
+mūlasamādhi	masc		i masc	0.0	{}
+kāyaggi	masc		i masc	0.0	{}
+kācamaṇi	masc		i masc	0.0	{}
+kāḷakaseṭṭhi	masc		i masc	0.0	{}
+gimhi	masc		i masc	0.0	{}
+antaganṭhi	masc		i masc	0.0	{}
+antokucchi	masc		i masc	0.0	{}
+anāthapiṇḍikamahāseṭṭhi	masc		i masc	0.0	{}
+indaggi	masc		i masc	0.0	{}
+upāligahapati	masc		i masc	0.0	{}
+siromaṇi	masc		i masc	0.0	{}
+rattamaṇi	masc		i masc	0.0	{}
+upādi	masc	√ādā 3 (take, seize)	i masc	0.0	{}
+kūṭāsakkhi	masc		i masc	0.0	{}
+khaṇikasamādhi	masc		i masc	0.0	{}
+kilesūpadhi	masc		i masc	0.0	{}
+upacārasamādhi	masc		i masc	0.0	{}
+uṇṇābhi	masc		i masc	0.0	{}
+udaraggi	masc		i masc	0.0	{}

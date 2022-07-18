@@ -1,0 +1,2273 @@
+headword	pos	root	pattern	count	found
+etadavoca	aor		avoca aor	3168.0	{'etadavoca': 2667, 'etadavocuṃ': 386, 'etadavocaṃ': 111, 'etadavocumha': 4}
+ahosi	aor	√hū 1 (be)	ahosi aor	3104.0	{'ahosi': 2163, 'ahesuṃ': 376, 'ahu': 310, 'ahosiṃ': 163, 'ahuvattha': 33, 'ahuṃ': 28, 'ahuvā': 12, 'ahumhā': 10, 'ahesumha': 5, 'ahumha': 4}
+tenupasaṅkami	aor		i aor	1846.0	{'tenupasaṅkami': 1396, 'tenupasaṅkamiṃsu': 319, 'tenupasaṅkamiṃ': 69, 'tenupasaṅkama': 48, 'tenupasaṅkamimha': 11, 'tenupasaṅkamimhā': 3}
+maggi	aor	√magg 8 (seek, search)	i aor	1218.0	{'maggaṃ': 639, 'maggo': 553, 'maggā': 24, 'magga': 1, 'maggiṃ': 1}
+nisīdi	aor	√sad 1 (sink, sit, settle)	i aor isuṃ	1192.0	{'nisīdi': 877, 'nisīdiṃsu': 251, 'nisīdiṃ': 37, 'nisīda': 16, 'nisīdimha': 3, 'nisīdimhā': 1, 'nisīdā': 5, 'nisīdī': 2}
+bhavi	aor	√bhū 1 (be)	i aor	1059.0	{'bhavaṃ': 866, 'bhavo': 131, 'bhava': 33, 'bhavā': 29}
+kiri	aor	√kir 1 (scatter, sprinkle)	i aor	759.0	{'kira': 754, 'kirā': 5}
+āmantesi	aor	√mant 8 (counsel, invite)	esi aor	747.0	{'āmantesi': 740, 'āmantesiṃ': 6, 'āmantesuṃ': 1}
+avoca	aor	√vac 1 (say, speak)	avoca aor	661.0	{'avoca': 505, 'avaca': 111, 'avacuttha': 18, 'avocumhā': 13, 'avacāsi': 8, 'avocumha': 2, 'avocaṃ': 1, 'avociṃ': 1, 'avocisuṃ': 1, 'avaciṃsu': 1}
+sayi	aor	√sī 1 (lie, sleep)	i aor	654.0	{'sayaṃ': 653, 'sayiṃsu': 1}
+paññāyi	aor	√ñā 5 (know)	i aor	628.0	{'paññāya': 577, 'paññāyittha': 43, 'paññāyiṃsu': 7, 'paññāyā': 1}
+yati	aor		i aor	600.0	{'yato': 588, 'yataṃ': 10, 'yatā': 2}
+udapādi	aor	√pad 3 (go, step)	i aor	519.0	{'udapādi': 469, 'udapādiṃ': 36, 'udapādī': 14}
+assosi	aor	√su 4 (hear)	assosi aor	501.0	{'assosuṃ': 166, 'assu': 228, 'assosi': 83, 'assumha': 11, 'assuttha': 7, 'assosiṃ': 6}
+passi	aor	√dis 1 (see)	i aor aṃsu	472.0	{'passaṃ': 269, 'passa': 197, 'passi': 3, 'passī': 1, 'passo': 1, 'passā': 1}
+tāyi	aor	√tā 3 (protect, preserve)	i aor	435.0	{'tāya': 296, 'tāyaṃ': 131, 'tāyo': 8}
+uttari	aor	√tar 1 (cross)	i aor	434.0	{'uttari': 186, 'uttariṃ': 125, 'uttaro': 41, 'uttaraṃ': 49, 'uttarā': 16, 'uttara': 15, 'uttarī': 2}
+paccassosi	aor	√su 4 (hear)	i aor	385.0	{'paccassosuṃ': 256, 'paccassosi': 129}
+āsavi	aor	√su 1 (flow)	i aor	376.0	{'āsavā': 360, 'āsavo': 13, 'āsavaṃ': 3}
+ārocesi	aor	√ruc 1 (shine, like)	esi aor	357.0	{'ārocesuṃ': 228, 'ārocesi': 128, 'ārocesiṃ': 1}
+sikkhi	aor	√sikkh 1 (learn, train)	i aor	325.0	{'sikkhā': 177, 'sikkhaṃ': 143, 'sikkhi': 5}
+addasa	aor	√dis 1 (see)	ddasa aor	315.0	{'addasaṃ': 118, 'addasa': 86, 'addasaṃsu': 37, 'addasāma': 24, 'addakkhuṃ': 17, 'addakkhi': 14, 'adda': 4, 'adakkhi': 3, 'addā': 3, 'addasāsiṃ': 2, 'addasāsi': 2, 'addakkhiṃ': 3, 'addasuṃ': 2}
+āhari	aor	√har 1 (carry)	hari aor	306.0	{'āhaṃsu': 297, 'āhāsi': 5, 'āhariṃsu': 2, 'āhari': 1, 'āhariṃ': 1}
+nandi	aor	√nand 1 (delight, enjoy)	i aor	305.0	{'nandī': 79, 'nando': 60, 'nandiṃ': 34, 'nandaṃ': 22, 'nanda': 89, 'nandi': 12, 'nandā': 9}
+vijji	aor	√vid 3 (be found, exist)	i aor	304.0	{'vijjā': 277, 'vijjaṃ': 24, 'vijjiṃsu': 2, 'vijjittha': 1}
+apāyi	aor	√pā 1 (drink)	i aor	291.0	{'apāyaṃ': 281, 'apāyi': 3, 'apāyiṃ': 2, 'apāyimha': 2, 'apāyā': 2, 'apāyo': 1}
+vasi	aor	√vas 1 (live)	i aor	273.0	{'vasaṃ': 162, 'vasī': 35, 'vasi': 20, 'vasā': 18, 'vaso': 14, 'vasa': 13, 'vasittha': 4, 'vasiṃ': 3, 'vasimhā': 2, 'vasuṃ': 1, 'vasimha': 1}
+vigarahi	aor	√garah 1 (blame)	i aor	270.0	{'vigarahi': 270}
+aṭṭhāsi	aor	√ṭhā 1 (stand)	āsi aor	261.0	{'aṭṭhāsi': 171, 'aṭṭhaṃsu': 68, 'aṭṭhāsiṃ': 17, 'aṭṭhamhā': 5}
+sammodi	aor	√mud 1 (be soft, happy)	i aor	261.0	{'sammodi': 194, 'sammodiṃsu': 53, 'sammodiṃ': 10, 'sammodimha': 3, 'sammodimhā': 1}
+mahi	aor	√mah 1 (venerate)	i aor	255.0	{'mahā': 158, 'mahī': 34, 'mahiṃ': 17, 'mahaṃ': 22, 'maha': 23, 'mahi': 1}
+panassi	aor	√nas 3 (be lost, disappear)	i aor	234.0	{'panassa': 211, 'panassaṃ': 11, 'panassā': 12}
+phali	aor	√phal 1 (split open)	i aor	232.0	{'phalaṃ': 199, 'phalā': 20, 'phaliṃsu': 9, 'phaliṃ': 2, 'phalī': 2}
+jīvi	aor	√jīv 1 (live)	i aor	229.0	{'jīvaṃ': 198, 'jīva': 19, 'jīvā': 9, 'jīvo': 2, 'jīviṃ': 1}
+pakkāmi	aor	√kam 1 (go)	i aor isuṃ	224.0	{'pakkāmi': 200, 'pakkāmiṃ': 4, 'pakkāmuṃ': 4, 'pakkāmī': 16}
+vadesi	aor	√vad 1 (say, speak)	esi aor	222.0	{'vadesi': 222}
+āsi	aor	√as 1 (be)	āsi aor irreg	218.0	{'āsi': 83, 'āsiṃ': 107, 'āsuṃ': 28}
+jāni	aor	√ñā 5 (know)	i aor	212.0	{'jānaṃ': 200, 'jāna': 4, 'jāniṃ': 3, 'jānimha': 2, 'jāni': 1, 'jāno': 1, 'jānā': 1}
+gacchi	aor	√gam 1 (go)	i aor	212.0	{'gaccha': 190, 'gacchaṃ': 20, 'gacchiṃ': 1, 'gacchi': 1}
+vihāsi	aor	√har 1 (live)	hari aor	205.0	{'vihāsi': 75, 'vihāsiṃ': 67, 'vihariṃsu': 31, 'viharittha': 11, 'vihariṃ': 6, 'vihaṃsu': 5, 'vihari': 4, 'viharimhā': 4, 'vihāsuṃ': 2}
+vihari	aor	√har 1 (live)	hari aor	205.0	{'vihāsi': 75, 'vihāsiṃ': 67, 'vihariṃsu': 31, 'viharittha': 11, 'vihariṃ': 6, 'vihaṃsu': 5, 'vihari': 4, 'viharimhā': 4, 'vihāsuṃ': 2}
+pāvisi	aor	√vis 1 (enter)	i aor	202.0	{'pāvisi': 148, 'pāvisiṃ': 30, 'pāvisiṃsu': 9, 'pāvisī': 11, 'pāvisuṃ': 3, 'pāvisimha': 1}
+jhāyi	aor	√jhā 3 (think, meditate)	i aor	196.0	{'jhāyī': 176, 'jhāya': 7, 'jhāyaṃ': 6, 'jhāyiṃ': 5, 'jhāyi': 2}
+nadi	aor	√nad 1 (roar)	i aor	187.0	{'nadī': 124, 'nadiṃ': 59, 'nadi': 2, 'nado': 2}
+abhinandi	aor	√nand 1 (delight, enjoy)	i aor	184.0	{'abhinandi': 15, 'abhinandiṃsu': 10, 'abhinandiṃ': 9, 'abhinandimha': 3, 'abhinanduṃ': 96, 'abhinandimhā': 1, 'abhinandī': 50}
+icchi	aor	√is 1 (wish for)	i aor	184.0	{'icchā': 119, 'iccho': 16, 'icchiṃsu': 10, 'icchaṃ': 32, 'icchiṃ': 6, 'icchi': 1}
+abbhaññāsi	aor	√ñā 5 (know)	āsi aor iṃsu	180.0	{'abbhaññāsiṃ': 113, 'abbhaññāsi': 39, 'abbhaññaṃsu': 19, 'abbhaññiṃsu': 9}
+kanti	aor	√kat 2 (cut)	i aor	179.0	{'kantā': 140, 'kanto': 23, 'kantaṃ': 15, 'kanta': 1}
+muni	aor	√mun 5 (think, know)	i aor	175.0	{'muni': 99, 'muniṃ': 26, 'munī': 49, 'muno': 1}
+sahi	aor	√sah 1 (overcome, prevail)	i aor	175.0	{'saha': 169, 'sahā': 6}
+abhāsi	aor	√bhā 1 (shine, speak)	āsi aor	174.0	{'abhāsi': 143, 'abhāsatha': 16, 'abhāsiṃ': 13, 'abhāsittha': 2}
+upekkhi	aor	√ikkh 1 (see, mark)	i aor	168.0	{'upekkhā': 118, 'upekkhaṃ': 50}
+akāsi	aor	√kar 7 (do, make)	āsi aor	167.0	{'akāsi': 92, 'akāsiṃ': 36, 'akaṃsu': 37, 'akattha': 2}
+paripūri	aor	√pūr 1 (fill, fulfil)	i aor	162.0	{'paripūraṃ': 59, 'paripūrā': 55, 'paripūro': 48}
+vicikicchi	aor	√cit 8 (think, intend)	i aor	161.0	{'vicikicchā': 106, 'vicikicchaṃ': 41, 'vicikiccho': 8, 'vicikicchī': 6}
+kassi	aor	√kass 1 (drag, draw along)	i aor	158.0	{'kassa': 143, 'kassaṃ': 14, 'kassā': 1}
+nami	aor	√nam 1 (bend)	i aor	158.0	{'namo': 126, 'nami': 3, 'nama': 29}
+samāpajji	aor	√pad 3 (go, step)	i aor	148.0	{'samāpajjiṃ': 76, 'samāpajji': 68, 'samāpajjiṃsu': 2, 'samāpajja': 2}
+pamādi	aor	√mad 3 (be mad, intoxicated)	i aor	148.0	{'pamādaṃ': 76, 'pamādo': 48, 'pamādā': 8, 'pamādī': 8, 'pamādiṃsu': 4, 'pamāda': 4}
+ajjhabhāsi	aor	√bhās 1 (speak)	āsi aor	146.0	{'ajjhabhāsi': 131, 'ajjhabhāsatha': 11, 'ajjhabhāsiṃ': 2, 'ajjhabhāsittha': 2}
+agamāsi	aor	√gam 1 (go)	āsi aor iṃsu	144.0	{'agamāsi': 82, 'agamaṃsu': 50, 'agamāsiṃ': 11, 'agamamhā': 1}
+pajāyi	aor	√jan 3 (be born, produce)	i aor	137.0	{'pajāya': 137}
+pāturahosi	aor	√hū 1 (be)	ahosi aor	137.0	{'pāturahosi': 107, 'pāturahu': 14, 'pāturahesuṃ': 13, 'pāturahosiṃ': 2, 'pāturahuṃ': 1}
+kālamakāsi	aor		āsi aor	136.0	{'kālamakāsi': 130, 'kālamakaṃsu': 6}
+dibbi	aor	√div 3 (shine)	i aor	135.0	{'dibbaṃ': 84, 'dibbā': 42, 'dibbo': 7, 'dibbiṃsu': 2}
+adāsi	aor	√dā 1 (give)	āsi aor	133.0	{'adāsi': 105, 'adaṃsu': 17, 'adāsiṃ': 10, 'adamhā': 1}
+saṃvari	aor	√var 1 (cover, dress, restrain)	i aor	131.0	{'saṃvaraṃ': 79, 'saṃvaro': 31, 'saṃvarā': 10, 'saṃvariṃ': 4, 'saṃvara': 2, 'saṃvarī': 5}
+cari	aor	√car 1 (move, walk)	i aor	130.0	{'cara': 69, 'caraṃ': 40, 'cari': 7, 'carā': 3, 'carimha': 2, 'carittha': 2, 'cariṃsu': 2, 'caro': 2, 'cariṃ': 1, 'carī': 1, 'carimhā': 1}
+kaṅkhi	aor	√kaṅkh 1 (doubt)	i aor	126.0	{'kaṅkhā': 85, 'kaṅkhaṃ': 30, 'kaṅkhī': 7, 'kaṅkha': 3, 'kaṅkhi': 1}
+udānesi	aor	√an 1 (breath, blow)	esi aor	125.0	{'udānesi': 125}
+rajji	aor	√raj 3 (desire)	i aor	122.0	{'rajjaṃ': 114, 'rajjuṃ': 8}
+bhuñji	aor	√bhuj 2 (use, eat, enjoy)	i aor	120.0	{'bhuñja': 61, 'bhuñjiṃsu': 30, 'bhuñji': 20, 'bhuñjittha': 3, 'bhuñjiṃ': 3, 'bhuñjimhā': 2, 'bhuñjaṃ': 1}
+vipassi	aor	√dis 1 (see)	i aor isuṃ	118.0	{'vipassī': 95, 'vipassiṃ': 17, 'vipassisuṃ': 2, 'vipassa': 2, 'vipassaṃ': 1, 'vipassi': 1}
+antaradhāyi	aor	√dhā 1 (place, support)	i aor	116.0	{'antaradhāyi': 43, 'antaradhāyī': 54, 'antaradhāyiṃsu': 19}
+khami	aor	√kham 1 (tolerate, endure)	i aor	110.0	{'khamo': 87, 'khamā': 14, 'khama': 9}
+anukampi	aor	√kamp 1 (shake, tremble)	i aor	107.0	{'anukampaṃ': 91, 'anukampā': 12, 'anukampi': 2, 'anukampa': 2}
+sāyi	aor	√sāy 1 (taste)	i aor	105.0	{'sāyaṃ': 94, 'sāyi': 2, 'sāyiṃsu': 1, 'sāya': 8}
+samatikkami	aor	√kam 1 (go)	i aor	104.0	{'samatikkamā': 72, 'samatikkamo': 29, 'samatikkamaṃ': 3}
+pajahi	aor	√hā 1 (abandon)	i aor aṃsu	102.0	{'pajaha': 38, 'pajahaṃ': 28, 'pajahiṃsu': 23, 'pajahiṃ': 11, 'pajahimhā': 2}
+āgami	aor	√gam 1 (go)	i aor aṃsu	95.0	{'āgamo': 62, 'āgamā': 16, 'āgamaṃ': 11, 'āgamaṃsu': 5, 'āgamuṃ': 1}
+ottappi	aor	√tapp 1 (regret)	i aor	93.0	{'ottappī': 44, 'ottappaṃ': 49}
+vassi	aor	√vass 1 (rain)	i aor	91.0	{'vassaṃ': 83, 'vassā': 3, 'vassa': 4, 'vassi': 1}
+pucchi	aor	√pucch 1 (ask, question)	i aor	91.0	{'puccha': 36, 'pucchi': 20, 'pucchiṃsu': 5, 'pucchittha': 4, 'pucchā': 3, 'pucchiṃ': 4, 'pucchimha': 1, 'pucchī': 17, 'pucchaṃ': 1}
+āgamā	aor	√gam 1 (go)	i aor	90.0	{'āgamo': 62, 'āgamā': 16, 'āgamaṃ': 11, 'āgamuṃ': 1}
+pati	aor	√pat 1 (fall)	i aor	90.0	{'pati': 55, 'patiṃ': 22, 'patī': 11, 'pataṃ': 1, 'patiṃsu': 1}
+aññāsi	aor	√ñā 5 (know)	āsi aor iṃsu	90.0	{'aññāsi': 79, 'aññattha': 6, 'aññāsiṃ': 4, 'aññiṃsu': 1}
+bhaṇḍi	aor	√bhaṇḍ 1 (blame, accuse)	i aor	89.0	{'bhaṇḍaṃ': 85, 'bhaṇḍiṃsu': 1, 'bhaṇḍuṃ': 1, 'bhaṇḍi': 1, 'bhaṇḍī': 1}
+apucchi	aor	√pucch 1 (ask, question)	i aor isuṃ	88.0	{'apucchi': 47, 'apucchuṃ': 15, 'apucchimhā': 10, 'apucchimha': 9, 'apucchiṃ': 4, 'apucchiṃsu': 2, 'apucchittha': 1}
+dakkhi	aor	√dis 1 (see)	i aor	87.0	{'dakkho': 75, 'dakkhā': 8, 'dakkhi': 2, 'dakkhuṃ': 1, 'dakkhaṃ': 1}
+katthi	aor	√katth 1 (boast)	i aor	85.0	{'kattha': 81, 'katthī': 4}
+tapi	aor	√tap 1 (burn, radiate heat)	i aor	84.0	{'tapaṃ': 47, 'tapo': 34, 'tapī': 2, 'tapā': 1}
+byākāsi	aor	√kar 7 (do, make)	āsi aor	83.0	{'byākāsi': 56, 'byākaṃsu': 14, 'byākāsiṃ': 13}
+sappi	aor	√sapp 1 (crawl)	i aor	83.0	{'sappi': 38, 'sappiṃ': 24, 'sappimhā': 12, 'sappaṃ': 3, 'sappo': 2, 'sappa': 1, 'sappā': 1, 'sappī': 2}
+mucci	aor	√muc 2 (release, free)	i aor	81.0	{'mucci': 76, 'muccittha': 4, 'mucca': 1}
+tacchi	aor	√tacch 1 (cut, chop)	i aor	80.0	{'tacchaṃ': 56, 'tacchā': 16, 'taccho': 4, 'taccha': 2, 'tacchi': 1, 'tacchiṃ': 1}
+pamāṇi	aor	√mā 5 (measure)	i aor	80.0	{'pamāṇaṃ': 56, 'pamāṇiṃsu': 1, 'pamāṇā': 23}
+acari	aor	√car 1 (act, behave)	i aor	79.0	{'acariṃ': 42, 'acari': 19, 'acarī': 16, 'acaruṃ': 1, 'acariṃsu': 1}
+viññāyi	aor	√ñā 5 (know)	i aor	78.0	{'viññāya': 78}
+pakkami	aor	√kam 1 (go)	i aor isuṃ	77.0	{'pakkamiṃsu': 47, 'pakkamiṃ': 18, 'pakkami': 4, 'pakkama': 4, 'pakkamimha': 3, 'pakkamimhā': 1}
+alattha	aor	√labh 1 (get)	lattha aor	75.0	{'alattha': 55, 'alatthaṃ': 12, 'alatthuṃ': 6, 'alatthamha': 2}
+posi	aor	√pus 1 (nourish, take care)	i aor	74.0	{'poso': 51, 'posaṃ': 14, 'posa': 7, 'posā': 2}
+sari	aor	√sar 1 (remember)	i aor	73.0	{'saraṃ': 28, 'saro': 23, 'sara': 11, 'sarā': 11}
+issi	aor	√iss 1 (be envious, jealous)	i aor	73.0	{'issā': 54, 'issaṃ': 16, 'isso': 2, 'issiṃ': 1}
+adi	aor	√ad 1 (eat)	i aor	72.0	{'adā': 24, 'aduṃ': 31, 'ado': 12, 'ada': 4, 'adaṃ': 1}
+tadavasari	aor		i aor	71.0	{'tadavasari': 66, 'tadavasariṃ': 5}
+pabbaji	aor	√vaj 1 (go on)	i aor	70.0	{'pabbajiṃ': 24, 'pabbaji': 23, 'pabbajaṃ': 8, 'pabbaja': 6, 'pabbajiṃsu': 4, 'pabbajī': 3, 'pabbajā': 2}
+abhikkami	aor	√kam 1 (go)	i aor	68.0	{'abhikkama': 16, 'abhikkamiṃsu': 1, 'abhikkamo': 51}
+adhivāsesi	aor	√vas 1 (live)	esi aor	68.0	{'adhivāsesi': 63, 'adhivāsesuṃ': 4, 'adhivāsesiṃ': 1}
+paṭikkami	aor	√kam 1 (go)	i aor	67.0	{'paṭikkamo': 53, 'paṭikkami': 7, 'paṭikkamiṃ': 6, 'paṭikkama': 1}
+passasi	aor	√sas 1 (breath)	i aor	67.0	{'passasi': 56, 'passasī': 11}
+vatti	aor	√vatt 1 (be, proceed)	i aor	67.0	{'vattā': 35, 'vattaṃ': 22, 'vatti': 2, 'vatto': 2, 'vattuṃ': 2, 'vatta': 4}
+maññi	aor	√man 3 (think)	i aor	65.0	{'maññi': 10, 'maññittho': 4, 'maññaṃ': 4, 'maññiṃsu': 1, 'mañña': 46}
+abhikkhaṇi	aor	√khaṇ 1 (dig)	i aor	64.0	{'abhikkhaṇaṃ': 48, 'abhikkhaṇa': 16}
+pāyāsi	aor	√yā 1 (go)	āsi aor	62.0	{'pāyāsi': 57, 'pāyāsiṃ': 5}
+ussukki	aor		i aor	60.0	{'ussukkaṃ': 55, 'ussukko': 5}
+nāsakkhi	aor	√sak 4 (be able, powerful)	i aor	60.0	{'nāsakkhi': 30, 'nāsakkhiṃ': 11, 'nāsakkhiṃsu': 9, 'nāsakkhimha': 6, 'nāsakkhimhā': 4}
+nibbindi	aor	√vid 2 (feel, like)	i aor	59.0	{'nibbindaṃ': 56, 'nibbinda': 2, 'nibbindo': 1}
+apekkhi	aor	√ikkh 1 (see, mark)	i aor	58.0	{'apekkhaṃ': 49, 'apekkhā': 9}
+vini	aor		i aor	58.0	{'vinā': 57, 'vinimhase': 1}
+akari	aor	√kar 7 (do, make)	kari aor	58.0	{'akaṃsu': 37, 'akaraṃ': 9, 'akarā': 6, 'akari': 4, 'akarī': 2}
+upapajji	aor	√pad 3 (go, step)	i aor	58.0	{'upapajjiṃsu': 25, 'upapajji': 16, 'upapajja': 14, 'upapajjaṃ': 3}
+samādapesi	aor	√ādā 3 (take, seize)	esi aor	57.0	{'samādapesi': 54, 'samādapesiṃ': 3}
+vāyi	aor	√vā 1 (blow, emit odour)	i aor	57.0	{'vāyaṃ': 35, 'vāyo': 21, 'vāyi': 1}
+maddi	aor	√madd 1 (crush, grind)	i aor	55.0	{'maddī': 32, 'maddi': 13, 'maddiṃ': 6, 'maddā': 2, 'madda': 1, 'maddo': 1}
+pavedesi	aor	√vid 1 (know)	esi aor	54.0	{'pavedesi': 51, 'pavedesiṃ': 3}
+āpajji	aor	√pad 3 (go, step)	i aor	54.0	{'āpajjiṃsu': 34, 'āpajjiṃ': 12, 'āpajji': 5, 'āpajjimhā': 1, 'āpajja': 2}
+parinibbāyi	aor	√vā 1 (blow, emit odour)	i aor	53.0	{'parinibbāyī': 43, 'parinibbāyi': 10}
+rakkhi	aor	√rakkh 1 (protect)	i aor	53.0	{'rakkhaṃ': 25, 'rakkhā': 24, 'rakkhiṃ': 2, 'rakkha': 2}
+sambhavi	aor	√bhū 1 (be)	i aor	52.0	{'sambhavaṃ': 37, 'sambhavo': 13, 'sambhavā': 2}
+aggahesi	aor	√gah 6 (grasp)	esi aor	50.0	{'aggahesi': 43, 'aggahesuṃ': 7}
+sandassesi	aor	√dis 1 (see)	esi aor	49.0	{'sandassesi': 46, 'sandassesiṃ': 3}
+āsajji	aor	√sad 1 (sink, sit, settle)	i aor	49.0	{'āsajja': 49}
+vimucci	aor	√muc 2 (release, free)	i aor	48.0	{'vimuccittha': 24, 'vimucci': 17, 'vimucciṃsu': 5, 'vimuccī': 2}
+bhāyi	aor	√bhī 1 (fear)	i aor	47.0	{'bhāyi': 42, 'bhāyittha': 2, 'bhāyī': 3}
+sampahaṃsesi	aor	√haṃs 1 (rise, elate)	esi aor	46.0	{'sampahaṃsesi': 43, 'sampahaṃsesiṃ': 3}
+parihāyi	aor	√hā 3 (decrease)	i aor	46.0	{'parihāyi': 39, 'parihāyiṃsu': 4, 'parihāyī': 3}
+samuttejesi	aor	√tij 8 (be sharp, hot)	esi aor	46.0	{'samuttejesi': 43, 'samuttejesiṃ': 3}
+jini	aor	√ji 5 (conquer)	i aor	45.0	{'jinaṃ': 19, 'jiniṃsu': 13, 'jino': 11, 'jinā': 2}
+sakkhi	aor	√sak 4 (be able, powerful)	i aor	45.0	{'sakkhi': 22, 'sakkhiṃ': 12, 'sakkhī': 9, 'sakkhimhā': 2}
+pavisi	aor	√vis 1 (enter)	i aor	45.0	{'pavisa': 20, 'pavisiṃsu': 19, 'pavisimhā': 2, 'pavisimha': 2, 'pavisaṃ': 1, 'pavisi': 1}
+vadi	aor	√vad 1 (say, speak)	i aor	44.0	{'vadaṃ': 35, 'vada': 6, 'vado': 2, 'vadī': 1}
+acchi	aor	√ās 1 (sit)	i aor issaṃ	44.0	{'accho': 22, 'acchā': 9, 'accha': 5, 'acchaṃ': 4, 'acchi': 3, 'acchiṃsu': 1}
+desesi	aor	√dis 1 (point out, explain)	esi aor	44.0	{'desesi': 36, 'desesuṃ': 4, 'desesiṃ': 4}
+lajji	aor	√lajj 1 (be ashamed)	i aor	44.0	{'lajjī': 39, 'lajjā': 5}
+paribhuñji	aor	√bhuj 2 (use, eat, enjoy)	i aor	44.0	{'paribhuñji': 21, 'paribhuñjiṃsu': 14, 'paribhuñja': 3, 'paribhuñjā': 6}
+raji	aor	√raj 1 (colour)	i aor	44.0	{'rajo': 23, 'rajaṃ': 20, 'raja': 1}
+ādiyi	aor	√ādā 3 (take, seize)	i aor	43.0	{'ādiyi': 14, 'ādiyo': 8, 'ādiyā': 6, 'ādiya': 2, 'ādiyī': 13}
+parijāni	aor	√ñā 5 (know)	i aor	43.0	{'parijānaṃ': 43}
+pāhesi	aor	√hi 4 (send)	esi aor	43.0	{'pāhesi': 32, 'pāhesuṃ': 10, 'pāhesiṃ': 1}
+samanupassi	aor	√dis 1 (see)	i aor aṃsu	42.0	{'samanupassiṃ': 2, 'samanupassa': 40}
+voropesi	aor	√ruh 1 (ascend, grow)	esi aor	42.0	{'voropesi': 31, 'voropesuṃ': 10, 'voropesiṃ': 1}
+upakkami	aor	√kam 1 (go)	i aor	42.0	{'upakkamo': 23, 'upakkamiṃsu': 11, 'upakkamimha': 3, 'upakkami': 2, 'upakkamuṃ': 2, 'upakkamā': 1}
+yāci	aor	√yāc 1 (beg)	i aor	41.0	{'yāci': 25, 'yācaṃ': 5, 'yācimhā': 3, 'yācittha': 3, 'yāca': 2, 'yāciṃsu': 2, 'yāciṃ': 1}
+haṃsi	aor	√haṃs 1 (rise, elate)	i aor	40.0	{'haṃsā': 19, 'haṃsa': 15, 'haṃso': 4, 'haṃsi': 2}
+paṭibhāsi	aor	√bhā 1 (shine, speak)	āsi aor	40.0	{'paṭibhāsi': 29, 'paṭibhaṃsu': 11}
+mākāsi	aor		āsi aor	39.0	{'mākāsi': 38, 'mākattha': 1}
+nikkhami	aor	√kam 1 (go)	i aor isuṃ	38.0	{'nikkhami': 18, 'nikkhama': 16, 'nikkhamiṃ': 2, 'nikkhamo': 1, 'nikkhamiṃsu': 1}
+muñci	aor	√muc 2 (release, free)	i aor	37.0	{'muñca': 17, 'muñci': 12, 'muñcittha': 4, 'muñciṃsu': 2, 'muñcaṃ': 2}
+bhaṇi	aor	√bhaṇ 1 (talk, speak)	i aor	37.0	{'bhaṇaṃ': 15, 'bhaṇa': 13, 'bhaṇi': 4, 'bhaṇī': 3, 'bhaṇimhā': 1, 'bhaṇiṃ': 1}
+gijjhi	aor	√gidh 3 (be greedy)	i aor	37.0	{'gijjho': 8, 'gijjhā': 24, 'gijjha': 3, 'gijjhaṃ': 2}
+vivari	aor	√var 1 (cover, dress, restrain)	i aor	36.0	{'vivaraṃ': 21, 'vivari': 6, 'vivariṃsu': 4, 'vivariṃ': 3, 'vivaro': 1, 'vivarittha': 1}
+parimucci	aor	√muc 2 (release, free)	i aor	36.0	{'parimucciṃsu': 36}
+khaṇi	aor	√khaṇ 1 (dig)	i aor	36.0	{'khaṇo': 19, 'khaṇaṃ': 14, 'khaṇi': 2, 'khaṇā': 1}
+anubandhi	aor	√bandh 1 (bind, tie)	i aor isuṃ	36.0	{'anubandhi': 13, 'anubandho': 9, 'anubandhā': 6, 'anubandhiṃsu': 5, 'anubandhaṃ': 1, 'anubandhisuṃ': 1, 'anubandhiṃ': 1}
+bandhi	aor	√bandh 1 (bind, tie)	i aor	36.0	{'bandhaṃ': 20, 'bandho': 8, 'bandha': 2, 'bandhū': 2, 'bandhi': 2, 'bandhā': 1, 'bandhiṃ': 1}
+anusayi	aor	√sī 1 (lie, sleep)	i aor	35.0	{'anusayā': 23, 'anusayo': 10, 'anusayaṃ': 2}
+abhijjhāyi	aor	√jhā 3 (think, meditate)	i aor	35.0	{'abhijjhāya': 34, 'abhijjhāyiṃsu': 1}
+vedi	aor	√vid 8 (know, sense, feel)	i aor	35.0	{'vedi': 15, 'vedā': 13, 'vedī': 4, 'vedaṃ': 3}
+upāgami	aor	√gam 1 (go)	i aor aṃsu	35.0	{'upāgami': 23, 'upāgamuṃ': 8, 'upāgamiṃ': 2, 'upāgamaṃ': 2}
+samāgami	aor	√gam 1 (go)	i aor	35.0	{'samāgamo': 22, 'samāgamaṃ': 7, 'samāgamiṃ': 3, 'samāgamimha': 2, 'samāgamā': 1}
+vepullamagamāsi	aor		āsi aor	35.0	{'vepullamagamāsi': 27, 'vepullamagamaṃsu': 8}
+paccaññāsi	aor	√ñā 5 (know)	āsi aor iṃsu	35.0	{'paccaññāsiṃ': 35}
+nassi	aor	√nas 3 (be lost, disappear)	i aor	34.0	{'nassa': 27, 'nassaṃ': 1, 'nassī': 6}
+viyākāsi	aor	√kar 7 (do, make)	āsi aor	34.0	{'viyākāsi': 32, 'viyākaṃsu': 2}
+vīmaṃsi	aor	√man 3 (think)	i aor	34.0	{'vīmaṃsā': 26, 'vīmaṃsī': 7, 'vīmaṃsaṃ': 1}
+paṭipucchi	aor	√pucch 1 (ask, question)	i aor	34.0	{'paṭipucchi': 27, 'paṭipucchimha': 5, 'paṭipucchā': 2}
+nāhosi	aor	√hū 1 (be)	nāhosi aor	33.0	{'nāhosi': 22, 'nāhu': 7, 'nāhosiṃ': 2, 'nāhesuṃ': 1, 'nāhumha': 1}
+avahari	aor	√har 1 (take, seize)	hari aor	33.0	{'avahari': 31, 'avahāsi': 1, 'avahariṃsu': 1}
+upagacchi	aor	√gam 1 (go)	i aor	33.0	{'upagacchi': 18, 'upagacchiṃsu': 8, 'upagacchiṃ': 4, 'upagacchuṃ': 3}
+uppajji	aor	√pad 3 (go, step)	i aor	32.0	{'uppajji': 28, 'uppajja': 2, 'uppajjiṃsu': 1, 'uppajjimha': 1}
+avadhi	aor	√vadh 8 (hurt, slaughter)	i aor	32.0	{'avadhi': 24, 'avadhiṃsu': 3, 'avadhī': 3, 'avadhiṃ': 2}
+upasaṅkami	aor	√kam 1 (go)	i aor	31.0	{'upasaṅkami': 14, 'upasaṅkamiṃ': 7, 'upasaṅkamiṃsu': 6, 'upasaṅkamimhā': 1, 'upasaṅkamī': 3}
+santappesi	aor	√tapp 8 (satisfy)	esi aor	31.0	{'santappesi': 28, 'santappesuṃ': 3}
+abhijāni	aor	√ñā 5 (know)	i aor	31.0	{'abhijānaṃ': 31}
+abbhācikkhi	aor	√cikkh 1 (show, tell)	i aor	30.0	{'abbhācikkhi': 29, 'abbhācikkhiṃ': 1}
+codesi	aor	√cud 8 (impel, accuse)	esi aor	30.0	{'codesuṃ': 18, 'codesi': 12}
+pakāsesi	aor	√kās 1 (shine, be visible)	esi aor	30.0	{'pakāsesi': 27, 'pakāsesuṃ': 3}
+samādhesi	aor	√dhā 1 (place, support)	esi aor	30.0	{'samādhimhā': 28, 'samādhesiṃ': 2}
+khādi	aor	√khād 1 (chew)	i aor	30.0	{'khāda': 18, 'khādiṃ': 4, 'khādiṃsu': 4, 'khādi': 3, 'khādaṃ': 1}
+ācikkhi	aor	√cikkh 1 (show, tell)	i aor	30.0	{'ācikkha': 16, 'ācikkhi': 10, 'ācikkhaṃ': 1, 'ācikkhiṃ': 1, 'ācikkhā': 2}
+sampavāresi	aor	√var 8 (wish, choose)	esi aor	30.0	{'sampavāresi': 27, 'sampavāresuṃ': 3}
+ahāsi	aor	√har 1 (carry)	hari aor	29.0	{'ahāsi': 28, 'ahāsuṃ': 1}
+akkosi	aor	√kus 1 (call, insult)	i aor	29.0	{'akkoso': 15, 'akkosā': 6, 'akkosaṃ': 7, 'akkosiṃsu': 1}
+aparaddhi	aor	√rādh 3 (succeed, please)	i aor	29.0	{'aparaddhaṃ': 19, 'aparaddho': 4, 'aparaddhā': 5, 'aparaddhuṃ': 1}
+dhāresi	aor	√dhar 8 (wear, hold, carry)	esi aor	28.0	{'dhāresi': 27, 'dhāresuṃ': 1}
+pavatti	aor	√vatt 1 (be, proceed)	i aor	28.0	{'pavattā': 16, 'pavatti': 9, 'pavattittha': 1, 'pavattaṃ': 1, 'pavatta': 1}
+kasi	aor	√kas 1 (drag, draw)	i aor	28.0	{'kasiṃ': 13, 'kasi': 10, 'kasī': 4, 'kasaṃ': 1}
+bhāvesi	aor	√bhū 1 (be)	esi aor	27.0	{'bhāvesi': 16, 'bhāvesiṃ': 11}
+paññapesi	aor	√ñā 5 (know)	esi aor	27.0	{'paññapesi': 25, 'paññapesuṃ': 2}
+kappesi	aor	√kapp 1 (be fit, be suitable)	esi aor	27.0	{'kappesi': 25, 'kappesuṃ': 2}
+ajini	aor	√ji 5 (conquer)	i aor	27.0	{'ajini': 8, 'ajinaṃ': 15, 'ajino': 2, 'ajinī': 1, 'ajinā': 1}
+paṭipajji	aor	√pad 3 (go, step)	i aor	26.0	{'paṭipajja': 10, 'paṭipajjiṃ': 6, 'paṭipajji': 6, 'paṭipajjiṃsu': 2, 'paṭipajjimha': 2}
+jāgari	aor	√jāgar 1 (be awake, watchful)	i aor	26.0	{'jāgaro': 23, 'jāgarā': 2, 'jāgaraṃ': 1}
+samacintesi	aor	√cint 8 (think)	esi aor	26.0	{'samacintesuṃ': 25, 'samacintesi': 1}
+amaññi	aor	√man 3 (think)	i aor issaṃ	26.0	{'amaññimha': 10, 'amaññissaṃ': 4, 'amaññi': 4, 'amaññiṃsu': 3, 'amaññittha': 2, 'amaññimhā': 2, 'amaññaṃ': 1}
+paridevi	aor	√dev 1 (lament)	i aor	25.0	{'paridevo': 10, 'paridevī': 8, 'paridevittha': 3, 'paridevaṃ': 3, 'paridevi': 1}
+anumodi	aor	√mud 1 (be soft, happy)	i aor isuṃ	25.0	{'anumodi': 20, 'anumodiṃsu': 4, 'anumodittha': 1}
+apakkami	aor	√kam 1 (go)	i aor	25.0	{'apakkamiṃ': 10, 'apakkami': 8, 'apakkamiṃsu': 1, 'apakkama': 5, 'apakkamuṃ': 1}
+joti	aor	√jut 1 (shine)	i aor isuṃ	25.0	{'jotiṃ': 14, 'joti': 11}
+acchecchi	aor	√chid 2 (cut, steal)	i aor	25.0	{'acchecchi': 22, 'acchecchuṃ': 3}
+ṭhapesi	aor	√ṭhā 1 (stand)	esi aor	24.0	{'ṭhapesi': 14, 'ṭhapesuṃ': 8, 'ṭhapimha': 2}
+dadi	aor	√dā 1 (give)	i aor	24.0	{'dadaṃ': 17, 'dado': 6, 'dada': 1}
+agami	aor	√gam 1 (go)	i aor	24.0	{'agamā': 16, 'agamittha': 6, 'agamimha': 1, 'agamī': 1}
+ativijjhi	aor	√vidh 3 (throw, pierce)	i aor	24.0	{'ativijjha': 24}
+paṭiggahesi	aor	√gah 6 (grasp)	esi aor	24.0	{'paṭiggahesi': 19, 'paṭiggahesuṃ': 4, 'paṭiggahesiṃ': 1}
+gādhi	aor	√gādh 1 (stand firmly)	i aor	24.0	{'gādhaṃ': 24}
+bahulamakāsi	aor		āsi aor	23.0	{'bahulamakāsiṃ': 10, 'bahulamakaṃsu': 7, 'bahulamakāsi': 6}
+paṭisevi	aor	√sev 1 (serve, associate)	i aor	23.0	{'paṭisevi': 16, 'paṭiseviṃsu': 4, 'paṭisevittha': 2, 'paṭisevittho': 1}
+pavassi	aor	√vass 1 (rain)	i aor	23.0	{'pavassa': 21, 'pavassi': 2}
+abhininnāmesi	aor	√nam 1 (bend)	esi aor	23.0	{'abhininnāmesiṃ': 23}
+hiṃsi	aor	√his 2 (hurt, harm)	i aor	23.0	{'hiṃsā': 11, 'hiṃsi': 8, 'hiṃsaṃ': 2, 'hiṃsa': 2}
+āpucchi	aor	√pucch 1 (ask, question)	i aor issaṃ	23.0	{'āpucchā': 19, 'āpucchaṃ': 2, 'āpucchi': 2}
+bhakkhi	aor	√bhakkh 1 (eat)	i aor	23.0	{'bhakkho': 14, 'bhakkhā': 6, 'bhakkhaṃ': 2, 'bhakkhimha': 1}
+upāvisi	aor	√vis 1 (enter)	i aor	23.0	{'upāvisi': 12, 'upāvisiṃ': 9, 'upāvisuṃ': 2}
+jayi	aor	√ji 1 (overpower)	i aor	23.0	{'jayo': 12, 'jayaṃ': 11}
+pādāsi	aor	√dā 1 (give)	āsi aor	22.0	{'pādāsi': 12, 'pādaṃsu': 8, 'pādāsiṃ': 2}
+paccabhāsi	aor	√bhās 1 (speak)	āsi aor	22.0	{'paccabhāsi': 16, 'paccabhāsiṃ': 5, 'paccabhāsatha': 1}
+soci	aor	√suc 1 (grieve)	i aor	22.0	{'soci': 9, 'socī': 8, 'socittha': 3, 'soca': 1, 'socaṃ': 1}
+kujjhi	aor	√kudh 3 (be angry)	i aor	22.0	{'kujjhi': 10, 'kujjha': 9, 'kujjhittha': 2, 'kujjhaṃ': 1}
+sādiyi	aor	√sād 1 (taste, relish)	i aor	22.0	{'sādiyi': 17, 'sādiyiṃsu': 4, 'sādiyiṃ': 1}
+pasaṃsi	aor	√saṃs 1 (proclaim, praise)	i aor	22.0	{'pasaṃsā': 13, 'pasaṃsaṃ': 8, 'pasaṃsi': 1}
+nibbijji	aor	√vid 2 (feel, like)	i aor	22.0	{'nibbijja': 21, 'nibbijjā': 1}
+saṃsandi	aor	√sand 1 (flow)	i aor	22.0	{'saṃsandiṃsu': 22}
+nappaṭikkosi	aor	√kus 1 (call, insult)	i aor	22.0	{'nappaṭikkosiṃ': 9, 'nappaṭikkosi': 5, 'nappaṭikkosiṃsu': 4, 'nappaṭikkosimha': 3, 'nappaṭikkosimhā': 1}
+sukkhi	aor	√sus 3 (dry, wither)	i aor	22.0	{'sukkhaṃ': 19, 'sukkha': 2, 'sukkho': 1}
+asakkhi	aor	√sak 4 (be able, powerful)	i aor	21.0	{'asakkhi': 14, 'asakkhiṃ': 6, 'asakkhiṃsu': 1}
+mettāyi	aor	√mitt 1 (be friendly)	i aor	21.0	{'mettāya': 21}
+manasākāsi	aor		āsi aor	21.0	{'manasākāsi': 15, 'manasākattha': 6}
+kicchi	aor		i aor	21.0	{'kicchā': 11, 'kicchaṃ': 8, 'kiccho': 2}
+pupphi	aor	√pupph 1 (flower, expand)	i aor	21.0	{'pupphaṃ': 19, 'pupphā': 2}
+tasi	aor	√tas 1 (tremble, fear)	i aor	21.0	{'tasaṃ': 16, 'tasā': 4, 'tasa': 1}
+sajjhāyi	aor	√i 1 (study, recite)	i aor	21.0	{'sajjhāyaṃ': 21}
+paripucchi	aor	√pucch 1 (ask, question)	i aor	20.0	{'paripucchā': 11, 'paripucchaṃ': 6, 'paripucchi': 2, 'paripuccha': 1}
+kari	aor	√kar 7 (do, make)	kari aor	20.0	{'karaṃ': 10, 'kari': 4, 'kariṃsu': 2, 'karo': 2, 'karimhā': 1, 'kariṃ': 1}
+parābhavi	aor	√bhū 1 (be)	i aor	20.0	{'parābhavo': 19, 'parābhavā': 1}
+saddamakāsi	aor		āsi aor	20.0	{'saddamakattha': 12, 'saddamakāsi': 8}
+pajji	aor	√pad 3 (go, step)	i aor	20.0	{'pajja': 14, 'pajjaṃ': 5, 'pajjittha': 1}
+majji	aor	√majj 1 (rub, polish)	i aor	20.0	{'majjaṃ': 16, 'majja': 4}
+sārajji	aor	√raj 3 (desire)	i aor	20.0	{'sārajjaṃ': 20}
+nālattha	aor	√labh 1 (get)	lattha aor	20.0	{'nālatthaṃ': 19, 'nālatthuṃ': 1}
+nābbhaññāsi	aor	√ñā 5 (know)	āsi aor iṃsu	19.0	{'nābbhaññāsiṃ': 11, 'nābbhaññaṃsu': 7, 'nābbhaññiṃsu': 1}
+cavi	aor	√cu 1 (shift, fall away, die)	i aor	19.0	{'cavi': 17, 'cavittha': 2}
+pāpuṇi	aor	√ap 4 (reach, attain)	i aor	19.0	{'pāpuṇiṃ': 13, 'pāpuṇi': 4, 'pāpuṇī': 1, 'pāpuṇa': 1}
+sampassi	aor	√dis 1 (see)	i aor aṃsu	19.0	{'sampassaṃ': 18, 'sampassa': 1}
+dhammamadesesi	aor		esi aor	19.0	{'dhammamadesesi': 19}
+vandi	aor	√vand 1 (bow, honour)	i aor issaṃ	19.0	{'vanda': 10, 'vandi': 3, 'vandiṃsu': 2, 'vandissaṃ': 2, 'vandisaṃ': 1, 'vandittha': 1}
+caṅkami	aor	√kam 1 (go)	i aor	18.0	{'caṅkamaṃ': 9, 'caṅkamā': 4, 'caṅkamo': 3, 'caṅkami': 1, 'caṅkamiṃ': 1}
+gami	aor	√gam 1 (go)	i aor aṃsu	18.0	{'gami': 5, 'gamo': 2, 'gamittha': 2, 'gama': 8, 'gamā': 1}
+nindi	aor	√nind 1 (blame, abuse)	i aor isuṃ	18.0	{'nindā': 12, 'nindaṃ': 6}
+saddamanussāvesi	aor		esi aor	18.0	{'saddamanussāvesuṃ': 11, 'saddamanussāvesi': 7}
+avasi	aor	√vas 1 (live)	i aor	18.0	{'avasā': 9, 'avasiṃ': 2, 'avasimha': 2, 'avasī': 3, 'avasimhase': 1, 'avaso': 1}
+pahari	aor	√har 1 (carry)	hari aor	18.0	{'pahāsi': 11, 'pahariṃsu': 3, 'pahāsiṃ': 2, 'pahari': 1, 'pahaṃsu': 1}
+pavattesi	aor	√vatt 1 (be, proceed)	esi aor	18.0	{'pavattesi': 16, 'pavattittha': 1, 'pavattettha': 1}
+kāresi	aor	√kar 7 (do, make)	esi aor	18.0	{'kāresi': 16, 'kāresuṃ': 2}
+nissayi	aor	√si 1 (depend on, associate with)	i aor	18.0	{'nissayaṃ': 8, 'nissayo': 7, 'nissaya': 3}
+samādiyi	aor	√ādā 3 (take, seize)	i aor	18.0	{'samādiyi': 15, 'samādiyiṃ': 2, 'samādiyiṃsu': 1}
+ukkhipi	aor		i aor	17.0	{'ukkhipa': 14, 'ukkhipi': 2, 'ukkhipiṃsu': 1}
+ajjhāruhi	aor	√ruh 1 (ascend, grow)	i aor	17.0	{'ajjhāruhā': 9, 'ajjhāruho': 4, 'ajjhāruhaṃ': 4}
+parājayi	aor	√ji 1 (conquer)	i aor	17.0	{'parājayo': 8, 'parājayiṃsu': 7, 'parājayaṃ': 1, 'parājayī': 1}
+dassesi	aor	√dis 1 (see)	esi aor	17.0	{'dassesi': 12, 'dassesuṃ': 5}
+ajjhagami	aor	√gam 1 (go)	i aor aṃsu	17.0	{'ajjhagamaṃ': 7, 'ajjhagamaṃsu': 4, 'ajjhagamā': 3, 'ajjhagamiṃ': 2, 'ajjhagamuṃ': 1}
+javi	aor	√ju 1 (be fast)	i aor	17.0	{'javo': 15, 'javaṃ': 1, 'javi': 1}
+samādahi	aor	√dhā 1 (place, support)	i aor aṃsu	17.0	{'samādahaṃ': 14, 'samādahaṃsu': 2, 'samādahiṃsu': 1}
+niyyāsi	aor	√yā 1 (go)	āsi aor iṃsu	17.0	{'niyyāsi': 14, 'niyyiṃsu': 2, 'niyyaṃsu': 1}
+vijayi	aor	√ji 1 (overpower)	i aor	17.0	{'vijayo': 10, 'vijayā': 6, 'vijayaṃ': 1}
+abhikkāmi	aor	√kam 1 (go)	i aor	17.0	{'abhikkāmuṃ': 16, 'abhikkāmi': 1}
+nesi	aor	√nī 1 (lead, carry)	esi aor	17.0	{'nettha': 4, 'nesi': 13}
+rocesi	aor	√ruc 1 (shine, like)	esi aor	17.0	{'rocesi': 17}
+kathesi	aor	√kath 8 (speak, narrate)	esi aor	16.0	{'kathesi': 16}
+uparundhi	aor	√rudh 2 (obstruct)	i aor	16.0	{'uparundhiṃ': 15, 'uparundha': 1}
+pātvākāsi	aor	√kar 7 (do, make)	āsi aor	16.0	{'pātvākāsi': 15, 'pātvākāsiṃ': 1}
+parivisi	aor	√vis 1 (be active, serve)	i aor	16.0	{'parivisi': 8, 'parivisiṃsu': 2, 'parivisa': 2, 'parivisā': 4}
+desayi	aor	√dis 1 (point out, explain)	i aor	16.0	{'desayi': 15, 'desaya': 1}
+nāddasa	aor	√dis 1 (see)	ddasa aor	16.0	{'nāddasaṃ': 10, 'nāddasa': 3, 'nāddakkhuṃ': 1, 'nāddakkhi': 1, 'nāddasāsiṃ': 1}
+antamakāsi	aor		āsi aor	16.0	{'antamakāsi': 16}
+garahi	aor	√garah 1 (blame)	i aor	16.0	{'garahā': 4, 'garahaṃ': 4, 'garahi': 2, 'garahī': 2, 'garahittho': 2, 'garaha': 1, 'garahittha': 1}
+akkhāsi	aor	√khā 1 (tell, announce)	āsi aor	16.0	{'akkhāsi': 15, 'akkhaṃsu': 1}
+anussari	aor	√sar 1 (remember)	i aor	16.0	{'anussaraṃ': 10, 'anussara': 3, 'anussariṃ': 1, 'anussarittha': 1, 'anussarittho': 1}
+āgacchi	aor	√gam 1 (go)	i aor	16.0	{'āgacchuṃ': 4, 'āgacchi': 3, 'āgaccha': 8, 'āgacchī': 1}
+paṭivedesi	aor	√vid 1 (know)	esi aor	15.0	{'paṭivedesi': 14, 'paṭivedesuṃ': 1}
+phusi	aor	√phus 1 (touch)	i aor	15.0	{'phusi': 10, 'phusī': 2, 'phusaṃ': 1, 'phusiṃsu': 1, 'phusa': 1}
+vaḍḍhi	aor	√vaḍḍh 1 (grow, increase)	i aor	15.0	{'vaḍḍha': 5, 'vaḍḍhiṃ': 3, 'vaḍḍho': 3, 'vaḍḍhī': 1, 'vaḍḍhi': 1, 'vaḍḍhaṃ': 2}
+āvatti	aor	√vaṭṭ 1 (turn)	i aor	15.0	{'āvatto': 14, 'āvatti': 1}
+ārocāpesi	aor	√ruc 1 (shine, like)	esi aor	15.0	{'ārocāpesi': 14, 'ārocāpesuṃ': 1}
+āmantayi	aor	√mant 8 (counsel, invite)	i aor	15.0	{'āmantayī': 7, 'āmantaya': 3, 'āmantayi': 2, 'āmantayittha': 2, 'āmantayiṃsu': 1}
+vivattayi	aor	√vatt 1 (be, proceed)	i aor	14.0	{'vivattayi': 14}
+rucci	aor	√ruc 1 (shine, like)	i aor	14.0	{'rucci': 9, 'ruccittha': 4, 'rucciṃsu': 1}
+hāyi	aor	√hā 3 (decrease)	i aor	14.0	{'hāyaṃ': 13, 'hāya': 1}
+upaṭṭhahi	aor	√ṭhā 1 (stand)	i aor	14.0	{'upaṭṭhahiṃ': 5, 'upaṭṭhahiṃsu': 3, 'upaṭṭhahuṃ': 2, 'upaṭṭhahimhā': 1, 'upaṭṭhahaṃ': 1, 'upaṭṭhahī': 1, 'upaṭṭhahi': 1}
+jali	aor	√jal 1 (shine, blaze)	i aor	14.0	{'jalaṃ': 13, 'jala': 1}
+pahāsi	aor	√hā 1 (abandon)	āsi aor	14.0	{'pahāsi': 11, 'pahāsiṃ': 2, 'pahaṃsu': 1}
+abhitthavi	aor	√thu 1 (be familiar, praise)	i aor	14.0	{'abhitthavi': 14}
+vicari	aor	√car 1 (move, walk)	i aor	14.0	{'vicara': 6, 'vicarimha': 4, 'vicariṃ': 2, 'vicarī': 1, 'vicari': 1}
+patiṭṭhāpesi	aor	√ṭhā 1 (stand)	esi aor	14.0	{'patiṭṭhāpesi': 14}
+bhāsi	aor	√bhā 1 (shine, speak)	āsi aor	14.0	{'bhāsittha': 7, 'bhāsiṃ': 5, 'bhāsatha': 1, 'bhāsi': 1}
+pariyāyamakāsi	aor		āsi aor	13.0	{'pariyāyamakāsi': 13}
+nipajji	aor	√pad 3 (go, step)	i aor	13.0	{'nipajji': 8, 'nipajjiṃsu': 2, 'nipajjaṃ': 2, 'nipajja': 1}
+ātapi	aor	√tap 1 (burn, radiate heat)	i aor	13.0	{'ātapo': 12, 'ātapā': 1}
+ākoṭesi	aor	√kuṭ 8 (knock, beat)	esi aor	13.0	{'ākoṭesi': 7, 'ākoṭesuṃ': 6}
+uyyojesi	aor	√yuj 2 (yoke, join)	esi aor	13.0	{'uyyojesi': 10, 'uyyojesuṃ': 2, 'uyyojesiṃ': 1}
+jighacchi	aor	√ghas 1 (eat)	i aor	13.0	{'jighacchā': 11, 'jighacchaṃ': 2}
+phālesi	aor	√phal 1 (split open)	esi aor	13.0	{'phālesi': 7, 'phālesiṃ': 6}
+nacci	aor	√nat 3 (dance, act)	i aor isuṃ	13.0	{'naccaṃ': 9, 'nacci': 2, 'nacca': 1, 'naccisuṃ': 1}
+kāmesi	aor	√kam 8 (desire)	esi aor	13.0	{'kāmesi': 13}
+acchādesi	aor	√chad 8 (cover, conceal)	esi aor	13.0	{'acchādesi': 10, 'acchādesuṃ': 3}
+asaṃsi	aor	√saṃs 1 (proclaim, praise)	i aor	13.0	{'asaṃsi': 11, 'asaṃsiṃ': 1, 'asaṃsī': 1}
+atikkami	aor	√kam 1 (go)	i aor	13.0	{'atikkamaṃ': 10, 'atikkamiṃsu': 2, 'atikkami': 1}
+parisodhesi	aor	√sudh 3 (be pure)	esi aor	13.0	{'parisodhesuṃ': 8, 'parisodhesiṃ': 5}
+pāyi	aor	√yā 1 (go)	i aor	13.0	{'pāyaṃ': 10, 'pāyiṃsu': 3}
+abhisaṅkhāsi	aor	√kar 7 (do, make)	āsi aor	13.0	{'abhisaṅkhāsi': 12, 'abhisaṅkhāsiṃ': 1}
+vuṭṭhāsi	aor	√ṭhā 1 (stand)	āsi aor	13.0	{'vuṭṭhāsi': 12, 'vuṭṭhāsiṃ': 1}
+sāsi	aor	√sās 1 (order, instruct)	āsi aor	13.0	{'samhā': 12, 'sattha': 1}
+agacchi	aor	√gam 1 (go)	i aor issaṃ	13.0	{'agacchiṃ': 9, 'agacchissaṃ': 1, 'agacchaṃ': 1, 'agacchi': 1, 'agacchittha': 1}
+anumasi	aor	√mas 1 (touch, rub)	i aor	12.0	{'anumasi': 12}
+dussi	aor	√dus 3 (be angry, corrupt)	i aor	12.0	{'dussaṃ': 9, 'dussī': 2, 'dussa': 1}
+vinassi	aor	√nas 3 (be lost, disappear)	i aor	12.0	{'vinassa': 3, 'vinassuṃ': 1, 'vinassimha': 1, 'vinassā': 7}
+dāpesi	aor	√dā 1 (give)	esi aor	12.0	{'dāpesi': 12}
+pasavi	aor	√su 1 (flow)	i aor	12.0	{'pasavo': 6, 'pasavi': 4, 'pasavī': 2}
+upaparikkhi	aor	√ikkh 1 (see, mark)	i aor	12.0	{'upaparikkhimha': 3, 'upaparikkhi': 1, 'upaparikkhā': 8}
+abhirami	aor	√ram 1 (delight, please)	i aor	12.0	{'abhiramittha': 6, 'abhirama': 5, 'abhiramiṃ': 1}
+pūjesi	aor	√pūj 8 (honour, venerate)	esi aor	12.0	{'pūjesi': 10, 'pūjesuṃ': 2}
+dhārayi	aor	√dhar 8 (wear, hold, carry)	i aor	12.0	{'dhārayimha': 3, 'dhārayi': 3, 'dhārayaṃ': 3, 'dhārayittha': 1, 'dhārayī': 1, 'dhāraya': 1}
+ogāhi	aor	√gāh 1 (dive, plunge)	i aor	12.0	{'ogāhā': 9, 'ogāhi': 2, 'ogāhaṃ': 1}
+paṭimasi	aor	√mas 1 (touch, rub)	i aor	12.0	{'paṭimasi': 12}
+atari	aor	√tar 1 (cross)	i aor	12.0	{'atari': 8, 'atarī': 2, 'ataruṃ': 2}
+abhivādesi	aor	√vad 1 (say, speak)	esi aor	12.0	{'abhivādimha': 7, 'abhivādesi': 3, 'abhivādesiṃ': 2}
+acchindi	aor	√chid 2 (cut, steal)	i aor	11.0	{'acchindiṃsu': 8, 'acchindi': 3}
+vihesesi	aor	√his 2 (hurt, harm)	esi aor	11.0	{'vihesesi': 11}
+āṇāpesi	aor	√ñā 5 (know)	esi aor	11.0	{'āṇāpesi': 9, 'āṇāpesuṃ': 2}
+paṭisaṃvedesi	aor	√vid 8 (know, sense, feel)	esi aor	11.0	{'paṭisaṃvedesiṃ': 6, 'paṭisaṃvedesi': 5}
+kilamesi	aor	√kilam 1 (be weary)	esi aor	11.0	{'kilamesi': 3, 'kilamittha': 8}
+kīḷi	aor	√kīḷ 1 (play)	i aor	11.0	{'kīḷiṃsu': 7, 'kīḷi': 4}
+sesi	aor	√sī 1 (lie, sleep)	esi aor	11.0	{'sesi': 9, 'settha': 1, 'sesiṃ': 1}
+paccuṭṭhāsi	aor	√ṭhā 1 (stand)	āsi aor	11.0	{'paccuṭṭhāsi': 10, 'paccuṭṭhāsiṃ': 1}
+paṭṭhapesi	aor	√ṭhā 1 (stand)	esi aor	11.0	{'paṭṭhapesi': 6, 'paṭṭhapesuṃ': 5}
+paṭippassambhi	aor	√sambh 1 (be calm, confident)	i aor	11.0	{'paṭippassambhi': 10, 'paṭippassambhiṃsu': 1}
+paṭipādesi	aor	√pad 3 (go, step)	esi aor	11.0	{'paṭipādesi': 6, 'paṭipādesiṃ': 3, 'paṭipādesuṃ': 2}
+adesayi	aor	√dis 1 (point out, explain)	i aor	11.0	{'adesayi': 9, 'adesayī': 2}
+vedayi	aor	√vid 8 (know, sense, feel)	i aor	11.0	{'vedayi': 3, 'vedayiṃsu': 3, 'vedaya': 3, 'vedayittha': 1, 'vedayittho': 1}
+chindi	aor	√chid 2 (cut, steal)	i aor	11.0	{'chinda': 7, 'chindi': 3, 'chindiṃsu': 1}
+anutappi	aor	√tapp 1 (regret)	i aor	10.0	{'anutappā': 7, 'anutappo': 2, 'anutappa': 1}
+pamuñci	aor	√muc 2 (release, free)	i aor	10.0	{'pamuñca': 6, 'pamuñci': 3, 'pamuñcaṃ': 1}
+gaṇhi	aor	√gah 6 (grasp)	i aor	10.0	{'gaṇhi': 5, 'gaṇhittha': 4, 'gaṇhiṃ': 1}
+rodi	aor	√rud 1 (cry)	i aor	10.0	{'rodi': 5, 'rodaṃ': 2, 'roda': 3}
+nivesesi	aor	√vis 1 (enter)	esi aor	10.0	{'nivesesi': 10}
+sussūsi	aor	√su 4 (hear)	i aor	10.0	{'sussūsā': 6, 'sussūsaṃ': 2, 'sussūsī': 2}
+piyāyi	aor	√pī 5 (love, please)	i aor	10.0	{'piyāya': 10}
+pabbājesi	aor	√vaj 1 (go on)	esi aor	10.0	{'pabbājesi': 7, 'pabbājesuṃ': 3}
+atāri	aor	√tar 1 (cross)	i aor	10.0	{'atāri': 9, 'atāruṃ': 1}
+evamārocesi	aor		esi aor	10.0	{'evamārocesi': 8, 'evamārocimha': 1, 'evamārocesuṃ': 1}
+nipātesi	aor	√pat 1 (fall)	esi aor	10.0	{'nipātesuṃ': 7, 'nipātesi': 3}
+ghātesi	aor	√ghaṭ 8 (strike, kill)	esi aor	10.0	{'ghātesi': 10}
+paricāresi	aor	√car 1 (move, walk)	esi aor	10.0	{'paricāresuṃ': 3, 'paricāresiṃ': 3, 'paricārimhā': 2, 'paricāresi': 2}
+abhiruhi	aor	√ruh 1 (ascend, grow)	i aor	10.0	{'abhiruhiṃ': 7, 'abhiruha': 2, 'abhiruhi': 1}
+dubbhi	aor	√dubbh 1 (deceive, be treacherous)	i aor	10.0	{'dubbhi': 5, 'dubbhī': 2, 'dubbho': 1, 'dubbhiṃ': 1, 'dubbhittho': 1}
+acchejji	aor	√chid 2 (cut, steal)	i aor	10.0	{'acchejji': 7, 'acchejja': 2, 'acchejjā': 1}
+aggahi	aor	√gah 6 (grasp)	i aor	10.0	{'aggahī': 6, 'aggahiṃ': 4}
+āmasi	aor	√mas 1 (touch, rub)	i aor	9.0	{'āmasi': 8, 'āmasiṃ': 1}
+paridevesi	aor	√dev 1 (lament)	i aor	9.0	{'paridevesi': 9}
+āhāresi	aor	√har 1 (take, seize)	esi aor	9.0	{'āhāresiṃ': 9}
+jāyi	aor	√jan 3 (be born, produce)	i aor	9.0	{'jāyā': 9}
+labhi	aor	√labh 1 (get)	i aor	9.0	{'labhi': 3, 'labha': 3, 'labhimhā': 2, 'labhiṃ': 1}
+paṭivirami	aor	√ram 1 (stop, abstain)	i aor	9.0	{'paṭiviramiṃsu': 9}
+vītināmesi	aor	√nam 1 (bend)	esi aor	9.0	{'vītināmesuṃ': 7, 'vītināmesi': 2}
+avacāsi	aor	√vac 1 (say, speak)	āsi aor	9.0	{'avacāsi': 8, 'avacāsiṃ': 1}
+patthayi	aor	√atth 8 (wish for)	i aor	9.0	{'patthayaṃ': 9}
+titikkhi	aor	√tij 1 (endure)	i aor	9.0	{'titikkhā': 4, 'titikkhī': 2, 'titikkha': 1, 'titikkhaṃ': 1, 'titikkhiṃ': 1}
+rudi	aor	√rud 1 (cry)	i aor	9.0	{'rudaṃ': 7, 'rudimha': 1, 'rudi': 1}
+saṃsari	aor	√sar 1 (go, flow)	i aor	9.0	{'saṃsaraṃ': 9}
+nayi	aor	√nī 1 (lead, carry)	i aor	9.0	{'nayaṃ': 5, 'nayo': 2, 'nayiṃsu': 1, 'naya': 1}
+hani	aor	√han 1 (strike, kill)	i aor	9.0	{'haniṃsu': 4, 'hani': 3, 'hana': 1, 'hanuṃ': 1}
+gili	aor	√gil 1 (eat, swallow)	i aor	9.0	{'gila': 6, 'gilī': 2, 'gili': 1}
+okkami	aor	√kam 1 (go)	i aor	9.0	{'okkami': 9}
+uccāresi	aor	√car 1 (move, walk)	esi aor	9.0	{'uccāresi': 9}
+abhisiñci	aor	√sic 2 (sprinkle, pour)	i aor	9.0	{'abhisiñciṃsu': 6, 'abhisiñci': 3}
+māresi	aor	√mar 1 (die)	esi aor	9.0	{'māresi': 8, 'māresuṃ': 1}
+nikkhipi	aor	√khip 1 (throw)	i aor	9.0	{'nikkhipa': 5, 'nikkhipi': 3, 'nikkhipiṃsu': 1}
+ākaṅkhi	aor	√kaṅkh 1 (wish for)	i aor	8.0	{'ākaṅkhiṃ': 2, 'ākaṅkhaṃ': 2, 'ākaṅkho': 1, 'ākaṅkhī': 1, 'ākaṅkha': 2}
+vissari	aor	√sar 1 (remember)	i aor	8.0	{'vissaro': 3, 'vissaraṃ': 5}
+vicini	aor	√ci 5 (gather, accumulate)	i aor	8.0	{'vicinaṃ': 7, 'vicinī': 1}
+saṅgāmesi	aor	√gam 1 (go)	esi aor	8.0	{'saṅgāmesuṃ': 8}
+byākari	aor	√kar 7 (do, make)	i aor	8.0	{'byākariṃsu': 4, 'byākarimhā': 1, 'byākaraṃ': 1, 'byākari': 1, 'byākarimha': 1}
+vaḍḍhesi	aor	√vaḍḍh 1 (grow, increase)	esi aor	8.0	{'vaḍḍhesuṃ': 6, 'vaḍḍhesi': 2}
+akkocchi	aor	√kus 1 (call, insult)	i aor	8.0	{'akkocchi': 8}
+parāmasi	aor	√mas 1 (touch, rub)	i aor	8.0	{'parāmasi': 6, 'parāmasā': 1, 'parāmasiṃsu': 1}
+upātivatti	aor	√vatt 1 (be, proceed)	i aor	8.0	{'upātivatto': 5, 'upātivattittho': 2, 'upātivattā': 1}
+papati	aor	√pat 1 (fall)	i aor	8.0	{'papati': 4, 'papatā': 1, 'papatiṃsu': 1, 'papataṃ': 1, 'papatiṃ': 1}
+odahi	aor	√dhā 1 (place, support)	i aor	8.0	{'odahi': 4, 'odahiṃ': 2, 'odahiṃsu': 1, 'odahī': 1}
+adadi	aor	√dā 1 (give)	i aor	8.0	{'adadaṃ': 3, 'adadā': 3, 'adada': 1, 'adadiṃ': 1}
+paṭijāni	aor	√ñā 5 (know)	i aor	8.0	{'paṭijānimha': 3, 'paṭijānimhā': 3, 'paṭijāniṃsu': 1, 'paṭijānā': 1}
+pariṇāmi	aor	√nam 1 (bend)	i aor	8.0	{'pariṇāmaṃ': 8}
+paṭivijāni	aor	√ñā 5 (know)	i aor	8.0	{'paṭivijāni': 8}
+pagghari	aor	√ghar 1 (drip)	i aor	8.0	{'pagghariṃsu': 4, 'pagghari': 4}
+parivīmaṃsi	aor	√man 3 (think)	i aor	8.0	{'parivīmaṃsaṃ': 8}
+kilami	aor	√kilam 1 (be weary)	i aor	8.0	{'kilamittha': 8}
+jahi	aor	√hā 1 (abandon)	i aor aṃsu	8.0	{'jahī': 3, 'jaha': 3, 'jahi': 1, 'jahaṃ': 1}
+paṭivijjhi	aor	√vidh 3 (throw, pierce)	i aor	8.0	{'paṭivijjha': 4, 'paṭivijjhi': 3, 'paṭivijjhiṃ': 1}
+paccesi	aor	√i 1 (come, go)	esi aor	8.0	{'paccesi': 6, 'paccittha': 2}
+nipati	aor	√pat 1 (fall)	i aor	8.0	{'nipatī': 4, 'nipatiṃ': 1, 'nipata': 1, 'nipatā': 1, 'nipatiṃsu': 1}
+paribbaji	aor	√vaj 1 (go on)	i aor	8.0	{'paribbajo': 4, 'paribbaja': 3, 'paribbajaṃ': 1}
+āvasi	aor	√vas 1 (live)	i aor	8.0	{'āvasiṃsu': 6, 'āvasa': 1, 'āvasi': 1}
+palujji	aor	√luj 3 (be broken apart)	i aor	8.0	{'palujjī': 8}
+anusāsi	aor	√sās 1 (order, instruct)	āsi aor	8.0	{'anusāsi': 8}
+abhiññāsi	aor	√ñā 5 (know)	āsi aor	8.0	{'abhiññāsi': 8}
+vivajjayi	aor	√vajj 8 (turn, avoid)	i aor	8.0	{'vivajjayi': 4, 'vivajjayiṃ': 2, 'vivajjayaṃ': 1, 'vivajjaya': 1}
+pariyāpuṇi	aor	√ap 4 (reach, attain)	i aor	8.0	{'pariyāpuṇiṃ': 8}
+vijjhi	aor	√vidh 3 (throw, pierce)	i aor	8.0	{'vijjhi': 4, 'vijjha': 1, 'vijjhittho': 1, 'vijjho': 1, 'vijjhā': 1}
+avassaji	aor	√saj 1 (relinquish, let loose)	i aor	8.0	{'avassajiṃ': 2, 'avassaji': 5, 'avassajī': 1}
+paccapādi	aor	√pad 3 (go, step)	i aor	8.0	{'paccapādi': 8}
+patāresi	aor	√tar 1 (cross)	esi aor	8.0	{'patāresi': 8}
+paripati	aor	√pat 1 (fall)	i aor	8.0	{'paripati': 8}
+āharesi	aor	√har 1 (carry)	esi aor	8.0	{'āharesi': 8}
+saṅkami	aor	√kam 1 (go)	i aor	7.0	{'saṅkamo': 3, 'saṅkamaṃ': 2, 'saṅkama': 1, 'saṅkamī': 1}
+upaṭṭhapesi	aor	√ṭhā 1 (stand)	esi aor	7.0	{'upaṭṭhapesuṃ': 6, 'upaṭṭhapesi': 1}
+adhigacchi	aor	√gam 1 (go)	i aor	7.0	{'adhigacchi': 4, 'adhigacchiṃ': 2, 'adhigaccha': 1}
+paññāpesi	aor	√ñā 5 (know)	esi aor	7.0	{'paññāpesi': 5, 'paññāpesuṃ': 2}
+aphassayi	aor	√phus 1 (touch)	i aor	7.0	{'aphassayi': 6, 'aphassayiṃ': 1}
+ghaṭi	aor	√ghaṭ 1 (be busy with, strive)	i aor	7.0	{'ghaṭo': 5, 'ghaṭī': 1, 'ghaṭa': 1}
+pasīdi	aor	√sad 1 (sink, sit, settle)	i aor	7.0	{'pasīdi': 4, 'pasīdiṃ': 2, 'pasīdimha': 1}
+abhijappi	aor	√japp 1 (mutter, pray)	i aor	7.0	{'abhijappā': 6, 'abhijappaṃ': 1}
+avatthāsi	aor	√ṭhā 1 (stand)	āsi aor	7.0	{'avatthāsi': 7}
+khañji	aor	√khañj 1 (limp)	i aor	7.0	{'khañjo': 6, 'khañjā': 1}
+samudācari	aor	√car 1 (act, behave)	i aor	7.0	{'samudācarittha': 3, 'samudācara': 4}
+paccaniyyāsi	aor	√yā 1 (go)	i aor	7.0	{'paccaniyyāsi': 4, 'paccaniyyāsiṃ': 3}
+pasādesi	aor	√sad 1 (sink, sit, settle)	esi aor	7.0	{'pasādesuṃ': 6, 'pasādesi': 1}
+vītikkami	aor	√kam 1 (go)	i aor	7.0	{'vītikkamo': 7}
+mucchi	aor	√mucch 1 (thicken, fixate)	i aor	7.0	{'mucchaṃ': 6, 'mucchā': 1}
+parodi	aor	√rud 1 (cry)	i aor	7.0	{'parodi': 7}
+saṇṭhāpesi	aor	√ṭhā 1 (stand)	esi aor	7.0	{'saṇṭhāpesi': 5, 'saṇṭhāpesuṃ': 2}
+āpādesi	aor	√pad 3 (go, step)	esi aor	7.0	{'āpādesi': 7}
+patiṭṭhāsi	aor	√ṭhā 1 (stand)	āsi aor	7.0	{'patiṭṭhāsi': 7}
+anuyuñji	aor	√yuj 2 (yoke, join)	i aor	7.0	{'anuyuñji': 2, 'anuyuñja': 2, 'anuyuñjiṃsu': 1, 'anuyuñjaṃ': 1, 'anuyuñjittha': 1}
+bhindi	aor	√bhid 2 (break, split)	i aor	7.0	{'bhindiṃsu': 3, 'bhindi': 3, 'bhinda': 1}
+āgañchi	aor	√gam 1 (go)	i aor	7.0	{'āgañchi': 4, 'āgañchuṃ': 3}
+agghi	aor	√aggh 1 (be worth)	i aor	7.0	{'agghaṃ': 7}
+ovadi	aor	√vad 1 (say, speak)	i aor	7.0	{'ovada': 5, 'ovadaṃ': 1, 'ovadī': 1}
+nibbāyi	aor	√vā 1 (blow, emit odour)	i aor	7.0	{'nibbāyi': 7}
+pakkhālesi	aor	√khal 8 (clean, rinse)	esi aor	7.0	{'pakkhālesi': 7}
+sammasi	aor	√mas 1 (touch, rub)	i aor	7.0	{'sammasaṃ': 5, 'sammasi': 2}
+haññi	aor	√han 1 (strike, kill)	i aor	7.0	{'haññiṃsu': 6, 'hañño': 1}
+upāgacchi	aor	√gam 1 (go)	i aor	7.0	{'upāgacchuṃ': 4, 'upāgacchiṃ': 2, 'upāgacchi': 1}
+upavasi	aor	√vas 1 (live)	i aor issaṃ	7.0	{'upavasī': 5, 'upavasiṃ': 1, 'upavasuṃ': 1}
+chādesi	aor	√chad 8 (cover, conceal)	esi aor	7.0	{'chādesi': 7}
+lapi	aor	√lap 1 (speak, chat)	i aor	7.0	{'lapā': 5, 'lapimhā': 1, 'lapittho': 1}
+vissajji	aor	√sajj 1 (relinquish, let loose)	i aor	7.0	{'vissajjiṃ': 6, 'vissajja': 1}
+alabhi	aor	√labh 1 (get)	i aor	7.0	{'alabhiṃ': 3, 'alabhiṃsu': 2, 'alabhitthaṃ': 1, 'alabhī': 1}
+āpādi	aor	√pad 3 (go, step)	i aor	6.0	{'āpādi': 5, 'āpādiṃ': 1}
+anutthuni	aor	√thu 5 (moan, groan)	i aor	6.0	{'anutthuniṃsu': 4, 'anutthunaṃ': 2}
+vuṭṭhahi	aor	√ṭhā 1 (stand)	i aor	6.0	{'vuṭṭhahi': 5, 'vuṭṭhahiṃsu': 1}
+upaṭṭhāpesi	aor	√ṭhā 1 (stand)	esi aor	6.0	{'upaṭṭhāpesi': 6}
+abhinisīdi	aor	√sad 1 (sink, sit, settle)	i aor	6.0	{'abhinisīdi': 6}
+apasādesi	aor	√sad 1 (sink, sit, settle)	esi aor	6.0	{'apasādesi': 6}
+vaji	aor	√vaj 1 (go on)	i aor	6.0	{'vajaṃ': 5, 'vaja': 1}
+ajjhāvasi	aor	√vas 1 (live)	i aor	6.0	{'ajjhāvasi': 3, 'ajjhāvasaṃ': 1, 'ajjhāvasa': 2}
+saṃsāramāpādi	aor		i aor	6.0	{'saṃsāramāpādi': 6}
+saṃvaḍḍhi	aor	√vaḍḍh 1 (grow, increase)	i aor	6.0	{'saṃvaḍḍhaṃ': 3, 'saṃvaḍḍho': 2, 'saṃvaḍḍhā': 1}
+pesesi	aor	√pis 8 (send)	esi aor	6.0	{'pesesi': 4, 'pesesiṃ': 1, 'pesesuṃ': 1}
+brahmacariyamacari	aor		i aor	6.0	{'brahmacariyamacari': 4, 'brahmacariyamacariṃsu': 2}
+iriyi	aor	√īr 1 (move, shake)	i aor	6.0	{'iriyaṃ': 6}
+accasari	aor	√sar 1 (go, flow)	i aor	6.0	{'accasarā': 4, 'accasaro': 1, 'accasariṃ': 1}
+apanāmesi	aor	√nam 1 (bend)	esi aor	6.0	{'apanāmesi': 6}
+acāri	aor	√car 1 (move, walk)	i aor isuṃ	6.0	{'acāri': 3, 'acāruṃ': 2, 'acārī': 1}
+upādiyi	aor	√ādā 3 (take, seize)	i aor	6.0	{'upādiyiṃ': 5, 'upādiyaṃ': 1}
+viheṭhesi	aor	√heṭh 8 (harass, annoy)	esi aor	6.0	{'viheṭhesi': 6}
+anurakkhi	aor	√rakkh 1 (protect)	i aor	6.0	{'anurakkhaṃ': 4, 'anurakkho': 1, 'anurakkhā': 1}
+osiñci	aor	√sic 2 (sprinkle, pour)	i aor	6.0	{'osiñcaṃ': 5, 'osiñci': 1}
+ajesi	aor	√ji 1 (conquer)	esi aor	6.0	{'ajesi': 6}
+anadi	aor	√nad 1 (roar)	i aor	6.0	{'anadi': 5, 'anadī': 1}
+vikanti	aor	√kat 2 (cut)	i aor	6.0	{'vikantā': 3, 'vikantaṃ': 1, 'vikantuṃ': 1, 'vikantiṃsu': 1}
+vāvattayi	aor	√vatt 1 (be, proceed)	i aor	6.0	{'vāvattayi': 6}
+vitakkayi	aor		i aor	6.0	{'vitakkayittha': 6}
+abhisaṅkhāresi	aor	√kar 7 (do, make)	esi aor	6.0	{'abhisaṅkhāresi': 6}
+abhisambujjhi	aor	√budh 3 (know, wake up)	i aor	6.0	{'abhisambujjhiṃsu': 6}
+santhari	aor	√thar 1 (spread, expand)	i aor	6.0	{'santhara': 2, 'santhari': 2, 'santharaṃ': 2}
+samphusi	aor	√phus 1 (touch)	i aor	6.0	{'samphusaṃ': 4, 'samphusī': 2}
+pivi	aor	√pā 1 (drink)	pivi aor	6.0	{'pivaṃ': 3, 'pivi': 2, 'piviṃsu': 1}
+payojesi	aor	√yuj 2 (yoke, join)	esi aor	6.0	{'payojesiṃ': 3, 'payojesuṃ': 3}
+parājesi	aor	√ji 1 (conquer)	esi aor	6.0	{'parājesi': 6}
+samannesi	aor	√es 1 (seek, search)	esi aor	6.0	{'samannesi': 6}
+parikiri	aor	√kir 1 (scatter, sprinkle)	i aor	6.0	{'parikiriṃsu': 6}
+samāgacchi	aor	√gam 1 (go)	i aor	6.0	{'samāgacchiṃ': 4, 'samāgacchi': 2}
+paṇāmesi	aor	√nam 1 (bend)	esi aor	6.0	{'paṇāmesi': 6}
+mantayi	aor	√mant 8 (counsel, invite)	i aor	6.0	{'mantayiṃsu': 6}
+suṇi	aor	√su 4 (hear)	i aor	6.0	{'suṇimha': 3, 'suṇa': 2, 'suṇo': 1}
+supi	aor	√sup 1 (lie down, sleep)	i aor	6.0	{'supiṃsu': 3, 'supi': 2, 'supa': 1}
+kappayi	aor	√kapp 1 (be fit, be suitable)	i aor	6.0	{'kappayiṃsu': 6}
+sacchākāsi	aor	√kar 7 (do, make)	āsi aor	6.0	{'sacchākaṃsu': 3, 'sacchākāsi': 2, 'sacchākāsiṃ': 1}
+pahīyi	aor	√hā 1 (abandon)	i aor	6.0	{'pahīyi': 6}
+palāyi	aor	√pal 8 (run away, flee)	i aor	6.0	{'palāyiṃsu': 4, 'palāyī': 1, 'palāyittha': 1}
+sannipati	aor	√pat 1 (fall)	i aor	6.0	{'sannipatiṃsu': 5, 'sannipati': 1}
+nimantesi	aor	√mant 8 (counsel, invite)	esi aor	6.0	{'nimantesi': 6}
+paccāgami	aor	√gam 1 (go)	i aor	6.0	{'paccāgamiṃsu': 4, 'paccāgamā': 1, 'paccāgamuṃ': 1}
+khajji	aor	√khād 1 (chew)	i aor	6.0	{'khajjiṃ': 4, 'khajjaṃ': 2}
+kārāpesi	aor	√kar 7 (do, make)	esi aor	6.0	{'kārāpesi': 5, 'kārāpesuṃ': 1}
+nibbatti	aor	√vatt 1 (be, proceed)	i aor isuṃ	6.0	{'nibbattaṃ': 4, 'nibbatti': 1, 'nibbatto': 1}
+pakkhandi	aor	√khand 1 (jump up, pile up)	i aor	6.0	{'pakkhando': 2, 'pakkhandi': 2, 'pakkhandī': 1, 'pakkhanda': 1}
+panudi	aor	√nud 1 (drive out, reject)	i aor	6.0	{'panuda': 3, 'panudī': 2, 'panudi': 1}
+samuppādi	aor	√pad 3 (go, step)	i aor	6.0	{'samuppādo': 5, 'samuppādi': 1}
+niṭṭhamagami	aor		i aor	6.0	{'niṭṭhamagamaṃ': 6}
+nicchāresi	aor	√car 1 (move, walk)	esi aor	6.0	{'nicchāresi': 6}
+pariyonandhi	aor	√nadh 2 (wrap, twist)	i aor	6.0	{'pariyonandhi': 6}
+tosesi	aor	√tus 3 (be content, pleased)	esi aor	6.0	{'tosesi': 6}
+ravi	aor	√ru 1 (cry, howl)	i aor	6.0	{'ravā': 3, 'ravi': 1, 'rava': 1, 'ravo': 1}
+bhañji	aor	√bhañj 1 (break, destroy)	i aor	5.0	{'bhañji': 4, 'bhañja': 1}
+ghaṭṭesi	aor	√ghaṭṭ 8 (hit, strike)	esi aor	5.0	{'ghaṭṭesi': 5}
+upanisīdi	aor	√sad 1 (sink, sit, settle)	i aor	5.0	{'upanisīdimha': 5}
+upaṭṭhāsi	aor	√ṭhā 1 (stand)	āsi aor	5.0	{'upaṭṭhāsi': 2, 'upaṭṭhāsiṃ': 3}
+volokesi	aor	√lok 8 (look)	esi aor	5.0	{'volokesi': 3, 'volokesiṃ': 2}
+upanijjhāyi	aor		i aor	5.0	{'upanijjhāyi': 2, 'upanijjhāyimhā': 2, 'upanijjhāya': 1}
+pihayi	aor	√pih 8 (desire, envy)	i aor	5.0	{'pihayaṃ': 2, 'pihayi': 2, 'pihayittha': 1}
+adhiṭṭhahi	aor	√ṭhā 1 (stand)	i aor	5.0	{'adhiṭṭhahi': 2, 'adhiṭṭhahaṃ': 2, 'adhiṭṭhaha': 1}
+udatāri	aor		i aor	5.0	{'udatāri': 5}
+saṇṭhapesi	aor	√ṭhā 1 (stand)	esi aor	5.0	{'saṇṭhapesuṃ': 3, 'saṇṭhapesi': 2}
+upanesi	aor	√nī 1 (lead, carry)	esi aor	5.0	{'upanesi': 3, 'upanesuṃ': 2}
+kampayi	aor	√kamp 1 (shake, tremble)	i aor	5.0	{'kampayi': 4, 'kampayiṃ': 1}
+cali	aor	√cal 1 (shake, tremble)	i aor	5.0	{'calā': 4, 'calaṃ': 1}
+upanāmesi	aor	√nam 1 (bend)	esi aor	5.0	{'upanāmesi': 5}
+upanikkhami	aor	√kam 1 (go)	i aor	5.0	{'upanikkhamiṃ': 5}
+vivaṭṭi	aor	√vaṭṭ 1 (turn)	i aor	5.0	{'vivaṭṭo': 2, 'vivaṭṭi': 3}
+pasārayi	aor	√sar 1 (go, flow)	i aor	5.0	{'pasārayī': 2, 'pasāraya': 2, 'pasārayiṃsu': 1}
+māpesi	aor	√mā 5 (measure)	esi aor	5.0	{'māpesi': 4, 'māpesiṃ': 1}
+viheṭhayi	aor		i aor	5.0	{'viheṭhayuṃ': 4, 'viheṭhayi': 1}
+parikanti	aor	√kat 2 (cut)	i aor	5.0	{'parikanto': 2, 'parikantaṃ': 2, 'parikanti': 1}
+parājini	aor	√ji 5 (conquer)	i aor	5.0	{'parājiniṃsu': 5}
+akittayi	aor	√kitt 8 (make known)	i aor	5.0	{'akittayī': 4, 'akittayi': 1}
+parakkami	aor	√kam 1 (go)	i aor	5.0	{'parakkami': 3, 'parakkama': 1, 'parakkamiṃ': 1}
+paṭinandi	aor	√nand 1 (delight, enjoy)	i aor	5.0	{'paṭinandittha': 3, 'paṭinandiṃsu': 2}
+virocasi	aor	√ruc 1 (shine, like)	i aor	5.0	{'virocasi': 5}
+dahi	aor	√dhā 1 (place, support)	i aor	5.0	{'daho': 3, 'dahī': 1, 'dahaṃ': 1}
+ājāni	aor	√ñā 5 (know)	i aor	5.0	{'ājāniṃsu': 4, 'ājāni': 1}
+paccuyyāsi	aor	√yā 1 (go)	āsi aor	5.0	{'paccuyyāsi': 5}
+pabhijji	aor	√bhid 2 (break, split)	i aor	5.0	{'pabhijjiṃsu': 3, 'pabhijja': 2}
+paccupādi	aor	√pad 3 (go, step)	i aor	5.0	{'paccupādi': 4, 'paccupādī': 1}
+abhaṇi	aor	√bhaṇ 1 (talk, speak)	i aor	5.0	{'abhaṇi': 5}
+sevi	aor	√sev 1 (serve, associate)	i aor	5.0	{'sevi': 3, 'sevī': 1, 'seviṃ': 1}
+paccāgacchi	aor	√gam 1 (go)	i aor	5.0	{'paccāgacchi': 2, 'paccāgacchiṃsu': 2, 'paccāgaccha': 1}
+paci	aor	√pac 1 (cook)	i aor	5.0	{'paci': 5}
+vāyami	aor	√yam 1 (control, strive, end)	i aor	5.0	{'vāyama': 3, 'vāyami': 2}
+vibhaji	aor	√bhaj 1 (divide, distribute)	i aor	5.0	{'vibhajiṃsu': 3, 'vibhaji': 1, 'vibhajaṃ': 1}
+samarocayi	aor	√ruc 1 (shine, like)	i aor	5.0	{'samarocayi': 3, 'samarocayuṃ': 2}
+nāsadi	aor	√sad 1 (sink, sit, settle)	i aor	5.0	{'nāsadā': 5}
+abhihari	aor	√har 1 (carry)	hari aor	5.0	{'abhihariṃsu': 5}
+vikatthi	aor	√katth 1 (boast)	i aor	5.0	{'vikatthī': 4, 'vikatthittho': 1}
+ānesi	aor	√nī 1 (lead, carry)	esi aor	5.0	{'ānesuṃ': 3, 'ānesi': 2}
+nikhaṇi	aor	√khaṇ 1 (dig)	i aor	5.0	{'nikhaṇaṃ': 5}
+vijāyi	aor		i aor	5.0	{'vijāyi': 5}
+dāyi	aor	√dā 3 (cut, break apart)	i aor	5.0	{'dāyaṃ': 5}
+dūsesi	aor	√dus 3 (be angry, corrupt)	esi aor	5.0	{'dūsesi': 4, 'dūsesuṃ': 1}
+dīyi	aor	√dā 1 (give)	i aor	5.0	{'dīyittha': 5}
+āgamāsi	aor	√gam 1 (go)	āsi aor	5.0	{'āgamaṃsu': 5}
+vijahi	aor	√hā 1 (abandon)	i aor aṃsu	4.0	{'vijahi': 2, 'vijahaṃ': 2}
+avandi	aor	√vand 1 (bow, honour)	i aor isuṃ	4.0	{'avandi': 2, 'avandisuṃ': 2}
+paṭinissajji	aor	√sajj 1 (relinquish, let loose)	i aor	4.0	{'paṭinissajja': 4}
+paṭibāhi	aor	√vah 1 (carry, bring)	i aor	4.0	{'paṭibāhi': 2, 'paṭibāhī': 2}
+paṭicari	aor	√car 1 (move, walk)	i aor	4.0	{'paṭicari': 4}
+paṭicodesi	aor	√cud 8 (impel, accuse)	esi aor	4.0	{'paṭicodesi': 4}
+apāyesi	aor	√pā 1 (drink)	esi aor	4.0	{'apāyesi': 2, 'apāyimha': 2}
+paṭimuñci	aor	√muc 2 (release, free)	i aor	4.0	{'paṭimuñci': 2, 'paṭimuñca': 2}
+apakassi	aor	√kass 1 (drag, draw along)	i aor	4.0	{'apakassa': 4}
+apasakki	aor	√sakk 1 (move)	i aor	4.0	{'apasakka': 3, 'apasakkaṃ': 1}
+dhammamakkhāsi	aor		āsi aor	4.0	{'dhammamakkhāsi': 4}
+sannayhi	aor	√nah 3 (bind, arm)	i aor	4.0	{'sannayha': 3, 'sannayhi': 1}
+paṭilabhi	aor	√labh 1 (get)	i aor	4.0	{'paṭilabhiṃ': 2, 'paṭilabhiṃsu': 1, 'paṭilabhi': 1}
+bravi	aor	√brū 1 (say)	i aor	4.0	{'bravi': 3, 'bravī': 1}
+mohayi	aor	√muh 3 (be deluded, confused)	i aor	4.0	{'mohayī': 4}
+mocesi	aor	√muc 2 (release, free)	esi aor	4.0	{'mocesi': 3, 'mocesuṃ': 1}
+abhihārayi	aor	√har 1 (carry)	i aor	4.0	{'abhihārayi': 1, 'abhihārayuṃ': 1, 'abhihārayiṃ': 1, 'abhihārayaṃ': 1}
+abhuñjisaṃ	aor	√bhuj 2 (use, eat, enjoy)	i aor issaṃ	4.0	{'abhuñjiṃsu': 2, 'abhuñjisaṃ': 1, 'abhuñji': 1}
+saṇṭhahi	aor	√ṭhā 1 (stand)	i aor	4.0	{'saṇṭhahiṃsu': 2, 'saṇṭhahī': 2}
+nibbisi	aor	√vis 1 (enter)	i aor	4.0	{'nibbisaṃ': 4}
+nāssosi	aor	√su 4 (hear)	i aor	4.0	{'nāssosi': 4}
+nābbhanumodi	aor	√mud 1 (be soft, happy)	i aor	4.0	{'nābbhanumodi': 4}
+nikūji	aor	√kūj 1 (make sound)	i aor	4.0	{'nikūja': 2, 'nikūjiṃsu': 2}
+namassi	aor	√namass 1 (bow, worship)	i aor	4.0	{'namassiṃsu': 2, 'namassaṃ': 2}
+evarūpamakāsi	aor		āsi aor	4.0	{'evarūpamakāsi': 4}
+karuṇāyi	aor		i aor	4.0	{'karuṇāya': 4}
+kittesi	aor	√kitt 8 (make known)	esi aor	4.0	{'kittesi': 4}
+ossaji	aor	√saj 1 (relinquish, let loose)	i aor	4.0	{'ossaji': 4}
+nhāpesi	aor	√nhā 3 (bathe)	i aor	4.0	{'nhāpesuṃ': 4}
+abhinipphādesi	aor	√pad 3 (go, step)	esi aor	4.0	{'abhinipphādesuṃ': 4}
+abhindi	aor	√bhid 2 (break, split)	i aor	4.0	{'abhindi': 4}
+abhisapi	aor	√sap 1 (curse)	i aor	4.0	{'abhisapiṃsu': 2, 'abhisapi': 1, 'abhisapa': 1}
+nīhari	aor	√har 1 (carry)	hari aor	4.0	{'nīhari': 2, 'nīhariṃsu': 2}
+apacci	aor	√pac 1 (cook)	i aor	4.0	{'apacciṃ': 2, 'apacco': 1, 'apacci': 1}
+andhamakāsi	aor		āsi aor	4.0	{'andhamakāsi': 4}
+kukkuccāyi	aor	√kar 7 (do, make)	i aor isuṃ	4.0	{'kukkuccāya': 4}
+appāsi	aor	√as 3 (throw, hurl)	āsi aor	4.0	{'appamhā': 2, 'appāsi': 1, 'appattha': 1}
+abbhuggacchi	aor	√gam 1 (go)	i aor	4.0	{'abbhuggacchi': 4}
+pajjhāyi	aor	√jhā 3 (think, meditate)	i aor	4.0	{'pajjhāyi': 4}
+virādhayi	aor	√rādh 3 (succeed, please)	i aor	4.0	{'virādhayī': 3, 'virādhaya': 1}
+abbhuyyāsi	aor	√yā 1 (go)	āsi aor	4.0	{'abbhuyyāsi': 4}
+paccanubhosi	aor	√bhū 1 (be)	i aor	4.0	{'paccanubhosuṃ': 3, 'paccanubhosi': 1}
+pavesesi	aor	√vis 1 (enter)	esi aor	4.0	{'pavesesi': 4}
+ukkāsi	aor	√kās 1 (cough)	āsi aor	4.0	{'ukkāsi': 4}
+tāresi	aor	√tar 1 (cross)	esi aor	4.0	{'tāresi': 4}
+sambhāvesi	aor	√bhū 1 (be)	esi aor	4.0	{'sambhāvesi': 4}
+sambandhi	aor	√bandh 1 (bind, tie)	i aor	4.0	{'sambandho': 3, 'sambandhaṃ': 1}
+āpati	aor	√pat 1 (fall)	i aor	4.0	{'āpato': 3, 'āpatī': 1}
+ārādhayi	aor	√rādh 3 (succeed, please)	i aor	4.0	{'ārādhayī': 3, 'ārādhayiṃsu': 1}
+tikicchi	aor	√kit 1 (heal, cure)	i aor	4.0	{'tikiccha': 2, 'tikicchā': 1, 'tikicchaṃ': 1}
+savi	aor	√su 1 (flow)	i aor	4.0	{'savaṃ': 1, 'savi': 3}
+udīrayi	aor	√īr 8 (speak)	i aor	4.0	{'udīrayi': 4}
+saṃvaṭṭi	aor	√vaṭṭ 1 (turn)	i aor	4.0	{'saṃvaṭṭi': 3, 'saṃvaṭṭo': 1}
+upagañchi	aor	√gam 1 (go)	i aor	4.0	{'upagañchi': 4}
+ācini	aor	√ci 5 (gather, accumulate)	i aor	4.0	{'ācinaṃ': 4}
+upanikkhipi	aor	√khip 1 (throw)	i aor	4.0	{'upanikkhipi': 4}
+āsādi	aor	√sad 1 (sink, sit, settle)	i aor	4.0	{'āsādimhase': 2, 'āsādi': 1, 'āsāduṃ': 1}
+sampajji	aor	√pad 3 (go, step)	i aor	4.0	{'sampajjiṃsu': 3, 'sampajja': 1}
+tani	aor	√tan 7 (stretch, extend)	i aor	4.0	{'tanū': 3, 'tanuṃ': 1}
+tari	aor	√tar 1 (cross)	i aor	4.0	{'tariṃsu': 2, 'taruṃ': 1, 'taraṃ': 1}
+uṭṭhāsi	aor	√ṭhā 1 (stand)	āsi aor	4.0	{'uṭṭhāsi': 3, 'uṭṭhāsiṃ': 1}
+ujjhāyi	aor	√jhā 3 (think, meditate)	i aor	4.0	{'ujjhāyittha': 3, 'ujjhāyaṃ': 1}
+ujjhāpesi	aor	√jhā 3 (think, meditate)	esi aor	4.0	{'ujjhāpesi': 3, 'ujjhāpesuṃ': 1}
+ācari	aor	√car 1 (act, behave)	i aor	4.0	{'ācariṃ': 1, 'ācariṃsu': 1, 'ācari': 2}
+samakkami	aor	√kam 1 (go)	i aor	4.0	{'samakkami': 3, 'samakkama': 1}
+avedi	aor	√vid 8 (know, sense, feel)	i aor isuṃ	4.0	{'avedisuṃ': 1, 'aveduṃ': 1, 'avedi': 1, 'avedī': 1}
+bhojesi	aor	√bhuj 2 (use, eat, enjoy)	esi aor	4.0	{'bhojesi': 2, 'bhojimha': 2}
+payirudāhari	aor	√har 1 (carry)	hari aor	4.0	{'payirudāhāsi': 4}
+pāyesi	aor	√pā 1 (drink)	esi aor	4.0	{'pāyesuṃ': 2, 'pāyesi': 2}
+pāpayi	aor	√ap 4 (reach, attain)	i aor	4.0	{'pāpaya': 4}
+pahiṇi	aor	√hi 4 (send)	i aor	4.0	{'pahiṇittha': 2, 'pahiṇimhā': 1, 'pahiṇī': 1}
+pātarāsamakāsi	aor		āsi aor	4.0	{'pātarāsamakāsi': 4}
+vaṇṇesi	aor	√vaṇṇ 8 (praise)	esi aor	4.0	{'vaṇṇesi': 4}
+vāresi	aor	√var 1 (cover, dress, restrain)	esi aor	4.0	{'vāresi': 4}
+anuvilokesi	aor	√lok 8 (look)	esi aor	4.0	{'anuvilokesi': 4}
+payāpesi	aor	√yā 1 (go)	esi aor	4.0	{'payāpesi': 2, 'payāpesuṃ': 2}
+riñci	aor	√ric 2 (empty)	i aor	4.0	{'riñca': 4}
+anuvicintayi	aor	√cint 8 (think)	i aor	4.0	{'anuvicintayaṃ': 4}
+yuñji	aor	√yuj 2 (yoke, join)	i aor	4.0	{'yuñja': 3, 'yuñjaṃ': 1}
+āsādesi	aor	√sad 1 (sink, sit, settle)	esi aor	3.0	{'āsādesi': 3}
+gayhi	aor	√gah 6 (grasp)	i aor	3.0	{'gayha': 2, 'gayhā': 1}
+khipi	aor	√khip 1 (throw)	i aor	3.0	{'khipaṃ': 2, 'khipi': 1}
+sandhāvi	aor	√dhāv 1 (run, flow)	i aor issaṃ	3.0	{'sandhāvissaṃ': 3}
+heṭhayi	aor	√heṭh 8 (harass, annoy)	i aor	3.0	{'heṭhayī': 1, 'heṭhayi': 1, 'heṭhayittha': 1}
+payirupāsi	aor	√ās 1 (sit)	āsi aor	3.0	{'payirupāsiṃ': 3}
+nudi	aor	√nud 1 (drive out, reject)	i aor	3.0	{'nudaṃ': 2, 'nuda': 1}
+pacci	aor	√pac 1 (cook)	i aor	3.0	{'paccittha': 2, 'pacca': 1}
+avasissi	aor	√sis 8 (remain, distinguish)	i aor	3.0	{'avasissiṃsu': 2, 'avasissi': 1}
+dhanamanuppadāsi	aor		āsi aor	3.0	{'dhanamanuppadāsi': 3}
+paccalattha	aor	√labh 1 (get)	lattha aor	3.0	{'paccalatthuṃ': 1, 'paccalatthaṃsu': 1, 'paccalattha': 1}
+mari	aor	√mar 1 (die)	i aor	3.0	{'marū': 2, 'marī': 1}
+upasaṃhari	aor	√har 1 (carry)	hari aor	3.0	{'upasaṃhāsi': 2, 'upasaṃhari': 1}
+vitakkesi	aor	√takk 8 (think)	esi aor	3.0	{'vitakkesi': 3}
+ālapi	aor	√lap 1 (speak, chat)	i aor	3.0	{'ālapi': 2, 'ālapī': 1}
+parikuppi	aor	√kup 3 (shake, be angry)	i aor	3.0	{'parikuppā': 2, 'parikuppaṃ': 1}
+paṭisāmesi	aor	√sam 3 (be calm, tired)	esi aor	3.0	{'paṭisāmesi': 3}
+uppaṇḍesi	aor	√paṇḍ 8 (mock)	esi aor	3.0	{'uppaṇḍesuṃ': 3}
+uñchi	aor	√uñch 1 (glean)	i aor	3.0	{'uñcho': 2, 'uñchā': 1}
+pāpesi	aor	√ap 4 (reach, attain)	esi aor	3.0	{'pāpesi': 2, 'pāpesuṃ': 1}
+pariccaji	aor	√caj 1 (give up, let go)	i aor	3.0	{'pariccajā': 3}
+dhari	aor	√dhar 1 (hold, carry, endure)	i aor	3.0	{'dharo': 3}
+anvabhi	aor	√bhū 1 (be)	i aor	3.0	{'anvabhi': 3}
+mamāyi	aor		i aor	3.0	{'mamāyaṃ': 2, 'mamāyiṃsu': 1}
+viññāpesi	aor	√ñā 5 (know)	esi aor	3.0	{'viññāpesuṃ': 3}
+padhāvi	aor	√dhāv 1 (run, flow)	i aor	3.0	{'padhāviṃsu': 3}
+āvaṭṭi	aor	√vaṭṭ 1 (turn)	i aor	3.0	{'āvaṭṭo': 2, 'āvaṭṭā': 1}
+upanandhi	aor		i aor	3.0	{'upanandhi': 1, 'upanandho': 1, 'upanandhiṃsu': 1}
+visujjhi	aor	√sudh 3 (be pure)	i aor	3.0	{'visujjhi': 3}
+pūresi	aor	√pūr 1 (fill, fulfil)	esi aor	3.0	{'pūresi': 2, 'pūresuṃ': 1}
+vañcesi	aor	√vañc 8 (be bent, deceive)	esi aor	3.0	{'vañcesi': 3}
+saṃvatti	aor	√vatt 1 (be, proceed)	i aor	3.0	{'saṃvatti': 3}
+saṃvaṇṇesi	aor	√vaṇṇ 8 (praise)	esi aor	3.0	{'saṃvaṇṇesuṃ': 3}
+pekkhi	aor	√ikkh 1 (see, mark)	i aor	3.0	{'pekkhaṃ': 2, 'pekkho': 1}
+nīyi	aor	√nī 1 (lead, carry)	i aor	3.0	{'nīyiṃsu': 3}
+nivāresi	aor	√var 1 (cover, dress, restrain)	esi aor	3.0	{'nivāresi': 3}
+hāsesi	aor	√has 1 (elate, laugh)	esi aor	3.0	{'hāsesuṃ': 2, 'hāsesi': 1}
+vedesi	aor	√vid 8 (know, sense, feel)	esi aor	3.0	{'vedesi': 3}
+niddisi	aor	√dis 1 (point out, explain)	i aor	3.0	{'niddisi': 3}
+gedhimakāsi	aor		āsi aor	3.0	{'gedhimakaṃsu': 2, 'gedhimakāsi': 1}
+pakkhipi	aor	√khip 1 (throw)	i aor	3.0	{'pakkhipi': 2, 'pakkhipiṃ': 1}
+saṃvibhaji	aor	√bhaj 1 (divide, distribute)	i aor	3.0	{'saṃvibhajimha': 3}
+siñci	aor	√sic 2 (sprinkle, pour)	i aor	3.0	{'siñca': 2, 'siñcaṃ': 1}
+laggi	aor	√lagg 1 (stick, adhere)	i aor	3.0	{'laggaṃ': 2, 'laggā': 1}
+vindi	aor	√vid 2 (get, find)	i aor	3.0	{'vindiṃ': 1, 'vinda': 1, 'vindiṃsu': 1}
+nacchādesi	aor	√chand 8 (desire, please)	esi aor	3.0	{'nacchādesi': 3}
+ayāci	aor	√yāc 1 (beg)	i aor isuṃ	3.0	{'ayāci': 1, 'ayācaṃ': 1, 'ayācisuṃ': 1}
+gavesi	aor	√gaves 1 (seek, search)	esi aor	3.0	{'gavesiṃ': 3}
+uddhari	aor	√har 1 (carry)	hari aor	3.0	{'uddhariṃsu': 3}
+paribhāsi	aor	√bhās 1 (speak)	āsi aor irreg	3.0	{'paribhāsi': 2, 'paribhāsiṃsu': 1}
+samijjhi	aor	√idh 3 (succeed, accomplish)	i aor	3.0	{'samijjhiṃsu': 3}
+pajjali	aor	√jal 1 (shine, blaze)	i aor	3.0	{'pajjali': 3}
+dhāvi	aor	√dhāv 1 (run, flow)	i aor	3.0	{'dhāvaṃ': 1, 'dhāvi': 1, 'dhāviṃsu': 1}
+vidahi	aor	√dhā 1 (place, support)	i aor	3.0	{'vidahī': 2, 'vidahū': 1}
+akampi	aor	√kamp 1 (shake, tremble)	i aor	3.0	{'akampī': 1, 'akampittha': 2}
+saṃsīdi	aor	√sad 1 (sink, sit, settle)	i aor	3.0	{'saṃsīdo': 1, 'saṃsīda': 1, 'saṃsīdi': 1}
+sukhamasayi	aor		i aor	3.0	{'sukhamasayitthaṃ': 3}
+ajanesi	aor	√jan 3 (be born, produce)	esi aor	3.0	{'ajanesi': 3}
+uppādesi	aor	√pad 3 (go, step)	esi aor	3.0	{'uppādesi': 3}
+ajāyi	aor	√jan 3 (be born, produce)	i aor isuṃ	3.0	{'ajāyiṃ': 2, 'ajāyisuṃ': 1}
+sampāyāsi	aor	√yā 1 (go)	āsi aor	3.0	{'sampāyāsi': 3}
+anuppadāsi	aor	√dā 1 (give)	āsi aor	3.0	{'anuppadāsi': 2, 'anuppadaṃsu': 1}
+pāvassi	aor	√vass 1 (rain)	i aor	3.0	{'pāvassi': 3}
+sammohamāpādi	aor		i aor	3.0	{'sammohamāpādi': 2, 'sammohamāpādiṃ': 1}
+parivārayi	aor	√var 1 (cover, dress, restrain)	i aor	3.0	{'parivāraya': 1, 'parivārayiṃ': 1, 'parivārayuṃ': 1}
+vobhindi	aor	√bhid 2 (break, split)	i aor	3.0	{'vobhindi': 3}
+jhāpesi	aor	√jhe 1 (burn, blaze)	esi aor	3.0	{'jhāpesi': 3}
+cālesi	aor	√cal 1 (shake, tremble)	esi aor	3.0	{'cālesi': 3}
+ussahi	aor	√sah 1 (overcome, prevail)	i aor	3.0	{'ussahiṃsu': 3}
+cāvesi	aor	√cu 1 (shift, fall away, die)	esi aor	3.0	{'cāvesi': 3}
+ajjhavāsayi	aor	√vas 1 (live)	i aor	3.0	{'ajjhavāsayi': 3}
+uttāresi	aor	√tar 1 (cross)	esi aor	3.0	{'uttāresuṃ': 2, 'uttāresi': 1}
+vattesi	aor	√vatt 1 (be, proceed)	esi aor	3.0	{'vattesuṃ': 2, 'vattesi': 1}
+amohayi	aor	√muh 3 (be deluded, confused)	i aor	3.0	{'amohayī': 1, 'amohayi': 1, 'amohayittha': 1}
+hari	aor	√har 1 (carry)	hari aor	3.0	{'hariṃsu': 3}
+jesi	aor	√ji 1 (conquer)	esi aor	3.0	{'jimhā': 2, 'jimha': 1}
+oropesi	aor	√ruh 1 (ascend, grow)	esi aor	3.0	{'oropesi': 2, 'oropesuṃ': 1}
+yaji	aor	√yaj 1 (honour, sacrifice)	i aor	3.0	{'yajiṃ': 1, 'yajaṃ': 1, 'yajittho': 1}
+nivatti	aor	√vatt 1 (be, proceed)	i aor	3.0	{'nivatto': 2, 'nivattā': 1}
+kuppi	aor	√kup 3 (shake, be angry)	i aor	3.0	{'kuppaṃ': 1, 'kuppi': 1, 'kuppiṃ': 1}
+abhisaddahi	aor	√dhā 1 (place, support)	i aor	3.0	{'abhisaddahaṃ': 3}
+anassi	aor	√nas 3 (be lost, disappear)	i aor	3.0	{'anassuṃ': 3}
+abhisandi	aor	√sand 1 (flow)	i aor	3.0	{'abhisandā': 2, 'abhisando': 1}
+accayāsi	aor	√yā 1 (go)	āsi aor	3.0	{'accayāsi': 3}
+bajjhi	aor	√badh 1 (bind, tie)	i aor	3.0	{'bajjha': 3}
+accatari	aor	√tar 1 (cross)	i aor	3.0	{'accatari': 3}
+anuparivāresi	aor	√var 1 (cover, dress, restrain)	esi aor	3.0	{'anuparivāresuṃ': 3}
+nādāsi	aor	√dā 1 (give)	āsi aor	3.0	{'nādaṃsu': 3}
+thanayi	aor	√than 8 (thunder, roar)	i aor	3.0	{'thanayaṃ': 3}
+bandhāpesi	aor	√bandh 1 (bind, tie)	esi aor	3.0	{'bandhāpesuṃ': 2, 'bandhāpesi': 1}
+vikkami	aor	√kam 1 (go)	i aor	3.0	{'vikkama': 2, 'vikkamaṃ': 1}
+nāmesi	aor	√nam 1 (bend)	esi aor	3.0	{'nāmettha': 3}
+uggacchi	aor	√gam 1 (go)	i aor	3.0	{'uggacchi': 1, 'uggacchiṃ': 1, 'uggacchī': 1}
+pasāresi	aor	√sar 1 (go, flow)	esi aor	3.0	{'pasāresiṃ': 2, 'pasāresi': 1}
+palobhayi	aor	√lubh 1 (fool, bewilder)	i aor	3.0	{'palobhayuṃ': 1, 'palobhaya': 1, 'palobhayi': 1}
+usūyi	aor	√usūy 1 (be irritated, jealous)	i aor	3.0	{'usūyā': 3}
+anujāni	aor	√ñā 5 (know)	i aor	3.0	{'anujāna': 2, 'anujāniṃsu': 1}
+sāvesi	aor	√su 4 (hear)	esi aor	3.0	{'sāvesi': 3}
+jīyi	aor	√jī 3 (age, decay)	i aor	3.0	{'jīyittha': 2, 'jīyi': 1}
+abhisamesi	aor	√i 1 (come, go)	esi aor	3.0	{'abhisamesuṃ': 3}
+paṭipassambhi	aor	√sambh 1 (be calm, confident)	i aor	3.0	{'paṭipassambhi': 3}
+sibbi	aor	√siv 3 (sew)	i aor	3.0	{'sibba': 3}
+anucaṅkami	aor	√kam 1 (go)	i aor issaṃ	3.0	{'anucaṅkamiṃsu': 1, 'anucaṅkamissaṃ': 1, 'anucaṅkamiṃ': 1}
+vandāpesi	aor	√vand 1 (bow, honour)	esi aor	3.0	{'vandāpesi': 3}
+abhuñji	aor	√bhuj 2 (use, eat, enjoy)	i aor	3.0	{'abhuñjiṃsu': 2, 'abhuñji': 1}
+abhivassi	aor	√vass 1 (rain)	i aor	3.0	{'abhivassaṃ': 3}
+chupi	aor	√chup 1 (touch)	i aor	3.0	{'chupi': 3}
+ādīnavamaddasa	aor		ddasa aor	3.0	{'ādīnavamaddasa': 2, 'ādīnavamaddasaṃsu': 1}
+pātesi	aor	√pat 1 (fall)	esi aor	3.0	{'pātesi': 3}
+nābhivadi	aor	√vad 1 (say, speak)	i aor	3.0	{'nābhivadiṃ': 3}
+janayi	aor	√jan 3 (be born, produce)	i aor	3.0	{'janayittha': 1, 'janayi': 1, 'janayaṃ': 1}
+nibbāpesi	aor	√vā 1 (blow, emit odour)	esi aor	3.0	{'nibbāpesi': 2, 'nibbāpesuṃ': 1}
+vilapi	aor	√lap 1 (speak, chat)	i aor	3.0	{'vilapi': 1, 'vilapī': 1, 'vilapiṃsu': 1}
+abhihariyi	aor	√har 1 (carry)	i aor	3.0	{'abhihariyittha': 3}
+akiri	aor	√kir 1 (scatter, sprinkle)	i aor	2.0	{'akiri': 2}
+mattamaññāsi	aor		i aor	2.0	{'mattamaññāsi': 2}
+saṅkampesi	aor	√kamp 1 (shake, tremble)	esi aor	2.0	{'saṅkampesi': 2}
+paccabyāhari	aor	√har 1 (take, seize)	hari aor	2.0	{'paccabyāhāsi': 2}
+sobhi	aor	√subh 1 (shine, adorn)	i aor	2.0	{'sobho': 1, 'sobhiṃsu': 1}
+pakiri	aor	√kir 1 (scatter, sprinkle)	i aor	2.0	{'pakiriṃsu': 2}
+abhinibbattesi	aor	√vatt 1 (be, proceed)	esi aor	2.0	{'abhinibbattesuṃ': 2}
+upasampādesi	aor	√pad 3 (go, step)	esi aor	2.0	{'upasampādesuṃ': 1, 'upasampādesi': 1}
+akhādi	aor	√khād 1 (chew)	i aor isuṃ	2.0	{'akhādisuṃ': 1, 'akhādi': 1}
+gāyi	aor	√gā 3 (sing)	i aor	2.0	{'gāyi': 2}
+nihani	aor	√han 1 (strike, kill)	i aor	2.0	{'nihanaṃ': 2}
+pacchindi	aor	√chid 2 (cut, steal)	i aor	2.0	{'pacchindi': 1, 'pacchindiṃsu': 1}
+paccavekkhi	aor	√ikkh 1 (see, mark)	i aor	2.0	{'paccavekkhiṃ': 2}
+abhavi	aor	√bhū 1 (be)	i aor	2.0	{'abhaviṃsu': 1, 'abhavo': 1}
+upadhāvi	aor	√dhāv 1 (run, flow)	i aor	2.0	{'upadhāviṃsu': 2}
+saṅkanti	aor	√kat 2 (cut)	i aor	2.0	{'saṅkantā': 1, 'saṅkanto': 1}
+mathi	aor	√math 1 (churn, stir)	i aor	2.0	{'matho': 1, 'matha': 1}
+nihini	aor	√dhā 1 (place, support)	i aor	2.0	{'nihiniṃ': 1, 'nihinī': 1}
+abbhudāhāsi	aor	√har 1 (carry)	hari aor	2.0	{'abbhudāhāsi': 2}
+chaḍḍesi	aor	√chaḍḍ 8 (discard, abandon)	esi aor	2.0	{'chaḍḍesi': 1, 'chaḍḍesuṃ': 1}
+saji	aor	√saj 1 (embrace)	i aor	2.0	{'saja': 2}
+ujukamakari	aor		kari aor	2.0	{'ujukamakaṃsu': 2}
+aṭṭhapesi	aor	√ṭhā 1 (stand)	esi aor	2.0	{'aṭṭhapesi': 2}
+osīdi	aor	√sad 1 (sink, sit, settle)	i aor	2.0	{'osīda': 1, 'osīdi': 1}
+accaruci	aor	√ruc 1 (shine, like)	i aor	2.0	{'accarucī': 1, 'accaruci': 1}
+sajji	aor	√saj 3 (stick, cling)	i aor	2.0	{'sajjittho': 1, 'sajja': 1}
+uṭṭhāpesi	aor	√ṭhā 1 (stand)	esi aor	2.0	{'uṭṭhāpesuṃ': 2}
+uṭṭhahi	aor	√ṭhā 1 (stand)	i aor	2.0	{'uṭṭhaha': 2}
+abbhañji	aor	√añj 1 (smear, anoint)	i aor	2.0	{'abbhañjiṃsu': 2}
+upesi	aor	√i 1 (come, go)	esi aor	2.0	{'upesi': 2}
+cirāyi	aor		i aor	2.0	{'cirāya': 2}
+gamesi	aor	√gam 1 (go)	esi aor	2.0	{'gamittha': 2}
+bhājesi	aor	√bhaj 1 (divide, distribute)	esi aor	2.0	{'bhājesuṃ': 2}
+paṭicchādesi	aor	√chad 8 (cover, conceal)	esi aor	2.0	{'paṭicchādesuṃ': 2}
+adassī	aor	√dis 1 (see)	i aor	2.0	{'adassaṃ': 2}
+vācesi	aor	√vac 1 (say, speak)	esi aor	2.0	{'vācesi': 2}
+aticari	aor	√car 1 (act, behave)	i aor	2.0	{'aticari': 1, 'aticarī': 1}
+paṭicchi	aor	√is 1 (wish for)	i aor	2.0	{'paṭiccha': 2}
+abhivijini	aor	√ji 5 (conquer)	i aor	2.0	{'abhivijina': 2}
+uggañchi	aor	√gam 1 (go)	i aor	2.0	{'uggañchi': 2}
+vokkami	aor	√kam 1 (go)	i aor	2.0	{'vokkama': 1, 'vokkamo': 1}
+sampayojesi	aor	√yuj 2 (yoke, join)	esi aor	2.0	{'sampayojesuṃ': 2}
+apalokesi	aor	√lok 8 (look)	esi aor	2.0	{'apalokesi': 2}
+ayaji	aor	√yaj 1 (honour, sacrifice)	i aor	2.0	{'ayajī': 2}
+addhabhavi	aor	√bhū 1 (be)	i aor	2.0	{'addhabhavi': 2}
+ḍayhi	aor	√ḍah 1 (burn)	i aor	2.0	{'ḍayhiṃsu': 1, 'ḍayhittho': 1}
+chijji	aor	√chid 2 (cut, steal)	i aor	2.0	{'chijjiṃsu': 2}
+ubbhijji	aor	√bhid 2 (break, split)	i aor	2.0	{'ubbhijja': 2}
+atajjesi	aor	√tajj 8 (frighten, threaten)	esi aor	2.0	{'atajjesi': 2}
+byāpajji	aor	√pad 3 (go, step)	i aor	2.0	{'byāpajji': 1, 'byāpajjiṃ': 1}
+chedāpesi	aor	√chid 2 (cut, steal)	esi aor	2.0	{'chedāpesi': 2}
+atimaññi	aor	√man 3 (think)	i aor	2.0	{'atimaññittha': 1, 'atimaññittho': 1}
+nibbijjhi	aor	√vidh 3 (throw, pierce)	i aor	2.0	{'nibbijjha': 2}
+sañjhabbharimakāsi	aor		āsi aor	2.0	{'sañjhabbharimakaṃsu': 2}
+apesi	aor	√i 1 (come, go)	esi aor	2.0	{'apettha': 2}
+paṭinivatti	aor	√vatt 1 (be, proceed)	i aor	2.0	{'paṭinivatti': 2}
+paṭidesesi	aor	√dis 1 (point out, explain)	esi aor	2.0	{'paṭidesesi': 2}
+sañjāyi	aor	√jan 3 (be born, produce)	i aor	2.0	{'sañjāyi': 2}
+khīyi	aor	√khī 1 (destroy, exhaust)	i aor	2.0	{'khīya': 1, 'khīyi': 1}
+olokesi	aor	√lok 8 (look)	esi aor	2.0	{'olokesi': 2}
+phari	aor	√phar 1 (suffuse, pervade)	i aor	2.0	{'phari': 2}
+posesi	aor	√pus 1 (nourish, take care)	esi aor	2.0	{'posesi': 2}
+jigiṃsi	aor	√ji 1 (conquer)	i aor	2.0	{'jigiṃsaṃ': 2}
+jigucchi	aor	√gup 1 (dislike)	i aor	2.0	{'jiguccha': 1, 'jigucchaṃ': 1}
+vahi	aor	√vah 1 (carry, bring)	i aor	2.0	{'vahuṃ': 1, 'vahiṃsu': 1}
+koṭṭesi	aor	√kuṭṭ 8 (smash, powder)	esi aor	2.0	{'koṭṭesi': 1, 'koṭṭesiṃ': 1}
+saṃvejesi	aor	√vij 3 (shake, be afraid, be in awe)	esi aor	2.0	{'saṃvejesi': 2}
+saṅgacchi	aor	√gam 1 (go)	i aor	2.0	{'saṅgacchiṃ': 1, 'saṅgacchi': 1}
+paccupaṭṭhāsi	aor	√ṭhā 1 (stand)	āsi aor	2.0	{'paccupaṭṭhāsi': 2}
+khali	aor	√khal 1 (stumble, make mistake)	i aor	2.0	{'khali': 1, 'khalaṃ': 1}
+paccudāvatti	aor	√vatt 1 (be, proceed)	i aor	2.0	{'paccudāvatti': 1, 'paccudāvatto': 1}
+apassayi	aor	√si 1 (depend on, associate with)	i aor	2.0	{'apassayi': 2}
+adhiṭṭhāsi	aor	√ṭhā 1 (stand)	āsi aor	2.0	{'adhiṭṭhāsi': 2}
+samodahi	aor	√dhā 1 (place, support)	i aor	2.0	{'samodahaṃ': 2}
+niṭṭhānamagamāsi	aor		āsi aor iṃsu	2.0	{'niṭṭhānamagamāsi': 1, 'niṭṭhānamagamaṃsu': 1}
+punāgami	aor		i aor	2.0	{'punāgamiṃ': 1, 'punāgamaṃ': 1}
+sampakampesi	aor	√kamp 1 (shake, tremble)	esi aor	2.0	{'sampakampesi': 2}
+apūjesi	aor	√pūj 8 (honour, venerate)	esi aor	2.0	{'apūjesuṃ': 2}
+kopesi	aor	√kup 3 (shake, be angry)	esi aor	2.0	{'kopesi': 2}
+phoṭesi	aor	√phuṭ 1 (swell, burst)	i aor	2.0	{'phoṭesuṃ': 2}
+vidhami	aor	√dham 1 (blow, sound)	i aor	2.0	{'vidhamī': 1, 'vidhamaṃ': 1}
+paricari	aor	√car 1 (move, walk)	i aor	2.0	{'paricariṃ': 1, 'paricaraṃ': 1}
+padūsesi	aor	√dus 3 (be angry, corrupt)	esi aor	2.0	{'padūsimhā': 2}
+santasi	aor	√tas 1 (tremble, fear)	i aor	2.0	{'santasi': 1, 'santasiṃ': 1}
+vidhuni	aor	√dhū 5 (shake, smoke)	i aor	2.0	{'vidhunaṃ': 2}
+lambi	aor	√lamb 1 (hang)	i aor	2.0	{'lambī': 1, 'lambiṃsu': 1}
+parimasi	aor	√mas 1 (touch, rub)	i aor	2.0	{'parimasi': 1, 'parimasiṃsu': 1}
+nappajahāsi	aor	√hā 1 (abandon)	āsi aor	2.0	{'nappajahāsi': 2}
+pamocesi	aor	√muc 2 (release, free)	esi aor	2.0	{'pamocesi': 2}
+laṅghi	aor	√lagh 2 (lift up, jump)	i aor	2.0	{'laṅghiṃ': 1, 'laṅghī': 1}
+assāvesi	aor	√su 1 (flow)	esi aor	2.0	{'assāvesi': 1, 'assāvesiṃ': 1}
+okkhipi	aor	√khip 1 (throw)	i aor	2.0	{'okkhipi': 1, 'okkhipiṃ': 1}
+pamodi	aor	√mud 1 (be soft, happy)	i aor	2.0	{'pamodo': 2}
+okiri	aor	√kir 1 (scatter, sprinkle)	i aor	2.0	{'okiri': 2}
+pabhāsi	aor	√bhās 1 (shine)	āsi aor	2.0	{'pabhāsi': 2}
+payirupāsayi	aor	√ās 1 (sit)	i aor	2.0	{'payirupāsayiṃ': 1, 'payirupāsaya': 1}
+pabhavi	aor	√bhū 1 (be)	i aor	2.0	{'pabhavaṃ': 1, 'pabhavo': 1}
+sandi	aor	√sand 1 (flow)	i aor isuṃ	2.0	{'sandittha': 2}
+pabyāhari	aor	√har 1 (take, seize)	hari aor	2.0	{'pabyāhāsi': 2}
+avindi	aor	√vid 2 (get, find)	i aor	2.0	{'avindi': 1, 'avinduṃ': 1}
+vijambhi	aor	√jambh 1 (yawn, stretch, wake up)	i aor	2.0	{'vijambhi': 2}
+pamucci	aor	√muc 2 (release, free)	i aor	2.0	{'pamucci': 2}
+paripūresi	aor	√pūr 1 (fill, fulfil)	esi aor	2.0	{'paripūresuṃ': 2}
+kandi	aor	√kand 1 (wail, cry out)	i aor	2.0	{'kandi': 1, 'kandiṃsu': 1}
+tārayi	aor	√tar 1 (cross)	i aor	2.0	{'tārayi': 2}
+veṭhesi	aor	√veṭh 8 (wind, twist)	esi aor	2.0	{'veṭhesuṃ': 2}
+lūyi	aor	√lu 5 (cut, reap, mow)	i aor	2.0	{'lūyiṃsu': 2}
+kami	aor	√kam 1 (go)	i aor	2.0	{'kamiṃsu': 1, 'kamaṃ': 1}
+samassāsesi	aor	√sas 1 (breath)	esi aor	2.0	{'samassāsesuṃ': 2}
+tāsesi	aor	√tas 1 (tremble, fear)	esi aor	2.0	{'tāsesi': 2}
+nāsesi	aor	√nas 3 (be lost, disappear)	esi aor	2.0	{'nāsesuṃ': 1, 'nāsesi': 1}
+pāyāpesi	aor	√yā 1 (go)	esi aor	2.0	{'pāyāpesi': 2}
+opilāpesi	aor	√plu 1 (float, swim)	esi aor	2.0	{'opilāpesi': 2}
+samānayi	aor	√nī 1 (lead, carry)	i aor	2.0	{'samānayi': 2}
+samucchindi	aor	√chid 2 (cut, steal)	i aor	2.0	{'samucchindi': 2}
+samāruhi	aor	√ruh 1 (ascend, grow)	i aor	2.0	{'samāruha': 2}
+nikkaḍḍhi	aor	√kaḍḍh 1 (drag, plough)	i aor	2.0	{'nikkaḍḍhi': 2}
+opuni	aor	√pu 5 (purify, cleanse)	i aor	2.0	{'opuni': 1, 'opuniṃ': 1}
+yāpesi	aor	√yā 1 (go)	esi aor	2.0	{'yāpesuṃ': 1, 'yāpesi': 1}
+anupabbaji	aor	√vaj 1 (go on)	i aor	2.0	{'anupabbajiṃsu': 2}
+ākiri	aor	√kir 1 (scatter, sprinkle)	i aor	2.0	{'ākirā': 2}
+patitthīyi	aor	√thī 1 (be dense, compact)	i aor	2.0	{'patitthīyi': 1, 'patitthīyiṃ': 1}
+randhayi	aor	√randh 1 (hurt, wound)	i aor	2.0	{'randhayuṃ': 1, 'randhayi': 1}
+palapi	aor	√lap 1 (speak, chat)	i aor	2.0	{'palapaṃ': 2}
+apanudi	aor	√nud 1 (drive out, reject)	i aor	2.0	{'apanudi': 2}
+ahāyi	aor	√hā 3 (decrease)	i aor	2.0	{'ahāyi': 2}
+anuyāyi	aor	√yā 1 (go)	i aor	2.0	{'anuyāyī': 2}
+parivaṇṇayi	aor	√vaṇṇ 8 (praise)	i aor	2.0	{'parivaṇṇayī': 2}
+parivatti	aor	√vatt 1 (be, proceed)	i aor	2.0	{'parivattā': 1, 'parivatti': 1}
+anuparivatti	aor	√vatt 1 (be, proceed)	i aor	2.0	{'anuparivattaṃ': 2}
+anuparidhāvi	aor	√dhāv 1 (run, flow)	i aor	2.0	{'anuparidhāvaṃ': 2}
+patthari	aor	√thar 1 (spread, expand)	i aor	2.0	{'patthara': 1, 'patthari': 1}
+pariyuṭṭhi	aor	√ṭhā 1 (stand)	i aor	2.0	{'pariyuṭṭhiṃsu': 2}
+acintayi	aor	√cint 8 (think)	i aor	2.0	{'acintayuṃ': 2}
+udapajji	aor	√pad 3 (go, step)	i aor isuṃ	2.0	{'udapajjisuṃ': 2}
+abhisaṅkhari	aor	√kar 7 (do, make)	i aor	2.0	{'abhisaṅkhari': 2}
+khamāpesi	aor	√kham 1 (tolerate, endure)	esi aor	2.0	{'khamāpesi': 2}
+abbhuggañchi	aor	√gam 1 (go)	i aor	2.0	{'abbhuggañchi': 1, 'abbhuggañchuṃ': 1}
+abbhukkiri	aor	√kir 1 (scatter, sprinkle)	i aor	2.0	{'abbhukkiri': 2}
+palāpesi	aor	√pal 8 (run away, flee)	esi aor	2.0	{'palāpettha': 2}
+hāpesi	aor	√hā 3 (decrease)	esi aor	2.0	{'hāpesi': 2}
+ālimpesi	aor	√dīp 3 (shine, blaze)	esi aor	2.0	{'ālimpesuṃ': 2}
+vippavasi	aor	√vas 1 (live)	i aor	2.0	{'vippavasimha': 2}
+sakkari	aor	√kar 7 (do, make)	kari aor	2.0	{'sakkariṃsu': 1, 'sakkaraṃ': 1}
+udikkhi	aor	√ikkh 1 (see, mark)	i aor issaṃ	2.0	{'udikkhisaṃ': 1, 'udikkhiṃsu': 1}
+samatani	aor	√tan 7 (stretch, extend)	i aor	2.0	{'samatani': 2}
+ātappamakari	aor		kari aor	2.0	{'ātappamakaruṃ': 2}
+parāji	aor	√ji 1 (conquer)	i aor	2.0	{'parājiṃsu': 2}
+anvāvisi	aor	√vis 1 (enter)	i aor	2.0	{'anvāvisi': 2}
+sedesi	aor	√sid 3 (sweat, steam)	esi aor	2.0	{'sedesuṃ': 2}
+okāsamakāsi	aor		āsi aor	2.0	{'okāsamakāsi': 2}
+samanuyuñji	aor	√yuj 2 (yoke, join)	i aor	2.0	{'samanuyuñjimha': 2}
+samanubhāsi	aor	√bhās 1 (speak)	āsi aor irreg	2.0	{'samanubhāsimha': 2}
+samanugāhi	aor	√gāh 1 (dive, plunge)	i aor	2.0	{'samanugāhimha': 2}
+lasi	aor	√las 1 (shine, be active)	i aor	2.0	{'lasī': 1, 'lasi': 1}
+oṇojesi	aor	√nud 1 (drive out, reject)	esi aor	2.0	{'oṇojesiṃ': 2}
+samanusāsi	aor	√sās 1 (order, instruct)	āsi aor	2.0	{'samanusāsatha': 2}
+otari	aor	√tar 1 (cross)	i aor	2.0	{'otariṃ': 1, 'otari': 1}
+anuddhaṃsesi	aor	√dhaṃs 1 (fall down, destroy)	esi aor	2.0	{'anuddhaṃsesi': 2}
+paṇidahi	aor	√dhā 1 (place, support)	i aor	2.0	{'paṇidahiṃ': 2}
+vināsayi	aor	√nas 3 (be lost, disappear)	i aor	2.0	{'vināsayittha': 1, 'vināsayī': 1}
+nādhigacchi	aor	√gam 1 (go)	i aor issaṃ	2.0	{'nādhigacchiṃ': 1, 'nādhigacchissaṃ': 1}
+samapādi	aor	√pad 3 (go, step)	i aor	2.0	{'samapādi': 2}
+āhaññi	aor	√han 1 (strike, kill)	i aor	1.0	{'āhaññiṃ': 1}
+āvisi	aor	√vis 1 (enter)	i aor	1.0	{'āvisī': 1}
+sampavedhesi	aor	√vedh 1 (fear, shake)	esi aor	1.0	{'sampavedhesi': 1}
+sampavesesi	aor	√vis 1 (enter)	esi aor	1.0	{'sampavesesi': 1}
+āviñji	aor	√iñj 1 (move, shake)	i aor	1.0	{'āviñji': 1}
+sampāpesi	aor	√ap 4 (reach, attain)	esi aor	1.0	{'sampāpesi': 1}
+sampāpuṇi	aor	√ap 4 (reach, attain)	i aor	1.0	{'sampāpuṇi': 1}
+āhariyi	aor	√har 1 (carry)	i aor	1.0	{'āhariyo': 1}
+āvari	aor	√var 1 (cover, dress, restrain)	i aor	1.0	{'āvara': 1}
+ummujji	aor	√mujj 1 (dive, sink, submerge)	i aor	1.0	{'ummujja': 1}
+tadāgami	aor		i aor	1.0	{'tadāgamuṃ': 1}
+sampakampi	aor	√kamp 1 (shake, tremble)	i aor	1.0	{'sampakampi': 1}
+sambāhi	aor	√vah 1 (carry, bring)	i aor	1.0	{'sambāho': 1}
+samekkhi	aor	√ikkh 1 (see, mark)	i aor	1.0	{'samekkhaṃ': 1}
+siṅghi	aor	√siṅgh 1 (sniff, smell)	i aor	1.0	{'siṅghā': 1}
+juhi	aor	√hu 1 (offer as oblation)	i aor	1.0	{'juhiṃ': 1}
+āruhi	aor	√ruh 1 (ascend, grow)	i aor	1.0	{'āruhī': 1}
+ārādhesi	aor	√rādh 3 (succeed, please)	esi aor	1.0	{'ārādhesi': 1}
+ikkhi	aor	√ikkh 1 (see, mark)	i aor	1.0	{'ikkhaṃ': 1}
+āropesi	aor	√ruh 1 (ascend, grow)	esi aor	1.0	{'āropesuṃ': 1}
+sambhañji	aor	√bhañj 1 (break, destroy)	i aor	1.0	{'sambhañja': 1}
+sammajji	aor	√majj 1 (rub, polish)	i aor	1.0	{'sammajjittha': 1}
+tudi	aor	√tud 1 (prick, stab)	i aor	1.0	{'tudi': 1}
+āyuhi	aor	√yūh 1 (carry, bring)	i aor	1.0	{'āyuhittha': 1}
+vāhesi	aor	√vah 1 (carry, bring)	esi aor	1.0	{'vāhesuṃ': 1}
+samāgañchi	aor	√gam 1 (go)	i aor	1.0	{'samāgañchi': 1}
+samabhavi	aor	√bhū 1 (be)	i aor	1.0	{'samabhavi': 1}
+ukkujji	aor	√kujj 1 (turn)	i aor	1.0	{'ukkujjo': 1}
+ānayi	aor	√nī 1 (lead, carry)	i aor	1.0	{'ānayī': 1}
+āvajji	aor	√vajj 8 (turn, avoid)	i aor	1.0	{'āvajja': 1}
+jaggi	aor	√jagg 1 (look after)	i aor	1.0	{'jaggaṃ': 1}
+ādiyasi	aor	√ādā 3 (take, seize)	i aor	1.0	{'ādiyasī': 1}
+vikiri	aor	√kir 1 (scatter, sprinkle)	i aor	1.0	{'vikiri': 1}
+sannahi	aor		i aor	1.0	{'sannahi': 1}
+avañcayi	aor	√vañc 8 (be bent, deceive)	i aor	1.0	{'avañcayī': 1}
+ucchijji	aor	√chid 2 (cut, steal)	i aor	1.0	{'ucchijja': 1}
+ucchindi	aor	√chid 2 (cut, steal)	i aor	1.0	{'ucchinda': 1}
+sīdi	aor	√sad 1 (sink, sit, settle)	i aor	1.0	{'sīdā': 1}
+sannivāresi	aor	√var 1 (cover, dress, restrain)	esi aor	1.0	{'sannivāresi': 1}
+ubbandhi	aor	√bandh 1 (bind, tie)	i aor	1.0	{'ubbandhaṃ': 1}
+uttasi	aor	√tas 1 (tremble, fear)	i aor	1.0	{'uttasaṃ': 1}
+vami	aor	√vam 1 (eject, vomit)	i aor	1.0	{'vamiṃsu': 1}
+vigāhi	aor	√gāh 1 (dive, plunge)	i aor isuṃ	1.0	{'vigāhisuṃ': 1}
+chādāpesi	aor	√chad 8 (cover, conceal)	esi aor	1.0	{'chādāpesi': 1}
+saraṇamakāsi	aor		āsi aor	1.0	{'saraṇamakaṃsu': 1}
+divamupapajji	aor		i aor	1.0	{'divamupapajji': 1}
+āgamesi	aor	√āgam 8 (wait)	esi aor	1.0	{'āgamettha': 1}
+vicintesi	aor	√cint 8 (think)	esi aor	1.0	{'vicintesuṃ': 1}
+avassayi	aor	√si 1 (depend on, associate with)	i aor	1.0	{'avassayiṃ': 1}
+sapi	aor	√sap 1 (curse)	i aor	1.0	{'sapā': 1}
+samuddhari	aor	√dhar 1 (hold, carry, endure)	hari aor	1.0	{'samuddhari': 1}
+ijjhi	aor	√idh 3 (succeed, accomplish)	i aor	1.0	{'ijjhiṃsu': 1}
+iñjayi	aor	√iñj 1 (move, shake)	i aor	1.0	{'iñjayuṃ': 1}
+ubbahi	aor	√vah 1 (carry, bring)	i aor	1.0	{'ubbaha': 1}
+avakkami	aor	√kam 1 (go)	i aor	1.0	{'avakkamiṃ': 1}
+vitudi	aor	√tud 1 (prick, stab)	i aor	1.0	{'vitudaṃ': 1}
+udabbahi	aor	√vah 1 (carry, bring)	i aor	1.0	{'udabbahi': 1}
+sandhuni	aor	√dhū 5 (shake, smoke)	i aor	1.0	{'sandhuniṃsu': 1}
+uplavi	aor	√plu 1 (float, swim)	i aor	1.0	{'uplava': 1}
+upphālesi	aor		esi aor	1.0	{'upphālesi': 1}
+vijesi	aor	√ji 1 (overpower)	i aor	1.0	{'vijesi': 1}
+vijāni	aor	√ñā 5 (know)	i aor	1.0	{'vijāna': 1}
+ussāpesi	aor	√si 1 (depend on, associate with)	esi aor	1.0	{'ussāpesi': 1}
+sallapi	aor	√lap 1 (speak, chat)	i aor	1.0	{'sallapi': 1}
+nissari	aor	√sar 1 (go, flow)	i aor isuṃ	1.0	{'nissaro': 1}
+sampavedhi	aor	√vedh 1 (fear, shake)	i aor	1.0	{'sampavedhi': 1}
+abhippasīdi	aor	√sad 1 (sink, sit, settle)	i aor	1.0	{'abhippasīdiṃsu': 1}
+nivisi	aor	√vis 1 (enter)	i aor	1.0	{'nivisi': 1}
+nivāsesi	aor	√vas 8 (wear, dress)	esi aor	1.0	{'nivāsesi': 1}
+nisedhesi	aor	√sidh 1 (prevent, prohibit)	esi aor	1.0	{'nisedhesuṃ': 1}
+vippasīdi	aor	√sad 1 (sink, sit, settle)	i aor	1.0	{'vippasīdiṃsu': 1}
+vippalapi	aor	√lap 1 (speak, chat)	i aor	1.0	{'vippalapi': 1}
+nisāmayi	aor	√sam 3 (be calm, tired)	i aor	1.0	{'nisāmayi': 1}
+dhovi	aor	√dhov 1 (wash, rinse)	i aor	1.0	{'dhovi': 1}
+nātivatti	aor	√vatt 1 (be, proceed)	i aor isuṃ	1.0	{'nātivattisuṃ': 1}
+sacchikari	aor	√kar 7 (do, make)	kari aor	1.0	{'sacchikarī': 1}
+abhisajji	aor	√sajj 1 (relinquish, let loose)	i aor	1.0	{'abhisajjiṃ': 1}
+nilīyi	aor	√lī 3 (stick, hide)	i aor	1.0	{'nilīyiṃsu': 1}
+abhinikkhami	aor	√kam 1 (go)	i aor	1.0	{'abhinikkhamiṃ': 1}
+abhininnāmi	aor	√nam 1 (bend)	i aor	1.0	{'abhininnāmi': 1}
+upallavi	aor		i aor	1.0	{'upallaviṃ': 1}
+vibhajesi	aor	√bhaj 1 (divide, distribute)	esi aor	1.0	{'vibhajesuṃ': 1}
+upaplavi	aor		i aor	1.0	{'upaplaviṃ': 1}
+abhisambhosi	aor	√bhū 1 (be)	i aor	1.0	{'abhisambhosi': 1}
+nānusāsi	aor	√sās 1 (order, instruct)	i aor	1.0	{'nānusāsi': 1}
+dhuni	aor	√dhū 5 (shake, smoke)	i aor	1.0	{'dhunaṃ': 1}
+nābhisajji	aor	√sajj 1 (relinquish, let loose)	i aor	1.0	{'nābhisajji': 1}
+nābhisambhosi	aor	√bhū 1 (be)	i aor	1.0	{'nābhisambhosi': 1}
+saṃsappi	aor	√sapp 1 (crawl)	i aor	1.0	{'saṃsappī': 1}
+nābhinandi	aor	√nand 1 (delight, enjoy)	i aor	1.0	{'nābhinandiṃ': 1}
+uppātesi	aor	√paṭ 1 (split, tear)	esi aor	1.0	{'uppātesi': 1}
+vinicchini	aor	√ci 5 (gather, accumulate)	i aor	1.0	{'vinicchinī': 1}
+ghaṭṭayi	aor	√ghaṭṭ 8 (hit, strike)	i aor	1.0	{'ghaṭṭayi': 1}
+upakāsi	aor		āsi aor	1.0	{'upakāsiṃ': 1}
+uddassesi	aor	√dis 1 (see)	esi aor	1.0	{'uddassesi': 1}
+nandhi	aor	√nadh 2 (wrap, twist)	i aor	1.0	{'nandhiṃ': 1}
+khamāpayi	aor	√kham 1 (tolerate, endure)	i aor	1.0	{'khamāpayī': 1}
+vināsesi	aor	√nas 3 (be lost, disappear)	esi aor	1.0	{'vināsesi': 1}
+ūhani	aor	√han 1 (strike, kill)	i aor	1.0	{'ūhanaṃ': 1}
+caji	aor	√caj 1 (give up, let go)	i aor	1.0	{'caji': 1}
+udīresi	aor	√īr 8 (speak)	esi aor	1.0	{'udīresi': 1}
+uppāṭesi	aor	√paṭ 1 (split, tear)	esi aor	1.0	{'uppāṭesi': 1}
+nahāyi	aor	√nhā 3 (bathe)	i aor	1.0	{'nahāyiṃsu': 1}
+vidhāvi	aor	√dhāv 1 (run, flow)	i aor	1.0	{'vidhāvuṃ': 1}
+abhivādayi	aor	√vad 1 (say, speak)	i aor	1.0	{'abhivādayi': 1}
+nimini	aor	√mi 5 (exchange, barter)	i aor	1.0	{'niminā': 1}
+sañjagghi	aor	√jaggh 1 (laugh)	i aor	1.0	{'sañjagghittho': 1}
+nimmādesi	aor	√mad 3 (be mad, intoxicated)	esi aor	1.0	{'nimmādesi': 1}
+sañcari	aor	√car 1 (move, walk)	i aor	1.0	{'sañcarā': 1}
+saṃvegamakāsi	aor		āsi aor	1.0	{'saṃvegamakāsi': 1}
+saṇṭhāsi	aor	√ṭhā 1 (stand)	āsi aor	1.0	{'saṇṭhāsi': 1}
+vinesi	aor	√nī 1 (lead, carry)	esi aor	1.0	{'vinesi': 1}
+niggaṇhi	aor	√gah 6 (grasp)	i aor	1.0	{'niggaṇha': 1}
+abhivissaji	aor	√saj 1 (relinquish, let loose)	i aor	1.0	{'abhivissaji': 1}
+nibbāhi	aor	√vah 1 (carry, bring)	i aor	1.0	{'nibbāha': 1}
+tosayi	aor		i aor	1.0	{'tosayi': 1}
+thuni	aor	√thu 5 (moan, groan)	i aor	1.0	{'thunaṃ': 1}
+upadussi	aor	√dus 3 (hate, dislike)	i aor	1.0	{'upadussiṃ': 1}
+thakesi	aor	√thak 8 (close)	esi aor	1.0	{'thakesi': 1}
+upatthambhesi	aor	√thambh 1 (support, be stiff)	esi aor	1.0	{'upatthambhesi': 1}
+saññāpesi	aor	√ñā 5 (know)	esi aor	1.0	{'saññāpesi': 1}
+saṅkhipi	aor	√khip 1 (throw)	i aor	1.0	{'saṅkhipiṃsu': 1}
+pakkosi	aor	√kus 1 (call, insult)	i aor	1.0	{'pakkosi': 1}
+gaṇesi	aor	√gaṇ 8 (calculate, group)	esi aor	1.0	{'gaṇesi': 1}
+khemamakāsi	aor		āsi aor	1.0	{'khemamakāsi': 1}
+pakappesi	aor	√kapp 8 (think)	esi aor	1.0	{'pakappesi': 1}
+nigacchi	aor	√gam 1 (go)	i aor	1.0	{'nigacchi': 1}
+niddāyi	aor	√dā 3 (sleep)	i aor	1.0	{'niddāya': 1}
+saṃvidahi	aor	√dhā 1 (place, support)	i aor	1.0	{'saṃvidahi': 1}
+nikanti	aor	√kat 2 (cut)	i aor	1.0	{'nikanti': 1}
+upaññāsi	aor	√ñā 5 (know)	āsi aor iṃsu	1.0	{'upaññāsiṃ': 1}
+nitthari	aor	√tar 1 (cross)	i aor	1.0	{'nitthariṃsu': 1}
+nijjhāyi	aor	√jhā 3 (think, meditate)	i aor	1.0	{'nijjhāyi': 1}
+kiṇi	aor	√kī 5 (buy)	i aor	1.0	{'kiṇiṃsu': 1}
+niṭṭhāpesi	aor	√ṭhā 1 (stand)	esi aor	1.0	{'niṭṭhāpesi': 1}
+nidhesi	aor	√dhā 1 (place, support)	esi aor	1.0	{'nidhesiṃ': 1}
+niddhuni	aor	√dhū 5 (shake, smoke)	i aor	1.0	{'niddhuniṃsu': 1}
+nidaṃsesi	aor	√dis 1 (see)	esi aor	1.0	{'nidaṃsesi': 1}
+nidaṃsayi	aor	√dis 1 (see)	i aor	1.0	{'nidaṃsayi': 1}
+bādhesi	aor	√bādh 1 (press, oppress)	esi aor	1.0	{'bādhesi': 1}
+bādhayi	aor	√bādh 1 (press, oppress)	i aor	1.0	{'bādhayittha': 1}
+pesuññamakāsi	aor		āsi aor	1.0	{'pesuññamakāsi': 1}
+pesayi	aor	√pis 8 (send)	i aor	1.0	{'pesayī': 1}
+bujjhi	aor	√budh 3 (know, wake up)	i aor	1.0	{'bujjhi': 1}
+olikhi	aor	√likh 1 (scratch, write)	i aor	1.0	{'olikhiṃ': 1}
+harāpesi	aor	√har 1 (carry)	esi aor	1.0	{'harāpesi': 1}
+ajjhohari	aor	√har 1 (take, seize)	hari aor	1.0	{'ajjhohari': 1}
+bhaji	aor	√bhaj 1 (associate, keep company)	i aor	1.0	{'bhajiṃ': 1}
+bhassi	aor	√bhas 3 (fall down)	i aor	1.0	{'bhassā': 1}
+akārayi	aor	√kar 7 (do, make)	i aor	1.0	{'akārayi': 1}
+atisari	aor	√sar 1 (go, flow)	i aor	1.0	{'atisaro': 1}
+ativassi	aor	√vass 1 (rain)	i aor	1.0	{'ativassi': 1}
+akkami	aor	√kam 1 (go)	i aor	1.0	{'akkami': 1}
+agañchi	aor	√gam 1 (go)	i aor	1.0	{'agañchiṃ': 1}
+mānesi	aor	√man 3 (think)	esi aor	1.0	{'mānesuṃ': 1}
+ajjhesi	aor	√is 1 (wish for)	esi aor	1.0	{'ajjhesi': 1}
+mantesi	aor	√mant 8 (counsel, invite)	esi aor	1.0	{'mantesuṃ': 1}
+virādhesi	aor	√rādh 3 (succeed, please)	esi aor	1.0	{'virādhesi': 1}
+anvakāsi	aor	√kar 7 (do, make)	āsi aor	1.0	{'anvakāsi': 1}
+aparajjhi	aor	√rādh 3 (succeed, please)	i aor	1.0	{'aparajjhaṃ': 1}
+paṭissuṇi	aor	√su 4 (hear)	i aor	1.0	{'paṭissuṇi': 1}
+viroci	aor	√ruc 1 (shine, like)	i aor	1.0	{'viroca': 1}
+paṭimānesi	aor	√man 3 (think)	esi aor	1.0	{'paṭimānesi': 1}
+apasāresi	aor	√sar 1 (go, flow)	esi aor	1.0	{'apasāresi': 1}
+patthesi	aor	√atth 8 (wish for)	esi aor	1.0	{'patthesi': 1}
+paṭiggaṇhi	aor	√gah 6 (grasp)	i aor	1.0	{'paṭiggaṇhittha': 1}
+paṭinesi	aor	√nī 1 (lead, carry)	esi aor	1.0	{'paṭinesi': 1}
+pacini	aor	√ci 5 (gather, accumulate)	i aor	1.0	{'pacinaṃ': 1}
+okāsesi	aor	√kās 1 (shine, be visible)	esi aor	1.0	{'okāsesi': 1}
+paṭigijjhi	aor	√gidh 3 (be greedy)	i aor	1.0	{'paṭigijjhā': 1}
+saṅkampi	aor	√kamp 1 (shake, tremble)	i aor	1.0	{'saṅkampi': 1}
+paṭisallīyi	aor	√lī 3 (stick, hide)	i aor	1.0	{'paṭisallīyi': 1}
+visibbesi	aor	√siv 3 (warm)	esi aor	1.0	{'visibbesuṃ': 1}
+saggamagamāsi	aor		āsi aor	1.0	{'saggamagamāsi': 1}
+appesi	aor	√ar 1 (move, attain)	esi aor	1.0	{'appesi': 1}
+visīdi	aor	√sad 1 (sink, sit, settle)	i aor	1.0	{'visīdittho': 1}
+apesayi	aor	√pis 8 (send)	i aor	1.0	{'apesayi': 1}
+abravi	aor	√brū 1 (say)	i aor	1.0	{'abravī': 1}
+paṭisammodi	aor	√mud 1 (be soft, happy)	i aor	1.0	{'paṭisammodi': 1}
+atāresi	aor	√tar 1 (cross)	esi aor	1.0	{'atāresi': 1}
+padūsayi	aor	√dus 3 (be angry, corrupt)	i aor	1.0	{'padūsayimhā': 1}
+virūhi	aor	√ruh 1 (ascend, grow)	i aor	1.0	{'virūhiṃsu': 1}
+paccorohi	aor	√ruh 1 (ascend, grow)	i aor	1.0	{'paccoroha': 1}
+virami	aor	√ram 1 (stop, abstain)	i aor	1.0	{'viramiṃsu': 1}
+visahi	aor	√sah 1 (overcome, prevail)	i aor	1.0	{'visahi': 1}
+viramāsi	aor	√ram 1 (stop, abstain)	āsi aor	1.0	{'viramāsi': 1}
+abbhanumodi	aor	√mud 1 (be soft, happy)	i aor	1.0	{'abbhanumodi': 1}
+paṭisañcikkhi	aor	√cikkh 1 (show, tell)	i aor	1.0	{'paṭisañcikkhiṃ': 1}
+pajagghi	aor	√jaggh 1 (laugh)	i aor	1.0	{'pajagghittho': 1}
+padahi	aor	√dhā 1 (place, support)	i aor	1.0	{'padahaṃ': 1}
+ajali	aor	√jal 1 (shine, blaze)	i aor	1.0	{'ajali': 1}
+omaddi	aor	√madd 1 (crush, grind)	i aor	1.0	{'omadda': 1}
+odhini	aor	√dhū 5 (shake, smoke)	i aor	1.0	{'odhinā': 1}
+punāgamāsi	aor		āsi aor	1.0	{'punāgamāsiṃ': 1}
+adhimucci	aor	√muc 2 (release, free)	i aor	1.0	{'adhimucci': 1}
+pahāramadāsi	aor		i aor	1.0	{'pahāramadāsi': 1}
+pājahi	aor	√hā 1 (abandon)	i aor	1.0	{'pājahi': 1}
+pātayi	aor	√pat 1 (fall)	i aor	1.0	{'pātayiṃsu': 1}
+pātukari	aor	√kar 7 (do, make)	kari aor	1.0	{'pātukarī': 1}
+kampesi	aor	√kamp 1 (shake, tremble)	esi aor	1.0	{'kampesi': 1}
+odhuni	aor	√dhū 5 (shake, smoke)	i aor	1.0	{'odhuniṃsu': 1}
+ophuni	aor	√pu 5 (purify, cleanse)	i aor	1.0	{'ophuni': 1}
+pavijjhi	aor	√vidh 3 (throw, pierce)	i aor	1.0	{'pavijjhiṃsu': 1}
+pīḷesi	aor	√pīḷ 8 (press, crush)	esi aor	1.0	{'pīḷesi': 1}
+ophāresi	aor		esi aor	1.0	{'ophāresi': 1}
+adhosi	aor	√dhū 5 (shake, smoke)	i aor	1.0	{'adhosi': 1}
+vedhi	aor	√vedh 1 (fear, shake)	i aor	1.0	{'vedhī': 1}
+avhayi	aor	√vhe 1 (call, name)	i aor	1.0	{'avhaya': 1}
+opātesi	aor	√pat 1 (fall)	esi aor	1.0	{'opātesi': 1}
+opādesi	aor	√paṭ 1 (split, tear)	esi aor	1.0	{'opādesi': 1}
+sussi	aor	√sus 3 (dry, wither)	i aor	1.0	{'sussaṃ': 1}
+pārupi	aor	√var 1 (cover, dress, restrain)	i aor	1.0	{'pārupi': 1}
+parivattesi	aor	√vatt 1 (be, proceed)	esi aor	1.0	{'parivattesi': 1}
+anubrūhayi	aor	√brūh 1 (increase)	i aor	1.0	{'anubrūhaya': 1}
+vīji	aor	√vīj 1 (fan)	i aor	1.0	{'vījaṃ': 1}
+anubhavi	aor	√bhū 1 (be)	i aor	1.0	{'anubhavi': 1}
+accamaññi	aor	√man 3 (think)	i aor isuṃ	1.0	{'accamaññisuṃ': 1}
+parivasi	aor	√vas 1 (live)	i aor	1.0	{'parivasi': 1}
+parimajji	aor	√majj 1 (rub, polish)	i aor	1.0	{'parimajjiṃsu': 1}
+vihani	aor		i aor	1.0	{'vihanaṃ': 1}
+viheṭhi	aor		i aor	1.0	{'viheṭhiṃsu': 1}
+pariyantamakāsi	aor		āsi aor	1.0	{'pariyantamakāsi': 1}
+vihiṃsi	aor	√his 2 (hurt, harm)	i aor	1.0	{'vihiṃsā': 1}
+vihaññi	aor	√han 1 (strike, kill)	i aor	1.0	{'vihaññittho': 1}
+paribhavi	aor	√bhū 1 (be)	i aor	1.0	{'paribhavaṃ': 1}
+anumaññi	aor	√man 3 (think)	i aor	1.0	{'anumaññaṃ': 1}
+paribhindi	aor	√bhid 2 (break, split)	i aor	1.0	{'paribhindi': 1}
+ajjhalattha	aor	√labh 1 (get)	lattha aor	1.0	{'ajjhalatthuṃ': 1}
+ajjhāgami	aor	√gam 1 (go)	i aor aṃsu	1.0	{'ajjhāgamā': 1}
+bhāsayi	aor	√bhās 1 (speak)	i aor	1.0	{'bhāsayi': 1}
+ajjhupāhari	aor	√har 1 (take, seize)	i aor	1.0	{'ajjhupāhari': 1}
+ajjhupekkhi	aor	√ikkh 1 (see, mark)	i aor	1.0	{'ajjhupekkhiṃsu': 1}
+ajjhupesi	aor	√i 1 (come, go)	esi aor	1.0	{'ajjhupesi': 1}
+agghāpesi	aor	√aggh 1 (be worth)	esi aor	1.0	{'agghāpesi': 1}
+osāresi	aor	√sar 1 (go, flow)	esi aor	1.0	{'osāresi': 1}
+pasāsi	aor	√sās 1 (order, instruct)	āsi aor	1.0	{'pasāsatha': 1}
+pamaddi	aor	√madd 1 (crush, grind)	i aor	1.0	{'pamaddī': 1}
+pamajji	aor	√mad 3 (be mad, intoxicated)	i aor	1.0	{'pamajja': 1}
+rosesi	aor	√rus 1 (be angry)	esi aor	1.0	{'rosesi': 1}
+ruji	aor	√ruj 1 (hurt, be painful)	i aor	1.0	{'rujā': 1}
+paripātesi	aor	√pat 1 (fall)	esi aor	1.0	{'paripātesi': 1}
+parikkhi	aor	√ikkh 1 (see, mark)	i aor	1.0	{'parikkhā': 1}
+parinesi	aor	√nī 1 (lead, carry)	esi aor	1.0	{'parinesi': 1}
+roci	aor	√ruc 1 (shine, like)	i aor	1.0	{'roca': 1}
+parihari	aor	√har 1 (carry)	hari aor	1.0	{'parihariṃ': 1}
+palambhesi	aor	√rabh 1 (be aroused, violent)	esi aor	1.0	{'palambhesi': 1}
+palobhesi	aor	√lubh 1 (fool, bewilder)	esi aor	1.0	{'palobhesi': 1}
+pasahi	aor	√sah 1 (overcome, prevail)	i aor	1.0	{'pasahaṃ': 1}
+vīriyamārabhi	aor		i aor	1.0	{'vīriyamārabhiṃsu': 1}
+anudhāvi	aor	√dhāv 1 (run, flow)	i aor	1.0	{'anudhāvī': 1}
+pavasi	aor	√vas 1 (live)	i aor	1.0	{'pavasaṃ': 1}
+vuṭṭhāpesi	aor	√ṭhā 1 (stand)	esi aor	1.0	{'vuṭṭhāpesi': 1}
+vissāsamāpādi	aor		i aor	1.0	{'vissāsamāpādi': 1}
+vissandi	aor	√sand 1 (flow)	i aor	1.0	{'vissando': 1}
+anupassi	aor	√dis 1 (see)	i aor aṃsu	1.0	{'anupassī': 1}
+vissajjesi	aor	√sajj 1 (relinquish, let loose)	esi aor	1.0	{'vissajjesi': 1}
+anusari	aor	√sar 1 (go, flow)	i aor	1.0	{'anusarī': 1}
+parikaḍḍhi	aor	√kaḍḍh 1 (drag, plough)	i aor	0.0	{}
+parikappesi	aor	√kapp 8 (think)	esi aor	0.0	{}
+payuñji	aor	√yuj 2 (yoke, join)	i aor	0.0	{}
+payāsi	aor	√yā 1 (go)	āsi aor	0.0	{}
+parikassi	aor	√kas 1 (drag, draw)	i aor	0.0	{}
+parājīyi	aor	√ji 1 (conquer)	i aor	0.0	{}
+paricchindi	aor	√chid 2 (cut, steal)	i aor	0.0	{}
+paritāpesi	aor	√tap 1 (burn, radiate heat)	esi aor	0.0	{}
+paricumbi	aor	√cumb 1 (kiss)	i aor	0.0	{}
+parikittesi	aor	√kitt 8 (make known)	esi aor	0.0	{}
+pamohesi	aor	√muh 3 (be deluded, confused)	esi aor	0.0	{}
+pariyuṭṭhāsi	aor	√ṭhā 1 (stand)	āsi aor	0.0	{}
+pariyosāpesi	aor	√sā 1 (complete, accomplish)	esi aor	0.0	{}
+parisakki	aor	√sakk 1 (move)	i aor	0.0	{}
+parisaṅki	aor	√saṅk 1 (doubt, suspect)	i aor	0.0	{}
+paritulesi	aor	√tul 8 (weigh)	esi aor	0.0	{}
+pariyodapesi	aor	√dā 3 (be pure, clean)	esi aor	0.0	{}
+parisappi	aor	√sapp 1 (crawl)	i aor	0.0	{}
+pariyesi	aor	√es 1 (seek, search)	esi aor	0.0	{}
+pariyogāhi	aor	√gāh 1 (dive, plunge)	i aor	0.0	{}
+paridūsesi	aor	√dus 3 (be angry, corrupt)	esi aor	0.0	{}
+paritosesi	aor	√tus 3 (be content, pleased)	esi aor	0.0	{}
+paridhovi	aor	√dhov 1 (wash, rinse)	i aor	0.0	{}
+paridhāvi	aor	√dhāv 1 (run, flow)	i aor	0.0	{}
+pariniṭṭhāpesi	aor	√ṭhā 1 (stand)	esi aor	0.0	{}
+pariyāhani	aor	√han 1 (strike, kill)	i aor	0.0	{}
+pariyādiyi	aor	√ādā 3 (take, seize)	i aor	0.0	{}
+parimocesi	aor	√muc 2 (release, free)	esi aor	0.0	{}
+parisussi	aor	√sus 3 (dry, wither)	i aor	0.0	{}
+parisahi	aor	√sah 1 (overcome, prevail)	i aor	0.0	{}
+parisiñci	aor	√sic 2 (sprinkle, pour)	i aor	0.0	{}
+parisujjhi	aor	√sudh 3 (be pure)	i aor	0.0	{}
+parimaddi	aor	√madd 1 (crush, grind)	i aor	0.0	{}
+paritassi	aor	√tas 3 (be agitated)	i aor	0.0	{}
+paccabhavi	aor	√bhū 1 (be)	i aor	0.0	{}
+paritappi	aor	√tapp 1 (regret)	i aor	0.0	{}
+paccāhari	aor	√har 1 (carry)	hari aor	0.0	{}
+paccanubhavi	aor	√bhū 1 (be)	i aor	0.0	{}
+nīharāpesi	aor	√har 1 (carry)	esi aor	0.0	{}
+pakkhipāpesi	aor	√khip 1 (throw)	esi aor	0.0	{}
+paccakkhāsi	aor	√khā 1 (tell, announce)	āsi aor	0.0	{}
+pacalāyi	aor	√cal 1 (shake, tremble)	i aor	0.0	{}
+pacari	aor	√car 1 (act, behave)	i aor	0.0	{}
+paccakkosi	aor	√kus 1 (call, insult)	i aor	0.0	{}
+pacāpesi	aor	√pac 1 (cook)	esi aor	0.0	{}
+pacāresi	aor	√car 1 (act, behave)	esi aor	0.0	{}
+pagāhi	aor	√gāh 1 (dive, plunge)	i aor	0.0	{}
+paccāsiṃsi	aor	√siṃs 1 (hope, wish)	i aor	0.0	{}
+paccājāyi	aor	√jan 3 (be born, produce)	i aor	0.0	{}
+paggaṇhi	aor	√gah 6 (grasp)	i aor	0.0	{}
+parikilissi	aor	√kilis 3 (be dirty, be molested)	i aor	0.0	{}
+parigūhi	aor	√guh 1 (hide, conceal)	i aor	0.0	{}
+parikkhipi	aor	√khip 1 (throw)	i aor	0.0	{}
+parikilami	aor	√kilam 1 (be weary)	i aor	0.0	{}
+parikhaṇi	aor	√khaṇ 1 (dig)	i aor	0.0	{}
+parigili	aor	√gil 1 (eat, swallow)	i aor	0.0	{}
+parigaṇhi	aor	√gah 6 (grasp)	i aor	0.0	{}
+pariḍayhi	aor	√ḍah 1 (burn)	i aor	0.0	{}
+pariṇāmesi	aor	√nam 1 (bend)	esi aor	0.0	{}
+parikopesi	aor	√kup 3 (shake, be angry)	esi aor	0.0	{}
+pakkosāpesi	aor	√kus 1 (call, insult)	esi aor	0.0	{}
+pakkhali	aor	√khal 1 (stumble, make mistake)	i aor	0.0	{}
+pakampi	aor	√kamp 1 (shake, tremble)	i aor	0.0	{}
+pakāsi	aor	√kās 1 (shine, be visible)	āsi aor	0.0	{}
+pakittesi	aor	√kitt 8 (make known)	esi aor	0.0	{}
+pakuppi	aor	√kup 3 (shake, be angry)	i aor	0.0	{}
+pamathi	aor	√math 1 (churn, stir)	i aor	0.0	{}
+pabhāsesi	aor	√bhās 1 (shine)	esi aor	0.0	{}
+pabhāvesi	aor	√bhū 1 (be)	esi aor	0.0	{}
+padissi	aor	√dis 1 (see)	i aor	0.0	{}
+padāḷesi	aor	√dal 8 (split, tear apart)	esi aor	0.0	{}
+padippi	aor	√dīp 3 (shine, blaze)	i aor	0.0	{}
+pappoṭhesi	aor	√puth 8 (beat, hurt)	esi aor	0.0	{}
+pamucchi	aor	√mucch 1 (thicken, fixate)	i aor	0.0	{}
+pamuyhi	aor	√muh 3 (be deluded, confused)	i aor	0.0	{}
+pamussi	aor	√mus 3 (lie, forget)	i aor	0.0	{}
+pamiṇi	aor	√mā 5 (measure)	i aor	0.0	{}
+pabājesi	aor	√vaj 1 (go on)	esi aor	0.0	{}
+pabujjhi	aor	√budh 3 (know, wake up)	i aor	0.0	{}
+pabodhesi	aor	√budh 3 (know, wake up)	esi aor	0.0	{}
+papañcesi	aor	√pañc 8 (expand, spread)	esi aor	0.0	{}
+abhisambhuni	aor	√sambh 4 (reach, attain)	i aor	0.0	{}
+abhisammi	aor	√sam 3 (be calm, tired)	i aor	0.0	{}
+abhihani	aor	√han 1 (strike, kill)	i aor	0.0	{}
+abhivaḍḍhi	aor	√vaḍḍh 1 (grow, increase)	i aor	0.0	{}
+abhivayi	aor	√vā 1 (blow, emit odour)	i aor	0.0	{}
+abhivandi	aor	√vand 1 (bow, honour)	i aor isuṃ	0.0	{}
+padhaṃsesi	aor	√dhaṃs 1 (fall down, destroy)	esi aor	0.0	{}
+abhivadi	aor	√vad 1 (say, speak)	i aor	0.0	{}
+abhivaṇṇesi	aor	√vaṇṇ 8 (praise)	esi aor	0.0	{}
+padussi	aor	√dus 3 (be angry, corrupt)	i aor	0.0	{}
+padīpesi	aor	√dīp 3 (shine, blaze)	esi aor	0.0	{}
+padīyi	aor	√dā 1 (give)	i aor	0.0	{}
+padubbhi	aor	√dubbh 1 (deceive, be treacherous)	i aor	0.0	{}
+paṇami	aor	√nam 1 (bend)	i aor	0.0	{}
+paṇesi	aor	√nī 1 (lead, carry)	esi aor	0.0	{}
+patāpesi	aor	√tap 1 (burn, radiate heat)	esi aor	0.0	{}
+paribbhami	aor	√bham 1 (turn, revolve, buzz)	i aor	0.0	{}
+paribbhamesi	aor	√bham 1 (turn, revolve, buzz)	esi aor	0.0	{}
+paridahi	aor	√dhā 1 (place, support)	i aor	0.0	{}
+paridīpesi	aor	√dīp 3 (shine, blaze)	esi aor	0.0	{}
+paripīḷesi	aor	√pīḷ 8 (press, crush)	esi aor	0.0	{}
+pariplavi	aor	√plu 1 (float, swim)	i aor	0.0	{}
+pariphandi	aor	√phand 1 (shake, quiver)	i aor	0.0	{}
+paripālesi	aor	√pāl 8 (protect)	esi aor	0.0	{}
+paripācesi	aor	√pac 1 (mature, ripen)	esi aor	0.0	{}
+paṭihani	aor	√han 1 (strike, kill)	i aor	0.0	{}
+paṭhi	aor	√paṭh 1 (read, recite)	i aor	0.0	{}
+patiṭṭhahi	aor	√ṭhā 1 (stand)	i aor	0.0	{}
+paṭvijjhi	aor	√vidh 3 (throw, pierce)	i aor	0.0	{}
+paṭihaññi	aor	√han 1 (strike, kill)	i aor	0.0	{}
+bhijji	aor	√bhid 2 (break, split)	i aor	0.0	{}
+bhami	aor	√bham 1 (turn, revolve, buzz)	i aor	0.0	{}
+bahulīkari	aor		i aor	0.0	{}
+bhāyāpesi	aor	√bhī 1 (fear)	esi aor	0.0	{}
+bhari	aor	√bhar 1 (carry, support)	i aor	0.0	{}
+paṭikari	aor	√kar 7 (do, make)	kari aor	0.0	{}
+paṭikassi	aor	√kass 1 (drag, draw along)	i aor	0.0	{}
+paṭikaṅkhi	aor	√kaṅkh 1 (wish for)	i aor	0.0	{}
+paṭikujjesi	aor	√kujj 1 (turn)	esi aor	0.0	{}
+byādhiyi	aor	√dhā 1 (place, support)	i aor	0.0	{}
+brūhesi	aor	√brūh 1 (increase)	esi aor	0.0	{}
+bhaṇḍesi	aor	√bhaṇḍ 1 (blame, accuse)	esi aor	0.0	{}
+bhajji	aor	√bhajj 1 (cook)	i aor	0.0	{}
+bāhesi	aor	√vah 1 (carry, bring)	esi aor	0.0	{}
+maṇḍesi	aor	√maṇḍ 1 (adorn)	esi aor	0.0	{}
+manasikari	aor		i aor	0.0	{}
+bubhukkhi	aor	√bhuj 2 (use, eat, enjoy)	i aor	0.0	{}
+bādhi	aor	√bādh 1 (press, oppress)	i aor	0.0	{}
+bodhesi	aor	√budh 3 (know, wake up)	esi aor	0.0	{}
+nivattesi	aor	√vatt 1 (be, proceed)	esi aor	0.0	{}
+nivasi	aor	√vas 1 (live)	i aor	0.0	{}
+paṭippassambhesi	aor	√sambh 1 (be calm, confident)	esi aor	0.0	{}
+paṭipesesi	aor	√pis 8 (send)	esi aor	0.0	{}
+paṭipahiṇi	aor	√hi 4 (send)	i aor	0.0	{}
+paṭibujjhi	aor	√budh 3 (know, wake up)	i aor	0.0	{}
+paṭidadi	aor	√dā 1 (give)	i aor	0.0	{}
+paṭidhāvi	aor	√dhāv 1 (run, flow)	i aor	0.0	{}
+paṭidassesi	aor	√dis 1 (see)	esi aor	0.0	{}
+paṭidissi	aor	√dis 1 (see)	i aor	0.0	{}
+paṭipīḷesi	aor	√pīḷ 8 (press, crush)	esi aor	0.0	{}
+paṭipūjesi	aor	√pūj 8 (honour, venerate)	esi aor	0.0	{}
+paṭiyādiyi	aor	√yat 8 (arrange, hand over)	i aor	0.0	{}
+paṭiyādesi	aor	√yat 8 (arrange, hand over)	esi aor	0.0	{}
+nirodhesi	aor	√rudh 2 (obstruct)	esi aor	0.0	{}
+nisīdāpesi	aor	√sad 1 (sink, sit, settle)	esi aor	0.0	{}
+nirākari	aor	√kar 7 (do, make)	kari aor	0.0	{}
+nisevi	aor	√sev 1 (serve, associate)	i aor	0.0	{}
+nissaji	aor	√saj 1 (relinquish, let loose)	i aor	0.0	{}
+nisāmesi	aor	√sam 3 (be calm, tired)	esi aor	0.0	{}
+nihīyi	aor	√hā 3 (decrease)	i aor	0.0	{}
+nivedesi	aor	√vid 1 (know)	esi aor	0.0	{}
+nirujjhi	aor	√rudh 2 (obstruct)	i aor	0.0	{}
+pacchānutappi	aor		i aor	0.0	{}
+paccosakki	aor	√sakk 1 (move)	i aor	0.0	{}
+pacchijji	aor	√chid 2 (cut, steal)	i aor	0.0	{}
+paṭijaggi	aor	√jagg 1 (look after)	i aor	0.0	{}
+paṭikkhipi	aor	√khip 1 (throw)	i aor	0.0	{}
+pajappi	aor	√japp 1 (mutter, pray)	i aor	0.0	{}
+paṭigūhi	aor	√guh 1 (hide, conceal)	i aor	0.0	{}
+paṭikkosi	aor	√kus 1 (call, insult)	i aor	0.0	{}
+paṭisedhesi	aor	√sidh 1 (prevent, prohibit)	esi aor	0.0	{}
+paṭivirujjhi	aor	√rudh 2 (obstruct)	i aor	0.0	{}
+paṭivibhaji	aor	√bhaj 1 (divide, distribute)	i aor	0.0	{}
+paṭivirūhi	aor	√ruh 1 (ascend, grow)	i aor	0.0	{}
+paṭivattesi	aor	√vatt 1 (be, proceed)	esi aor	0.0	{}
+paṭipajjāpesi	aor	√pad 3 (go, step)	esi aor	0.0	{}
+paṭipahari	aor	√har 1 (take, seize)	hari aor	0.0	{}
+paṭivadi	aor	√vad 1 (say, speak)	i aor	0.0	{}
+paṭivasi	aor	√vas 1 (live)	i aor	0.0	{}
+paṭivinodesi	aor	√nud 1 (drive out, reject)	esi aor	0.0	{}
+paṭisaṃhari	aor	√har 1 (carry)	hari aor	0.0	{}
+paṭisalliyi	aor	√lī 3 (stick, hide)	i aor	0.0	{}
+paṭisandahi	aor	√dhā 1 (place, support)	i aor	0.0	{}
+paṭisaṅkhari	aor	√kar 7 (do, make)	i aor	0.0	{}
+paṭilīyi	aor	√lī 3 (stick, hide)	i aor	0.0	{}
+avasari	aor	√sar 1 (go, flow)	i aor	0.0	{}
+avasiñci	aor	√sic 2 (sprinkle, pour)	i aor	0.0	{}
+avalimpi	aor	√lip 2 (coat, smear)	i aor	0.0	{}
+avalikhi	aor	√likh 1 (scratch, write)	i aor	0.0	{}
+avalambi	aor	√lamb 1 (hang)	i aor	0.0	{}
+avarundhi	aor	√rudh 2 (obstruct)	i aor	0.0	{}
+avamaññi	aor	√man 3 (think)	i aor	0.0	{}
+avamānesi	aor	√man 3 (think)	esi aor	0.0	{}
+ākassi	aor	√kass 1 (drag, draw along)	i aor	0.0	{}
+atibāhesi	aor	√vah 1 (carry, bring)	esi aor	0.0	{}
+atipassi	aor	√dis 1 (see)	i aor aṃsu	0.0	{}
+atihari	aor	√har 1 (carry)	hari aor	0.0	{}
+atināmesi	aor	√nam 1 (bend)	esi aor	0.0	{}
+atipātesi	aor	√pat 1 (fall)	esi aor	0.0	{}
+atidhami	aor	√dham 1 (blow, sound)	i aor	0.0	{}
+ativatesi	aor	√vatt 1 (be, proceed)	esi aor	0.0	{}
+atidhāvi	aor	√dhāv 1 (run, flow)	i aor	0.0	{}
+avasesayi	aor	√sis 8 (remain, distinguish)	i aor	0.0	{}
+avasussi	aor	√sus 3 (dry, wither)	i aor	0.0	{}
+avahasi	aor	√has 1 (elate, laugh)	i aor	0.0	{}
+avāpuri	aor	√var 1 (cover, dress, restrain)	i aor	0.0	{}
+atiyāyi	aor	√yā 1 (go)	i aor	0.0	{}
+atiricci	aor	√ric 2 (empty)	i aor	0.0	{}
+atiroci	aor	√ruc 1 (shine, like)	i aor isuṃ	0.0	{}
+atibhavi	aor	√bhū 1 (be)	i aor	0.0	{}
+ālikhi	aor	√likh 1 (scratch, write)	i aor	0.0	{}
+avagacchi	aor	√gam 1 (go)	i aor	0.0	{}
+avakkhipi	aor	√khip 1 (throw)	i aor	0.0	{}
+avagāhi	aor	√gāh 1 (dive, plunge)	i aor	0.0	{}
+avakiri	aor	√kir 1 (scatter, sprinkle)	i aor	0.0	{}
+avatari	aor	√tar 1 (cross)	i aor	0.0	{}
+avadhāresi	aor	√dhar 8 (wear, hold, carry)	esi aor	0.0	{}
+avabujjhi	aor	√budh 3 (know, wake up)	i aor	0.0	{}
+avajini	aor	√ji 5 (conquer)	i aor	0.0	{}
+ābhuji	aor	√bhuj 1 (bend)	i aor	0.0	{}
+āmuñci	aor	√muc 2 (release, free)	i aor	0.0	{}
+āmodesi	aor	√mud 1 (be soft, happy)	esi aor	0.0	{}
+āmodi	aor	√mud 1 (be soft, happy)	i aor	0.0	{}
+āmantāpesi	aor	√mant 8 (counsel, invite)	esi aor	0.0	{}
+avacchādiyi	aor	√chad 8 (cover, conceal)	i aor	0.0	{}
+avajāni	aor	√ñā 5 (know)	i aor	0.0	{}
+asesi	aor	√as 1 (eat)	esi aor	0.0	{}
+assāsesi	aor	√sas 1 (breath)	esi aor	0.0	{}
+avakaḍḍhi	aor	√kaḍḍh 1 (drag, plough)	i aor	0.0	{}
+avekkhi	aor	√ikkh 1 (see, mark)	i aor	0.0	{}
+avatthari	aor	√thar 1 (spread, expand)	i aor	0.0	{}
+avabhāsi	aor	√bhās 1 (shine)	āsi aor	0.0	{}
+assādesi	aor	√sād 1 (taste, relish)	esi aor	0.0	{}
+asāyi	aor	√sāy 1 (taste)	i aor isuṃ	0.0	{}
+aṅkesi	aor	√añc 1 (bend)	esi aor	0.0	{}
+akkandi	aor	√kand 1 (wail, cry out)	i aor	0.0	{}
+añji	aor	√añj 1 (smear, anoint)	i aor	0.0	{}
+añjesi	aor	√añj 1 (smear, anoint)	esi aor	0.0	{}
+akaḍḍhi	aor	√kaḍḍh 1 (drag, plough)	i aor	0.0	{}
+akappayi	aor	√kapp 1 (be fit, be suitable)	i aor	0.0	{}
+atikaḍḍhi	aor	√kaḍḍh 1 (drag, plough)	i aor	0.0	{}
+adhibhavi	aor	√bhū 1 (be)	i aor	0.0	{}
+ativiroci	aor	√ruc 1 (shine, like)	i aor	0.0	{}
+atigacchi	aor	√gam 1 (go)	i aor	0.0	{}
+atthari	aor	√thar 1 (spread, expand)	i aor	0.0	{}
+adhisesi	aor	√sī 1 (lie, sleep)	esi aor	0.0	{}
+adhīyi	aor	√i 1 (study, recite)	i aor	0.0	{}
+adhivasi	aor	√vas 1 (live)	i aor	0.0	{}
+adhivatti	aor	√vatt 1 (be, proceed)	i aor	0.0	{}
+abbhuggiri	aor	√gir 1 (raise)	i aor	0.0	{}
+abbhakkhāsi	aor	√khā 1 (tell, announce)	āsi aor	0.0	{}
+aphāsumakāsi	aor		āsi aor	0.0	{}
+alaṅkari	aor	√kar 7 (do, make)	kari aor	0.0	{}
+arocayi	aor	√ruc 1 (shine, like)	i aor	0.0	{}
+abhippamodi	aor	√mud 1 (be soft, happy)	i aor	0.0	{}
+apahari	aor	√har 1 (take, seize)	hari aor	0.0	{}
+apalikhi	aor	√likh 1 (scratch, write)	i aor	0.0	{}
+abhidhāvi	aor	√dhāv 1 (run, flow)	i aor	0.0	{}
+abhinadi	aor	√nad 1 (roar)	i aor	0.0	{}
+abhinami	aor	√nam 1 (bend)	i aor	0.0	{}
+abādhesi	aor	√bādh 1 (press, oppress)	esi aor	0.0	{}
+abujjhi	aor	√budh 3 (know, wake up)	i aor	0.0	{}
+abbūhi	aor	√buh 1 (pluck out, uproot)	i aor	0.0	{}
+apalāḷesi	aor	√laḷ 1 (play, move about)	esi aor	0.0	{}
+apavadi	aor	√vad 1 (say, speak)	i aor	0.0	{}
+abhisandahi	aor	√dhā 1 (place, support)	i aor	0.0	{}
+abhimaddi	aor	√madd 1 (crush, grind)	i aor	0.0	{}
+abhimanthi	aor	√manth 1 (shake, crush)	i aor	0.0	{}
+abhisañcetesi	aor	√cit 8 (think, intend)	esi aor	0.0	{}
+abhiramāpesi	aor	√ram 1 (delight, please)	esi aor	0.0	{}
+abhilakkhesi	aor	√lakkh 8 (mark)	esi aor	0.0	{}
+abhippasāresi	aor	√sar 1 (go, flow)	esi aor	0.0	{}
+abhiropayi	aor	√ruh 1 (ascend, grow)	i aor	0.0	{}
+abhiyāci	aor	√yāc 1 (beg)	i aor	0.0	{}
+abhiyāyi	aor	√yā 1 (go)	i aor	0.0	{}
+abhippavassi	aor	√vass 1 (rain)	i aor	0.0	{}
+abhibhavi	aor	√bhū 1 (be)	i aor	0.0	{}
+abhimanthesi	aor	√manth 1 (shake, crush)	esi aor	0.0	{}
+abhiyuñji	aor	√yuj 2 (yoke, join)	i aor	0.0	{}
+abhirakkhi	aor	√rakkh 1 (protect)	i aor	0.0	{}
+asakki	aor	√sakk 1 (move)	i aor	0.0	{}
+alimpesi	aor	√dīp 3 (shine, blaze)	esi aor	0.0	{}
+asayi	aor	√sī 1 (lie, sleep)	i aor	0.0	{}
+āciyi	aor	√ci 5 (gather, accumulate)	i aor	0.0	{}
+ācamesi	aor	√cam 8 (wash, rinse)	esi aor	0.0	{}
+ārabhi	aor	√rabh 1 (begin)	i aor	0.0	{}
+ādhuni	aor	√dhū 5 (shake, smoke)	i aor	0.0	{}
+āgilāyi	aor	√gilā 3 (be sick, tired)	i aor	0.0	{}
+ābandhi	aor	√bandh 1 (bind, tie)	i aor	0.0	{}
+āropayi	aor	√ruh 1 (ascend, grow)	i aor	0.0	{}
+āpūri	aor	√pūr 1 (fill, fulfil)	i aor	0.0	{}
+ārocayi	aor	√ruc 1 (shine, like)	i aor	0.0	{}
+āyāci	aor	√yāc 1 (beg)	i aor	0.0	{}
+āyūhi	aor	√yūh 1 (carry, bring)	i aor	0.0	{}
+ālaggesi	aor	√lagg 1 (stick, adhere)	esi aor	0.0	{}
+ālambi	aor	√lamb 1 (hang)	i aor	0.0	{}
+abhikaṅkhi	aor	√kaṅkh 1 (wish for)	i aor	0.0	{}
+abhiniropesi	aor	√ruh 1 (ascend, grow)	esi aor	0.0	{}
+abhinimmiṇi	aor	√mā 5 (measure)	i aor	0.0	{}
+abhinivisi	aor	√vis 1 (enter)	i aor	0.0	{}
+abbhokiri	aor	√kir 1 (scatter, sprinkle)	i aor	0.0	{}
+abhikūji	aor	√kūj 1 (make sound)	i aor	0.0	{}
+abbhudesi	aor	√i 1 (come, go)	esi aor	0.0	{}
+abhitosesi	aor	√tus 3 (be content, pleased)	esi aor	0.0	{}
+abhitthani	aor	√than 8 (thunder, roar)	i aor	0.0	{}
+abhitthuni	aor	√thu 5 (praise)	i aor	0.0	{}
+abhinikkhipi	aor	√khip 1 (throw)	i aor	0.0	{}
+abhinipajji	aor	√pad 3 (go, step)	i aor	0.0	{}
+abhinipati	aor	√pat 1 (fall)	i aor	0.0	{}
+abhitudi	aor	√tud 1 (prick, stab)	i aor	0.0	{}
+abhidhami	aor	√dham 1 (blow, sound)	i aor	0.0	{}
+abhitthari	aor	√tar 1 (hurry)	i aor	0.0	{}
+abhitāḷesi	aor	√taḷ 8 (beat)	esi aor	0.0	{}
+abhipūri	aor	√pūr 1 (fill, fulfil)	i aor	0.0	{}
+abhinipphajji	aor	√pad 3 (go, step)	i aor	0.0	{}
+abhipīḷesi	aor	√pīḷ 8 (press, crush)	esi aor	0.0	{}
+abhinīhari	aor	√har 1 (carry)	i aor	0.0	{}
+abhipatthesi	aor	√atth 8 (wish for)	esi aor	0.0	{}
+abhipālesi	aor	√pāl 8 (protect)	esi aor	0.0	{}
+ātāpesi	aor	√tap 1 (burn, radiate heat)	esi aor	0.0	{}
+ādisi	aor	√dis 1 (see)	i aor	0.0	{}
+ānugghāṭesi	aor	√ghaṭ 1 (join together)	esi aor	0.0	{}
+abhitapi	aor	√tap 1 (burn, radiate heat)	i aor	0.0	{}
+abhijigiṃsi	aor	√ji 1 (conquer)	i aor	0.0	{}
+abhigajji	aor	√gajj 1 (roar, thunder)	i aor	0.0	{}
+abhigijjhi	aor	√gidh 3 (be greedy)	i aor	0.0	{}
+nikāmesi	aor	√kam 8 (desire)	esi aor	0.0	{}
+nikkhāmesi	aor	√kam 1 (go)	esi aor	0.0	{}
+nikkujjesi	aor	√kujj 1 (turn)	esi aor	0.0	{}
+dhūpesi	aor	√dhūp 1 (smoke)	esi aor	0.0	{}
+dhūpāyi	aor	√dhūp 1 (smoke)	i aor	0.0	{}
+dhūmāyi	aor	√dhū 5 (shake, smoke)	i aor	0.0	{}
+dhīyi	aor	√dhā 1 (place, support)	i aor	0.0	{}
+nāpajji	aor	√pad 3 (go, step)	i aor	0.0	{}
+nānujāni	aor	√ñā 5 (know)	i aor	0.0	{}
+cumbi	aor	√cumb 1 (kiss)	i aor	0.0	{}
+nātivassi	aor	√vass 1 (rain)	i aor	0.0	{}
+nātimaññi	aor	√man 3 (think)	i aor isuṃ	0.0	{}
+nahāpesi	aor	√nhā 3 (bathe)	esi aor	0.0	{}
+nibbattesi	aor	√vatt 1 (be, proceed)	esi aor	0.0	{}
+nibandhi	aor	√bandh 1 (bind, tie)	i aor	0.0	{}
+nipphajji	aor	√pad 3 (go, step)	i aor	0.0	{}
+nimmiṇi	aor	√mā 5 (measure)	i aor	0.0	{}
+nipphādesi	aor	√pad 3 (go, step)	esi aor	0.0	{}
+nippīḷesi	aor	√pīḷ 8 (press, crush)	esi aor	0.0	{}
+nipphoṭesi	aor	√phuṭ 8 (beat, smash)	esi aor	0.0	{}
+dhāyi	aor	√dhā 1 (place, support)	i aor	0.0	{}
+nappaṭisedhesi	aor	√sidh 1 (prevent, prohibit)	esi aor	0.0	{}
+nayhi	aor	√nah 3 (bind, arm)	i aor	0.0	{}
+ghaṭīyi	aor	√ghaṭ 1 (join together)	i aor	0.0	{}
+ghaṭesi	aor	√ghaṭ 1 (be busy with, strive)	esi aor	0.0	{}
+chaḍḍāpesi	aor	√chaḍḍ 8 (discard, abandon)	esi aor	0.0	{}
+guṇṭhesi	aor	√guṇṭh 8 (enclose, envelope)	esi aor	0.0	{}
+ghasi	aor	√ghas 1 (eat)	i aor	0.0	{}
+gopesi	aor	√gup 1 (guard)	esi aor	0.0	{}
+ghaṃsesi	aor	√ghaṃs 1 (grind, pound)	esi aor	0.0	{}
+ghāyi	aor	√ghā 3 (smell)	i aor	0.0	{}
+cāresi	aor	√car 1 (move, walk)	esi aor	0.0	{}
+cuṇṇesi	aor	√cuṇṇ 8 (grind, crush, powder)	esi aor	0.0	{}
+cetayi	aor	√cit 8 (think, intend)	i aor	0.0	{}
+japi	aor	√japp 1 (mutter, pray)	i aor	0.0	{}
+chindāpesi	aor	√chid 2 (cut, steal)	esi aor	0.0	{}
+jambhi	aor	√jambh 1 (yawn, stretch, wake up)	i aor	0.0	{}
+cintesi	aor	√cint 8 (think)	esi aor	0.0	{}
+cintayi	aor	√cint 8 (think)	i aor	0.0	{}
+jagghi	aor	√jaggh 1 (laugh)	i aor	0.0	{}
+jaghi	aor	√jaggh 1 (laugh)	i aor	0.0	{}
+cini	aor	√ci 5 (gather, accumulate)	i aor	0.0	{}
+dolāyi	aor	√dul 8 (swing)	i aor	0.0	{}
+dhamesi	aor	√dham 1 (blow, sound)	esi aor	0.0	{}
+damesi	aor	√dam 3 (be tame)	esi aor	0.0	{}
+thavi	aor	√thu 1 (be familiar, praise)	i aor	0.0	{}
+daṇḍapesi	aor		esi aor	0.0	{}
+duhi	aor	√duh 1 (milk a cow)	i aor	0.0	{}
+duyhi	aor	√duh 1 (milk a cow)	i aor	0.0	{}
+dukkhāpesi	aor	√dukkh 1 (be painful)	esi aor	0.0	{}
+dhami	aor	√dham 1 (blow, sound)	i aor	0.0	{}
+dukkhīyi	aor	√dukkh 1 (be painful)	i aor	0.0	{}
+dukkhesi	aor	√dukkh 1 (be painful)	esi aor	0.0	{}
+thanesi	aor	√than 8 (thunder, roar)	esi aor	0.0	{}
+nidhāpesi	aor	√dhā 1 (place, support)	esi aor	0.0	{}
+niṭṭhubhi	aor	√ṭhubh 1 (spit)	i aor	0.0	{}
+niddhami	aor	√dham 1 (blow, sound)	i aor	0.0	{}
+niddhāresi	aor	√dhar 8 (wear, hold, carry)	esi aor	0.0	{}
+nigūhi	aor	√guh 1 (hide, conceal)	i aor	0.0	{}
+niggacchi	aor	√gam 1 (go)	i aor	0.0	{}
+nighaṃsi	aor	√ghaṃs 1 (grind, pound)	i aor	0.0	{}
+niḍḍesi	aor		esi aor	0.0	{}
+nitthuni	aor	√thu 5 (moan, groan)	i aor	0.0	{}
+ninnāmesi	aor	√nam 1 (bend)	esi aor	0.0	{}
+nitthāresi	aor	√tar 1 (cross)	esi aor	0.0	{}
+nibbeṭhesi	aor	√veṭh 8 (wind, twist)	esi aor	0.0	{}
+nibhāsi	aor	√bhā 1 (shine, speak)	āsi aor	0.0	{}
+nimmathi	aor	√math 1 (churn, stir)	i aor	0.0	{}
+nimmathesi	aor	√math 1 (churn, stir)	esi aor	0.0	{}
+nimīlesi	aor	√mīl 8 (close eyes)	esi aor	0.0	{}
+niyyātesi	aor	√yat 8 (arrange, hand over)	esi aor	0.0	{}
+niyyādesi	aor	√yat 8 (arrange, hand over)	esi aor	0.0	{}
+niraṅkari	aor	√kar 7 (do, make)	kari aor	0.0	{}
+niyojesi	aor	√yuj 2 (yoke, join)	esi aor	0.0	{}
+nimisi	aor	√mis 1 (wink, blink)	i aor	0.0	{}
+niyamesi	aor	√yam 1 (control, strive, end)	esi aor	0.0	{}
+niyuñji	aor	√yuj 2 (yoke, join)	i aor	0.0	{}
+niṭṭhapesi	aor	√ṭhā 1 (stand)	esi aor	0.0	{}
+niṭṭhāsi	aor	√ṭhā 1 (stand)	āsi aor	0.0	{}
+nijjaresi	aor	√jar 1 (age)	esi aor	0.0	{}
+nicchini	aor	√ci 5 (gather, accumulate)	i aor	0.0	{}
+nicchari	aor	√car 1 (move, walk)	i aor	0.0	{}
+nimujji	aor	√mujj 1 (dive, sink, submerge)	i aor	0.0	{}
+dippi	aor	√dīp 3 (shine, blaze)	i aor	0.0	{}
+dīpesi	aor	√dīp 3 (shine, blaze)	esi aor	0.0	{}
+thomesi	aor	√thom 8 (praise)	esi aor	0.0	{}
+thenesi	aor	√then 8 (steal)	esi aor	0.0	{}
+nidahi	aor	√dhā 1 (place, support)	i aor	0.0	{}
+dāresi	aor	√dar 1 (break, split apart)	esi aor	0.0	{}
+nidassesi	aor	√dis 1 (see)	esi aor	0.0	{}
+dālesi	aor	√dal 8 (split, tear apart)	esi aor	0.0	{}
+pūrayi	aor	√pūr 1 (fill, fulfil)	i aor	0.0	{}
+pūrāpesi	aor	√pūr 1 (fill, fulfil)	esi aor	0.0	{}
+passambhi	aor	√sambh 1 (be calm, confident)	i aor	0.0	{}
+passambhesi	aor	√sambh 1 (be calm, confident)	esi aor	0.0	{}
+purakkhari	aor	√kar 7 (do, make)	i aor	0.0	{}
+parissaji	aor	√saj 1 (embrace)	i aor	0.0	{}
+parissāvesi	aor	√su 1 (flow)	esi aor	0.0	{}
+parivajjesi	aor	√vajj 8 (turn, avoid)	esi aor	0.0	{}
+parihasi	aor	√has 1 (elate, laugh)	i aor	0.0	{}
+parihāpesi	aor	√hā 3 (decrease)	esi aor	0.0	{}
+parivāresi	aor	√var 1 (cover, dress, restrain)	esi aor	0.0	{}
+palikhaṇi	aor	√khaṇ 1 (dig)	i aor	0.0	{}
+pavāhesi	aor	√vah 1 (carry, bring)	esi aor	0.0	{}
+pasādhesi	aor	√sādh 3 (accomplish)	esi aor	0.0	{}
+pavaḍḍhi	aor	√vaḍḍh 1 (grow, increase)	i aor	0.0	{}
+pavāresi	aor	√var 8 (wish, choose)	esi aor	0.0	{}
+pavāyi	aor	√vā 1 (blow, emit odour)	i aor	0.0	{}
+parivitakkesi	aor	√takk 8 (think)	esi aor	0.0	{}
+piṇḍesi	aor	√piṇḍ 8 (collect)	esi aor	0.0	{}
+pithīyi	aor	√dhā 1 (place, support)	i aor	0.0	{}
+pidahi	aor	√dhā 1 (place, support)	i aor	0.0	{}
+piṃsi	aor	√pis 2 (grind, hurt)	i aor	0.0	{}
+pīṇesi	aor	√pīṇ 1 (please, satisfy)	esi aor	0.0	{}
+phassesi	aor	√phus 1 (touch)	esi aor	0.0	{}
+pilandhi	aor	√nadh 2 (wrap, twist)	i aor	0.0	{}
+phandi	aor	√phand 1 (shake, quiver)	i aor	0.0	{}
+plavi	aor	√plu 1 (float, swim)	i aor	0.0	{}
+poṭhesi	aor	√puth 8 (beat, hurt)	esi aor	0.0	{}
+bhuṅkari	aor		i aor	0.0	{}
+bhūsāpesi	aor	√bhūs 1 (adorn, decorate)	esi aor	0.0	{}
+bhojāpesi	aor	√bhuj 2 (use, eat, enjoy)	esi aor	0.0	{}
+bhussi	aor	√bhuss 1 (bark)	i aor	0.0	{}
+bhūsesi	aor	√bhūs 1 (adorn, decorate)	esi aor	0.0	{}
+bhedesi	aor	√bhid 2 (break, split)	esi aor	0.0	{}
+pavedhi	aor	√vedh 1 (fear, shake)	i aor	0.0	{}
+paḷiguṇṭhesi	aor	√guṇṭh 8 (enclose, envelope)	esi aor	0.0	{}
+pālesi	aor	√pāl 8 (protect)	esi aor	0.0	{}
+paḷibujjhi	aor	√budh 3 (know, wake up)	i aor	0.0	{}
+parisosesi	aor	√sus 3 (dry, wither)	esi aor	0.0	{}
+pājesi	aor	√aj 1 (go, drive)	esi aor	0.0	{}
+pācāpesi	aor	√pac 1 (cook)	esi aor	0.0	{}
+makkhesi	aor	√makkh 8 (smear)	esi aor	0.0	{}
+paḷiveṭhesi	aor	√veṭh 8 (wind, twist)	esi aor	0.0	{}
+pahāsesi	aor	√has 1 (elate, laugh)	esi aor	0.0	{}
+pātubhavi	aor	√bhū 1 (be)	i aor	0.0	{}
+tāḷesi	aor	√taḷ 8 (beat)	esi aor	0.0	{}
+tulesi	aor	√tul 8 (weigh)	esi aor	0.0	{}
+temesi	aor	√tim 3 (be wet)	esi aor	0.0	{}
+tosāpesi	aor	√tus 3 (be content, pleased)	esi aor	0.0	{}
+tejesi	aor	√tij 8 (be sharp, hot)	esi aor	0.0	{}
+tanhīyi	aor		i aor	0.0	{}
+tappesi	aor	√tapp 8 (satisfy)	esi aor	0.0	{}
+tussi	aor	√tus 3 (be content, pleased)	i aor	0.0	{}
+carāpesi	aor	√car 1 (act, behave)	esi aor	0.0	{}
+gūhi	aor	√guh 1 (hide, conceal)	i aor	0.0	{}
+tāpesi	aor	√tap 1 (burn, radiate heat)	esi aor	0.0	{}
+ghosesi	aor	√ghus 1 (shout, make noise)	esi aor	0.0	{}
+jānāpesi	aor	√ñā 5 (know)	esi aor	0.0	{}
+takkesi	aor	√takk 8 (think)	esi aor	0.0	{}
+tacchesi	aor	√tacch 1 (cut, chop)	esi aor	0.0	{}
+taṭatatāyāyi	aor		i aor	0.0	{}
+tajjesi	aor	√tajj 8 (frighten, threaten)	esi aor	0.0	{}
+ṭhapayi	aor	√ṭhā 1 (stand)	i aor	0.0	{}
+ṭhapāpesi	aor	√ṭhā 1 (stand)	esi aor	0.0	{}
+puñchi	aor	√puñch 1 (wipe)	i aor	0.0	{}
+puṇi	aor	√pu 5 (purify, cleanse)	i aor	0.0	{}
+ḍesi	aor	√ḍi 1 (fly)	esi aor	0.0	{}
+ñāpesi	aor	√ñā 5 (know)	esi aor	0.0	{}
+jīrāpesi	aor	√jīr 1 (grow old, decay)	esi aor	0.0	{}
+jīri	aor	√jīr 1 (grow old, decay)	i aor	0.0	{}
+jīresi	aor	√jīr 1 (grow old, decay)	esi aor	0.0	{}
+tīresi	aor	√tīr 8 (investigate, complete)	esi aor	0.0	{}
+jahāpesi	aor	√hā 1 (abandon)	esi aor	0.0	{}
+jālesi	aor	√jal 1 (shine, blaze)	esi aor	0.0	{}
+jotesi	aor	√jut 1 (shine)	esi aor	0.0	{}
+ajjhesayi	aor	√is 1 (wish for)	i aor	0.0	{}
+ajjhogāhi	aor	√gāh 1 (dive, plunge)	i aor	0.0	{}
+sañcāresi	aor	√car 1 (move, walk)	esi aor	0.0	{}
+sajjesi	aor	√sajj 8 (prepare, decorate)	esi aor	0.0	{}
+virecesi	aor	√ric 2 (empty)	esi aor	0.0	{}
+virodhesi	aor	√rudh 2 (obstruct)	esi aor	0.0	{}
+sañchādesi	aor	√chad 8 (cover, conceal)	esi aor	0.0	{}
+sañchindi	aor	√chid 2 (cut, steal)	i aor	0.0	{}
+sañcuṇṇesi	aor	√cuṇṇ 8 (grind, crush, powder)	esi aor	0.0	{}
+virocesi	aor	√ruc 1 (shine, like)	esi aor	0.0	{}
+sañcetesi	aor		esi aor	0.0	{}
+sañjāni	aor	√ñā 5 (know)	i aor	0.0	{}
+vilambi	aor	√lamb 1 (hang)	i aor	0.0	{}
+vilasi	aor	√las 1 (shine, be active)	i aor	0.0	{}
+vinodesi	aor	√nud 1 (drive out, reject)	esi aor	0.0	{}
+saṇhesi	aor		esi aor	0.0	{}
+vilokesi	aor	√lok 8 (look)	esi aor	0.0	{}
+sañcali	aor	√cal 1 (shake, tremble)	i aor	0.0	{}
+sañcini	aor	√ci 5 (gather, accumulate)	i aor	0.0	{}
+sukkhāpesi	aor	√sus 3 (dry, wither)	esi aor	0.0	{}
+vipacci	aor	√pac 1 (mature, ripen)	i aor	0.0	{}
+vipajji	aor	√pad 3 (go, step)	i aor	0.0	{}
+vilepesi	aor	√lip 2 (coat, smear)	esi aor	0.0	{}
+sañjanesi	aor		esi aor	0.0	{}
+samāsesi	aor	√ās 1 (sit)	esi aor	0.0	{}
+samāvahi	aor	√vah 1 (carry, bring)	i aor	0.0	{}
+samīresi	aor	√īr 8 (speak)	esi aor	0.0	{}
+samuggiri	aor	√gir 4 (call, speak)	i aor	0.0	{}
+vikubbi	aor	√kar 7 (do, make)	i aor	0.0	{}
+samapekkhi	aor	√ikkh 1 (see, mark)	i aor	0.0	{}
+samannāhari	aor	√har 1 (carry)	hari aor	0.0	{}
+yodhesi	aor	√yudh 3 (fight)	esi aor	0.0	{}
+vikopesi	aor	√kup 3 (shake, be angry)	esi aor	0.0	{}
+samavekkhi	aor	√ikkh 1 (see, mark)	i aor	0.0	{}
+samākaḍḍhi	aor	√kaḍḍh 1 (drag, plough)	i aor	0.0	{}
+yojesi	aor	√yuj 2 (yoke, join)	esi aor	0.0	{}
+samugghātesi	aor	√ghaṭ 8 (strike, kill)	esi aor	0.0	{}
+samāropesi	aor	√ruh 1 (ascend, grow)	esi aor	0.0	{}
+samārabhi	aor	√rabh 1 (begin)	i aor	0.0	{}
+yujjhi	aor	√yudh 3 (fight)	i aor	0.0	{}
+samāpesi	aor	√ap 4 (reach, attain)	esi aor	0.0	{}
+vāsesi	aor	√vās 8 (perfume)	esi aor	0.0	{}
+samuggaṇhi	aor	√gah 6 (grasp)	i aor	0.0	{}
+samukkaṅsesi	aor		esi aor	0.0	{}
+samuggacchi	aor	√gam 1 (go)	i aor	0.0	{}
+samānesi	aor	√nī 1 (lead, carry)	esi aor	0.0	{}
+saccāpesi	aor		esi aor	0.0	{}
+vipphandi	aor	√phand 1 (shake, quiver)	i aor	0.0	{}
+vippajahi	aor	√hā 1 (abandon)	i aor aṃsu	0.0	{}
+vippakiri	aor	√kir 1 (scatter, sprinkle)	i aor	0.0	{}
+saṅgaṇhi	aor	√gah 6 (grasp)	i aor	0.0	{}
+viravi	aor	√ru 1 (cry, howl)	i aor	0.0	{}
+sakkuṇi	aor	√sak 4 (be able, powerful)	i aor	0.0	{}
+vippaṭipajji	aor	√pad 3 (go, step)	i aor	0.0	{}
+virujjhi	aor	√rudh 2 (obstruct)	i aor	0.0	{}
+santhambhesi	aor	√thambh 1 (support, be stiff)	esi aor	0.0	{}
+santharāpesi	aor	√thar 1 (spread, expand)	esi aor	0.0	{}
+vidāresi	aor	√dar 1 (break, split apart)	esi aor	0.0	{}
+sandahi	aor		i aor	0.0	{}
+vitthāresi	aor	√thar 1 (spread, expand)	esi aor	0.0	{}
+lakkhesi	aor	√lakkh 8 (mark)	esi aor	0.0	{}
+saṅgāyi	aor	√gā 3 (sing)	i aor	0.0	{}
+vibbhami	aor		i aor	0.0	{}
+vipphuri	aor	√phar 1 (suffuse, pervade)	i aor	0.0	{}
+virājesi	aor	√raj 1 (colour)	esi aor	0.0	{}
+saṅghaṭesi	aor	√ghaṭ 1 (join together)	esi aor	0.0	{}
+laggesi	aor	√lagg 1 (stick, adhere)	esi aor	0.0	{}
+santussi	aor	√tus 3 (be content, pleased)	i aor	0.0	{}
+vilomesi	aor		esi aor	0.0	{}
+virāji	aor	√rāj 1 (rule, shine)	i aor	0.0	{}
+vimānesi	aor	√man 3 (think)	esi aor	0.0	{}
+saṅkappesi	aor	√kapp 8 (think)	esi aor	0.0	{}
+vibhūsesi	aor	√bhūs 1 (adorn, decorate)	esi aor	0.0	{}
+vipariṇāmesi	aor	√nam 1 (bend)	esi aor	0.0	{}
+vilīyi	aor	√lī 3 (stick, hide)	i aor	0.0	{}
+viracayi	aor		i aor	0.0	{}
+viraci	aor		i aor	0.0	{}
+virajjhi	aor	√rādh 3 (succeed, please)	i aor	0.0	{}
+virajji	aor	√raj 3 (desire)	i aor	0.0	{}
+viyūhi	aor	√yūh 1 (carry, bring)	i aor	0.0	{}
+saṅkhobhesi	aor	√khubh 1 (shake, agitate)	esi aor	0.0	{}
+vilimpesi	aor	√lip 2 (coat, smear)	esi aor	0.0	{}
+viparivatti	aor	√vatt 1 (be, proceed)	i aor	0.0	{}
+saṅkuci	aor		i aor	0.0	{}
+saṅki	aor	√saṅk 1 (doubt, suspect)	i aor	0.0	{}
+saṅkhādi	aor	√khād 1 (chew)	i aor	0.0	{}
+vimhāpesi	aor	√mhi 1 (smile)	esi aor	0.0	{}
+saṅkāyi	aor	√saṅk 1 (doubt, suspect)	i aor	0.0	{}
+vimohesi	aor	√muh 3 (be deluded, confused)	esi aor	0.0	{}
+saṅkhubhi	aor	√khubh 1 (shake, agitate)	i aor	0.0	{}
+saṅkaḍḍhi	aor	√kaḍḍh 1 (drag, plough)	i aor	0.0	{}
+vibhāvesi	aor	√bhū 1 (be)	esi aor	0.0	{}
+vimuñci	aor	√muc 2 (release, free)	i aor	0.0	{}
+vimocesi	aor	√muc 2 (release, free)	esi aor	0.0	{}
+saṅkocesi	aor		esi aor	0.0	{}
+samappesi	aor	√ap 4 (reach, attain)	esi aor	0.0	{}
+ruppi	aor	√rup 3 (be broken apart, hurt)	i aor	0.0	{}
+vissasasi	aor	√sas 1 (breath)	i aor	0.0	{}
+sukhesi	aor	√sukh 1 (please, be comfortable)	esi aor	0.0	{}
+sannipātesi	aor	√pat 1 (fall)	esi aor	0.0	{}
+rundhi	aor	√rudh 2 (obstruct)	i aor	0.0	{}
+sannesi	aor	√nī 1 (lead, carry)	esi aor	0.0	{}
+vivadi	aor	√vad 1 (say, speak)	i aor	0.0	{}
+sannivasi	aor	√vas 1 (live)	i aor	0.0	{}
+sannisīdi	aor	√sad 1 (sink, sit, settle)	i aor	0.0	{}
+sannirumbhesi	aor		esi aor	0.0	{}
+vivajjesi	aor	√vajj 8 (turn, avoid)	esi aor	0.0	{}
+vījesi	aor	√vīj 1 (fan)	esi aor	0.0	{}
+vijini	aor	√ji 5 (conquer)	i aor	0.0	{}
+vivecesi	aor	√vic 1 (separate)	esi aor	0.0	{}
+vivesesi	aor	√sis 8 (remain, distinguish)	esi aor	0.0	{}
+silāghi	aor		i aor	0.0	{}
+vijaṭesi	aor	√jaṭ 1 (twist, tangle)	esi aor	0.0	{}
+vicchindi	aor	√chid 2 (cut, steal)	i aor	0.0	{}
+samanussari	aor	√sar 1 (remember)	i aor	0.0	{}
+vikkiṇi	aor	√kī 5 (buy)	i aor	0.0	{}
+vūpasamesi	aor	√sam 3 (be calm, tired)	esi aor	0.0	{}
+vikkhipi	aor	√khip 1 (throw)	i aor	0.0	{}
+vikkhālesi	aor	√khal 8 (clean, rinse)	esi aor	0.0	{}
+rañji	aor	√rañj 1 (dye, desire)	i aor	0.0	{}
+racayi	aor	√rac 8 (prepare, arrange)	i aor	0.0	{}
+vītihari	aor	√har 1 (carry)	hari aor	0.0	{}
+randhesi	aor	√randh 8 (cook)	esi aor	0.0	{}
+samanumodi	aor	√mud 1 (be soft, happy)	i aor	0.0	{}
+vuyhi	aor	√vah 1 (carry, bring)	i aor	0.0	{}
+vikkhambhesi	aor	√khambh 1 (prop, be stiff)	esi aor	0.0	{}
+vijjoti	aor	√jut 1 (shine)	i aor	0.0	{}
+vijjhāyi	aor	√jhe 1 (burn, blaze)	i aor	0.0	{}
+vivaṭṭesi	aor	√vaṭṭ 1 (turn)	esi aor	0.0	{}
+vivaṇṇesi	aor	√vaṇṇ 8 (praise)	esi aor	0.0	{}
+rujjhi	aor	√rudh 2 (obstruct)	i aor	0.0	{}
+rañjesi	aor	√rañj 1 (dye, desire)	esi aor	0.0	{}
+samativatti	aor	√vatt 1 (be, proceed)	i aor	0.0	{}
+vigacchi	aor	√gam 1 (go)	i aor	0.0	{}
+vikkhobhesi	aor	√khubh 1 (shake, agitate)	esi aor	0.0	{}
+samadhigacchi	aor	√gam 1 (go)	i aor	0.0	{}
+samesi	aor	√i 1 (come, go)	esi aor	0.0	{}
+samokiri	aor	√kir 1 (scatter, sprinkle)	i aor	0.0	{}
+samosari	aor	√sar 1 (go, flow)	i aor	0.0	{}
+samotari	aor	√tar 1 (cross)	i aor	0.0	{}
+sampadāḷesi	aor	√dal 8 (split, tear apart)	esi aor	0.0	{}
+sampadussi	aor	√dus 3 (be angry, corrupt)	i aor	0.0	{}
+sampavattesi	aor	√vatt 1 (be, proceed)	esi aor	0.0	{}
+sampasādesi	aor	√sad 1 (sink, sit, settle)	esi aor	0.0	{}
+samodhānesi	aor	√dhā 1 (place, support)	esi aor	0.0	{}
+sampasīdi	aor	√sad 1 (sink, sit, settle)	i aor	0.0	{}
+vocchijji	aor	√chid 2 (cut, steal)	i aor	0.0	{}
+sampasāresi	aor	√sar 1 (go, flow)	esi aor	0.0	{}
+samparivāresi	aor	√var 1 (cover, dress, restrain)	esi aor	0.0	{}
+vikari	aor	√kar 7 (do, make)	kari aor	0.0	{}
+samādisi	aor	√dis 1 (point out, explain)	i aor	0.0	{}
+samādhiyi	aor	√dhā 1 (place, support)	i aor	0.0	{}
+samalaṅkari	aor	√kar 7 (do, make)	kari aor	0.0	{}
+vikūji	aor	√kūj 1 (make sound)	i aor	0.0	{}
+vikappesi	aor	√kapp 8 (think)	esi aor	0.0	{}
+vikampi	aor	√kamp 1 (shake, tremble)	i aor	0.0	{}
+vikāsesi	aor	√kās 1 (shine, be visible)	esi aor	0.0	{}
+sesesi	aor	√sis 8 (remain, distinguish)	esi aor	0.0	{}
+sampaṭicchi	aor	√is 1 (wish for)	i aor	0.0	{}
+vikasi	aor		i aor	0.0	{}
+samācari	aor	√car 1 (act, behave)	i aor	0.0	{}
+samupagacchi	aor	√gam 1 (go)	i aor	0.0	{}
+samubbhavi	aor	√bhū 1 (be)	i aor	0.0	{}
+sijjhi	aor	√sidh 3 (succeed, be accomplished)	i aor	0.0	{}
+samussāpesi	aor		esi aor	0.0	{}
+samullapi	aor	√lap 1 (speak, chat)	i aor	0.0	{}
+samussāhesi	aor		esi aor	0.0	{}
+samubbahi	aor	√vah 1 (carry, bring)	i aor	0.0	{}
+samuppajji	aor	√pad 3 (go, step)	i aor	0.0	{}
+samudesi	aor	√i 1 (come, go)	esi aor	0.0	{}
+samparivajjesi	aor	√vajj 8 (turn, avoid)	esi aor	0.0	{}
+samparivatti	aor	√vatt 1 (be, proceed)	i aor	0.0	{}
+samudīresi	aor	√īr 8 (speak)	esi aor	0.0	{}
+samuṭṭhāpesi	aor	√ṭhā 1 (stand)	esi aor	0.0	{}
+samuttari	aor	√tar 1 (cross)	i aor	0.0	{}
+samudāhari	aor	√har 1 (carry)	hari aor	0.0	{}
+saṃvasi	aor	√vas 1 (live)	i aor	0.0	{}
+sammuyhi	aor	√muh 3 (be deluded, confused)	i aor	0.0	{}
+vapi	aor	√vap 1 (sow, shave)	i aor	0.0	{}
+hiṃsāpesi	aor	√his 2 (hurt, harm)	esi aor	0.0	{}
+vadhesi	aor	√vadh 8 (hurt, slaughter)	esi aor	0.0	{}
+muyhi	aor	√muh 3 (be deluded, confused)	i aor	0.0	{}
+saṃyojesi	aor	√yuj 2 (yoke, join)	esi aor	0.0	{}
+sammucchi	aor	√mucch 1 (thicken, fixate)	i aor	0.0	{}
+sammissesi	aor	√miss 8 (mix, mingle)	esi aor	0.0	{}
+vassāpesi	aor	√vass 1 (rain)	esi aor	0.0	{}
+sosesi	aor	√sus 3 (dry, wither)	esi aor	0.0	{}
+vohari	aor	√har 1 (carry)	hari aor	0.0	{}
+sambādhesi	aor	√bādh 1 (press, oppress)	esi aor	0.0	{}
+modi	aor	√mud 1 (be soft, happy)	i aor	0.0	{}
+muddāpesi	aor	√mud 1 (be soft, happy)	esi aor	0.0	{}
+sammussi	aor	√mus 3 (lie, forget)	i aor	0.0	{}
+vammesi	aor		esi aor	0.0	{}
+saṃkaḍḍhi	aor	√kaḍḍh 1 (drag, plough)	i aor	0.0	{}
+saṃvijji	aor	√vid 3 (be found, exist)	i aor	0.0	{}
+sambujjhi	aor	√budh 3 (know, wake up)	i aor	0.0	{}
+vambhesi	aor	√vambh 8 (despise)	esi aor	0.0	{}
+saṃsandesi	aor	√sand 1 (flow)	esi aor	0.0	{}
+vajjesi	aor	√vajj 8 (turn, avoid)	esi aor	0.0	{}
+saṃvattesi	aor	√vatt 1 (be, proceed)	esi aor	0.0	{}
+vaṭṭesi	aor	√vaṭṭ 1 (turn)	esi aor	0.0	{}
+saṃrakkhi	aor	√rakkh 1 (protect)	i aor	0.0	{}
+saṃsijjhi	aor	√sidh 3 (succeed, be accomplished)	i aor	0.0	{}
+saṃsevi	aor	√sev 1 (serve, associate)	i aor	0.0	{}
+saṃvaḍḍhesi	aor	√vaḍḍh 1 (grow, increase)	esi aor	0.0	{}
+vyākari	aor	√kar 7 (do, make)	kari aor	0.0	{}
+vodapesi	aor	√dā 3 (be pure, clean)	esi aor	0.0	{}
+sambhuñji	aor	√bhuj 2 (use, eat, enjoy)	i aor	0.0	{}
+sampahaṃsi	aor	√haṃs 1 (rise, elate)	i aor	0.0	{}
+vyantībhavi	aor		i aor	0.0	{}
+missesi	aor	√miss 8 (mix, mingle)	esi aor	0.0	{}
+milāyi	aor	√milā 3 (shrink, wither)	i aor	0.0	{}
+vyantīkari	aor		i aor	0.0	{}
+vyañjayi	aor	√añj 8 (distinguish)	i aor	0.0	{}
+sambodhesi	aor	√budh 3 (know, wake up)	esi aor	0.0	{}
+sampādesi	aor	√pad 3 (go, step)	esi aor	0.0	{}
+sampādi	aor	√pad 3 (go, step)	i aor	0.0	{}
+miṇi	aor	√mā 5 (measure)	i aor	0.0	{}
+vyapagami	aor	√gam 1 (go)	i aor aṃsu	0.0	{}
+vyathi	aor	√vyath 1 (fear, shake)	i aor	0.0	{}
+sādayi	aor	√sād 1 (taste, relish)	i aor	0.0	{}
+sambhami	aor	√bham 1 (turn, revolve, buzz)	i aor	0.0	{}
+sampūresi	aor	√pūr 1 (fill, fulfil)	esi aor	0.0	{}
+sampūjesi	aor	√pūj 8 (honour, venerate)	esi aor	0.0	{}
+sampīṇesi	aor	√pīṇ 1 (please, satisfy)	esi aor	0.0	{}
+sobhesi	aor	√subh 1 (shine, adorn)	esi aor	0.0	{}
+mīyi	aor	√mar 1 (die)	i aor	0.0	{}
+saṃkilissi	aor	√kilis 3 (be dirty, be molested)	i aor	0.0	{}
+sādhesi	aor	√sādh 3 (accomplish)	esi aor	0.0	{}
+vassami	aor		i aor	0.0	{}
+heṭhesi	aor	√heṭh 8 (harass, annoy)	esi aor	0.0	{}
+sampiṇḍesi	aor	√piṇḍ 8 (collect)	esi aor	0.0	{}
+hasi	aor	√has 1 (elate, laugh)	i aor	0.0	{}
+vavatthapesi	aor	√ṭhā 1 (stand)	esi aor	0.0	{}
+sampucchi	aor	√pucch 1 (ask, question)	i aor	0.0	{}
+vavatthesi	aor	√ṭhā 1 (stand)	esi aor	0.0	{}
+sampīḷesi	aor	√pīḷ 8 (press, crush)	esi aor	0.0	{}
+mohesi	aor	√muh 3 (be deluded, confused)	esi aor	0.0	{}
+vossaji	aor	√saj 1 (relinquish, let loose)	i aor	0.0	{}
+sampiyāyi	aor	√pī 5 (love, please)	i aor	0.0	{}
+lihi	aor	√lih 1 (lick, lap)	i aor isuṃ	0.0	{}
+limpesi	aor	√lip 2 (coat, smear)	esi aor	0.0	{}
+likhi	aor	√likh 1 (scratch, write)	i aor	0.0	{}
+likhāpesi	aor	√likh 1 (scratch, write)	esi aor	0.0	{}
+vinodi	aor	√nud 1 (drive out, reject)	i aor	0.0	{}
+vinibbhuji	aor		i aor	0.0	{}
+limpi	aor	√lip 2 (coat, smear)	i aor	0.0	{}
+vinimocesi	aor	√muc 2 (release, free)	esi aor	0.0	{}
+vitthāyi	aor	√thī 1 (be dense, compact)	i aor	0.0	{}
+visosesi	aor	√sus 3 (dry, wither)	esi aor	0.0	{}
+vinivaṭṭesi	aor	√vaṭṭ 1 (turn)	esi aor	0.0	{}
+līyi	aor	√lī 3 (stick, hide)	i aor	0.0	{}
+vinivijjhi	aor	√vidh 3 (throw, pierce)	i aor	0.0	{}
+lujji	aor	√luj 3 (be broken apart)	i aor	0.0	{}
+laḷi	aor	√laḷ 1 (play, move about)	i aor	0.0	{}
+vinandhi	aor	√nadh 2 (wrap, twist)	i aor	0.0	{}
+santajjesi	aor	√tajj 8 (frighten, threaten)	esi aor	0.0	{}
+luñci	aor	√luñc 1 (pluck out, tear)	i aor	0.0	{}
+viniveṭhesi	aor	√veṭh 8 (wind, twist)	esi aor	0.0	{}
+lepesi	aor	√lip 2 (coat, smear)	esi aor	0.0	{}
+lubbhi	aor	√lubh 3 (be greedy)	i aor	0.0	{}
+luni	aor	√lu 5 (cut, reap, mow)	i aor	0.0	{}
+lumpi	aor	√lup 2 (cut off, rob)	i aor	0.0	{}
+vitthambhesi	aor	√thambh 1 (support, be stiff)	esi aor	0.0	{}
+visīvesi	aor		esi aor	0.0	{}
+santāpesi	aor	√tap 1 (burn, radiate heat)	esi aor	0.0	{}
+viddhaṃsesi	aor	√dhaṃs 1 (fall down, destroy)	esi aor	0.0	{}
+lañchi	aor	√lañch 1 (mark)	i aor	0.0	{}
+vissajjāpesi	aor	√sajj 1 (relinquish, let loose)	esi aor	0.0	{}
+vitacchesi	aor	√tacch 1 (cut, chop)	esi aor	0.0	{}
+sandhīyi	aor	√dhā 1 (place, support)	i aor	0.0	{}
+sandhūpesi	aor	√dhūp 1 (smoke)	esi aor	0.0	{}
+sandhūpāyi	aor	√dhūp 1 (smoke)	i aor	0.0	{}
+santari	aor	√tar 1 (hurry)	i aor	0.0	{}
+lañchesi	aor	√lañch 1 (mark)	esi aor	0.0	{}
+laṅghesi	aor	√lagh 2 (lift up, jump)	esi aor	0.0	{}
+lajjāpesi	aor	√lajj 1 (be ashamed)	esi aor	0.0	{}
+santappi	aor	√tapp 1 (regret)	i aor	0.0	{}
+vitari	aor	√tar 1 (cross)	i aor	0.0	{}
+romanthi	aor		i aor	0.0	{}
+sandhami	aor	√dham 1 (blow, sound)	i aor	0.0	{}
+ropesi	aor	√ruh 1 (ascend, grow)	esi aor	0.0	{}
+sandīpesi	aor	√dīp 3 (shine, blaze)	esi aor	0.0	{}
+visodhesi	aor	√sudh 3 (be pure)	esi aor	0.0	{}
+sandhāresi	aor	√dhar 8 (wear, hold, carry)	esi aor	0.0	{}
+rūhi	aor	√ruh 1 (ascend, grow)	i aor	0.0	{}
+vitani	aor	√tan 7 (stretch, extend)	i aor	0.0	{}
+sandālesi	aor	√dal 8 (split, tear apart)	esi aor	0.0	{}
+sodhesi	aor	√sudh 3 (be pure)	esi aor	0.0	{}
+vyāpajji	aor	√pad 3 (go, step)	i aor	0.0	{}
+sammiñji	aor	√iñj 1 (move, shake)	i aor	0.0	{}
+sallakkhesi	aor	√lakkh 8 (mark)	esi aor	0.0	{}
+saṃhari	aor	√har 1 (carry)	hari aor	0.0	{}
+vyābādhesi	aor	√bādh 1 (press, oppress)	esi aor	0.0	{}
+vyāpesi	aor		esi aor	0.0	{}
+sodhāpesi	aor	√sudh 3 (be pure)	esi aor	0.0	{}
+sammantesi	aor	√mant 8 (counsel, invite)	esi aor	0.0	{}
+sammaddi	aor	√madd 1 (crush, grind)	i aor	0.0	{}
+sammanni	aor	√man 3 (think)	i aor	0.0	{}
+sammakkhesi	aor	√makkh 8 (smear)	esi aor	0.0	{}
+saṃcuṇṇesi	aor	√cuṇṇ 8 (grind, crush, powder)	esi aor	0.0	{}
+vasāpesi	aor	√vas 1 (live)	esi aor	0.0	{}
+hīḷesi	aor	√hīḷ 8 (scorn)	esi aor	0.0	{}
+harāyi	aor	√har 1 (carry)	i aor	0.0	{}
+vyākhyāsi	aor	√khyā 1 (announce)	āsi aor	0.0	{}
+saddāyi	aor	√sadd 8 (sound)	i aor	0.0	{}
+vināmesi	aor	√nam 1 (bend)	esi aor	0.0	{}
+sallikhi	aor	√likh 1 (scratch, write)	i aor	0.0	{}
+saṅkhari	aor	√kar 7 (do, make)	i aor	0.0	{}
+saddahāpesi	aor	√dhā 1 (place, support)	esi aor	0.0	{}
+saddahi	aor	√dhā 1 (place, support)	i aor	0.0	{}
+vidhūpesi	aor		esi aor	0.0	{}
+lāyi	aor	√lu 5 (cut, reap, mow)	i aor	0.0	{}
+lambesi	aor	√lamb 1 (hang)	esi aor	0.0	{}
+visaṃvādesi	aor	√vad 1 (say, speak)	esi aor	0.0	{}
+lālesi	aor	√laḷ 1 (play, move about)	esi aor	0.0	{}
+vinicchesi	aor	√ci 5 (gather, accumulate)	esi aor	0.0	{}
+lālapi	aor	√lap 1 (speak, chat)	i aor	0.0	{}
+sallīyi	aor	√lī 3 (stick, hide)	i aor	0.0	{}
+valañjesi	aor		esi aor	0.0	{}
+saṃyujji	aor	√yuj 2 (yoke, join)	i aor	0.0	{}
+hīyi	aor	√hā 3 (decrease)	i aor	0.0	{}
+mussi	aor	√mus 3 (lie, forget)	i aor	0.0	{}
+muṇḍesi	aor	√muṇḍ 1 (be bald, shave)	esi aor	0.0	{}
+saṃyūhi	aor	√yūh 1 (carry, bring)	i aor	0.0	{}
+vyāhari	aor	√har 1 (take, seize)	hari aor	0.0	{}
+vadāpesi	aor	√vad 1 (say, speak)	esi aor	0.0	{}
+saṃyamesi	aor	√yam 1 (control, strive, end)	esi aor	0.0	{}
+sāresi	aor	√sar 1 (remember)	esi aor	0.0	{}
+olambi	aor	√lamb 1 (hang)	i aor	0.0	{}
+olīyi	aor	√lī 3 (stick, hide)	i aor	0.0	{}
+ovassi	aor	√vass 1 (rain)	i aor	0.0	{}
+ohari	aor	√har 1 (carry)	hari aor	0.0	{}
+ohīyi	aor	√hā 1 (abandon)	i aor	0.0	{}
+kathayi	aor	√kath 8 (speak, narrate)	i aor	0.0	{}
+kathāpesi	aor	√kath 8 (speak, narrate)	esi aor	0.0	{}
+osārayi	aor	√sar 1 (go, flow)	i aor	0.0	{}
+osi	aor	√si 1 (depend on, associate with)	i aor	0.0	{}
+oruhi	aor	√ruh 1 (ascend, grow)	i aor	0.0	{}
+olaggesi	aor	√lagg 1 (stick, adhere)	esi aor	0.0	{}
+orundhi	aor	√rudh 2 (obstruct)	i aor	0.0	{}
+omuttesi	aor		esi aor	0.0	{}
+orami	aor	√ram 1 (delight, please)	i aor	0.0	{}
+ovassāpesi	aor	√vass 1 (rain)	esi aor	0.0	{}
+osakki	aor	√sakk 1 (move)	i aor	0.0	{}
+osari	aor	√sar 1 (go, flow)	i aor	0.0	{}
+osīdāpesi	aor	√sad 1 (sink, sit, settle)	esi aor	0.0	{}
+kākacchi	aor		i aor	0.0	{}
+gaḷagaḷāyi	aor		i aor	0.0	{}
+khāyi	aor	√khā 1 (tell, announce)	i aor	0.0	{}
+gāhāsesi	aor	√gah 6 (grasp)	esi aor	0.0	{}
+gali	aor	√gal 1 (drip, flow)	i aor	0.0	{}
+khādesi	aor	√khād 1 (chew)	esi aor	0.0	{}
+khāḷesi	aor	√khal 8 (clean, rinse)	esi aor	0.0	{}
+khipāpesi	aor	√khip 1 (throw)	esi aor	0.0	{}
+gaṇhāpesi	aor	√gah 6 (grasp)	esi aor	0.0	{}
+garukari	aor		i aor	0.0	{}
+ganthesi	aor	√ganth 8 (tie, bind)	esi aor	0.0	{}
+gadi	aor	√gad 1 (speak)	i aor	0.0	{}
+kaṇḍūvi	aor	√kaṇḍ 8 (break, pierce)	i aor	0.0	{}
+kaddhi	aor	√kaḍḍh 1 (drag, plough)	i aor	0.0	{}
+khepesi	aor	√khip 1 (throw)	esi aor	0.0	{}
+gajji	aor	√gajj 1 (roar, thunder)	i aor	0.0	{}
+khubhi	aor	√khubh 1 (shake, agitate)	i aor	0.0	{}
+vicāresi	aor	√car 1 (move, walk)	esi aor	0.0	{}
+anusāvesi	aor	√su 4 (hear)	esi aor	0.0	{}
+anusoci	aor	√suc 1 (grieve)	i aor	0.0	{}
+anusavi	aor	√su 1 (flow)	i aor	0.0	{}
+apacāyi	aor	√cāy 1 (honour)	i aor	0.0	{}
+anussāvesi	aor	√su 4 (hear)	esi aor	0.0	{}
+anusakki	aor	√sakk 1 (move)	i aor	0.0	{}
+anurañji	aor	√rañj 1 (dye, desire)	i aor	0.0	{}
+anurañjesi	aor	√rañj 1 (dye, desire)	esi aor	0.0	{}
+anusañcari	aor	√car 1 (move, walk)	i aor	0.0	{}
+anusandi	aor	√sand 1 (flow)	i aor	0.0	{}
+anurodi	aor	√rud 1 (cry)	i aor	0.0	{}
+anulimpi	aor	√lip 2 (coat, smear)	i aor	0.0	{}
+anulimpesi	aor	√lip 2 (coat, smear)	esi aor	0.0	{}
+anulomesi	aor		esi aor	0.0	{}
+apadisi	aor	√dis 1 (point out, explain)	i aor	0.0	{}
+apacini	aor	√ci 5 (gather, accumulate)	i aor	0.0	{}
+anvesesi	aor	√es 1 (seek, search)	esi aor	0.0	{}
+apakaḍḍhi	aor	√kaḍḍh 1 (drag, plough)	i aor	0.0	{}
+apakari	aor	√kar 7 (do, make)	kari aor	0.0	{}
+anvāhiṇḍi	aor	√hiṇḍ 1 (roam, wander)	i aor	0.0	{}
+apaccāsi	aor	√pac 1 (cook)	āsi aor iṃsu	0.0	{}
+apayi	aor	√i 1 (come, go)	i aor	0.0	{}
+apanesi	aor	√nī 1 (lead, carry)	esi aor	0.0	{}
+apanidahi	aor	√dhā 1 (place, support)	i aor	0.0	{}
+accassari	aor	√sar 1 (go, flow)	i aor	0.0	{}
+ajjhācari	aor	√car 1 (act, behave)	i aor	0.0	{}
+accesi	aor	√i 1 (come, go)	esi aor	0.0	{}
+ajjhotthari	aor	√thar 1 (spread, expand)	i aor	0.0	{}
+ajjhothari	aor	√thar 1 (spread, expand)	i aor	0.0	{}
+aṭṭīyi	aor	√add 8 (afflict)	i aor	0.0	{}
+anuvāsesi	aor	√vas 8 (wear, dress)	esi aor	0.0	{}
+anuvicari	aor	√car 1 (move, walk)	i aor	0.0	{}
+anuvicini	aor	√ci 5 (gather, accumulate)	i aor	0.0	{}
+anuvadi	aor	√vad 1 (say, speak)	i aor	0.0	{}
+ajjupekkhi	aor	√ikkh 1 (see, mark)	i aor	0.0	{}
+anuvattesi	aor	√vatt 1 (be, proceed)	esi aor	0.0	{}
+anuvijji	aor	√vid 3 (know, understand)	i aor	0.0	{}
+anuvijjhi	aor	√vidh 3 (throw, pierce)	i aor	0.0	{}
+anuvitakkesi	aor	√takk 8 (think)	esi aor	0.0	{}
+anuvidhīyi	aor	√dhā 1 (place, support)	i aor	0.0	{}
+apagacchi	aor	√gam 1 (go)	i aor	0.0	{}
+anucini	aor	√ci 5 (gather, accumulate)	i aor	0.0	{}
+anucintesi	aor	√cint 8 (think)	esi aor	0.0	{}
+anudahi	aor	√ḍah 1 (burn)	i aor	0.0	{}
+anuḍahi	aor	√ḍah 1 (burn)	i aor	0.0	{}
+anujīvi	aor	√jīv 1 (live)	i aor	0.0	{}
+anuparigacchi	aor	√gam 1 (go)	i aor	0.0	{}
+anupariyāyi	aor	√yā 1 (go)	i aor	0.0	{}
+anupariyāsi	aor	√yā 1 (go)	āsi aor	0.0	{}
+anumīyi	aor	√mā 5 (measure)	i aor	0.0	{}
+anupāpuṇi	aor	√ap 4 (reach, attain)	i aor	0.0	{}
+anumajji	aor	√majj 1 (rub, polish)	i aor	0.0	{}
+anubrūhesi	aor	√brūh 1 (increase)	esi aor	0.0	{}
+anubujjhi	aor	√budh 3 (know, wake up)	i aor	0.0	{}
+kampi	aor	√kamp 1 (shake, tremble)	i aor	0.0	{}
+anunesi	aor	√nī 1 (lead, carry)	esi aor	0.0	{}
+karīyi	aor	√kar 7 (do, make)	i aor	0.0	{}
+anupavisi	aor	√vis 1 (enter)	i aor	0.0	{}
+anugāhi	aor	√gāh 1 (dive, plunge)	i aor	0.0	{}
+anugijjhi	aor	√gidh 3 (be greedy)	i aor	0.0	{}
+anuggaṇhi	aor	√gah 6 (grasp)	i aor	0.0	{}
+anugacchi	aor	√gam 1 (go)	i aor	0.0	{}
+anukari	aor	√kar 7 (do, make)	kari aor	0.0	{}
+anukanti	aor	√kat 2 (cut)	i aor	0.0	{}
+anvakāri	aor	√kar 7 (do, make)	i aor	0.0	{}
+anucari	aor	√car 1 (act, behave)	i aor	0.0	{}
+anupālesi	aor	√pāl 8 (protect)	esi aor	0.0	{}
+anupucchi	aor	√pucch 1 (ask, question)	i aor	0.0	{}
+anupekkhi	aor	√ikkh 1 (see, mark)	i aor	0.0	{}
+anupavattesi	aor	√vatt 1 (be, proceed)	esi aor	0.0	{}
+anupāpesi	aor	√ap 4 (reach, attain)	esi aor	0.0	{}
+anupesi	aor	√pis 8 (send)	esi aor	0.0	{}
+otāpesi	aor	√tap 1 (burn, radiate heat)	esi aor	0.0	{}
+otāresi	aor	√tar 1 (cross)	esi aor	0.0	{}
+odhesi	aor	√dhā 1 (place, support)	i aor	0.0	{}
+onandhi	aor	√nadh 2 (wrap, twist)	i aor	0.0	{}
+onami	aor	√nam 1 (bend)	i aor	0.0	{}
+onayhi	aor	√nah 3 (bind, arm)	i aor	0.0	{}
+obhāsi	aor	√bhās 1 (shine)	āsi aor	0.0	{}
+obhāsesi	aor	√bhās 1 (shine)	esi aor	0.0	{}
+otthari	aor	√thar 1 (spread, expand)	i aor	0.0	{}
+opuṇi	aor	√pu 5 (purify, cleanse)	i aor	0.0	{}
+ūhaññi	aor	√han 1 (strike, kill)	i aor	0.0	{}
+ūhadi	aor		i aor	0.0	{}
+ussukkāpesi	aor		esi aor	0.0	{}
+ussussi	aor	√sus 3 (dry, wither)	i aor	0.0	{}
+oḍḍesi	aor	√ḍi 1 (trap)	esi aor	0.0	{}
+ocini	aor	√ci 5 (gather, accumulate)	i aor	0.0	{}
+oghamatari	aor		i aor	0.0	{}
+ogili	aor	√gil 1 (eat, swallow)	i aor	0.0	{}
+oguṇṭhesi	aor	√guṇṭh 8 (enclose, envelope)	esi aor	0.0	{}
+ullokesi	aor	√lok 8 (look)	esi aor	0.0	{}
+upalāḷesi	aor	√laḷ 1 (play, move about)	esi aor	0.0	{}
+upalimpi	aor	√lip 2 (coat, smear)	i aor	0.0	{}
+ogacchi	aor	√gam 1 (go)	i aor	0.0	{}
+opi	aor	√si 1 (depend on, associate with)	i aor	0.0	{}
+opilāvesi	aor	√plu 1 (float, swim)	esi aor	0.0	{}
+onojesi	aor	√nud 1 (drive out, reject)	esi aor	0.0	{}
+eresi	aor	√īr 1 (move, shake)	esi aor	0.0	{}
+īri	aor	√īr 1 (move, shake)	i aor	0.0	{}
+īresi	aor	√īr 8 (speak)	esi aor	0.0	{}
+īhi	aor	√īh 1 (strive)	i aor	0.0	{}
+omasi	aor	√mas 1 (touch, rub)	i aor	0.0	{}
+uggaṇhāpesi	aor	√gah 6 (grasp)	esi aor	0.0	{}
+uggaṇhi	aor	√gah 6 (grasp)	i aor	0.0	{}
+iñji	aor	√iñj 1 (move, shake)	i aor	0.0	{}
+ullolesi	aor	√luḷ 1 (agitate, be greedy)	esi aor	0.0	{}
+ussāresi	aor	√sar 1 (go, flow)	esi aor	0.0	{}
+ussāhesi	aor	√sah 1 (overcome, prevail)	esi aor	0.0	{}
+ussiñci	aor	√sic 2 (sprinkle, pour)	i aor	0.0	{}
+edhi	aor	√edh 1 (flourish, prosper)	i aor	0.0	{}
+ubbaṭṭesi	aor	√vaṭṭ 1 (turn)	esi aor	0.0	{}
+ubbattesi	aor	√vatt 1 (be, proceed)	esi aor	0.0	{}
+uppīḷesi	aor	√pīḷ 8 (press, crush)	esi aor	0.0	{}
+uppoṭhesi	aor	√puth 8 (beat, hurt)	esi aor	0.0	{}
+uppabbaji	aor	√vaj 1 (go on)	i aor	0.0	{}
+vighātesi	aor		esi aor	0.0	{}
+uppabbājesi	aor	√vaj 1 (go on)	esi aor	0.0	{}
+ummūlesi	aor	√mūl 1 (support)	esi aor	0.0	{}
+uyyuñji	aor	√yuj 2 (yoke, join)	i aor	0.0	{}
+uppati	aor	√pat 1 (fall)	i aor	0.0	{}
+vītivattesi	aor	√vatt 1 (be, proceed)	esi aor	0.0	{}
+sujjhi	aor	√sudh 3 (be pure)	i aor	0.0	{}
+rami	aor	√ram 1 (delight, please)	i aor	0.0	{}
+vicuṇṇesi	aor	√cuṇṇ 8 (grind, crush, powder)	esi aor	0.0	{}
+vītināmayi	aor	√nam 1 (bend)	i aor	0.0	{}
+vighāṭesi	aor		esi aor	0.0	{}
+sibbesi	aor	√siv 3 (sew)	esi aor	0.0	{}
+ummīlesi	aor	√mīl 8 (close eyes)	esi aor	0.0	{}
+upasobhi	aor	√subh 1 (shine, adorn)	i aor	0.0	{}
+uparujjhi	aor	√rudh 2 (obstruct)	i aor	0.0	{}
+upanibandhi	aor	√bandh 1 (bind, tie)	i aor	0.0	{}
+upavadi	aor	√vad 1 (say, speak)	i aor	0.0	{}
+upasosesi	aor	√sus 3 (dry, wither)	esi aor	0.0	{}
+upasussi	aor	√sus 3 (dry, wither)	i aor	0.0	{}
+upasevi	aor	√sev 1 (serve, associate)	i aor	0.0	{}
+upasobhesi	aor	√subh 1 (shine, adorn)	esi aor	0.0	{}
+upasiṅghi	aor	√siṅgh 1 (sniff, smell)	i aor	0.0	{}
+upanami	aor	√nam 1 (bend)	i aor	0.0	{}
+upanayhi	aor	√nah 3 (bind, arm)	i aor	0.0	{}
+upanissayi	aor	√si 1 (depend on, associate with)	i aor	0.0	{}
+upanipajji	aor	√pad 3 (go, step)	i aor	0.0	{}
+upalakkesi	aor	√lakkh 8 (mark)	esi aor	0.0	{}
+upalabhi	aor	√labh 1 (get)	i aor	0.0	{}
+upasamesi	aor	√sam 3 (be calm, tired)	esi aor	0.0	{}
+upavāyi	aor	√vā 1 (blow, emit odour)	i aor	0.0	{}
+upahani	aor	√han 1 (strike, kill)	i aor	0.0	{}
+upāgāmi	aor	√gam 1 (go)	i aor	0.0	{}
+upavāsesi	aor	√vās 8 (perfume)	esi aor	0.0	{}
+upahaññi	aor	√han 1 (strike, kill)	i aor	0.0	{}
+upalāpesi	aor	√lap 1 (speak, chat)	esi aor	0.0	{}
+upavīyi	aor		i aor	0.0	{}
+upavisi	aor		i aor	0.0	{}
+ummihi	aor	√mih 1 (urinate, excrete)	i aor	0.0	{}
+ubbijji	aor	√vij 3 (shake, be afraid, be in awe)	i aor	0.0	{}
+ubbejesi	aor	√vij 3 (shake, be afraid, be in awe)	esi aor	0.0	{}
+ullapi	aor	√lap 1 (speak, chat)	i aor	0.0	{}
+ullikhi	aor	√likh 1 (scratch, write)	i aor	0.0	{}
+ullumpi	aor	√lup 2 (cut off, rob)	i aor	0.0	{}
+ullaṅghesi	aor	√lagh 2 (lift up, jump)	esi aor	0.0	{}
+ummisi	aor	√mis 1 (wink, blink)	i aor	0.0	{}
+upanighaṃsi	aor	√ghaṃs 1 (grind, pound)	i aor	0.0	{}
+uparami	aor	√ram 1 (stop, abstain)	i aor	0.0	{}
+upanijjhayi	aor	√jhā 3 (think, meditate)	i aor	0.0	{}
+upamesi	aor	√mā 5 (measure)	esi aor	0.0	{}
+upayāci	aor	√yāc 1 (beg)	i aor	0.0	{}
+upayuñji	aor	√yuj 2 (yoke, join)	i aor	0.0	{}
+ubbhuji	aor		i aor	0.0	{}
+upabrūhesi	aor	√brūh 1 (increase)	esi aor	0.0	{}
+ugghāṭesi	aor	√ghaṭ 1 (join together)	esi aor	0.0	{}
+kūji	aor	√kūj 1 (make sound)	i aor	0.0	{}
+kuhesi	aor	√kuh 8 (deceive)	esi aor	0.0	{}
+khaci	aor	√khac 1 (adorn, inlay)	i aor	0.0	{}
+udabbadhi	aor	√vadh 8 (hurt, slaughter)	i aor	0.0	{}
+ujjagghi	aor	√jaggh 1 (laugh)	i aor	0.0	{}
+ucchādesi	aor	√chad 8 (cover, conceal)	esi aor	0.0	{}
+ugghosesi	aor	√ghus 1 (shout, make noise)	esi aor	0.0	{}
+uttānīkari	aor		i aor	0.0	{}
+uttāpesi	aor	√tap 1 (burn, radiate heat)	esi aor	0.0	{}
+omuñci	aor	√muc 2 (release, free)	i aor	0.0	{}
+uttāsesi	aor	√tas 8 (decorate, impale)	esi aor	0.0	{}
+kilissi	aor	√kilis 3 (be dirty, be molested)	i aor	0.0	{}
+kilijji	aor	√kilid 3 (be wet)	i aor	0.0	{}
+kuṇṭhesi	aor	√kuṇṭh 1 (be blunt, lame)	esi aor	0.0	{}
+khaṇḍesi	aor	√khaṇḍ 8 (break)	esi aor	0.0	{}
+kilamīyi	aor	√kilam 1 (be weary)	i aor	0.0	{}
+kilesesi	aor	√kilis 3 (be dirty, be molested)	esi aor	0.0	{}
+kīḷāpesi	aor	√kīḷ 1 (play)	esi aor	0.0	{}
+āhani	aor	√han 1 (strike, kill)	i aor	0.0	{}
+āhiṇḍāpesi	aor	√hiṇḍ 1 (roam, wander)	esi aor	0.0	{}
+āhiṇḍi	aor	√hiṇḍ 1 (roam, wander)	i aor	0.0	{}
+āsaṅki	aor	√saṅk 1 (doubt, suspect)	i aor	0.0	{}
+āloḷesi	aor	√luḷ 1 (agitate, be greedy)	esi aor	0.0	{}
+āliṅgi	aor	√liṅg 1 (embrace)	i aor	0.0	{}
+āsadi	aor	√sad 1 (sink, sit, settle)	i aor	0.0	{}
+āveṭhesi	aor	√veṭh 8 (wind, twist)	esi aor	0.0	{}
+āvuṇi	aor	√vu 4 (weave, cover)	i aor	0.0	{}
+āvahi	aor	√vah 1 (carry, bring)	i aor	0.0	{}
+āvijjhi	aor	√vidh 3 (throw, pierce)	i aor	0.0	{}
+ukkaṇṭhi	aor	√kaṭh 2 (live in distress)	i aor	0.0	{}
+ukkanti	aor	√kat 2 (cut)	i aor	0.0	{}
+ukkaṃsesi	aor	√kas 1 (drag, draw)	esi aor	0.0	{}
+ugghari	aor	√ghar 1 (drip)	i aor	0.0	{}
+ugghaṃsesi	aor	√ghaṃs 1 (grind, pound)	esi aor	0.0	{}
+ugghāṭi	aor		i aor	0.0	{}
+uggili	aor	√gil 1 (eat, swallow)	i aor	0.0	{}
+uggiri	aor	√gir 1 (raise)	i aor	0.0	{}
+uggajji	aor	√gajj 1 (roar, thunder)	i aor	0.0	{}
+ukkoṭesi	aor	√kuṭ 1 (be crooked, bent)	esi aor	0.0	{}
+āsappi	aor	√sapp 1 (crawl)	i aor	0.0	{}
+āvajjesi	aor	√vajj 8 (turn, avoid)	esi aor	0.0	{}
+āluḷesi	aor	√luḷ 1 (agitate, be greedy)	esi aor	0.0	{}
+ālokesi	aor	√lok 8 (look)	esi aor	0.0	{}
+āsiñci	aor	√sic 2 (sprinkle, pour)	i aor	0.0	{}
+āsiṃsi	aor	√siṃs 1 (hope, wish)	i aor	0.0	{}
+āsevi	aor	√sev 1 (serve, associate)	i aor	0.0	{}
+ugghātesi	aor		esi aor	0.0	{}
+upakūji	aor	√kūj 1 (make sound)	i aor	0.0	{}
+upacari	aor	√car 1 (move, walk)	i aor	0.0	{}
+upajīvi	aor	√jīv 1 (live)	i aor	0.0	{}
+upacini	aor	√ci 5 (gather, accumulate)	i aor	0.0	{}
+upacchindi	aor	√chid 2 (cut, steal)	i aor	0.0	{}
+upadassesi	aor	√dis 1 (see)	esi aor	0.0	{}
+upadahi	aor	√dhā 1 (place, support)	i aor	0.0	{}
+upadisi	aor		i aor	0.0	{}
+upaddavesi	aor	√du 1 (burn, torment)	esi aor	0.0	{}
+upakkosi	aor	√kus 1 (call, insult)	i aor	0.0	{}
+upagūhi	aor	√guh 1 (hide, conceal)	i aor	0.0	{}
+ujjali	aor		i aor	0.0	{}
+uḍḍahi	aor	√ḍah 1 (burn)	i aor	0.0	{}
+uccini	aor	√ci 5 (gather, accumulate)	i aor	0.0	{}
+uḍḍesi	aor	√ḍi 1 (fly)	esi aor	0.0	{}
+ujjotesi	aor	√jut 1 (shine)	esi aor	0.0	{}
+ujjhi	aor	√ujjh 1 (leave, discard)	i aor	0.0	{}
+ujjahi	aor	√hā 1 (abandon)	i aor aṃsu	0.0	{}
+ujjavi	aor	√ju 1 (be fast)	i aor	0.0	{}
+unnami	aor		i aor	0.0	{}
+upakaḍḍhi	aor	√kaḍḍh 1 (drag, plough)	i aor	0.0	{}
+udāhari	aor	√har 1 (carry)	hari aor	0.0	{}
+udesi	aor	√i 1 (come, go)	esi aor	0.0	{}
+upakari	aor	√kar 7 (do, make)	kari aor	0.0	{}
+uddhumāyi	aor	√dham 1 (blow, sound)	i aor	0.0	{}
+udrīyi	aor	√dar 1 (break, split apart)	i aor	0.0	{}
+uddhaṃsesi	aor	√dhaṃs 1 (fall down, destroy)	esi aor	0.0	{}
+unnadi	aor	√nad 1 (roar)	i aor	0.0	{}
+upatappi	aor	√tapp 1 (regret)	i aor	0.0	{}
+upatāpesi	aor	√tap 1 (burn, radiate heat)	esi aor	0.0	{}
+upaḍayhi	aor	√ḍah 1 (burn)	i aor	0.0	{}
+upadhāresi	aor	√dhar 8 (wear, hold, carry)	esi aor	0.0	{}
+uddālesi	aor	√dal 8 (split, tear apart)	esi aor	0.0	{}
+uddisi	aor	√dis 1 (point out, explain)	i aor	0.0	{}

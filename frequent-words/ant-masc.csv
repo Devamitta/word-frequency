@@ -1,0 +1,22 @@
+headword	pos	root	pattern	count	found
+bhagavant	masc	√bhaj 1 (divide, distribute)	ant masc	13582.0	{'bhagavā': 6850, 'bhagavato': 2364, 'bhagavantaṃ': 2405, 'bhagavatā': 1693, 'bhagavati': 167, 'bhagavanto': 83, 'bhagavantānaṃ': 20}
+āyasmant	masc	√i 1 (come, go)	ant masc	4865.0	{'āyasmā': 2667, 'āyasmantaṃ': 992, 'āyasmato': 689, 'āyasmatā': 207, 'āyasmanto': 196, 'āyasmantānaṃ': 61, 'āyasmante': 43, 'āyasmantā': 5, 'āyasmantesu': 5}
+pāpimant	masc		ant masc	349.0	{'pāpima': 127, 'pāpimā': 123, 'pāpimato': 66, 'pāpimantaṃ': 30, 'pāpimatā': 3}
+cakkhumant	masc	√cakkh 1 (see)	ant masc	208.0	{'cakkhumā': 113, 'cakkhumanto': 67, 'cakkhumatā': 11, 'cakkhumato': 8, 'cakkhuma': 7, 'cakkhumantassa': 2}
+iddhimant	masc	√idh 3 (succeed, accomplish)	ant masc	64.0	{'iddhimā': 33, 'iddhimanto': 25, 'iddhimato': 2, 'iddhimantassa': 1, 'iddhimatā': 1, 'iddhimantānaṃ': 1, 'iddhimantaṃ': 1}
+himavant	masc		ant masc	56.0	{'himavato': 19, 'himavantaṃ': 17, 'himavā': 15, 'himavante': 1, 'himavataṃ': 1, 'himavantassa': 1, 'himavatā': 1, 'himavati': 1}
+candimant	masc	√cand 1 (glow, be bright)	ant masc	42.0	{'candimā': 39, 'candimaṃ': 3}
+vidvant	masc	√vid 1 (know)	ant masc	30.0	{'vidvā': 30}
+accimant	masc	√acc 1 (shine, praise)	ant masc	19.0	{'accimā': 12, 'accimanto': 4, 'accimantā': 2, 'accimantaṃ': 1}
+avidvant	masc	√vid 8 (know, sense, feel)	ant masc	16.0	{'avidvā': 16}
+bhaddantavant	masc		ant masc	15.0	{'bhaddantavā': 15}
+dantavant	masc	√dam 3 (be tame)	ant masc	1.0	{'dantavatā': 1}
+ājānīyavant	masc		ant masc	1.0	{'ājānīyavatā': 1}
+dhorayhavant	masc		ant masc	1.0	{'dhorayhavatā': 1}
+nāgavant	masc		ant masc	1.0	{'nāgavatā': 1}
+nisabhavant	masc		ant masc	1.0	{'nisabhavatā': 1}
+sīhavant	masc		ant masc	1.0	{'sīhavatā': 1}
+bhānumant	masc		ant masc	1.0	{'bhānumā': 1}
+pathavant	masc	√path 1 (go, move)	ant masc	1.0	{'pathavato': 1}
+guṇavant	masc		ant masc	0.0	{}
+raṃsimant	masc		ant masc	0.0	{}
