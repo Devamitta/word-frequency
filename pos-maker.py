@@ -147,4 +147,4 @@ df_fut.head(50)[['Pāli1', 'count']].to_csv("frequent-words/fut.csv", sep="\t", 
 # save summary csv
 df_comb = pd.concat([df_a_masc, df_aati_pr, df_ant_adj, df_ar_masc, df_ati_pr, df_esi_aor, df_eti_pr, df_fut, df_i_aor, df_i_masc, df_ii_masc, df_other_aor, df_other_pr, df_u_masc])
 
-df_comb[['Pāli1', 'count']].to_csv("frequent-words/comb.csv", sep="\t", index=None)
+df_comb[['Pāli1', 'Pattern', 'count']].to_csv("frequent-words/comb.csv", sep="\t", index=None)

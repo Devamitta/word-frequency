@@ -1,176 +1,176 @@
-Pāli1	count
-dhamma	12531.0
-brāhmaṇa	4151.0
-samaya	3913.0
-loka	3778.0
-ānanda	3447.0
-kāya	3281.0
-gotama	2818.0
-attha	2769.0
-satta	2714.0
-samaṇa	2218.0
-tathāgata	2170.0
-purisa	2155.0
-deva	2138.0
-puggala	1980.0
-sāriputta	1836.0
-buddha	1517.0
-saṅgha	1396.0
-magga	1356.0
-bhava	1156.0
-kāma	1117.0
-bheda	1076.0
-saṅkhāra	1013.0
-kāla	1004.0
-sammāsambuddha	965.0
-āsava	959.0
-ariyasāvaka	910.0
-manussa	894.0
-vaṇṇa	812.0
-sāvaka	803.0
-sakka	793.0
-niraya	780.0
-ārāma	745.0
-thera	722.0
-putta	716.0
-paribbājaka	704.0
-ayya	678.0
-anāthapiṇḍika	674.0
-ādīnava	642.0
-upāsaka	632.0
-nirodha	604.0
-chanda	595.0
-bhikkhusaṅgha	585.0
-paccaya	579.0
-rāga	578.0
-māṇava	571.0
-kassapa	566.0
-vihāra	543.0
-patta	534.0
-dosa	524.0
-khaya	514.0
-pañha	512.0
-nāga	505.0
-māra	502.0
-sagga	489.0
-pāda	488.0
-sadda	488.0
-sugata	483.0
-khattiya	479.0
-pariyāya	476.0
-bhoga	474.0
-gāma	468.0
-phassa	467.0
-dhammavinaya	463.0
-saṅghādisesa	454.0
-virāga	449.0
-piṇḍa	448.0
-moha	437.0
-rasa	437.0
-kosala	435.0
-mātugāma	431.0
-pāṇātipāta	428.0
-moghapurisa	428.0
-atthaṅgama	427.0
-anuruddha	424.0
-devānaminda	412.0
-jana	396.0
-kulaputta	393.0
-vipāka	388.0
-mārisa	377.0
-mahānāma	377.0
-gandha	375.0
-samudaya	374.0
-accaya	373.0
-pasāda	371.0
-parikkhaya	370.0
-rājagaha	357.0
-lābha	351.0
-upasampanna	338.0
-saddhamma	334.0
-kumāra	331.0
-iddhipāda	321.0
-satipaṭṭhāna	321.0
-tāta	318.0
-bojjhaṅga	317.0
-assāda	316.0
-pajānāti	2534.0
-jānāti	1776.0
-suṇāti	739.0
-nappajānāti	462.0
-sīlavant	517.0
-satimant	380.0
-pāpimant	349.0
-sattar	2318.0
-satthar	1036.0
-viharati	5581.0
-bhavati	2823.0
-vadati	2432.0
-vuccati	2195.0
-gacchati	2118.0
-passati	1869.0
-uppajjati	1820.0
-maññati	1527.0
-saṃvattati	1107.0
-upapajjati	922.0
-carati	887.0
-bhāsati	833.0
-labhati	768.0
-tiṭṭhati	745.0
-vijjati	712.0
-samanupassati	617.0
-āgacchati	613.0
-āpajjati	575.0
-pucchati	575.0
-bhuñjati	542.0
-paññāyati	513.0
-bhaṇati	469.0
-pajahati	440.0
-sikkhati	436.0
-khiyyati	428.0
-nibbindati	423.0
-ujjhāyati	412.0
-nirujjhati	406.0
-uddisati	394.0
-anussarati	356.0
-dissati	354.0
-pahīyati	318.0
-āmantesi	747.0
-ārocesi	357.0
-vadeti	1429.0
-bhāveti	1174.0
-deseti	1111.0
-deti	849.0
-dhāreti	737.0
-paññapeti	595.0
-samādapeti	430.0
-vipāceti	410.0
-sameti	351.0
-paṭisaṃvedeti	331.0
-tenupasaṅkami	1846.0
-udapādi	519.0
-paccassosi	385.0
-gahapati	1586.0
-samādhi	721.0
-sammāsamādhi	355.0
-aggi	335.0
-pasenadi	320.0
-kī	3398.0
-udāyī	530.0
-sabrahmacārī	388.0
-etadavoca	3168.0
-ahosi	3104.0
-nisīdi	1192.0
-āmantesi	747.0
-avoca	661.0
-assosi	501.0
-ārocesi	357.0
-hoti	19313.0
-atthi	3596.0
-karoti	2597.0
-natthi	1803.0
-byākaroti	535.0
-eti	477.0
-bhikkhu	37331.0
-hetu	1334.0
-garu	320.0
+Pāli1	Pattern	count
+dhamma	a masc	12531.0
+brāhmaṇa	a masc	4151.0
+samaya	a masc	3913.0
+loka	a masc	3778.0
+ānanda	a masc	3447.0
+kāya	a masc	3281.0
+gotama	a masc	2818.0
+attha	a masc	2769.0
+satta	a masc	2714.0
+samaṇa	a masc	2218.0
+tathāgata	a masc	2170.0
+purisa	a masc	2155.0
+deva	a masc	2138.0
+puggala	a masc	1980.0
+sāriputta	a masc	1836.0
+buddha	a masc	1517.0
+saṅgha	a masc	1396.0
+magga	a masc	1356.0
+bhava	a masc	1156.0
+kāma	a masc	1117.0
+bheda	a masc	1076.0
+saṅkhāra	a masc	1013.0
+kāla	a masc	1004.0
+sammāsambuddha	a masc	965.0
+āsava	a masc	959.0
+ariyasāvaka	a masc	910.0
+manussa	a masc	894.0
+vaṇṇa	a masc	812.0
+sāvaka	a masc	803.0
+sakka	a masc	793.0
+niraya	a masc	780.0
+ārāma	a masc	745.0
+thera	a masc	722.0
+putta	a masc	716.0
+paribbājaka	a masc	704.0
+ayya	a masc	678.0
+anāthapiṇḍika	a masc	674.0
+ādīnava	a masc	642.0
+upāsaka	a masc	632.0
+nirodha	a masc	604.0
+chanda	a masc	595.0
+bhikkhusaṅgha	a masc	585.0
+paccaya	a masc	579.0
+rāga	a masc	578.0
+māṇava	a masc	571.0
+kassapa	a masc	566.0
+vihāra	a masc	543.0
+patta	a masc	534.0
+dosa	a masc	524.0
+khaya	a masc	514.0
+pañha	a masc	512.0
+nāga	a masc	505.0
+māra	a masc	502.0
+sagga	a masc	489.0
+pāda	a masc	488.0
+sadda	a masc	488.0
+sugata	a masc	483.0
+khattiya	a masc	479.0
+pariyāya	a masc	476.0
+bhoga	a masc	474.0
+gāma	a masc	468.0
+phassa	a masc	467.0
+dhammavinaya	a masc	463.0
+saṅghādisesa	a masc	454.0
+virāga	a masc	449.0
+piṇḍa	a masc	448.0
+rasa	a masc	437.0
+moha	a masc	437.0
+kosala	a masc	435.0
+mātugāma	a masc	431.0
+pāṇātipāta	a masc	428.0
+moghapurisa	a masc	428.0
+atthaṅgama	a masc	427.0
+anuruddha	a masc	424.0
+devānaminda	a masc	412.0
+jana	a masc	396.0
+kulaputta	a masc	393.0
+vipāka	a masc	388.0
+mahānāma	a masc	377.0
+mārisa	a masc	377.0
+gandha	a masc	375.0
+samudaya	a masc	374.0
+accaya	a masc	373.0
+pasāda	a masc	371.0
+parikkhaya	a masc	370.0
+rājagaha	a masc	357.0
+lābha	a masc	351.0
+upasampanna	a masc	338.0
+saddhamma	a masc	334.0
+kumāra	a masc	331.0
+satipaṭṭhāna	a masc	321.0
+iddhipāda	a masc	321.0
+tāta	a masc	318.0
+bojjhaṅga	a masc	317.0
+assāda	a masc	316.0
+pajānāti	āti pr	2534.0
+jānāti	āti pr	1776.0
+suṇāti	āti pr	739.0
+nappajānāti	āti pr	462.0
+sīlavant	ant adj	517.0
+satimant	ant adj	380.0
+pāpimant	ant adj	349.0
+sattar	ar masc	2318.0
+satthar	ar masc	1036.0
+viharati	ati pr	5581.0
+bhavati	ati pr	2823.0
+vadati	ati pr	2432.0
+vuccati	ati pr	2195.0
+gacchati	ati pr	2118.0
+passati	ati pr	1869.0
+uppajjati	ati pr	1820.0
+maññati	ati pr	1527.0
+saṃvattati	ati pr	1107.0
+upapajjati	ati pr	922.0
+carati	ati pr	887.0
+bhāsati	ati pr	833.0
+labhati	ati pr	768.0
+tiṭṭhati	ati pr	745.0
+vijjati	ati pr	712.0
+samanupassati	ati pr	617.0
+āgacchati	ati pr	613.0
+āpajjati	ati pr	575.0
+pucchati	ati pr	575.0
+bhuñjati	ati pr	542.0
+paññāyati	ati pr	513.0
+bhaṇati	ati pr	469.0
+pajahati	ati pr	440.0
+sikkhati	ati pr	436.0
+khiyyati	ati pr	428.0
+nibbindati	ati pr	423.0
+ujjhāyati	ati pr	412.0
+nirujjhati	ati pr	406.0
+uddisati	ati pr	394.0
+anussarati	ati pr	356.0
+dissati	ati pr	354.0
+pahīyati	ati pr	318.0
+āmantesi	esi aor	747.0
+ārocesi	esi aor	357.0
+vadeti	eti pr	1429.0
+bhāveti	eti pr	1174.0
+deseti	eti pr	1111.0
+deti	eti pr	849.0
+dhāreti	eti pr	737.0
+paññapeti	eti pr	595.0
+samādapeti	eti pr	430.0
+vipāceti	eti pr	410.0
+sameti	eti pr	351.0
+paṭisaṃvedeti	eti pr	331.0
+tenupasaṅkami	i aor	1846.0
+udapādi	i aor	519.0
+paccassosi	i aor	385.0
+gahapati	i masc	1586.0
+samādhi	i masc	721.0
+sammāsamādhi	i masc	355.0
+aggi	i masc	335.0
+pasenadi	i masc	320.0
+kī	ī masc	3398.0
+udāyī	ī masc	530.0
+sabrahmacārī	ī masc	388.0
+etadavoca	avoca aor	3168.0
+ahosi	ahosi aor	3104.0
+nisīdi	i aor isuṃ	1192.0
+āmantesi	esi aor	747.0
+avoca	avoca aor	661.0
+assosi	assosi aor	501.0
+ārocesi	esi aor	357.0
+hoti	hoti pr	19313.0
+atthi	atthi pr	3596.0
+karoti	karoti pr	2597.0
+natthi	natthi pr	1803.0
+byākaroti	oti pr	535.0
+eti	eti pr 2	477.0
+bhikkhu	u masc	37331.0
+hetu	u masc	1334.0
+garu	u masc	320.0
