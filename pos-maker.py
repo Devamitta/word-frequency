@@ -64,8 +64,18 @@ test2 = df['Pattern'] == "ant adj"
 filter = test1 & test2
 df_ant_adj = df.loc[filter]
 
+# filter ant masc
+test1 = df['POS'] == "masc"
+test2 = df['Pattern'] == "ant masc"
+filter = test1 & test2
+df_ant_masc = df.loc[filter]
+
+#combine ant
+df_ant = pd.concat([df_ant_adj, df_ant_masc])
+df_ant = df_ant.sort_values(by=['count'], ascending = False)
+
 # save first 50 ant adj csv
-df_ant_adj.head(50)[['Pāli1', 'count']].to_csv("frequent-words/ant-adj.csv", sep="\t", index=None)
+df_ant.head(50)[['Pāli1', 'count']].to_csv("frequent-words/ant.csv", sep="\t", index=None)
 
 # filter ar masc
 test1 = df['POS'] == "masc"
@@ -153,6 +163,9 @@ df_fut = df.loc[filter]
 df_fut.head(50)[['Pāli1', 'count']].to_csv("frequent-words/fut.csv", sep="\t", index=None)
 
 # save summary csv
-df_comb = pd.concat([df_a_masc, df_aati_pr, df_ant_adj, df_ar_masc, df_ati_pr, df_esi_aor, df_eti_pr, df_fut, df_i_aor, df_i_masc, df_ii_masc, df_other_aor, df_other_pr, df_u_masc])
+df_comb = pd.concat([df_a_masc, df_aati_pr, df_ant, df_ar_masc, df_ati_pr, df_esi_aor, df_eti_pr, df_fut, df_i_aor, df_i_masc, df_ii_masc, df_other_aor, df_other_pr, df_u_masc])
+
+df_comb = df_comb.sort_values(by=['count'], ascending = False)
+
 
 df_comb[['Pāli1', 'Pattern', 'count']].to_csv("frequent-words/comb.csv", sep="\t", index=None)
