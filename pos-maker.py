@@ -9,10 +9,18 @@ df.fillna("", inplace=True)
 # sort by frequency
 df = df.sort_values(by=['count'], ascending = False)
 
-df = df.head(500)
+# filter what is done
+df = df.head(650)
+
+# filter not comp | comp vb | name
+test1 = df['Grammar'] != "comp"
+test2 = df['Grammar'] != "comp vb"
+test3 = df['Grammar'] != "name"
+filter = test1 & test2 & test3
+df = df.loc[filter]
 
 # save first 1000
-df.head(500)[['Pāli1', 'count']].to_csv("curated-sources/1000-words.csv", sep="\t", index=None)
+df.head(1000)[['Pāli1', 'count']].to_csv("curated-sources/1000-words.csv", sep="\t", index=None)
 
 # filter a masc
 test1 = df['POS'] == "masc"
