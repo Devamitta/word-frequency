@@ -57,8 +57,8 @@ niraya	a masc	780.0
 labhati	ati pr	768.0
 āmantesi	esi aor	747.0
 āmantesi	esi aor	747.0
-ārāma	a masc	745.0
 tiṭṭhati	ati pr	745.0
+ārāma	a masc	745.0
 suṇāti	āti pr	739.0
 dhāreti	eti pr	737.0
 thera	a masc	722.0
@@ -79,6 +79,7 @@ paccaya	a masc	579.0
 rāga	a masc	578.0
 āpajjati	ati pr	575.0
 pucchati	ati pr	575.0
+pubbe		573.0
 māṇava	a masc	571.0
 vihāra	a masc	543.0
 bhuñjati	ati pr	542.0
@@ -94,16 +95,18 @@ nāga	a masc	505.0
 māra	a masc	502.0
 assosi	assosi aor	501.0
 sagga	a masc	489.0
-pāda	a masc	488.0
 sadda	a masc	488.0
+pāda	a masc	488.0
 khattiya	a masc	479.0
 eti	eti pr 2	477.0
 pariyāya	a masc	476.0
+āyatiṃ		475.0
 bhoga	a masc	474.0
 bhaṇati	ati pr	469.0
 gāma	a masc	468.0
 phassa	a masc	467.0
 nappajānāti	āti pr	462.0
+dāni		458.0
 virāga	a masc	449.0
 piṇḍa	a masc	448.0
 pajahati	ati pr	440.0
@@ -118,8 +121,8 @@ vipāceti	eti pr	410.0
 nirujjhati	ati pr	406.0
 jana	a masc	396.0
 uddisati	ati pr	394.0
-vipāka	a masc	388.0
 sabrahmacārī	ī masc	388.0
+vipāka	a masc	388.0
 paccassosi	i aor	385.0
 satimant	ant adj	380.0
 mārisa	a masc	377.0
@@ -135,6 +138,7 @@ dissati	ati pr	354.0
 lābha	a masc	351.0
 sameti	eti pr	351.0
 pāpimant	ant adj	349.0
+yadā		343.0
 upasampanna	a masc	338.0
 aggi	i masc	335.0
 kumāra	a masc	331.0
@@ -166,16 +170,30 @@ kappeti	eti pr	284.0
 gāmaṇi	i masc	277.0
 saṃsandati	ati pr	276.0
 nara	a masc	273.0
-parihāyati	ati pr	270.0
 vigarahi	i aor	270.0
+parihāyati	ati pr	270.0
 upakkilesa	a masc	269.0
 pāṇa	a masc	265.0
 vimuccati	ati pr	262.0
-sammodi	i aor	261.0
 aṭṭhāsi	āsi aor	261.0
+sammodi	i aor	261.0
 āhāra	a masc	260.0
+pacchā		258.0
 puthujjana	a masc	255.0
 hattha	a masc	254.0
 ceteti	eti pr	253.0
 gameti	eti pr	248.0
 paripūreti	eti pr	247.0
+vāyamati	ati pr	241.0
+ajja		226.0
+tadā		217.0
+ajjatagge		156.0
+sadā		130.0
+sāyaṃ		94.0
+idāni		93.0
+pāto		51.0
+kadā		51.0
+ekadā		33.0
+suve		30.0
+purā		23.0
+atippago		22.0

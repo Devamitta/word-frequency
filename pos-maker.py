@@ -9,6 +9,34 @@ df.fillna("", inplace=True)
 # sort by frequency
 df = df.sort_values(by=['count'], ascending = False)
 
+#adv of time
+test1 = df['POS'] == "ind"
+test2 = df['Grammar'] == "time"
+filter = test1 & test2
+df_time = df.loc[filter]
+
+# save time csv
+df_time[['Pāli1', 'count']].to_csv("frequent-words/time.csv", sep="\t", index=None)
+
+#adv of place
+test1 = df['POS'] == "ind"
+test2 = df['Grammar'] == "place"
+filter = test1 & test2
+df_place = df.loc[filter]
+
+# save place csv
+df_place[['Pāli1', 'count']].to_csv("frequent-words/place.csv", sep="\t", index=None)
+
+#adv of interr
+test1 = df['POS'] == "ind"
+test2 = df['Grammar'] == "interr"
+filter = test1 & test2
+df_interr = df.loc[filter]
+
+# save interr csv
+df_interr[['Pāli1', 'count']].to_csv("frequent-words/interr.csv", sep="\t", index=None)
+
+
 # filter what is done
 df = df.head(650)
 
@@ -163,7 +191,7 @@ df_fut = df.loc[filter]
 df_fut.head(50)[['Pāli1', 'count']].to_csv("frequent-words/fut.csv", sep="\t", index=None)
 
 # save summary csv
-df_comb = pd.concat([df_a_masc, df_aati_pr, df_ant, df_ar_masc, df_ati_pr, df_esi_aor, df_eti_pr, df_fut, df_i_aor, df_i_masc, df_ii_masc, df_other_aor, df_other_pr, df_u_masc])
+df_comb = pd.concat([df_a_masc, df_aati_pr, df_ant, df_ar_masc, df_ati_pr, df_esi_aor, df_eti_pr, df_fut, df_i_aor, df_i_masc, df_ii_masc, df_other_aor, df_other_pr, df_u_masc, df_time])
 
 df_comb = df_comb.sort_values(by=['count'], ascending = False)
 
