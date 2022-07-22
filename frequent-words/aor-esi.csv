@@ -1,11 +1,11 @@
-Pāli1	Pattern	count
-āmantesi	esi aor	747.0
-ārocesi	esi aor	357.0
-vadesi	esi aor	222.0
-udānesi	esi aor	125.0
-adhivāsesi	esi aor	68.0
-samādapesi	esi aor	57.0
-pavedesi	esi aor	54.0
-aggahesi	esi aor	50.0
-sandassesi	esi aor	49.0
-samuttejesi	esi aor	46.0
+Pāli1	POS	Pattern	count
+āmantesi	aor	esi aor	747.0
+ārocesi	aor	esi aor	357.0
+vadesi	aor	esi aor	222.0
+udānesi	aor	esi aor	125.0
+adhivāsesi	aor	esi aor	68.0
+samādapesi	aor	esi aor	57.0
+pavedesi	aor	esi aor	54.0
+aggahesi	aor	esi aor	50.0
+sandassesi	aor	esi aor	49.0
+samuttejesi	aor	esi aor	46.0

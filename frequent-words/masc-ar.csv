@@ -1,11 +1,11 @@
-Pāli1	Pattern	count
-satthar	ar masc	736.0
-bhāsitar	ar masc	103.0
-vattar	ar masc	99.0
-bhattar	ar masc	83.0
-dātar	ar masc	62.0
-kattar	ar masc	62.0
-akkhātar	ar masc	55.0
-mantar	ar masc	50.0
-ajjhāvasatar	ar masc	39.0
-sotar	ar masc	33.0
+Pāli1	POS	Pattern	count
+satthar	masc	ar masc	736.0
+bhāsitar	masc	ar masc	103.0
+vattar	masc	ar masc	99.0
+bhattar	masc	ar masc	83.0
+kattar	masc	ar masc	62.0
+dātar	masc	ar masc	62.0
+akkhātar	masc	ar masc	55.0
+mantar	masc	ar masc	50.0
+ajjhāvasatar	masc	ar masc	39.0
+sotar	masc	ar masc	33.0

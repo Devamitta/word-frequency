@@ -1,5 +1,5 @@
-Pāli1	Pattern	count
-hoti	hoti pr	19313.0
-atthi	atthi pr	3596.0
-natthi	natthi pr	1803.0
-pahoti	hoti pr	189.0
+Pāli1	POS	Pattern	count
+hoti	pr	hoti pr	19313.0
+atthi	pr	atthi pr	3596.0
+natthi	pr	natthi pr	1803.0
+pahoti	pr	hoti pr	189.0

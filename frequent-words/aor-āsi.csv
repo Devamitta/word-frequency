@@ -1,8 +1,8 @@
-Pāli1	Pattern	count
-aṭṭhāsi	āsi aor	261.0
-abbhaññāsi	āsi aor iṃsu	180.0
-abhāsi	āsi aor	174.0
-akāsi	āsi aor	167.0
-ajjhabhāsi	āsi aor	146.0
-agamāsi	āsi aor iṃsu	144.0
-adāsi	āsi aor	133.0
+Pāli1	POS	Pattern	count
+aṭṭhāsi	aor	āsi aor	261.0
+abbhaññāsi	aor	āsi aor iṃsu	180.0
+abhāsi	aor	āsi aor	174.0
+akāsi	aor	āsi aor	167.0
+ajjhabhāsi	aor	āsi aor	146.0
+agamāsi	aor	āsi aor iṃsu	144.0
+adāsi	aor	āsi aor	133.0

@@ -1,1038 +1,1026 @@
-Pāli1	Pattern	count
-ta	ta pron	47741.0
-bhikkhu	u masc	37331.0
-ca		32306.0
-iti		27188.0
-kho		26308.0
-ima	ima pron	25877.0
-tvaṃ	tvaṃ pron	24775.0
-ahaṃ	ahaṃ pron	24626.0
-na		20143.0
-ya	a pron	20046.0
-hoti	hoti pr	19313.0
-vā		18368.0
-api		14455.0
-evaṃ		14072.0
-bhagavant	ant masc	13582.0
-dhamma	a masc	12531.0
-ka	ka pron	12416.0
-eva		11580.0
-ti	ti card	11141.0
-bhavant	bhavant masc	10909.0
-pe		10566.0
-eta	ta pron	9011.0
-pana		7839.0
-sī		6267.0
-atha		5993.0
-viharati	ati pr	5581.0
-syā		5361.0
-hi		5225.0
-pī		5207.0
-āvuso		5035.0
-āyasmant	ant masc	4865.0
-ka		4288.0
-ka		4288.0
-no		4209.0
-para	a pron	4161.0
-brāhmaṇa	a masc	4151.0
-katama	a pron	4074.0
-citta	a nt	4016.0
-samaya	a masc	3913.0
-idha		3870.0
-loka	a masc	3778.0
-atthi	atthi pr	3596.0
-ānanda	a masc	3447.0
-āpatti	i fem	3443.0
-kāya	a masc	3281.0
-ahosi	ahosi aor	3104.0
-dukkha	a adj	3094.0
-dukkha	a nt	3094.0
-nāma		3015.0
-catu	catu card	3012.0
-atta	a2 masc	2920.0
-kathaṃ		2835.0
-gotama	a masc	2818.0
-pañca	a1 card	2805.0
-attha	a masc	2769.0
-satta	a masc	2714.0
-rāja	rāja masc	2664.0
-eka	eka card	2624.0
-karoti	karoti pr	2597.0
-pajānāti	āti pr	2534.0
-seyyathā		2509.0
-añña	a pron	2465.0
-nu		2448.0
-vadati	ati pr	2432.0
-kaci	kaci pron	2429.0
-vedanā	ā fem	2407.0
-samannāgata	a adj	2370.0
-bhikkhunī	ī fem	2349.0
-tattha		2295.0
-samaṇa	a masc	2218.0
-vuccati	ati pr	2195.0
-yathā		2174.0
-tathāgata	a masc	2170.0
-purisa	a masc	2155.0
-sabba	a pron	2150.0
-deva	a masc	2138.0
-sukha	a adj	2125.0
-sukha	a nt	2125.0
-gacchati	ati pr	2118.0
-upasaṅkamitvā		2056.0
-dvi	dvi card	2015.0
-rūpa	a nt	2001.0
-puggala	a masc	1980.0
-vutta	a pp	1972.0
-santa	santa masc	1913.0
-bhavissati	issati fut	1910.0
-ce		1901.0
-passati	ati pr	1869.0
-kaṃ		1867.0
-sāriputta	a masc	1836.0
-uppajjati	ati pr	1820.0
-maraṇa	a nt	1809.0
-natthi	natthi pr	1803.0
-jānāti	āti pr	1776.0
-aññā	ā fem	1748.0
-ṭhāna	a nt	1590.0
-gahapati	i masc	1586.0
-dukkaṭa	a adj	1558.0
-manas	as masc	1531.0
-maññati	ati pr	1527.0
-buddha	a masc	1517.0
-aññatara	a adj	1495.0
-tatra		1487.0
-kusala	a adj	1469.0
-kusala	a nt	1469.0
-cetas	as masc	1461.0
-arahant	arahant masc	1454.0
-vācā	ā fem	1443.0
-dutiya	a ordin	1438.0
-vadeti	eti pr	1429.0
-viññāṇa	a nt	1418.0
-nisinna	a pp	1415.0
-suta	a pp	1405.0
-saṅgha	a masc	1396.0
-puna		1376.0
-paṭhama	a ordin	1373.0
-magga	a masc	1356.0
-ariya	a adj	1351.0
-ariya	a masc	1351.0
-mā		1337.0
-hetu	u masc	1334.0
-saddhiṃ		1314.0
-pācittiya	a nt	1295.0
-upasampajja		1283.0
-kamma	kamma nt	1257.0
-tatiya	a ordin	1249.0
-sace		1239.0
-akusala	a adj	1236.0
-akusala	a nt	1236.0
-jhāna	a nt	1224.0
-tathā		1221.0
-ekacca	a pron	1201.0
-tasmā		1196.0
-nisīdi	i aor isuṃ	1192.0
-bhāveti	eti pr	1174.0
-sati	i fem	1173.0
-bhava	a masc	1156.0
-sacca	a adj	1156.0
-sacca	a nt	1156.0
-satta	a1 card	1152.0
-paṭicca		1145.0
-passanta	anta prp	1134.0
-anicca	a adj	1133.0
-diṭṭha	a pp	1133.0
-jāti	jāti fem	1121.0
-viharanta	anta prp	1119.0
-kāma	a masc	1117.0
-paṭipadā	ā fem	1113.0
-deseti	eti pr	1111.0
-saṃvattati	ati pr	1107.0
-paṭivirata	a pp	1100.0
-sāvatthī	ī fem	1089.0
-sukhaṃ		1079.0
-bheda	a masc	1076.0
-vo		1065.0
-abhiññā	ā fem	1043.0
-uppanna	a pp	1029.0
-dutiyaṃ		1024.0
-catuttha	a ordin	1019.0
-saṅkhāra	a masc	1013.0
-vata		1010.0
-bahu	u adj	1009.0
-kāla	a masc	1004.0
-niṭṭhita	a pp	1002.0
-saccaṃ		996.0
-cha	a1 card	989.0
-sammā		989.0
-samāna	a adj	979.0
-ettha		975.0
-sādhu		973.0
-pāpaka	aka adj	964.0
-āsava	a masc	959.0
-ajjhattaṃ		956.0
-āha	āha perf	952.0
-tatiyaṃ		944.0
-ṭhānaṃ		941.0
-bhāsita	a nt	935.0
-upapajjati	ati pr	922.0
-paṭhamaṃ		913.0
-āsana	a nt	895.0
-manussa	a masc	894.0
-carati	ati pr	887.0
-mahanta	anta adj	887.0
-paññā	ā fem	885.0
-abhivādetvā		880.0
-kata	a pp	865.0
-ṭhita	a pp	864.0
-deti	eti pr	849.0
-anāpatti	i fem	839.0
-tato		836.0
-bhāsati	ati pr	833.0
-sata	a adj	817.0
-vaṇṇa	a masc	812.0
-kiñci		803.0
-sāvaka	a masc	803.0
-siyā	siyā opt	802.0
-sakka	a masc	793.0
-pahāna	a nt	793.0
-disvā		786.0
-pubba	a adj	784.0
-niraya	a masc	780.0
-pahāya		776.0
-cakkhu	u nt	771.0
-catutthaṃ		769.0
-labhati	ati pr	768.0
-saññā	ā fem	765.0
-sabbaṃ		760.0
-ratti	ratti fem	755.0
-kira		754.0
-āmantesi	esi aor	747.0
-tiṭṭhati	ati pr	745.0
-ārāma	a masc	745.0
-anuttara	a adj	743.0
-suṇāti	āti pr	739.0
-dhāreti	eti pr	737.0
-satthar	ar masc	736.0
-jānanta	anta prp	734.0
-sīla	a nt	723.0
-thera	a masc	722.0
-agāra	a nt	721.0
-samādhi	i masc	721.0
-yattha		717.0
-putta	a masc	716.0
-vijjati	ati pr	712.0
-karaṇīya	a ptp	707.0
-paribbājaka	a masc	704.0
-bhāvita	a pp	691.0
-pahīna	a pp	685.0
-ayya	a masc	678.0
-yāva		678.0
-anāthapiṇḍika	a masc	674.0
-brahma	brahma masc	670.0
-sikkhāpada	a nt	665.0
-aṭṭha	a1 card	662.0
-avoca	avoca aor	661.0
-dibba	a adj	657.0
-pabbajita	a pp	656.0
-cīvara	a nt	655.0
-paṇḍita	a masc east	654.0
-sayaṃ		653.0
-devatā	ā fem	643.0
-ādīnava	a masc	642.0
-katvā		637.0
-jetavana	a nt	635.0
-aññatra		632.0
-upāsaka	a masc	632.0
-pañcama	a ordin	624.0
-dāna	a nt	623.0
-saṃyojana	a nt	623.0
-ni		617.0
-samanupassati	ati pr	617.0
-āgacchati	ati pr	613.0
-taṇhā	ā fem	607.0
-nirodha	a masc	604.0
-chanda	a masc	595.0
-paññapeti	eti pr	595.0
-diṭṭhi	i fem	594.0
-dassana	a nt	589.0
-nūna		589.0
-yato		588.0
-paccaya	a masc	579.0
-sampajāna	a adj	579.0
-rāga	a masc	578.0
-paññāya		577.0
-ādāya		576.0
-āpajjati	ati pr	575.0
-pucchati	ati pr	575.0
-sattama	a ordin east	575.0
-pubbe		573.0
-udaka	a nt	573.0
-māṇava	a masc	571.0
-kassapa	a masc	566.0
-patta	a pp	560.0
-itthī	ī fem	554.0
-disā	ā fem	547.0
-dasa	a1 card	544.0
-vihāra	a masc	543.0
-santike		543.0
-bhuñjati	ati pr	542.0
-anagāriya	a nt	536.0
-gāthā	ā fem	536.0
-byākaroti	oti pr	535.0
-patta	a masc	534.0
-aṭṭha		533.0
-nibbāna	a nt	532.0
-gata	a pp	530.0
-udāyī	ī masc	530.0
-ātāpī	ī adj	528.0
-sutvā		526.0
-dosa	a masc	524.0
-asanta	anta prp	523.0
-udapādi	i aor	519.0
-puṭṭha	a pp	517.0
-sīlavant	ant adj	517.0
-khaya	a masc	514.0
-paññāyati	ati pr	513.0
-pañha	a masc	512.0
-pārājika	a nt	511.0
-alaṃ		506.0
-nāga	a masc	505.0
-saddhā	ā fem	503.0
-māra	a masc	502.0
-manāpa	a adj	502.0
-chaṭṭha	a ordin	502.0
-assosi	assosi aor	501.0
-parisā	parisā fem	501.0
-kula	a nt	500.0
-veditabba	a ptp	500.0
-jīvita	a nt	492.0
-piya	a adj	489.0
-sagga	a masc	489.0
-pāda	a masc	488.0
-sadda	a masc	488.0
-yadi		484.0
-sugata	a adj	483.0
-sugata	a masc	483.0
-uddāna	a nt	482.0
-parisuddha	a pp	481.0
-ubha	ubha pron	481.0
-khattiya	a masc	479.0
-pahātabba	a ptp	478.0
-eti	eti pr 2	477.0
-pāpa	aī adj	477.0
-pāpa	a nt	477.0
-ayyā	ā fem	476.0
-pariyāya	a masc	476.0
-āyatiṃ		475.0
-bhoga	a masc	474.0
-bhaṇati	ati pr	469.0
-gāma	a masc	468.0
-ñāṇa	a nt	467.0
-phassa	a masc	467.0
-apara	a adj	464.0
-aṭṭhama	a ordin	464.0
-bāla	a masc east	462.0
-nappajānāti	āti pr	462.0
-vassa	a nt	462.0
-karissati	karoti pr	461.0
-paññatta	a pp	461.0
-nissaggiya	a ptp	460.0
-dāni		458.0
-viditvā		454.0
-nissaraṇa	a nt	453.0
-sabbaso		450.0
-virāga	a masc	449.0
-piṇḍa	a masc	448.0
-bahiddhā		447.0
-paṭipanna	a pp	444.0
-sikkhā	ā fem	443.0
-maha	a adj	440.0
-pajahati	ati pr	440.0
-moha	a masc	437.0
-rasa	a masc	437.0
-sikkhati	ati pr	436.0
-dasama	a ordin	436.0
-nicca	a adj	436.0
-kosala	a masc	435.0
-jivhā	ā fem	431.0
-viññū	ū masc	431.0
-samādapeti	eti pr	430.0
-khiyyati	ati pr	428.0
-koci		427.0
-anuruddha	a masc	424.0
-nibbindati	ati pr	423.0
-paṇīta	a adj	420.0
-saraṇa	a nt	416.0
-pathavī	ī fem	413.0
-devānaminda	a masc	412.0
-ujjhāyati	ati pr	412.0
-addasā	addasā imperf	410.0
-mātar	mātar fem	410.0
-vipāceti	eti pr	410.0
-karitvā		406.0
-nirujjhati	ati pr	406.0
-navama	a ordin	405.0
-vitthārena		401.0
-amu	amu pron	400.0
-pitar	ar2 masc	399.0
-bala	a nt	398.0
-jana	a masc	396.0
-hita	a nt	394.0
-uddisati	ati pr	394.0
-bhaginī	ī fem	392.0
-bhojana	a nt	392.0
-abhikkanta	a adj	391.0
-vimutta	a pp	391.0
-vematika	a adj	388.0
-vipāka	a masc	388.0
-hīna	a adj	388.0
-sugati	i fem	388.0
-paccassosi	i aor	385.0
-saṃkhitta	a pp	385.0
-vacana	a nt	383.0
-satimant	ant adj	380.0
-uṭṭhāya		379.0
-mahānāma	a masc	377.0
-mārisa	a masc	377.0
-gandha	a masc	375.0
-samudaya	a masc	374.0
-duggati	i fem	374.0
-abhabba	a adj	373.0
-accaya	a masc	373.0
-itthatta	a nt	373.0
-bhaya	a nt	371.0
-pasāda	a masc	371.0
-parikkhaya	a masc	370.0
-pāṭikaṅkha	a adj	368.0
-abhiññāya		366.0
-appamatta	a adj	366.0
-kathā	ā fem	365.0
-indriya	a nt	362.0
-phala	a nt	361.0
-rājagaha	a masc	357.0
-vīriya	a nt	357.0
-ārocesi	esi aor	357.0
-anussarati	ati pr	356.0
-bhaṇanta	anta prp	354.0
-dissati	ati pr	354.0
-kukkucca	a nt	351.0
-lābha	a masc	351.0
-sameti	eti pr	351.0
-karonta	onta prp	350.0
-sambahula	a adj	350.0
-pāpimant	ant adj	349.0
-kacci		345.0
-upapanna	a pp	344.0
-yadā		343.0
-desita	a pp	341.0
-sota	a nt	341.0
-upasampanna	a pp	341.0
-anatta	a2 masc	338.0
-upasampanna	a masc	338.0
-vijjā	ā fem	338.0
-dakkhiṇa	a adj	338.0
-anatta	a adj	338.0
-acchariya	a adj	338.0
-aṅga	a nt	336.0
-sarīra	a nt	336.0
-aggi	i masc	335.0
-appasanna	a adj	335.0
-nadī	nadī fem	335.0
-ve		334.0
-anuppanna	a pp	333.0
-kumāra	a masc	331.0
-paṭisaṃvedeti	eti pr	331.0
-ito		329.0
-bhūta	a pp	329.0
-sata	a2 card	327.0
-vattha	a nt	327.0
-sāraṇīya	a adj	325.0
-abbhuta	a adj	322.0
-lābhī	ī adj	321.0
-gahetvā		320.0
-garu	u adj	320.0
-garu	u masc	320.0
-pasenadi	i masc	320.0
-tāta	a masc	318.0
-pahīyati	ati pr	318.0
-sevitabba	a ptp	318.0
-veramaṇī	ī fem	317.0
-appiccha	a adj	317.0
-kālena		316.0
-assāda	a masc	316.0
-addasa	ddasa aor	315.0
-desessati	ssati fut	315.0
-cunda	a masc	314.0
-senāsana	a nt	314.0
-tāva		314.0
-nigaṇṭha	a masc	313.0
-upeti	eti pr	312.0
-samma		312.0
-uppāda	a masc	311.0
-aññatitthiya	a adj	310.0
-pabbajati	ati pr	310.0
-dadāti	āti pr	309.0
-ettāvatā		308.0
-āhari	hari aor	306.0
-brūti	brūti pr	306.0
-nikkhitta	a pp	306.0
-nissāya		306.0
-jāta	a pp	305.0
-saṃkhittena		305.0
-musā		304.0
-agga	a adj	303.0
-tu		302.0
-disvāna		300.0
-vāseṭṭha	a masc	300.0
-sahabyatā	ā fem	299.0
-vipassī	ī masc	299.0
-channa	a pp	298.0
-moggallāna	a masc	298.0
-sikkhitabba	a ptp	298.0
-pajā	ā fem	297.0
-yakkha	a masc	296.0
-phoṭṭhabba	a ptp	295.0
-vinipāta	a masc	295.0
-iha		294.0
-vinaya	a masc	293.0
-vasa	a masc	292.0
-ākaṅkhati	ati pr	291.0
-jāyati	ati pr	290.0
-pabbata	a masc	290.0
-vineyya		290.0
-bhatta	a nt	289.0
-paṭiggaṇhāti	āti pr	288.0
-gacchanta	anta prp	288.0
-icchati	ati pr	287.0
-apāya	a masc	286.0
-tādisa	aī adj	286.0
-kappeti	eti pr	284.0
-niccaṃ		284.0
-āroceti	eti pr	283.0
-ājānāti	āti pr	282.0
-nāpara	a nt	281.0
-upādāya		281.0
-dhana	a nt	279.0
-saṅkhā	ā fem	278.0
-domanassa	a nt	278.0
-avijjā	ā fem	278.0
-gāmaṇi	i masc	277.0
-mukha	a nt	277.0
-pacchima	a adj	277.0
-samāhita	a pp	277.0
-pīti	i fem	276.0
-saṃsandati	ati pr	276.0
-dūra	a adj	274.0
-aggivessana	a masc	273.0
-nara	a masc	273.0
-vigarahi	i aor	270.0
-dhammika	a adj	270.0
-parihāyati	ati pr	270.0
-cuta	a pp	269.0
-gati	i fem	269.0
-sassata	a adj	269.0
-tīra	a nt	269.0
-upakkilesa	a masc	269.0
-bhāradvāja	a masc	269.0
-anāsava	a adj	268.0
-vadamāna	māna prp	268.0
-dinna	a pp	267.0
-vacanīya	a ptp	267.0
-vatthu	u nt	267.0
-vana	a nt	266.0
-khīṇa	a pp	266.0
-aneka	eka adj	265.0
-gantvā		265.0
-gilāna	a adj	265.0
-pāṇa	a masc	265.0
-sādhukaṃ		265.0
-yādisa	aī adj	264.0
-bhariyā	ā fem	263.0
-kevala	a adj	263.0
-bahula	a adj	262.0
-vimuccati	ati pr	262.0
-sammodi	i aor	261.0
-aṭṭhāsi	āsi aor	261.0
-āhāra	a masc	260.0
-mahāmoggallāna	a masc	259.0
-vepulla	a nt	259.0
-bhāvanā	ā fem	258.0
-pacchā		258.0
-jīva	a nt east	256.0
-puthujjana	a masc	255.0
-vītisāretvā		255.0
-vuddhi	i fem	255.0
-vivicca		254.0
-hattha	a masc	254.0
-sammodanīya	a adj	254.0
-abhikkantaṃ		253.0
-ceteti	eti pr	253.0
-nivāsetvā		253.0
-amanāpa	a adj	252.0
-sutta	a adj	252.0
-sutta	a nt	252.0
-tāvatiṃsa	a adj	252.0
-tāvatiṃsa	a masc	252.0
-vedayita	a nt	252.0
-visākha	a adj	252.0
-bahulaṃ		250.0
-rāhula	a masc	249.0
-gameti	eti pr	248.0
-yoniso		248.0
-aho		247.0
-kalyāṇa	aī adj	247.0
-paripūreti	eti pr	247.0
-dhammena		246.0
-kanta	a adj	245.0
-kuto		245.0
-pharitvā		243.0
-purima	a adj	243.0
-cārikā	ā fem	243.0
-accayena		242.0
-sabbattha		242.0
-iṭṭha	a adj	241.0
-jhāyī	ī masc	241.0
-sammukhā		241.0
-upāsikā	ā fem	241.0
-vāyamati	ati pr	241.0
-pare		240.0
-visākhā	ā fem	239.0
-sutta	a nt	239.0
-pharusa	a adj	239.0
-rukkha	a masc	239.0
-anta	a masc	239.0
-dīgha	a adj	238.0
-āgata	a pp	237.0
-pakkamati	ati pr	237.0
-paṭissutvā		237.0
-pure		237.0
-mogha	a adj	235.0
-paññavant	ant adj	235.0
-a		234.0
-pariyāyena		234.0
-pariyesati	ati pr	233.0
-pada	a nt	233.0
-paribhuñjati	ati pr	232.0
-paṭijānāti	āti pr	232.0
-ajānanta	anta prp	230.0
-bhāvetabba	a ptp	230.0
-chindati	ati pr	230.0
-vara	a adj	230.0
-nisīdati	ati pr	229.0
-seṭṭha	a adj	229.0
-rattiṃ		228.0
-jarā	ā fem	227.0
-dussīla	a adj	227.0
-adhamma	a masc	226.0
-ajja		226.0
-daṭṭhabba	a ptp	226.0
-gārayha	a adj	226.0
-kātuṃ		226.0
-sutavant	ant adj	226.0
-tatha	a adj	226.0
-gaṇhāti	āti pr	225.0
-mutta	a pp	225.0
-upādāna	a nt	225.0
-samāpanna	a pp	224.0
-seyyo		224.0
-pabbajjā	ā fem	224.0
-pakkāmi	i aor isuṃ	224.0
-akkhāta	a pp	223.0
-vaccha	a masc	223.0
-vasati	ati pr	223.0
-anattha	a masc	222.0
-saṃvijjamāna	māna prp	222.0
-thullaccaya	a masc	222.0
-uddesa	a masc	222.0
-vadesi	esi aor	222.0
-sudaṃ		221.0
-khādati	ati pr	221.0
-duccarita	a adj	221.0
-bhabba	a adj	221.0
-nigama	a masc	219.0
-rajanīya	a adj	219.0
-āsi	āsi aor irreg	218.0
-asīti	i card	218.0
-gihī	ī masc	218.0
-paṭisañcikkhati	ati pr	218.0
-tadā		217.0
-vidita	a pp	216.0
-tibba	a adj	216.0
-iccha	a adj	216.0
-ācikkhati	ati pr	216.0
-adhippeta	a adj	215.0
-antara	a adj	215.0
-appamāṇa	a adj	215.0
-parama	a adj	215.0
-adhigama	a masc	214.0
-anupasampanna	a masc	214.0
-bandhana	a nt	214.0
-saṃvara	a masc	214.0
-vāda	a masc	214.0
-vusita	a pp	214.0
-veyyākaraṇa	a nt	213.0
-samatikkamma		213.0
-khādanīya	a nt	213.0
-āmasati	ati pr	212.0
-bhiyyo		212.0
-caritvā		212.0
-ssu		212.0
-uttara	a adj	211.0
-vesālī	ī fem	211.0
-paṇītatara	a adj	210.0
-vimokkha	a masc	210.0
-yathābhataṃ		210.0
-sīha	a masc	209.0
-raṭṭhapāla	a masc	209.0
-handa		209.0
-cakkhumant	ant adj	209.0
-addhā		208.0
-ettaka	aka adj	207.0
-mitta	a masc	207.0
-nisajjā	ā fem	206.0
-vūpasama	a masc	206.0
-vihāsi	hari aor	205.0
-vihari	hari aor	205.0
-sandiṭṭhika	a adj	205.0
-balavant	ant adj	205.0
-āgamma		205.0
-appahāya		205.0
-pāripūri	i fem	204.0
-sāmaṃ		204.0
-vaḍḍhati	ati pr	204.0
-piṇḍapāta	a masc	204.0
-vicikicchā	ā fem	203.0
-caranta	anta prp	202.0
-nivesana	a nt	202.0
-pariyodāta	a adj	202.0
-pāvisi	i aor	202.0
-muni	i masc	201.0
-anuppatta	a pp	201.0
-isi	i masc	201.0
-nanda	a masc	200.0
-sukhī	ī adj	200.0
-samatta	a pp	200.0
-padakkhiṇā	ā fem	200.0
-upanissāya		200.0
-jānaṃ		200.0
-bodhisatta	a masc	200.0
-bhāsissati	issati fut	200.0
-āpanna	a pp	200.0
-icchā	ā fem	200.0
-ābādha	a masc	200.0
-divasa	a masc	199.0
-datvā		199.0
-acchariyaṃ		199.0
-padhāna	a nt	198.0
-sādiyati	ati pr	198.0
-yāvatā		198.0
-māsa	a masc	198.0
-nagara	a nt	197.0
-sāsana	a nt	197.0
-puṇṇa	a masc	197.0
-bahutara	a adj	197.0
-khippaṃ		197.0
-arañña	a nt	197.0
-maññe		196.0
-sañjānāti	āti pr	196.0
-jhāyati	ati pr	196.0
-yasas	as masc	195.0
-ārabhati	ati pr	194.0
-bhadda	a adj	194.0
-sacchikiriyā	ā fem	193.0
-somanassa	a nt	193.0
-viharissati	issati fut	193.0
-sīsa	a nt	192.0
-vāta	a masc	192.0
-upasaṅkamati	ati pr	192.0
-dhīra	a masc	192.0
-janapada	a masc	192.0
-abhivaḍḍhati	ati pr	192.0
-bhadra	a nt	192.0
-bāhā	ā fem	191.0
-dakkhati	dakkhati pr	191.0
-khamati	ati pr	191.0
-ummattaka	a masc	191.0
-anāgata	a pp	190.0
-āyatana	a nt east	190.0
-dahara	a adj	190.0
-paṭipajjati	ati pr	190.0
-rajja	a nt	190.0
-rakkhati	ati pr	190.0
-visuddha	a pp	189.0
-pahoti	hoti pr	189.0
-divā		189.0
-anuyutta	a pp	189.0
-ārabbha		187.0
-hutvā		187.0
-aparena		186.0
-mahākaccāna	a masc	186.0
-sevanta	anta prp	186.0
-tuṇhī		186.0
-uttari		186.0
-sambodha	a masc	185.0
-socati	ati pr	185.0
-pātubhāva	a masc	185.0
-sakkā		185.0
-opapātika	a adj	185.0
-abhinandi	i aor	184.0
-āraññika	a masc	184.0
-māgadha	a adj	184.0
-majjhima	a adj	184.0
-paccupaṭṭhita	a pp	184.0
-pariyādāya		184.0
-samagga	a adj	184.0
-sotāpanna	a adj	184.0
-viya		184.0
-yoga	a masc	184.0
-pallaṅka	a masc	183.0
-vipula	a adj	183.0
-vedayati	ati pr	183.0
-ākāsa	a masc	183.0
-asuci	i masc	183.0
-asuci	i adj	183.0
-apassanta	anta prp	183.0
-kaccāna	a masc	182.0
-vattati	ati pr	182.0
-samādāya		182.0
-pisuṇa	a adj	182.0
-oḷārika	a adj	182.0
-adhivacana	a nt	182.0
-gamissati	issati fut	182.0
-anujānāti	āti pr	182.0
-dhammiya	a adj	182.0
-jīvati	ati pr	181.0
-parinibbuta	a pp	181.0
-varaṃ		181.0
-abbhaññāsi	āsi aor iṃsu	180.0
-assasati	ati pr	180.0
-yasassī	ī adj	180.0
-paṭibhāti	āti pr	179.0
-pamāda	a masc	179.0
-ghāna	a nt	179.0
-abbhutaṃ		179.0
-byāpāda	a masc	178.0
-hanati	hanati pr	178.0
-hanti	hanati pr	178.0
-vassa	a masc	178.0
-anupādāya		177.0
-ma		177.0
-viññāpeti	eti pr	177.0
-uḷāra	a adj	176.0
-yasmā		176.0
-sāmika	a masc	176.0
-paripūra	a pp	176.0
-sadevaka	a adj	176.0
-aññathā		175.0
-santiṭṭhati	ati pr	175.0
-upekkhā	ā fem	175.0
-abhāsi	āsi aor	174.0
-abyābajjha	a adj	174.0
-cora	a masc	174.0
-nīvaraṇa	a masc	174.0
-paccattaṃ		174.0
-mūla	a nt	173.0
-vajjī	ī masc pl	173.0
-appiya	a adj	173.0
-passasati	ati pr	173.0
-adhivāseti	eti pr	173.0
-abhavissa	issa cond	172.0
-ambaṭṭha	a masc	172.0
-ānisaṃsa	a masc	172.0
-nimitta	a nt	172.0
-pavisati	ati pr	172.0
-sabbāvant	ant adj	172.0
-udāna	a nt	171.0
-vitakka	a masc	171.0
-gaṇa	a masc	171.0
-paritta	a adj	171.0
-nibbidā	ā fem	171.0
-tapassī	ī masc	170.0
-bhojanīya	a nt	169.0
-kittāvatā		169.0
-saha		169.0
-vuṭṭhita	a pp	169.0
-kupita	a pp	168.0
-rahas	as masc	168.0
-bhāvitatta	a nt	168.0
-ambho		168.0
-akāsi	āsi aor	167.0
-ṭhiti	i fem	167.0
-yañña	a masc	167.0
-agārava	a adj	166.0
-atho		166.0
-raho		166.0
-pahātuṃ		165.0
-saṃvijjati	ati pr	165.0
-nandati	ati pr	165.0
-byākata	a pp	165.0
-appamāda	a masc	165.0
-chetvā		165.0
-nandī	ī fem	164.0
-paro		164.0
-pasanna	a adj	164.0
-sukhī	ī masc	164.0
-sahassa	a2 card	163.0
-tiriyaṃ		163.0
-sakkoti	oti pr	163.0
-upāli	i masc	163.0
-paccuppanna	a adj	163.0
-duppañña	a adj	163.0
-adinna	a pp	162.0
-caramāna	māna prp	162.0
-muccati	ati pr	162.0
-pāsaṃsa	a adj	162.0
-abhibhuyya		161.0
-asappurisa	a masc	161.0
-niyata	a adj	161.0
-sekha	a masc	161.0
-sucarita	a adj	160.0
-siras	as masc	160.0
-raṭṭha	a nt	160.0
-aroga	a adj	160.0
-janeti	eti pr	160.0
-ajjhāvasati	ati pr	159.0
-cāga	a masc	159.0
-upekkhaka	a adj	159.0
-sunakkhatta	a masc	158.0
-dhammī	ī adj	158.0
-ghara	a nt	158.0
-nava	a1 card	158.0
-nigrodha	a masc	157.0
-pasavati	ati pr	157.0
-namas	as masc	157.0
-āgacchanta	anta prp	157.0
-ajjatagge		156.0
-danta	a masc	156.0
-gaṅgā	ā fem	156.0
-ñāti	i masc	156.0
-tapas	as masc	156.0
-methuna	a adj	155.0
-khalu		155.0
-vedeti	eti pr	154.0
-uddha	a adj	154.0
-kaṭuka	a adj	154.0
-sāmañña	a nt	154.0
-bāhira	a adj	154.0
-ahita	a adj	154.0
-ahita	a nt	154.0
-vandati	ati pr	153.0
-subhāsita	a adj	153.0
-namati	ati pr	153.0
-laddha	a pp	153.0
-anavajja	a adj	153.0
-attato		152.0
-paṭinissagga	a masc	152.0
-uposatha	a masc	152.0
-samudācarati	ati pr	151.0
-vagga	a masc	151.0
-samatikkama	a masc	151.0
-parimuccati	ati pr	151.0
-bhadanta	anta masc	151.0
-avaca	avaca imperf	151.0
-kaṭṭha	a nt	150.0
-licchavi	i masc	150.0
-ananta	a adj	150.0
-dūre		150.0
-paṭinissajjati	ati pr	149.0
-vuṭṭhi	i fem	149.0
-upasampadā	ā fem	149.0
-tevijja	a adj	149.0
-pasīdati	ati pr	149.0
-nidāna	a nt	149.0
-mettā	ā fem	149.0
-kodha	a masc	149.0
-assutavant	ant adj	149.0
-arahati	ati pr	149.0
-amutra		149.0
-akkhāti	āti pr	149.0
-sabrahmaka	a adj	148.0
-vivarati	ati pr	148.0
-santuṭṭha	a pp	148.0
-samāpajji	i aor	148.0
-ramaṇīya	a adj	148.0
-dassati	ssati fut	148.0
-anārambha	a adj	148.0
-dullabha	a adj	147.0
-kaṇha	a adj	147.0
-paccavekkhamāna	māna prp	147.0
-thapati	i masc	147.0
-ajjhabhāsi	āsi aor	146.0
-pāṇi	i masc	146.0
-paṭisallāna	a nt	146.0
-pāṇī	ī masc	145.0
-sāratta	a pp	145.0
-saparikkamana	a adj	145.0
-adhigata	a pp	144.0
-agamāsi	āsi aor iṃsu	144.0
-bhaddaka	aka adj	144.0
-kuṭi	i fem	144.0
-mata	a pp	144.0
-matta	a adj	144.0
-pavedeti	eti pr	144.0
-sārambha	a adj	144.0
-sena	a masc	143.0
-vera	a nt	143.0
-dubbaṇṇa	a adj	143.0
-bhiyyobhāva	a masc	142.0
-maṃsa	a nt	142.0
-paviṭṭha	a pp	142.0
-acela	a adj	142.0
-vattabba	a ptp	141.0
-phuṭṭha	a pp	141.0
-rādha	a masc	141.0
-pāmojja	a nt	141.0
-haññati	ati pr	141.0
-rājañña	a masc	140.0
-seti	eti pr	140.0
-ittha		140.0
-ñatvā		140.0
-maṇi	i masc	140.0
-velā	ā fem	138.0
-saññī	ī adj	138.0
-avera	a adj	138.0
-purato		137.0
-soka	a masc	137.0
-nāssa	ssa opt	137.0
-āditta	a adj	137.0
-senā	ā fem	136.0
-yāma	a masc	136.0
-uju	u adj	136.0
-tejas	as masc	136.0
-sukara	a adj	136.0
-seyyā	ā fem	136.0
-samāpajjati	ati pr	136.0
-kallaṃ		136.0
-āraddha	a pp	136.0
-paricca		135.0
-vijānāti	āti pr	135.0
-svākkhāta	a adj	135.0
-pivati	ati pr	135.0
-harati	ati pr	135.0
-kubbati	kubbati pr	135.0
-appahīna	a pp	135.0
-appa	a adj	135.0
-āyu	u nt	135.0
-aññātaka	aka adj	135.0
-samāraka	a adj	134.0
-upasama	a masc	134.0
-sīta	a adj	134.0
-sārathi	i masc	134.0
-atikkamma		134.0
-amata	a nt	134.0
-amata	a adj	134.0
-phusati	ati pr	134.0
-vuṭṭhāpeti	eti pr	133.0
-pariññāya		133.0
-gava	go masc	133.0
-gambhīra	a adj	133.0
-adāsi	āsi aor	133.0
-cetiya	a nt	132.0
-jahāti	āti pr	132.0
-kālāma	a masc	132.0
-khandha	a masc	132.0
-samanta	a adj	132.0
-vimutti	i fem	131.0
-sāra	a masc	131.0
+Pāli1	POS	Pattern	count
+ta	pron	ta pron	47741.0
+bhikkhu	masc	u masc	37331.0
+ca	ind		32306.0
+iti	ind		27188.0
+kho	ind		26308.0
+ima	pron	ima pron	25877.0
+tvaṃ	pron	tvaṃ pron	24775.0
+ahaṃ	pron	ahaṃ pron	24626.0
+na	ind		20143.0
+ya	pron	a pron	20046.0
+hoti	pr	hoti pr	19313.0
+vā	ind		18368.0
+api	ind		14455.0
+evaṃ	ind		14072.0
+bhagavant	masc	ant masc	13582.0
+dhamma	masc	a masc	12531.0
+ka	pron	ka pron	12416.0
+eva	ind		11580.0
+ti	card	ti card	11141.0
+bhavant	masc	bhavant masc	10909.0
+pe	abbrev		10566.0
+eta	pron	ta pron	9011.0
+pana	ind		7839.0
+sī	abbrev		6267.0
+atha	ind		5993.0
+viharati	pr	ati pr	5581.0
+syā	abbrev		5361.0
+hi	ind		5225.0
+pī	abbrev		5207.0
+āvuso	ind		5035.0
+āyasmant	masc	ant masc	4865.0
+ka	abbrev		4288.0
+ka	ind		4288.0
+no	ind		4209.0
+para	pron	a pron	4161.0
+brāhmaṇa	masc	a masc	4151.0
+katama	pron	a pron	4074.0
+citta	nt	a nt	4016.0
+samaya	masc	a masc	3913.0
+idha	ind		3870.0
+loka	masc	a masc	3778.0
+atthi	pr	atthi pr	3596.0
+ānanda	masc	a masc	3447.0
+āpatti	fem	i fem	3443.0
+kāya	masc	a masc	3281.0
+ahosi	aor	ahosi aor	3104.0
+dukkha	adj	a adj	3094.0
+dukkha	nt	a nt	3094.0
+nāma	ind		3015.0
+catu	card	catu card	3012.0
+atta	masc	a2 masc	2920.0
+kathaṃ	ind		2835.0
+gotama	masc	a masc	2818.0
+pañca	card	a1 card	2805.0
+attha	masc	a masc	2769.0
+satta	masc	a masc	2714.0
+rāja	masc	rāja masc	2664.0
+eka	card	eka card	2624.0
+karoti	pr	karoti pr	2597.0
+pajānāti	pr	āti pr	2534.0
+seyyathā	ind		2509.0
+añña	pron	a pron	2465.0
+nu	ind		2448.0
+vadati	pr	ati pr	2432.0
+kaci	pron	kaci pron	2429.0
+vedanā	fem	ā fem	2407.0
+samannāgata	adj	a adj	2370.0
+bhikkhunī	fem	ī fem	2349.0
+tattha	ind		2295.0
+samaṇa	masc	a masc	2218.0
+vuccati	pr	ati pr	2195.0
+yathā	ind		2174.0
+purisa	masc	a masc	2155.0
+sabba	pron	a pron	2150.0
+deva	masc	a masc	2138.0
+sukha	adj	a adj	2125.0
+sukha	nt	a nt	2125.0
+gacchati	pr	ati pr	2118.0
+upasaṅkamitvā	abs		2056.0
+dvi	card	dvi card	2015.0
+rūpa	nt	a nt	2001.0
+puggala	masc	a masc	1980.0
+vutta	pp	a pp	1972.0
+santa	masc	santa masc	1913.0
+bhavissati	fut	issati fut	1910.0
+ce	ind		1901.0
+passati	pr	ati pr	1869.0
+kaṃ	abbrev		1867.0
+sāriputta	masc	a masc	1836.0
+uppajjati	pr	ati pr	1820.0
+maraṇa	nt	a nt	1809.0
+natthi	pr	natthi pr	1803.0
+jānāti	pr	āti pr	1776.0
+aññā	fem	ā fem	1748.0
+ṭhāna	nt	a nt	1590.0
+gahapati	masc	i masc	1586.0
+dukkaṭa	adj	a adj	1558.0
+manas	masc	as masc	1531.0
+maññati	pr	ati pr	1527.0
+buddha	masc	a masc	1517.0
+aññatara	adj	a adj	1495.0
+tatra	ind		1487.0
+kusala	adj	a adj	1469.0
+kusala	nt	a nt	1469.0
+cetas	masc	as masc	1461.0
+arahant	masc	arahant masc	1454.0
+vācā	fem	ā fem	1443.0
+dutiya	ordin	a ordin	1438.0
+vadeti	pr	eti pr	1429.0
+viññāṇa	nt	a nt	1418.0
+nisinna	pp	a pp	1415.0
+suta	pp	a pp	1405.0
+saṅgha	masc	a masc	1396.0
+puna	ind		1376.0
+paṭhama	ordin	a ordin	1373.0
+magga	masc	a masc	1356.0
+ariya	adj	a adj	1351.0
+ariya	masc	a masc	1351.0
+mā	ind		1337.0
+hetu	masc	u masc	1334.0
+saddhiṃ	ind		1314.0
+pācittiya	nt	a nt	1295.0
+upasampajja	ger		1283.0
+kamma	nt	kamma nt	1257.0
+tatiya	ordin	a ordin	1249.0
+sace	ind		1239.0
+akusala	adj	a adj	1236.0
+akusala	nt	a nt	1236.0
+jhāna	nt	a nt	1224.0
+tathā	ind		1221.0
+ekacca	pron	a pron	1201.0
+tasmā	ind		1196.0
+nisīdi	aor	i aor isuṃ	1192.0
+bhāveti	pr	eti pr	1174.0
+sati	fem	i fem	1173.0
+bhava	masc	a masc	1156.0
+sacca	adj	a adj	1156.0
+sacca	nt	a nt	1156.0
+satta	card	a1 card	1152.0
+paṭicca	ger		1145.0
+passanta	prp	anta prp	1134.0
+anicca	adj	a adj	1133.0
+diṭṭha	pp	a pp	1133.0
+jāti	fem	jāti fem	1121.0
+viharanta	prp	anta prp	1119.0
+kāma	masc	a masc	1117.0
+paṭipadā	fem	ā fem	1113.0
+deseti	pr	eti pr	1111.0
+saṃvattati	pr	ati pr	1107.0
+paṭivirata	pp	a pp	1100.0
+sāvatthī	fem	ī fem	1089.0
+sukhaṃ	ind		1079.0
+bheda	masc	a masc	1076.0
+vo	ind		1065.0
+abhiññā	fem	ā fem	1043.0
+uppanna	pp	a pp	1029.0
+dutiyaṃ	ind		1024.0
+catuttha	ordin	a ordin	1019.0
+saṅkhāra	masc	a masc	1013.0
+vata	ind		1010.0
+bahu	adj	u adj	1009.0
+kāla	masc	a masc	1004.0
+niṭṭhita	pp	a pp	1002.0
+saccaṃ	ind		996.0
+cha	card	a1 card	989.0
+sammā	ind		989.0
+samāna	adj	a adj	979.0
+ettha	ind		975.0
+sādhu	ind		973.0
+pāpaka	adj	aka adj	964.0
+āsava	masc	a masc	959.0
+ajjhattaṃ	ind		956.0
+āha	perf	āha perf	952.0
+tatiyaṃ	ind		944.0
+ṭhānaṃ	ind		941.0
+bhāsita	nt	a nt	935.0
+upapajjati	pr	ati pr	922.0
+paṭhamaṃ	ind		913.0
+āsana	nt	a nt	895.0
+manussa	masc	a masc	894.0
+mahanta	adj	anta adj	887.0
+carati	pr	ati pr	887.0
+paññā	fem	ā fem	885.0
+abhivādetvā	abs		880.0
+kata	pp	a pp	865.0
+ṭhita	pp	a pp	864.0
+deti	pr	eti pr	849.0
+anāpatti	fem	i fem	839.0
+tato	ind		836.0
+bhāsati	pr	ati pr	833.0
+sata	adj	a adj	817.0
+vaṇṇa	masc	a masc	812.0
+sāvaka	masc	a masc	803.0
+kiñci	ind		803.0
+siyā	opt	siyā opt	802.0
+pahāna	nt	a nt	793.0
+sakka	masc	a masc	793.0
+disvā	abs		786.0
+pubba	adj	a adj	784.0
+niraya	masc	a masc	780.0
+pahāya	ger		776.0
+cakkhu	nt	u nt	771.0
+catutthaṃ	ind		769.0
+labhati	pr	ati pr	768.0
+saññā	fem	ā fem	765.0
+sabbaṃ	ind		760.0
+ratti	fem	ratti fem	755.0
+kira	ind		754.0
+āmantesi	aor	esi aor	747.0
+tiṭṭhati	pr	ati pr	745.0
+ārāma	masc	a masc	745.0
+anuttara	adj	a adj	743.0
+suṇāti	pr	āti pr	739.0
+dhāreti	pr	eti pr	737.0
+satthar	masc	ar masc	736.0
+jānanta	prp	anta prp	734.0
+sīla	nt	a nt	723.0
+thera	masc	a masc	722.0
+agāra	nt	a nt	721.0
+samādhi	masc	i masc	721.0
+yattha	ind		717.0
+putta	masc	a masc	716.0
+vijjati	pr	ati pr	712.0
+karaṇīya	ptp	a ptp	707.0
+paribbājaka	masc	a masc	704.0
+bhāvita	pp	a pp	691.0
+pahīna	pp	a pp	685.0
+ayya	masc	a masc	678.0
+yāva	ind		678.0
+brahma	masc	brahma masc	670.0
+sikkhāpada	nt	a nt	665.0
+aṭṭha	card	a1 card	662.0
+avoca	aor	avoca aor	661.0
+dibba	adj	a adj	657.0
+pabbajita	pp	a pp	656.0
+cīvara	nt	a nt	655.0
+paṇḍita	masc	a masc east	654.0
+sayaṃ	ind		653.0
+devatā	fem	ā fem	643.0
+ādīnava	masc	a masc	642.0
+katvā	abs		637.0
+aññatra	ind		632.0
+upāsaka	masc	a masc	632.0
+pañcama	ordin	a ordin	624.0
+dāna	nt	a nt	623.0
+saṃyojana	nt	a nt	623.0
+ni	abbrev		617.0
+samanupassati	pr	ati pr	617.0
+āgacchati	pr	ati pr	613.0
+taṇhā	fem	ā fem	607.0
+nirodha	masc	a masc	604.0
+chanda	masc	a masc	595.0
+paññapeti	pr	eti pr	595.0
+diṭṭhi	fem	i fem	594.0
+dassana	nt	a nt	589.0
+nūna	ind		589.0
+yato	ind		588.0
+paccaya	masc	a masc	579.0
+sampajāna	adj	a adj	579.0
+rāga	masc	a masc	578.0
+paññāya	ger		577.0
+ādāya	ger		576.0
+āpajjati	pr	ati pr	575.0
+pucchati	pr	ati pr	575.0
+sattama	ordin	a ordin east	575.0
+pubbe	ind		573.0
+udaka	nt	a nt	573.0
+māṇava	masc	a masc	571.0
+kassapa	masc	a masc	566.0
+patta	pp	a pp	560.0
+itthī	fem	ī fem	554.0
+disā	fem	ā fem	547.0
+dasa	card	a1 card	544.0
+santike	ind		543.0
+vihāra	masc	a masc	543.0
+bhuñjati	pr	ati pr	542.0
+anagāriya	nt	a nt	536.0
+gāthā	fem	ā fem	536.0
+byākaroti	pr	oti pr	535.0
+patta	masc	a masc	534.0
+aṭṭha	abbrev		533.0
+nibbāna	nt	a nt	532.0
+gata	pp	a pp	530.0
+udāyī	masc	ī masc	530.0
+ātāpī	adj	ī adj	528.0
+sutvā	abs		526.0
+dosa	masc	a masc	524.0
+asanta	prp	anta prp	523.0
+udapādi	aor	i aor	519.0
+puṭṭha	pp	a pp	517.0
+sīlavant	adj	ant adj	517.0
+khaya	masc	a masc	514.0
+paññāyati	pr	ati pr	513.0
+pañha	masc	a masc	512.0
+pārājika	nt	a nt	511.0
+alaṃ	ind		506.0
+nāga	masc	a masc	505.0
+saddhā	fem	ā fem	503.0
+chaṭṭha	ordin	a ordin	502.0
+manāpa	adj	a adj	502.0
+māra	masc	a masc	502.0
+assosi	aor	assosi aor	501.0
+parisā	fem	parisā fem	501.0
+kula	nt	a nt	500.0
+veditabba	ptp	a ptp	500.0
+jīvita	nt	a nt	492.0
+piya	adj	a adj	489.0
+sagga	masc	a masc	489.0
+sadda	masc	a masc	488.0
+pāda	masc	a masc	488.0
+yadi	ind		484.0
+sugata	adj	a adj	483.0
+sugata	masc	a masc	483.0
+uddāna	nt	a nt	482.0
+parisuddha	pp	a pp	481.0
+ubha	pron	ubha pron	481.0
+khattiya	masc	a masc	479.0
+pahātabba	ptp	a ptp	478.0
+eti	pr	eti pr 2	477.0
+pāpa	adj	aī adj	477.0
+pāpa	nt	a nt	477.0
+pariyāya	masc	a masc	476.0
+ayyā	fem	ā fem	476.0
+āyatiṃ	ind		475.0
+bhoga	masc	a masc	474.0
+bhaṇati	pr	ati pr	469.0
+gāma	masc	a masc	468.0
+ñāṇa	nt	a nt	467.0
+phassa	masc	a masc	467.0
+apara	adj	a adj	464.0
+aṭṭhama	ordin	a ordin	464.0
+bāla	masc	a masc east	462.0
+nappajānāti	pr	āti pr	462.0
+vassa	nt	a nt	462.0
+paññatta	pp	a pp	461.0
+karissati	fut	karoti pr	461.0
+nissaggiya	ptp	a ptp	460.0
+dāni	ind		458.0
+viditvā	abs		454.0
+nissaraṇa	nt	a nt	453.0
+sabbaso	ind		450.0
+virāga	masc	a masc	449.0
+piṇḍa	masc	a masc	448.0
+bahiddhā	ind		447.0
+paṭipanna	pp	a pp	444.0
+sikkhā	fem	ā fem	443.0
+pajahati	pr	ati pr	440.0
+maha	adj	a adj	440.0
+moha	masc	a masc	437.0
+rasa	masc	a masc	437.0
+dasama	ordin	a ordin	436.0
+nicca	adj	a adj	436.0
+sikkhati	pr	ati pr	436.0
+kosala	masc	a masc	435.0
+jivhā	fem	ā fem	431.0
+viññū	masc	ū masc	431.0
+samādapeti	pr	eti pr	430.0
+khiyyati	pr	ati pr	428.0
+koci	ind		427.0
+anuruddha	masc	a masc	424.0
+nibbindati	pr	ati pr	423.0
+paṇīta	adj	a adj	420.0
+saraṇa	nt	a nt	416.0
+pathavī	fem	ī fem	413.0
+ujjhāyati	pr	ati pr	412.0
+vipāceti	pr	eti pr	410.0
+mātar	fem	mātar fem	410.0
+addasā	imperf	addasā imperf	410.0
+karitvā	abs		406.0
+nirujjhati	pr	ati pr	406.0
+navama	ordin	a ordin	405.0
+vitthārena	ind		401.0
+amu	pron	amu pron	400.0
+pitar	masc	ar2 masc	399.0
+bala	nt	a nt	398.0
+jana	masc	a masc	396.0
+hita	nt	a nt	394.0
+uddisati	pr	ati pr	394.0
+bhaginī	fem	ī fem	392.0
+bhojana	nt	a nt	392.0
+abhikkanta	adj	a adj	391.0
+vimutta	pp	a pp	391.0
+hīna	adj	a adj	388.0
+sugati	fem	i fem	388.0
+vematika	adj	a adj	388.0
+vipāka	masc	a masc	388.0
+paccassosi	aor	i aor	385.0
+saṃkhitta	pp	a pp	385.0
+vacana	nt	a nt	383.0
+satimant	adj	ant adj	380.0
+uṭṭhāya	ger		379.0
+mārisa	masc	a masc	377.0
+gandha	masc	a masc	375.0
+duggati	fem	i fem	374.0
+samudaya	masc	a masc	374.0
+abhabba	adj	a adj	373.0
+accaya	masc	a masc	373.0
+itthatta	nt	a nt	373.0
+bhaya	nt	a nt	371.0
+pasāda	masc	a masc	371.0
+parikkhaya	masc	a masc	370.0
+pāṭikaṅkha	adj	a adj	368.0
+appamatta	adj	a adj	366.0
+abhiññāya	ger		366.0
+kathā	fem	ā fem	365.0
+indriya	nt	a nt	362.0
+phala	nt	a nt	361.0
+ārocesi	aor	esi aor	357.0
+vīriya	nt	a nt	357.0
+anussarati	pr	ati pr	356.0
+dissati	pr	ati pr	354.0
+bhaṇanta	prp	anta prp	354.0
+kukkucca	nt	a nt	351.0
+lābha	masc	a masc	351.0
+sameti	pr	eti pr	351.0
+karonta	prp	onta prp	350.0
+sambahula	adj	a adj	350.0
+pāpimant	adj	ant adj	349.0
+kacci	ind		345.0
+upapanna	pp	a pp	344.0
+yadā	ind		343.0
+upasampanna	pp	a pp	341.0
+sota	nt	a nt	341.0
+desita	pp	a pp	341.0
+acchariya	adj	a adj	338.0
+anatta	adj	a adj	338.0
+anatta	masc	a2 masc	338.0
+dakkhiṇa	adj	a adj	338.0
+upasampanna	masc	a masc	338.0
+vijjā	fem	ā fem	338.0
+aṅga	nt	a nt	336.0
+sarīra	nt	a nt	336.0
+aggi	masc	i masc	335.0
+appasanna	adj	a adj	335.0
+nadī	fem	nadī fem	335.0
+ve	ind		334.0
+anuppanna	pp	a pp	333.0
+kumāra	masc	a masc	331.0
+paṭisaṃvedeti	pr	eti pr	331.0
+bhūta	pp	a pp	329.0
+ito	ind		329.0
+sata	card	a2 card	327.0
+vattha	nt	a nt	327.0
+sāraṇīya	adj	a adj	325.0
+abbhuta	adj	a adj	322.0
+lābhī	adj	ī adj	321.0
+gahetvā	abs		320.0
+garu	adj	u adj	320.0
+garu	masc	u masc	320.0
+pasenadi	masc	i masc	320.0
+pahīyati	pr	ati pr	318.0
+sevitabba	ptp	a ptp	318.0
+tāta	masc	a masc	318.0
+appiccha	adj	a adj	317.0
+veramaṇī	fem	ī fem	317.0
+kālena	ind		316.0
+assāda	masc	a masc	316.0
+addasa	aor	ddasa aor	315.0
+desessati	fut	ssati fut	315.0
+cunda	masc	a masc	314.0
+senāsana	nt	a nt	314.0
+tāva	ind		314.0
+nigaṇṭha	masc	a masc	313.0
+samma	ind		312.0
+upeti	pr	eti pr	312.0
+uppāda	masc	a masc	311.0
+aññatitthiya	adj	a adj	310.0
+pabbajati	pr	ati pr	310.0
+dadāti	pr	āti pr	309.0
+ettāvatā	ind		308.0
+āhari	aor	hari aor	306.0
+brūti	pr	brūti pr	306.0
+nikkhitta	pp	a pp	306.0
+nissāya	ger		306.0
+jāta	pp	a pp	305.0
+saṃkhittena	ind		305.0
+musā	ind		304.0
+agga	adj	a adj	303.0
+tu	ind		302.0
+vāseṭṭha	masc	a masc	300.0
+disvāna	abs		300.0
+sahabyatā	fem	ā fem	299.0
+vipassī	masc	ī masc	299.0
+channa	pp	a pp	298.0
+moggallāna	masc	a masc	298.0
+sikkhitabba	ptp	a ptp	298.0
+pajā	fem	ā fem	297.0
+yakkha	masc	a masc	296.0
+phoṭṭhabba	ptp	a ptp	295.0
+vinipāta	masc	a masc	295.0
+iha	ind		294.0
+vinaya	masc	a masc	293.0
+vasa	masc	a masc	292.0
+ākaṅkhati	pr	ati pr	291.0
+jāyati	pr	ati pr	290.0
+pabbata	masc	a masc	290.0
+vineyya	ger		290.0
+bhatta	nt	a nt	289.0
+gacchanta	prp	anta prp	288.0
+paṭiggaṇhāti	pr	āti pr	288.0
+icchati	pr	ati pr	287.0
+apāya	masc	a masc	286.0
+tādisa	adj	aī adj	286.0
+niccaṃ	ind		284.0
+kappeti	pr	eti pr	284.0
+āroceti	pr	eti pr	283.0
+ājānāti	pr	āti pr	282.0
+nāpara	nt	a nt	281.0
+upādāya	ind		281.0
+dhana	nt	a nt	279.0
+avijjā	fem	ā fem	278.0
+domanassa	nt	a nt	278.0
+saṅkhā	fem	ā fem	278.0
+samāhita	pp	a pp	277.0
+pacchima	adj	a adj	277.0
+mukha	nt	a nt	277.0
+gāmaṇi	masc	i masc	277.0
+pīti	fem	i fem	276.0
+saṃsandati	pr	ati pr	276.0
+dūra	adj	a adj	274.0
+nara	masc	a masc	273.0
+dhammika	adj	a adj	270.0
+parihāyati	pr	ati pr	270.0
+vigarahi	aor	i aor	270.0
+sassata	adj	a adj	269.0
+upakkilesa	masc	a masc	269.0
+tīra	nt	a nt	269.0
+gati	fem	i fem	269.0
+cuta	pp	a pp	269.0
+bhāradvāja	masc	a masc	269.0
+anāsava	adj	a adj	268.0
+vadamāna	prp	māna prp	268.0
+dinna	pp	a pp	267.0
+vacanīya	ptp	a ptp	267.0
+vatthu	nt	u nt	267.0
+khīṇa	pp	a pp	266.0
+vana	nt	a nt	266.0
+sādhukaṃ	ind		265.0
+pāṇa	masc	a masc	265.0
+gilāna	adj	a adj	265.0
+gantvā	abs		265.0
+aneka	adj	eka adj	265.0
+yādisa	adj	aī adj	264.0
+bhariyā	fem	ā fem	263.0
+kevala	adj	a adj	263.0
+bahula	adj	a adj	262.0
+vimuccati	pr	ati pr	262.0
+aṭṭhāsi	aor	āsi aor	261.0
+sammodi	aor	i aor	261.0
+āhāra	masc	a masc	260.0
+vepulla	nt	a nt	259.0
+bhāvanā	fem	ā fem	258.0
+pacchā	ind		258.0
+jīva	nt	a nt east	256.0
+puthujjana	masc	a masc	255.0
+vītisāretvā	abs		255.0
+vuddhi	fem	i fem	255.0
+hattha	masc	a masc	254.0
+sammodanīya	adj	a adj	254.0
+vivicca	ger		254.0
+nivāsetvā	abs		253.0
+ceteti	pr	eti pr	253.0
+abhikkantaṃ	ind		253.0
+amanāpa	adj	a adj	252.0
+sutta	adj	a adj	252.0
+sutta	nt	a nt	252.0
+tāvatiṃsa	adj	a adj	252.0
+vedayita	nt	a nt	252.0
+visākha	adj	a adj	252.0
+bahulaṃ	ind		250.0
+rāhula	masc	a masc	249.0
+yoniso	ind		248.0
+gameti	pr	eti pr	248.0
+aho	ind		247.0
+kalyāṇa	adj	aī adj	247.0
+paripūreti	pr	eti pr	247.0
+dhammena	ind		246.0
+kanta	adj	a adj	245.0
+kuto	ind		245.0
+cārikā	fem	ā fem	243.0
+pharitvā	abs		243.0
+purima	adj	a adj	243.0
+sabbattha	ind		242.0
+accayena	ind		242.0
+upāsikā	fem	ā fem	241.0
+vāyamati	pr	ati pr	241.0
+iṭṭha	adj	a adj	241.0
+sammukhā	ind		241.0
+jhāyī	masc	ī masc	241.0
+pare	ind		240.0
+anta	masc	a masc	239.0
+pharusa	adj	a adj	239.0
+rukkha	masc	a masc	239.0
+sutta	nt	a nt	239.0
+visākhā	fem	ā fem	239.0
+dīgha	adj	a adj	238.0
+pure	ind		237.0
+paṭissutvā	abs		237.0
+āgata	pp	a pp	237.0
+pakkamati	pr	ati pr	237.0
+mogha	adj	a adj	235.0
+paññavant	adj	ant adj	235.0
+a	abbrev		234.0
+pariyāyena	ind		234.0
+pada	nt	a nt	233.0
+pariyesati	pr	ati pr	233.0
+paribhuñjati	pr	ati pr	232.0
+paṭijānāti	pr	āti pr	232.0
+ajānanta	prp	anta prp	230.0
+bhāvetabba	ptp	a ptp	230.0
+chindati	pr	ati pr	230.0
+vara	adj	a adj	230.0
+nisīdati	pr	ati pr	229.0
+seṭṭha	adj	a adj	229.0
+rattiṃ	ind		228.0
+jarā	fem	ā fem	227.0
+dussīla	adj	a adj	227.0
+adhamma	masc	a masc	226.0
+ajja	ind		226.0
+daṭṭhabba	ptp	a ptp	226.0
+gārayha	adj	a adj	226.0
+kātuṃ	inf		226.0
+sutavant	adj	ant adj	226.0
+tatha	adj	a adj	226.0
+gaṇhāti	pr	āti pr	225.0
+mutta	pp	a pp	225.0
+upādāna	nt	a nt	225.0
+samāpanna	pp	a pp	224.0
+seyyo	ind		224.0
+pakkāmi	aor	i aor isuṃ	224.0
+pabbajjā	fem	ā fem	224.0
+akkhāta	pp	a pp	223.0
+vasati	pr	ati pr	223.0
+vaccha	masc	a masc	223.0
+anattha	masc	a masc	222.0
+saṃvijjamāna	prp	māna prp	222.0
+thullaccaya	masc	a masc	222.0
+uddesa	masc	a masc	222.0
+vadesi	aor	esi aor	222.0
+duccarita	adj	a adj	221.0
+sudaṃ	ind		221.0
+bhabba	adj	a adj	221.0
+khādati	pr	ati pr	221.0
+nigama	masc	a masc	219.0
+rajanīya	adj	a adj	219.0
+āsi	aor	āsi aor irreg	218.0
+asīti	card	i card	218.0
+gihī	masc	ī masc	218.0
+paṭisañcikkhati	pr	ati pr	218.0
+tadā	ind		217.0
+tibba	adj	a adj	216.0
+vidita	pp	a pp	216.0
+iccha	adj	a adj	216.0
+ācikkhati	pr	ati pr	216.0
+adhippeta	adj	a adj	215.0
+antara	adj	a adj	215.0
+appamāṇa	adj	a adj	215.0
+parama	adj	a adj	215.0
+adhigama	masc	a masc	214.0
+anupasampanna	masc	a masc	214.0
+bandhana	nt	a nt	214.0
+saṃvara	masc	a masc	214.0
+vāda	masc	a masc	214.0
+vusita	pp	a pp	214.0
+samatikkamma	ger		213.0
+veyyākaraṇa	nt	a nt	213.0
+khādanīya	nt	a nt	213.0
+āmasati	pr	ati pr	212.0
+bhiyyo	ind		212.0
+caritvā	abs		212.0
+ssu	ind		212.0
+uttara	adj	a adj	211.0
+vesālī	fem	ī fem	211.0
+paṇītatara	adj	a adj	210.0
+vimokkha	masc	a masc	210.0
+yathābhataṃ	ind		210.0
+cakkhumant	adj	ant adj	209.0
+handa	ind		209.0
+sīha	masc	a masc	209.0
+addhā	ind		208.0
+mitta	masc	a masc	207.0
+ettaka	adj	aka adj	207.0
+nisajjā	fem	ā fem	206.0
+vūpasama	masc	a masc	206.0
+āgamma	ger		205.0
+appahāya	ger		205.0
+balavant	adj	ant adj	205.0
+sandiṭṭhika	adj	a adj	205.0
+vihari	aor	hari aor	205.0
+vihāsi	aor	hari aor	205.0
+vaḍḍhati	pr	ati pr	204.0
+sāmaṃ	ind		204.0
+piṇḍapāta	masc	a masc	204.0
+pāripūri	fem	i fem	204.0
+vicikicchā	fem	ā fem	203.0
+caranta	prp	anta prp	202.0
+nivesana	nt	a nt	202.0
+pariyodāta	adj	a adj	202.0
+pāvisi	aor	i aor	202.0
+isi	masc	i masc	201.0
+anuppatta	pp	a pp	201.0
+muni	masc	i masc	201.0
+samatta	pp	a pp	200.0
+nanda	masc	a masc	200.0
+sukhī	adj	ī adj	200.0
+upanissāya	ger		200.0
+padakkhiṇā	fem	ā fem	200.0
+ābādha	masc	a masc	200.0
+jānaṃ	ind		200.0
+bhāsissati	fut	issati fut	200.0
+āpanna	pp	a pp	200.0
+icchā	fem	ā fem	200.0
+acchariyaṃ	ind		199.0
+datvā	abs		199.0
+divasa	masc	a masc	199.0
+yāvatā	ind		198.0
+padhāna	nt	a nt	198.0
+sādiyati	pr	ati pr	198.0
+māsa	masc	a masc	198.0
+arañña	nt	a nt	197.0
+bahutara	adj	a adj	197.0
+khippaṃ	ind		197.0
+nagara	nt	a nt	197.0
+puṇṇa	masc	a masc	197.0
+sāsana	nt	a nt	197.0
+sañjānāti	pr	āti pr	196.0
+maññe	ind		196.0
+jhāyati	pr	ati pr	196.0
+yasas	masc	as masc	195.0
+ārabhati	pr	ati pr	194.0
+bhadda	adj	a adj	194.0
+sacchikiriyā	fem	ā fem	193.0
+somanassa	nt	a nt	193.0
+viharissati	fut	issati fut	193.0
+janapada	masc	a masc	192.0
+sīsa	nt	a nt	192.0
+vāta	masc	a masc	192.0
+dhīra	masc	a masc	192.0
+bhadra	nt	a nt	192.0
+abhivaḍḍhati	pr	ati pr	192.0
+upasaṅkamati	pr	ati pr	192.0
+bāhā	fem	ā fem	191.0
+dakkhati	pr	dakkhati pr	191.0
+khamati	pr	ati pr	191.0
+ummattaka	masc	a masc	191.0
+anāgata	pp	a pp	190.0
+āyatana	nt	a nt east	190.0
+dahara	adj	a adj	190.0
+paṭipajjati	pr	ati pr	190.0
+rajja	nt	a nt	190.0
+rakkhati	pr	ati pr	190.0
+pahoti	pr	hoti pr	189.0
+visuddha	pp	a pp	189.0
+divā	ind		189.0
+anuyutta	pp	a pp	189.0
+ārabbha	ind		187.0
+hutvā	abs		187.0
+aparena	ind		186.0
+sevanta	prp	anta prp	186.0
+tuṇhī	ind		186.0
+uttari	ind		186.0
+sakkā	ind		185.0
+sambodha	masc	a masc	185.0
+socati	pr	ati pr	185.0
+pātubhāva	masc	a masc	185.0
+opapātika	adj	a adj	185.0
+abhinandi	aor	i aor	184.0
+āraññika	masc	a masc	184.0
+māgadha	adj	a adj	184.0
+majjhima	adj	a adj	184.0
+paccupaṭṭhita	pp	a pp	184.0
+pariyādāya	ger		184.0
+samagga	adj	a adj	184.0
+sotāpanna	adj	a adj	184.0
+viya	ind		184.0
+yoga	masc	a masc	184.0
+pallaṅka	masc	a masc	183.0
+vipula	adj	a adj	183.0
+vedayati	pr	ati pr	183.0
+asuci	masc	i masc	183.0
+ākāsa	masc	a masc	183.0
+apassanta	prp	anta prp	183.0
+asuci	adj	i adj	183.0
+adhivacana	nt	a nt	182.0
+anujānāti	pr	āti pr	182.0
+dhammiya	adj	a adj	182.0
+gamissati	fut	issati fut	182.0
+kaccāna	masc	a masc	182.0
+oḷārika	adj	a adj	182.0
+pisuṇa	adj	a adj	182.0
+samādāya	ger		182.0
+vattati	pr	ati pr	182.0
+varaṃ	ind		181.0
+parinibbuta	pp	a pp	181.0
+jīvati	pr	ati pr	181.0
+abbhaññāsi	aor	āsi aor iṃsu	180.0
+assasati	pr	ati pr	180.0
+yasassī	adj	ī adj	180.0
+abbhutaṃ	ind		179.0
+ghāna	nt	a nt	179.0
+pamāda	masc	a masc	179.0
+paṭibhāti	pr	āti pr	179.0
+hanti	pr	hanati pr	178.0
+vassa	masc	a masc	178.0
+byāpāda	masc	a masc	178.0
+hanati	pr	hanati pr	178.0
+anupādāya	ger		177.0
+ma	abbrev		177.0
+viññāpeti	pr	eti pr	177.0
+paripūra	pp	a pp	176.0
+sadevaka	adj	a adj	176.0
+sāmika	masc	a masc	176.0
+uḷāra	adj	a adj	176.0
+yasmā	ind		176.0
+upekkhā	fem	ā fem	175.0
+aññathā	ind		175.0
+santiṭṭhati	pr	ati pr	175.0
+abhāsi	aor	āsi aor	174.0
+abyābajjha	adj	a adj	174.0
+cora	masc	a masc	174.0
+nīvaraṇa	masc	a masc	174.0
+paccattaṃ	ind		174.0
+mūla	nt	a nt	173.0
+vajjī	masc	ī masc pl	173.0
+passasati	pr	ati pr	173.0
+appiya	adj	a adj	173.0
+adhivāseti	pr	eti pr	173.0
+abhavissa	cond	issa cond	172.0
+ambaṭṭha	masc	a masc	172.0
+ānisaṃsa	masc	a masc	172.0
+nimitta	nt	a nt	172.0
+pavisati	pr	ati pr	172.0
+sabbāvant	adj	ant adj	172.0
+vitakka	masc	a masc	171.0
+udāna	nt	a nt	171.0
+paritta	adj	a adj	171.0
+nibbidā	fem	ā fem	171.0
+gaṇa	masc	a masc	171.0
+tapassī	masc	ī masc	170.0
+bhojanīya	nt	a nt	169.0
+kittāvatā	ind		169.0
+saha	ind		169.0
+vuṭṭhita	pp	a pp	169.0
+ambho	ind		168.0
+bhāvitatta	nt	a nt	168.0
+kupita	pp	a pp	168.0
+rahas	masc	as masc	168.0
+yañña	masc	a masc	167.0
+ṭhiti	fem	i fem	167.0
+akāsi	aor	āsi aor	167.0
+atho	ind		166.0
+raho	ind		166.0
+agārava	adj	a adj	166.0
+saṃvijjati	pr	ati pr	165.0
+pahātuṃ	inf		165.0
+nandati	pr	ati pr	165.0
+chetvā	abs		165.0
+byākata	pp	a pp	165.0
+appamāda	masc	a masc	165.0
+nandī	fem	ī fem	164.0
+paro	ind		164.0
+pasanna	adj	a adj	164.0
+sukhī	masc	ī masc	164.0
+duppañña	adj	a adj	163.0
+paccuppanna	adj	a adj	163.0
+sahassa	card	a2 card	163.0
+sakkoti	pr	oti pr	163.0
+tiriyaṃ	ind		163.0
+upāli	masc	i masc	163.0
+muccati	pr	ati pr	162.0
+caramāna	prp	māna prp	162.0
+adinna	pp	a pp	162.0
+pāsaṃsa	adj	a adj	162.0
+abhibhuyya	ger		161.0
+sekha	masc	a masc	161.0
+asappurisa	masc	a masc	161.0
+niyata	adj	a adj	161.0
+sucarita	adj	a adj	160.0
+siras	masc	as masc	160.0
+aroga	adj	a adj	160.0
+raṭṭha	nt	a nt	160.0
+janeti	pr	eti pr	160.0
+ajjhāvasati	pr	ati pr	159.0
+cāga	masc	a masc	159.0
+upekkhaka	adj	a adj	159.0
+sunakkhatta	masc	a masc	158.0
+nava	card	a1 card	158.0
+ghara	nt	a nt	158.0
+dhammī	adj	ī adj	158.0
+āgacchanta	prp	anta prp	157.0
+namas	masc	as masc	157.0
+nigrodha	masc	a masc	157.0
+pasavati	pr	ati pr	157.0
+gaṅgā	fem	ā fem	156.0
+tapas	masc	as masc	156.0
+ñāti	masc	i masc	156.0
+danta	masc	a masc	156.0
+ajjatagge	ind		156.0
+khalu	ind		155.0
+methuna	adj	a adj	155.0
+vedeti	pr	eti pr	154.0
+kaṭuka	adj	a adj	154.0
+uddha	adj	a adj	154.0
+bāhira	adj	a adj	154.0
+ahita	nt	a nt	154.0
+ahita	adj	a adj	154.0
+sāmañña	nt	a nt	154.0
+anavajja	adj	a adj	153.0
+laddha	pp	a pp	153.0
+namati	pr	ati pr	153.0
+subhāsita	adj	a adj	153.0
+vandati	pr	ati pr	153.0
+uposatha	masc	a masc	152.0
+paṭinissagga	masc	a masc	152.0
+attato	ind		152.0
+avaca	imperf	avaca imperf	151.0
+bhadanta	masc	anta masc	151.0
+parimuccati	pr	ati pr	151.0
+samatikkama	masc	a masc	151.0
+samudācarati	pr	ati pr	151.0
+vagga	masc	a masc	151.0
+kaṭṭha	nt	a nt	150.0
+licchavi	masc	i masc	150.0
+dūre	ind		150.0
+ananta	adj	a adj	150.0
+pasīdati	pr	ati pr	149.0
+vuṭṭhi	fem	i fem	149.0
+upasampadā	fem	ā fem	149.0
+tevijja	adj	a adj	149.0
+paṭinissajjati	pr	ati pr	149.0
+nidāna	nt	a nt	149.0
+kodha	masc	a masc	149.0
+assutavant	adj	ant adj	149.0
+arahati	pr	ati pr	149.0
+amutra	ind		149.0
+akkhāti	pr	āti pr	149.0
+mettā	fem	ā fem	149.0
+sabrahmaka	adj	a adj	148.0
+santuṭṭha	pp	a pp	148.0
+samāpajji	aor	i aor	148.0
+vivarati	pr	ati pr	148.0
+ramaṇīya	adj	a adj	148.0
+dassati	fut	ssati fut	148.0
+anārambha	adj	a adj	148.0
+dullabha	adj	a adj	147.0
+kaṇha	adj	a adj	147.0
+paccavekkhamāna	prp	māna prp	147.0
+thapati	masc	i masc	147.0
+paṭisallāna	nt	a nt	146.0
+ajjhabhāsi	aor	āsi aor	146.0
+pāṇi	masc	i masc	146.0
+pāṇī	masc	ī masc	145.0
+saparikkamana	adj	a adj	145.0
+sāratta	pp	a pp	145.0
+sārambha	adj	a adj	144.0
+bhaddaka	adj	aka adj	144.0
+matta	adj	a adj	144.0
+pavedeti	pr	eti pr	144.0
+adhigata	pp	a pp	144.0
+mata	pp	a pp	144.0
+agamāsi	aor	āsi aor iṃsu	144.0
+kuṭi	fem	i fem	144.0
+dubbaṇṇa	adj	a adj	143.0
+sena	masc	a masc	143.0
+vera	nt	a nt	143.0
+maṃsa	nt	a nt	142.0
+paviṭṭha	pp	a pp	142.0
+bhiyyobhāva	masc	a masc	142.0
+acela	adj	a adj	142.0
+haññati	pr	ati pr	141.0
+pāmojja	nt	a nt	141.0
+phuṭṭha	pp	a pp	141.0
+rādha	masc	a masc	141.0
+vattabba	ptp	a ptp	141.0
+rājañña	masc	a masc	140.0
+seti	pr	eti pr	140.0
+ñatvā	abs		140.0
+maṇi	masc	i masc	140.0
+ittha	ind		140.0
+avera	adj	a adj	138.0
+saññī	adj	ī adj	138.0
+velā	fem	ā fem	138.0
+soka	masc	a masc	137.0
+āditta	adj	a adj	137.0
+purato	ind		137.0
+nāssa	opt	ssa opt	137.0
+senā	fem	ā fem	136.0
+yāma	masc	a masc	136.0
+uju	adj	u adj	136.0
+tejas	masc	as masc	136.0
+sukara	adj	a adj	136.0
+seyyā	fem	ā fem	136.0
+samāpajjati	pr	ati pr	136.0
+kallaṃ	ind		136.0
+āraddha	pp	a pp	136.0
+paricca	ger		135.0
+vijānāti	pr	āti pr	135.0
+svākkhāta	adj	a adj	135.0
+pivati	pr	ati pr	135.0
+kubbati	pr	kubbati pr	135.0
+harati	pr	ati pr	135.0
+āyu	nt	u nt	135.0
+appahīna	pp	a pp	135.0
+appa	adj	a adj	135.0
+aññātaka	adj	aka adj	135.0
+upasama	masc	a masc	134.0
+sīta	adj	a adj	134.0
+sārathi	masc	i masc	134.0
+phusati	pr	ati pr	134.0
+samāraka	adj	a adj	134.0
+atikkamma	ger		134.0
+amata	nt	a nt	134.0
+amata	adj	a adj	134.0
+vuṭṭhāpeti	pr	eti pr	133.0
+pariññāya	ger		133.0
+gava	masc	go masc	133.0
+gambhīra	adj	a adj	133.0
+adāsi	aor	āsi aor	133.0
+cetiya	nt	a nt	132.0
+jahāti	pr	āti pr	132.0
+kālāma	masc	a masc	132.0
+khandha	masc	a masc	132.0
+samanta	adj	a adj	132.0
+sampassamāna	prp	māna prp	131.0
+sāra	masc	a masc	131.0
