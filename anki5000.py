@@ -10,14 +10,14 @@ tic()
 
 print(f"{timeis()} {green}opening ebts csv", end=" ")
 
-ebt_freq_df = pd.read_csv("original-sources/ebts.csv", header = None, index_col=None, sep="\t")
+ebt_freq_df = pd.read_csv("../frequency maps/output/word count csvs/ebts.csv", header = None, index_col=None, sep="\t")
 ebt_length = len(ebt_freq_df)
 
 print(f"{white}{ebt_length}")
 
 print(f"{timeis()} {green}opening dpd csv", end = " ")
 
-dpd_df = pd.read_csv("../spreadsheets/nidh_bold.csv", index_col=None, sep="\t", dtype=str)
+dpd_df = pd.read_csv("../csvs/dpd-full.csv", index_col=None, sep="\t", dtype=str)
 dpd_df.fillna("", inplace=True)
 
 print(f"{white}{len(dpd_df)}")
@@ -27,7 +27,7 @@ anki5000_df = pd.DataFrame()
 print(f"{timeis()} {green}inflections to headwords dict", end=" ")
 
 
-with open("original-sources/inflection to headwords dict", "rb")as f:
+with open("../inflection generator/output/inflection to headwords dict", "rb")as f:
 	inflections = pickle.load(f)
 
 print(f"{white}{len(inflections)}")
@@ -74,7 +74,7 @@ for row in range(ebt_length): #ebt_length
 						missing.write(f"{word}\t{headword}\n")
 
 	except: 
-		print(word, "does not exist in dpd")
+		# print(word, "does not exist in dpd")
 		if counter >= 5000:
 			break
 
