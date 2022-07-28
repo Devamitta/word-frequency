@@ -3,7 +3,7 @@ import numpy as np
 from pandas_ods_reader import read_ods 
 import re
 
-df = read_ods("original-sources/frequent-words.ods")
+df = read_ods("pāli-course/frequent-words.ods")
 df.fillna("", inplace=True)
 # df = df.astype(str)
 # df = df.replace(to_replace ="\.0", value = "", regex = True) #removes all flaots .0
