@@ -2,6 +2,7 @@ output/
 output-replaced/
 pics/
 pāli-course/
+csv-pos-separately/
 __pycache__/wordtree.cpython-310.pyc
 .vscode/settings.json
 .~lock.frequent-words.ods#
