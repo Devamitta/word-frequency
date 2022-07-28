@@ -36,26 +36,26 @@ df_with = df.loc[filter]
 
 # save adv csv
 df_time = df_time[['Pāli1', 'POS', 'Pattern', 'count']]
-df_time.to_csv("frequent-words/adv_time.csv", sep="\t", index=None)
+df_time.to_csv("csv-all-pos/adv_time.csv", sep="\t", index=None)
 
 df_place = df_place[['Pāli1', 'POS', 'Pattern', 'count']]
-df_place.to_csv("frequent-words/adv_place.csv", sep="\t", index=None)
+df_place.to_csv("csv-all-pos/adv_place.csv", sep="\t", index=None)
 
 df_interr = df_interr[['Pāli1', 'POS', 'Pattern', 'count']]
-df_interr.to_csv("frequent-words/adv_interr.csv", sep="\t", index=None)
+df_interr.to_csv("csv-all-pos/adv_interr.csv", sep="\t", index=None)
 
 df_neg = df_neg[['Pāli1', 'POS', 'Pattern', 'count']]
-df_neg.to_csv("frequent-words/ind_neg.csv", sep="\t", index=None)
+df_neg.to_csv("csv-all-pos/ind_neg.csv", sep="\t", index=None)
 
 df_with = df_with[['Pāli1', 'POS', 'Pattern', 'count']]
-df_with.to_csv("frequent-words/ind_with.csv", sep="\t", index=None)
+df_with.to_csv("csv-all-pos/ind_with.csv", sep="\t", index=None)
 
 # save friquent names
 test3 = df['Grammar'] == "name"
 filter = test3
 df_name = df.loc[filter]
 
-df_name[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/names.csv", sep="\t", index=None)
+df_name[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/names.csv", sep="\t", index=None)
 
 # keep original
 df_orig = df
@@ -69,7 +69,7 @@ filter = test1 & test2 & test3
 df_orig = df_orig.loc[filter]
 
 # filter what is done
-df = df.head(1550)
+df = df.head(1610)
 
 # filter not comp | comp vb | name
 test1 = df['Grammar'] != "comp"
@@ -79,7 +79,7 @@ filter = test1 & test2 & test3
 df = df.loc[filter]
 
 # save all done
-df[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("curated-sources/frequent-words.csv", sep="\t", index=None)
+df[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/frequent-words.csv", sep="\t", index=None)
 
 # filter masc
 
@@ -134,19 +134,19 @@ df_uu_masc = df_uu_masc.head(6)
 
 # save masc csv
 
-df_a_masc[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/masc-a.csv", sep="\t", index=None)
+df_a_masc[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/masc-a.csv", sep="\t", index=None)
 
-df_i_masc[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/masc-i.csv", sep="\t", index=None)
+df_i_masc[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/masc-i.csv", sep="\t", index=None)
 
-df_ii_masc[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/masc-ī.csv", sep="\t", index=None)
+df_ii_masc[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/masc-ī.csv", sep="\t", index=None)
 
-df_u_masc[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/masc-u.csv", sep="\t", index=None)
+df_u_masc[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/masc-u.csv", sep="\t", index=None)
 
-df_uu_masc[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/masc-ū.csv", sep="\t", index=None)
+df_uu_masc[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/masc-ū.csv", sep="\t", index=None)
 
-df_ar_masc[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/masc-ar.csv", sep="\t", index=None)
+df_ar_masc[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/masc-ar.csv", sep="\t", index=None)
 
-df_ar2_masc[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/masc-ar2.csv", sep="\t", index=None)
+df_ar2_masc[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/masc-ar2.csv", sep="\t", index=None)
 
 # filter ant adj
 test1 = df['POS'] == "adj"
@@ -165,7 +165,7 @@ df_ant = pd.concat([df_ant_adj, df_ant_masc])
 df_ant = df_ant.sort_values(by=['count'], ascending = False)
 
 # save ant csv
-df_ant[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/masc-ant.csv", sep="\t", index=None)
+df_ant[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/masc-ant.csv", sep="\t", index=None)
 
 # filter pr
 test1 = df['POS'] == "pr"
@@ -232,15 +232,15 @@ df_be_pr = df_be_pr.sort_values(by=['count'], ascending = False)
 
 # save pr csv
 
-df_ati_pr[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/pr-ati.csv", sep="\t", index=None)
+df_ati_pr[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/pr-ati.csv", sep="\t", index=None)
 
-df_eti_pr[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/pr-eti.csv", sep="\t", index=None)
+df_eti_pr[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/pr-eti.csv", sep="\t", index=None)
 
-df_aati_pr[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/pr-āti.csv", sep="\t", index=None)
+df_aati_pr[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/pr-āti.csv", sep="\t", index=None)
 
-df_oti_pr[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/pr-oti.csv", sep="\t", index=None)
+df_oti_pr[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/pr-oti.csv", sep="\t", index=None)
 
-df_be_pr[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/pr-be.csv", sep="\t", index=None)
+df_be_pr[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/pr-be.csv", sep="\t", index=None)
 
 # filter other pr
 test1 = df['POS'] == "pr"
@@ -257,7 +257,7 @@ filter = test1 & test2 & test3 & test4 & test5 & test6 & test7 & test8 & test9
 df_other_pr = df.loc[filter]
 
 # save other pr csv
-df_other_pr[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/pr-other.csv", sep="\t", index=None)
+df_other_pr[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/pr-other.csv", sep="\t", index=None)
 
 # filter aor
 test1 = df['POS'] == "aor"
@@ -310,13 +310,13 @@ df_esi_aor = df_orig.loc[filter]
 df_esi_aor = df_esi_aor.head(10)
 
 # save aor
-df_i_aor[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/aor-i.csv", sep="\t", index=None)
+df_i_aor[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/aor-i.csv", sep="\t", index=None)
 
-df_esi_aor[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/aor-esi.csv", sep="\t", index=None)
+df_esi_aor[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/aor-esi.csv", sep="\t", index=None)
 
-df_aasi_aor[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/aor-āsi.csv", sep="\t", index=None)
+df_aasi_aor[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/aor-āsi.csv", sep="\t", index=None)
 
-df_be_aor[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/aor-be.csv", sep="\t", index=None)
+df_be_aor[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/aor-be.csv", sep="\t", index=None)
 
 # filter other aor
 test1 = df['POS'] == "aor"
@@ -333,7 +333,7 @@ filter = test1 & test2 & test3 & test4 & test5 & test6 & test7 & test8 & test9
 df_other_aor = df.loc[filter]
 
 # save other aor csv
-df_other_aor[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/aor-other.csv", sep="\t", index=None)
+df_other_aor[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/aor-other.csv", sep="\t", index=None)
 
 # filter pers pron
 test1 = df['POS'] == "pron"
@@ -349,7 +349,7 @@ df_2_pron = df.loc[filter]
 df_pers_pron = pd.concat([df_1_pron, df_2_pron])
 
 # save 1&2 pron
-df_pers_pron[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/pron_pers.csv", sep="\t", index=None)
+df_pers_pron[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/pron_pers.csv", sep="\t", index=None)
 
 # filter other aor
 test1 = df['POS'] == "pron"
@@ -360,7 +360,7 @@ filter = test1 & test2 & test3
 df_other_pron = df.loc[filter]
 
 # save other aor csv
-df_other_pron[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/other-pron.csv", sep="\t", index=None)
+df_other_pron[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/other-pron.csv", sep="\t", index=None)
 
 # filter fut
 test1 = df_orig['POS'] == "fut"
@@ -370,7 +370,7 @@ df_fut = df_orig.loc[filter]
 df_fut = df_fut.head(25)
 
 # save fut csv
-df_fut[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/fut.csv", sep="\t", index=None)
+df_fut[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/fut.csv", sep="\t", index=None)
 
 # filter pr and masc neg
 test1 = df['POS'] != "ind"
@@ -379,7 +379,7 @@ filter = test1 & test2
 df_neg_4 = df.loc[filter]
 
 # save fut csv
-df_neg_4[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/neg-4cl.csv", sep="\t", index=None)
+df_neg_4[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/neg-4cl.csv", sep="\t", index=None)
 
 
 # filter fem
@@ -426,17 +426,17 @@ df_uu_fem = df_orig.loc[filter]
 
 # save fem csv
 
-df_aa_fem[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/fem-ā.csv", sep="\t", index=None)
+df_aa_fem[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/fem-ā.csv", sep="\t", index=None)
 
-df_i_fem[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/fem-i.csv", sep="\t", index=None)
+df_i_fem[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/fem-i.csv", sep="\t", index=None)
 
-df_ii_fem[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/fem-ī.csv", sep="\t", index=None)
+df_ii_fem[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/fem-ī.csv", sep="\t", index=None)
 
-df_u_fem[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/fem-u.csv", sep="\t", index=None)
+df_u_fem[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/fem-u.csv", sep="\t", index=None)
 
-df_uu_fem[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/fem-ū.csv", sep="\t", index=None)
+df_uu_fem[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/fem-ū.csv", sep="\t", index=None)
 
-df_ar_fem[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/fem-ar.csv", sep="\t", index=None)
+df_ar_fem[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/fem-ar.csv", sep="\t", index=None)
 
 
 # filter nt
@@ -465,11 +465,11 @@ df_u_nt = df_u_nt.head(10)
 
 # save nt csv
 
-df_a_nt[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/nt-a.csv", sep="\t", index=None)
+df_a_nt[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/nt-a.csv", sep="\t", index=None)
 
-df_i_nt[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/nt-i.csv", sep="\t", index=None)
+df_i_nt[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/nt-i.csv", sep="\t", index=None)
 
-df_u_nt[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/nt-u.csv", sep="\t", index=None)
+df_u_nt[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/nt-u.csv", sep="\t", index=None)
 
 # filter inf
 test1 = df_orig['POS'] == "inf"
@@ -485,7 +485,7 @@ df_inf = df_orig.loc[filter]
 df_inf = df_inf.head(20)
 
 # save inf csv
-df_inf[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/inf.csv", sep="\t", index=None)
+df_inf[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/inf.csv", sep="\t", index=None)
 
 # filter +inf
 test2 = df_orig['Grammar'] == "+inf"
@@ -494,7 +494,7 @@ df_plus_inf = df_orig.loc[filter]
 # df_plus_inf = df_plus_inf.head(20)
 
 # save +inf csv
-df_plus_inf[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/+inf.csv", sep="\t", index=None)
+df_plus_inf[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/+inf.csv", sep="\t", index=None)
 
 # filter inf kāma
 test2 = df_orig['Grammar'] == "inf kāma"
@@ -503,7 +503,7 @@ df_inf_kam = df_orig.loc[filter]
 # df_inf_kam = df_inf_kam.head(20)
 
 # save inf kāma
-df_inf_kam[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/inf-kāma.csv", sep="\t", index=None)
+df_inf_kam[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/inf-kāma.csv", sep="\t", index=None)
 
 # filter dat of purpose
 test2 = df_orig['Grammar'] == "dat"
@@ -512,7 +512,7 @@ df_dat = df_orig.loc[filter]
 # df_dat = df_dat.head(20)
 
 # save dat of purpose
-df_dat[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/dat.csv", sep="\t", index=None)
+df_dat[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/dat.csv", sep="\t", index=None)
 
 # filter until-then
 test2 = df['Grammar'] == "until-then"
@@ -520,7 +520,7 @@ filter = test2
 df_until = df.loc[filter]
 
 # save until-then
-df_until[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/until-then.csv", sep="\t", index=None)
+df_until[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/until-then.csv", sep="\t", index=None)
 
 
 
@@ -541,9 +541,9 @@ df_opt_siya = df.loc[filter]
 df_opt_be = pd.concat([df_opt_ssa, df_opt_siya])
 
 # save opt
-df_opt[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/opt.csv", sep="\t", index=None)
+df_opt[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/opt.csv", sep="\t", index=None)
 
-df_opt_be[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/opt-be.csv", sep="\t", index=None)
+df_opt_be[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/opt-be.csv", sep="\t", index=None)
 
 # filter ger and abs
 test1 = df['POS'] == "ger"
@@ -561,9 +561,9 @@ filter = test2 & test15 & test16
 df_abs = df.loc[filter]
 
 # save ger and abs
-df_ger[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/ger.csv", sep="\t", index=None)
+df_ger[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/ger.csv", sep="\t", index=None)
 
-df_abs[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/abs.csv", sep="\t", index=None)
+df_abs[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/abs.csv", sep="\t", index=None)
 
 
 # filter prp
@@ -605,15 +605,15 @@ df_ana_prp = df_orig.loc[filter]
 
 # save prp csv
 
-df_anta_prp[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/prp-anta.csv", sep="\t", index=None)
+df_anta_prp[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/prp-anta.csv", sep="\t", index=None)
 
-df_mana_prp[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/prp-māna.csv", sep="\t", index=None)
+df_mana_prp[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/prp-māna.csv", sep="\t", index=None)
 
-df_enta_prp[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/prp-enta.csv", sep="\t", index=None)
+df_enta_prp[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/prp-enta.csv", sep="\t", index=None)
 
-df_onta_prp[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/prp-onta.csv", sep="\t", index=None)
+df_onta_prp[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/prp-onta.csv", sep="\t", index=None)
 
-df_ana_prp[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/pr-āna.csv", sep="\t", index=None)
+df_ana_prp[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/pr-āna.csv", sep="\t", index=None)
 
 # filter def-art aññatara
 test1 = df['Grammar'] == "def-art"
@@ -631,7 +631,7 @@ test5 = df['Grammar'] != "interr"
 filter = test1 & test2 & test3 & test4 & test5
 df_pron = df.loc[filter]
 
-df_pron[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/pron.csv", sep="\t", index=None)
+df_pron[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/pron.csv", sep="\t", index=None)
 
 # filter pp
 test1 = df['POS'] == "pp"
@@ -644,7 +644,7 @@ filter = test1 & test15 & test16 & test17
 df_pp = df.loc[filter]
 df_pp = df_pp.head(100)
 
-df_pp[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/pp.csv", sep="\t", index=None)
+df_pp[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/pp.csv", sep="\t", index=None)
 
 # filter adj
 test1 = df['POS'] == "adj"
@@ -657,7 +657,7 @@ filter = test1 & test2 & test3 & test4 & test5
 df_adj = df.loc[filter]
 df_adj = df_adj.head(150)
 
-df_adj[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/adj.csv", sep="\t", index=None)
+df_adj[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/adj.csv", sep="\t", index=None)
 
 # filter abl of separation
 test1 = df['Grammar'] == "abl"
@@ -666,7 +666,7 @@ filter = test1
 df_abl = df.loc[filter]
 df_abl = df_abl.head(150)
 
-df_abl[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/abl.csv", sep="\t", index=None)
+df_abl[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/abl.csv", sep="\t", index=None)
 
 # filter numbers
 test1 = df['POS'] == "card"
@@ -678,8 +678,8 @@ df_card = df.loc[filter]
 filter = test2
 df_ordin = df.loc[filter]
 
-df_card[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/card.csv", sep="\t", index=None)
-df_ordin[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/ordin.csv", sep="\t", index=None)
+df_card[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/card.csv", sep="\t", index=None)
+df_ordin[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/ordin.csv", sep="\t", index=None)
 
 # filter money
 test1 = df['Grammar'] == "money"
@@ -687,7 +687,7 @@ test1 = df['Grammar'] == "money"
 filter = test1
 df_money = df.loc[filter]
 
-df_money[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/money.csv", sep="\t", index=None)
+df_money[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/money.csv", sep="\t", index=None)
 
 # filter adv
 test1 = df_orig['POS'] == "ind"
@@ -731,28 +731,36 @@ filter = test1 & test2
 df_adv_adv = df.loc[filter]
 # df_adv = df_adv.head(30)
 
-df_adv_dhā[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/adv-dhā.csv", sep="\t", index=None)
-df_adv_so[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/adv-so.csv", sep="\t", index=None)
-df_adv_khattum[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/adv-khattuṃ.csv", sep="\t", index=None)
-df_adv_tham[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/adv-thaṃ.csv", sep="\t", index=None)
-df_adv_to[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/adv-to.csv", sep="\t", index=None)
-df_adv_tra[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/adv-tra.csv", sep="\t", index=None)
-df_adv_tha[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/adv-thā.csv", sep="\t", index=None)
-df_adv_pure[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/adv-pure.csv", sep="\t", index=None)
-df_adv_adv[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/adv-adv.csv", sep="\t", index=None)
+df_adv_dhā[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/adv-dhā.csv", sep="\t", index=None)
+df_adv_so[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/adv-so.csv", sep="\t", index=None)
+df_adv_khattum[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/adv-khattuṃ.csv", sep="\t", index=None)
+df_adv_tham[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/adv-thaṃ.csv", sep="\t", index=None)
+df_adv_to[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/adv-to.csv", sep="\t", index=None)
+df_adv_tra[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/adv-tra.csv", sep="\t", index=None)
+df_adv_tha[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/adv-thā.csv", sep="\t", index=None)
+df_adv_pure[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/adv-pure.csv", sep="\t", index=None)
+df_adv_adv[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/adv-adv.csv", sep="\t", index=None)
 
 df_adv = pd.concat([df_adv_dhā, df_adv_so, df_adv_khattum, df_adv_tham, df_adv_to, df_adv_tra, df_adv_tha, df_adv_pure, df_adv_adv])
 df_adv = df_adv.sort_values(by=['count'], ascending = False)
 
-df_adv[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/adv.csv", sep="\t", index=None)
+df_adv[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/adv.csv", sep="\t", index=None)
 
 # filter pass
-test1 = df_orig['Grammar'] == "pass"
+test1 = df['Grammar'] == "pass"
 
 filter = test1
-df_pass = df_orig.loc[filter]
+df_pass = df.loc[filter]
 
-df_pass[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/pass.csv", sep="\t", index=None)
+df_pass[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/pass.csv", sep="\t", index=None)
+
+# filter caus
+test1 = df['Grammar'] == "caus"
+
+filter = test1
+df_caus = df.loc[filter]
+
+df_caus[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/caus.csv", sep="\t", index=None)
 
 
 # save summary csv
@@ -845,6 +853,13 @@ df_comb_12['class'] = "12"
 df_comb_12 = df_comb_12[['Pāli1', 'POS', 'Pattern', 'class', 'count']]
 df_comb_12.to_csv("csv-for-classes/class-12.csv", sep="\t", index=None)
 
+# save comp for 13 class
+df_comb_13 = pd.concat([df_caus, ])
+df_comb_13 = df_comb_13.sort_values(by=['count'], ascending = False)
+df_comb_13['class'] = "13"
+df_comb_13 = df_comb_13[['Pāli1', 'POS', 'Pattern', 'class', 'count']]
+df_comb_13.to_csv("csv-for-classes/class-13.csv", sep="\t", index=None)
+
 # df_comb = df_comb_1
 # df_comb = pd.concat([df_comb_1, df_comb_2])
 # df_comb = pd.concat([df_comb_1, df_comb_2, df_comb_3])
@@ -931,7 +946,7 @@ df_nid_merged['Pāli1']=df_nid_merged['Pāli2']
 df_nid_merged.to_csv("frequent-words-dps/to-add.csv", sep="\t", index=None)
 
 
-df_comb[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("frequent-words/for-class.csv", sep="\t", index=None)
+df_comb[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/for-class.csv", sep="\t", index=None)
 
 # df_absent = pd.concat([df_absent, df_time[logix]])
 # df_absent = df_absent df_class_1[logix]
