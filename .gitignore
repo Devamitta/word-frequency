@@ -1,6 +1,8 @@
 output/
 output-replaced/
 pics/
+pāli-course/
 __pycache__/wordtree.cpython-310.pyc
 .vscode/settings.json
 .~lock.frequent-words.ods#
+absent-nid.csv
