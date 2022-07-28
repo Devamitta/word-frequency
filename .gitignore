@@ -3,6 +3,10 @@ output-replaced/
 pics/
 pāli-course/
 csv-pos-separately/
+grammar-csv/
+frequent-words-dps/
+grams-combined/
+csv-for-classes/
 __pycache__/wordtree.cpython-310.pyc
 .vscode/settings.json
 .~lock.frequent-words.ods#

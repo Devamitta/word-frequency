@@ -1,38 +1,73 @@
-Pāli1	POS	Pattern	count
-tvaṃ	pron	tvaṃ pron	24775.0
-ahaṃ	pron	ahaṃ pron	24626.0
-bhavissati	fut	issati fut	1910.0
-udāyī	masc	ī masc	530.0
-karissati	fut	karoti pr	461.0
-desessati	fut	ssati fut	315.0
-vipassī	masc	ī masc	299.0
-jhāyī	masc	ī masc	241.0
-gihī	masc	ī masc	218.0
-bhāsissati	fut	issati fut	200.0
-viharissati	fut	issati fut	193.0
-gamissati	fut	issati fut	182.0
-tapassī	masc	ī masc	170.0
-sukhī	masc	ī masc	164.0
-dassati	fut	ssati fut	148.0
-pāṇī	masc	ī masc	145.0
-hatthī	masc	ī masc	130.0
-medhāvī	masc	ī masc	130.0
-dakkhati	fut	ati fut	125.0
-assasissati	fut	issati fut	119.0
-ṭhassati	fut	ssati fut	118.0
-passasissati	fut	issati fut	117.0
-mātalī	masc	ī masc	104.0
-paññāyissati	fut	issati fut	90.0
-vakkhati	fut	ati fut	81.0
-byākarissati	fut	issati fut	80.0
-carissati	fut	issati fut	80.0
-dhāressati	fut	ssati fut	75.0
-bhāvessati	fut	ssati fut	62.0
-ñassati	fut	ssati fut	56.0
-bhaṇissati	fut	issati fut	52.0
-pakkamissati	fut	issati fut	50.0
-upādiyissati	fut	issati fut	48.0
-kāhati	fut	ati fut	46.0
-jānissati	fut	issati fut	46.0
-bhuñjissati	fut	issati fut	45.0
-parinibbāyissati	fut	issati fut	43.0
+Pāli1	POS	Pattern	class	count
+na	ind		4	20143.0
+taṃ	pron	tvaṃ pron	4	10582.0
+te	pron	tvaṃ pron	4	9023.0
+me	pron	ahaṃ pron	4	6990.0
+ahaṃ	pron	ahaṃ pron	4	6575.0
+no	pron	ahaṃ pron	4	4209.0
+no	ind		4	4209.0
+tvaṃ	pron	tvaṃ pron	4	2394.0
+maṃ	pron	ahaṃ pron	4	1919.0
+bhavissati	fut	issati fut	4	1910.0
+natthi	pr	natthi pr	4	1803.0
+mayaṃ	pron	ahaṃ pron	4	1392.0
+mā	ind		4	1337.0
+saddhiṃ	ind		4	1314.0
+vo	pron	tvaṃ pron	4	1065.0
+mayā	pron	ahaṃ pron	4	961.0
+mama	pron	ahaṃ pron	4	921.0
+neva	ind		4	906.0
+mayhaṃ	pron	ahaṃ pron	4	837.0
+tumhe	pron	tvaṃ pron	4	746.0
+udāyī	masc	ī masc	4	530.0
+nappajānāti	pr	āti pr	4	462.0
+karissati	fut	karoti pr	4	461.0
+amhākaṃ	pron	ahaṃ pron	4	387.0
+desessati	fut	ssati fut	4	315.0
+vipassī	masc	ī masc	4	299.0
+jhāyī	masc	ī masc	4	241.0
+adhamma	masc	a masc	4	226.0
+anattha	masc	a masc	4	222.0
+gihī	masc	ī masc	4	218.0
+anupasampanna	masc	a masc	4	214.0
+tava	pron	tvaṃ pron	4	210.0
+bhāsissati	fut	issati fut	4	200.0
+tuvaṃ	pron	tvaṃ pron	4	200.0
+viharissati	fut	issati fut	4	193.0
+asuci	masc	i masc	4	183.0
+gamissati	fut	issati fut	4	182.0
+tumhākaṃ	pron	tvaṃ pron	4	180.0
+tayā	pron	tvaṃ pron	4	172.0
+tapassī	masc	ī masc	4	170.0
+saha	ind		4	169.0
+appamāda	masc	a masc	4	165.0
+sukhī	masc	ī masc	4	164.0
+mamaṃ	pron	ahaṃ pron	4	163.0
+asappurisa	masc	a masc	4	161.0
+dassati	fut	ssati fut	4	148.0
+pāṇī	masc	ī masc	4	145.0
+tuyhaṃ	pron	tvaṃ pron	4	138.0
+medhāvī	masc	ī masc	4	130.0
+hatthī	masc	ī masc	4	130.0
+nābhinandati	pr	ati pr	4	127.0
+appaccaya	masc	a masc	4	120.0
+assasissati	fut	issati fut	4	119.0
+ṭhassati	fut	ssati fut	4	118.0
+passasissati	fut	issati fut	4	117.0
+avaṇṇa	masc	a masc	4	106.0
+mātalī	masc	ī masc	4	104.0
+paññāyissati	fut	issati fut	4	90.0
+byākarissati	fut	issati fut	4	80.0
+carissati	fut	issati fut	4	80.0
+dhāressati	fut	ssati fut	4	75.0
+bhāvessati	fut	ssati fut	4	62.0
+ñassati	fut	ssati fut	4	56.0
+bhaṇissati	fut	issati fut	4	52.0
+pakkamissati	fut	issati fut	4	50.0
+upādiyissati	fut	issati fut	4	48.0
+jānissati	fut	issati fut	4	46.0
+bhuñjissati	fut	issati fut	4	45.0
+upasaṅkamissati	fut	issati fut	4	43.0
+parinibbāyissati	fut	issati fut	4	43.0
+paññapessati	fut	ssati fut	4	41.0
+paṭisaṃvedissati	fut	issati fut	4	35.0
