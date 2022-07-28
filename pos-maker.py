@@ -186,23 +186,24 @@ test14 = df['Pattern'] == "kubbati pr"
 # pass and caus pr
 test15 = df['Grammar'] != "pass"
 test16 = df['Grammar'] != "caus"
-test17 = df['Grammar'] != "irreg"
-test18 = df['Grammar'] != "neg"
+test17 = df['Grammar'] != "caus, pass"
+test18 = df['Grammar'] != "irreg"
+test19 = df['Grammar'] != "neg"
 
-filter = test1 & test2 & test15 & test16 & test17 & test18
+filter = test1 & test2 & test15 & test16 & test17 & test18 & test19
 df_ati_pr = df.loc[filter]
 df_ati_pr = df_ati_pr.head(100)
 
-filter = test1 & test3 & test15 & test16 & test17 & test18
+filter = test1 & test3 & test15 & test16 & test17 & test18 & test19
 df_eti_pr = df.loc[filter]
 
-filter = test1 & test4 & test15 & test16 & test17 & test18
+filter = test1 & test4 & test15 & test16 & test17 & test18 & test19
 df_aati_pr = df.loc[filter]
 
-filter = test1 & test5 & test15 & test16 & test17 & test18
+filter = test1 & test5 & test15 & test16 & test17 & test18 & test19
 df_oti_pr = df.loc[filter]
 
-filter = test1 & test6 & test15 & test16 & test17 & test18
+filter = test1 & test6 & test15 & test16 & test17 & test18 & test19
 df_karoti = df.loc[filter]
 
 df_oti_pr = pd.concat([df_oti_pr, df_karoti])
@@ -573,13 +574,14 @@ test3 = df['Pattern'] == "māna prp"
 # pass and caus prp
 test15 = df['Grammar'] != "pass"
 test16 = df['Grammar'] != "caus"
-test17 = df['Grammar'] != "irreg"
+test17 = df['Grammar'] != "caus, pass"
+test18 = df['Grammar'] != "irreg"
 
-filter = test1 & test2 & test15 & test16 & test17
+filter = test1 & test2 & test15 & test16 & test17 & test18
 df_anta_prp = df.loc[filter]
 # df_anta_prp = df_anta_prp.head(100)
 
-filter = test1 & test3 & test15 & test16 & test17
+filter = test1 & test3 & test15 & test16 & test17 & test18
 df_mana_prp = df.loc[filter]
 
 test1 = df_orig['POS'] == "prp"
@@ -589,18 +591,19 @@ test6 = df_orig['Pattern'] == "āna prp"
 # pass and caus prp
 test15 = df_orig['Grammar'] != "pass"
 test16 = df_orig['Grammar'] != "caus"
-test17 = df_orig['Grammar'] != "irreg"
+test17 = df_orig['Grammar'] != "caus, pass"
+test18 = df_orig['Grammar'] != "irreg"
 
 
-filter = test1 & test4 & test15 & test16 & test17
+filter = test1 & test4 & test15 & test16 & test17 & test18
 df_enta_prp = df_orig.loc[filter]
 df_enta_prp = df_enta_prp.head(5)
 
-filter = test1 & test5 & test15 & test16 & test17
+filter = test1 & test5 & test15 & test16 & test17 & test18
 df_onta_prp = df_orig.loc[filter]
 df_onta_prp = df_onta_prp.head(5)
 
-filter = test1 & test6 & test15 & test16 & test17
+filter = test1 & test6 & test15 & test16 & test17 & test18
 df_ana_prp = df_orig.loc[filter]
 
 # save prp csv
@@ -638,9 +641,10 @@ test1 = df['POS'] == "pp"
 # pass and caus pr
 test15 = df['Grammar'] != "pass"
 test16 = df['Grammar'] != "caus"
-test17 = df['Grammar'] != "irreg"
+test17 = df['Grammar'] != "caus, pass"
+test18 = df['Grammar'] != "irreg"
 
-filter = test1 & test15 & test16 & test17
+filter = test1 & test15 & test16 & test17 & test18
 df_pp = df.loc[filter]
 df_pp = df_pp.head(100)
 
@@ -748,8 +752,9 @@ df_adv[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/adv.csv", sep=
 
 # filter pass
 test1 = df['Grammar'] == "pass"
+test2 = df['POS'] != "prp"
 
-filter = test1
+filter = test1 & test2
 df_pass = df.loc[filter]
 
 df_pass[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/pass.csv", sep="\t", index=None)
@@ -761,6 +766,41 @@ filter = test1
 df_caus = df.loc[filter]
 
 df_caus[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/caus.csv", sep="\t", index=None)
+
+# filter caus pass
+test1 = df_orig['Grammar'] == "caus, pass"
+test2 = df_orig['POS'] == "pr"
+test3 = df_orig['POS'] == "prp"
+
+filter = test1 & test2
+df_caus_pass_pr = df_orig.loc[filter]
+
+filter = test1 & test3
+df_caus_pass_prp = df_orig.loc[filter]
+df_caus_pass_prp = df_caus_pass_prp.head(5)
+
+df_caus_pass_prp[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/prp-caus-pass.csv", sep="\t", index=None)
+df_caus_pass_pr[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/pr-caus-pass.csv", sep="\t", index=None)
+
+# filter pass prp
+test1 = df_orig['Grammar'] == "pass"
+test2 = df_orig['POS'] == "prp"
+
+filter = test1 & test2
+df_pass_prp = df_orig.loc[filter]
+df_pass_prp = df_pass_prp.head(10)
+
+df_pass_prp[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/prp-pass.csv", sep="\t", index=None)
+
+# filter ptp
+test1 = df['POS'] == "ptp"
+
+filter = test1
+df_ptp = df.loc[filter]
+
+df_ptp[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/ptp.csv", sep="\t", index=None)
+
+
 
 
 # save summary csv
@@ -854,7 +894,7 @@ df_comb_12 = df_comb_12[['Pāli1', 'POS', 'Pattern', 'class', 'count']]
 df_comb_12.to_csv("csv-for-classes/class-12.csv", sep="\t", index=None)
 
 # save comp for 13 class
-df_comb_13 = pd.concat([df_caus, ])
+df_comb_13 = pd.concat([df_caus, df_caus_pass_pr, df_caus_pass_prp, df_pass_prp, df_ptp])
 df_comb_13 = df_comb_13.sort_values(by=['count'], ascending = False)
 df_comb_13['class'] = "13"
 df_comb_13 = df_comb_13[['Pāli1', 'POS', 'Pattern', 'class', 'count']]
@@ -871,7 +911,8 @@ df_comb_13.to_csv("csv-for-classes/class-13.csv", sep="\t", index=None)
 # df_comb = pd.concat([df_comb_1, df_comb_2, df_comb_3, df_comb_4, df_comb_5, df_comb_6, df_comb_7, df_comb_8, df_comb_9])
 # df_comb = pd.concat([df_comb_1, df_comb_2, df_comb_3, df_comb_4, df_comb_5, df_comb_6, df_comb_7, df_comb_8, df_comb_9, df_comb_10])
 # df_comb = pd.concat([df_comb_1, df_comb_2, df_comb_3, df_comb_4, df_comb_5, df_comb_6, df_comb_7, df_comb_8, df_comb_9, df_comb_10, df_comb_11])
-df_comb = pd.concat([df_comb_1, df_comb_2, df_comb_3, df_comb_4, df_comb_5, df_comb_6, df_comb_7, df_comb_8, df_comb_9, df_comb_10, df_comb_11, df_comb_12])
+# df_comb = pd.concat([df_comb_1, df_comb_2, df_comb_3, df_comb_4, df_comb_5, df_comb_6, df_comb_7, df_comb_8, df_comb_9, df_comb_10, df_comb_11, df_comb_12])
+df_comb = pd.concat([df_comb_1, df_comb_2, df_comb_3, df_comb_4, df_comb_5, df_comb_6, df_comb_7, df_comb_8, df_comb_9, df_comb_10, df_comb_11, df_comb_12, df_comb_13])
 
 # dps
 
