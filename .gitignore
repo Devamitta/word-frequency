@@ -2,13 +2,16 @@ output/
 output-replaced/
 pics/
 pāli-course/
-csv-pos-separately/
+csv-all-pos/
+csv-for-classes/
 grammar-csv/
 frequent-words-dps/
 grams-combined/
 csv-for-classes/
+original-csv-frequency/
 __pycache__/wordtree.cpython-310.pyc
 .vscode/settings.json
 .~lock.frequent-words.ods#
 absent-nid.csv
 test.txt
+test.py
