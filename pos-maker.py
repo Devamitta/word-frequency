@@ -129,7 +129,7 @@ df_ar_masc = df_ar_masc.head(10)
 
 filter = test1 & test7
 df_uu_masc = df_orig.loc[filter]
-df_uu_masc = df_uu_masc.head(6)
+# df_uu_masc = df_uu_masc.head(6)
 
 
 # save masc csv
@@ -209,7 +209,17 @@ df_karoti = df.loc[filter]
 df_oti_pr = pd.concat([df_oti_pr, df_karoti])
 df_oti_pr = df_oti_pr.sort_values(by=['count'], ascending = False)
 
-# df_pr = pd.concat([df_ati_pr, df_eti_pr, df_aati_pr, df_oti_pr])
+df_pr = pd.concat([df_ati_pr, df_eti_pr, df_aati_pr, df_oti_pr])
+
+test2 = df_pr['Pāli Root'].str.contains('1|4|5|6|8')
+test3 = df_pr['Pāli Root'].str.contains('2|3|7')
+filter = test2
+df_pr_2 = df_pr.loc[filter]
+filter = test3
+df_pr_3 = df_pr.loc[filter]
+
+
+
 
 # test1 = df_pr['Grammar'] == "pass"
 # test2 = df_pr['Grammar'] == "caus"
@@ -264,8 +274,6 @@ df_other_pr[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/pr-other.
 test1 = df['POS'] == "aor"
 test2 = df['Pattern'] == "i aor"
 
-test4 = df['Pattern'] == "āsi aor"
-
 test7 = df['Pattern'] == "ahosi aor"
 test8 = df['Pattern'] == "āsi aor irreg"
 
@@ -278,18 +286,17 @@ test12 = df['Pattern'] == "ddasa aor"
 test15 = df['Grammar'] != "pass"
 test16 = df['Grammar'] != "caus"
 test17 = df['Grammar'] != "irreg"
+test18 = df['Grammar'] != "neg"
 
-filter = test1 & test2 & test15 & test16 & test17
+filter = test1 & test2 & test15 & test16 & test17 & test18
 df_i_aor = df.loc[filter]
+# df_esi_aor = df_esi_aor.head(8)
 
-filter = test1 & test9 & test15 & test16 & test17
+filter = test1 & test9 & test15 & test16 & test17 & test18
 df_hari = df.loc[filter]
 
 df_i_aor = pd.concat([df_i_aor, df_hari])
 df_i_aor = df_i_aor.sort_values(by=['count'], ascending = False)
-
-filter = test1 & test4 & test15 & test16 & test17
-df_aasi_aor = df.loc[filter]
 
 filter = test1 & test7 & test15 & test16 & test17
 df_ahosi = df.loc[filter]
@@ -302,13 +309,20 @@ df_be_aor = df_be_aor.sort_values(by=['count'], ascending = False)
 
 test1 = df_orig['POS'] == "aor"
 test3 = df_orig['Pattern'] == "esi aor"
+test4 = df_orig['Pattern'] == "āsi aor"
 # pass and caus aor
 test15 = df_orig['Grammar'] != "pass"
 test16 = df_orig['Grammar'] != "caus"
 test17 = df_orig['Grammar'] != "irreg"
-filter = test1 & test3 & test15 & test16 & test17
+test18 = df_orig['Grammar'] != "neg"
+
+filter = test1 & test3 & test15 & test16 & test17 & test18
 df_esi_aor = df_orig.loc[filter]
-df_esi_aor = df_esi_aor.head(10)
+df_esi_aor = df_esi_aor.head(8)
+
+filter = test1 & test4 & test15 & test16 & test17 & test18
+df_aasi_aor = df_orig.loc[filter]
+df_aasi_aor = df_aasi_aor.head(10)
 
 # save aor
 df_i_aor[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/aor-i.csv", sep="\t", index=None)
@@ -817,14 +831,14 @@ df_comb_1 = df_comb_1[['Pāli1', 'POS', 'Pattern', 'class', 'count']]
 df_comb_1.to_csv("csv-for-classes/class-1.csv", sep="\t", index=None)
 
 # save comp for 2 class
-df_comb_2 = pd.concat([df_ati_pr, df_eti_pr, df_aati_pr, df_oti_pr])
+df_comb_2 = pd.concat([df_pr_2])
 df_comb_2 = df_comb_2.sort_values(by=['count'], ascending = False)
 df_comb_2['class'] = "2"
 df_comb_2 = df_comb_2[['Pāli1', 'POS', 'Pattern', 'class', 'count']]
 df_comb_2.to_csv("csv-for-classes/class-2.csv", sep="\t", index=None)
 
 # save comp for 3 class
-df_comb_3 = pd.concat([df_be_pr, df_i_masc, df_i_aor, df_be_aor, df_esi_aor, df_aasi_aor])
+df_comb_3 = pd.concat([df_pr_3, df_be_pr, df_i_masc, df_i_aor, df_be_aor, df_esi_aor, df_aasi_aor])
 df_comb_3 = df_comb_3.sort_values(by=['count'], ascending = False)
 df_comb_3['class'] = "3"
 df_comb_3 = df_comb_3[['Pāli1', 'POS', 'Pattern', 'class', 'count']]
