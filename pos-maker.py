@@ -2,37 +2,50 @@ import pandas as pd
 import numpy as np
 from pandas_ods_reader import read_ods 
 import re
+from natsort import index_natsorted
 
-df = read_ods("pāli-course/frequent-words.ods")
-df.fillna("", inplace=True)
+df = pd.read_csv("pāli-course/frequent-words.ods-words.csv", sep="\t", dtype= str)
+df.fillna("")
+
+# df = read_ods("pāli-course/frequent-words.ods")
+# df.fillna("")
 # df = df.astype(str)
 # df = df.replace(to_replace ="\.0", value = "", regex = True) #removes all flaots .0
 
 # sort by frequency
-df = df.sort_values(by=['count'], ascending = False)
+df.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df['count'])))
+
+# keep original
+df_orig = df
+
+# filter what is done
+df = df.head(1900)
+
+# save all what is done
+df[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/frequent-words.csv", sep="\t", index=None)
 
 #filter adv
-test1 = df['POS'] == "ind"
-test2 = df['Grammar'] == "time"
-test3 = df['Grammar'] == "place"
-test4 = df['Grammar'] == "interr"
-test5 = df['Grammar'] == "neg"
-test6 = df['Grammar'] == "with"
+test1 = df_orig['POS'] == "ind"
+test2 = df_orig['Grammar'] == "time"
+test3 = df_orig['Grammar'] == "place"
+test4 = df_orig['Grammar'] == "interr"
+test5 = df_orig['Grammar'] == "neg"
+test6 = df_orig['Grammar'] == "with"
 
 filter = test1 & test2
-df_time = df.loc[filter]
+df_time = df_orig.loc[filter]
 
 filter = test1 & test3
-df_place = df.loc[filter]
+df_place = df_orig.loc[filter]
 
 filter = test1 & test4
-df_interr = df.loc[filter]
+df_interr = df_orig.loc[filter]
 
 filter = test1 & test5
-df_neg = df.loc[filter]
+df_neg = df_orig.loc[filter]
 
 filter = test1 & test6
-df_with = df.loc[filter]
+df_with = df_orig.loc[filter]
 
 # save adv csv
 df_time = df_time[['Pāli1', 'POS', 'Pattern', 'count']]
@@ -51,14 +64,11 @@ df_with = df_with[['Pāli1', 'POS', 'Pattern', 'count']]
 df_with.to_csv("csv-all-pos/ind_with.csv", sep="\t", index=None)
 
 # save friquent names
-test3 = df['Grammar'] == "name"
+test3 = df_orig['Grammar'] == "name"
 filter = test3
-df_name = df.loc[filter]
+df_name = df_orig.loc[filter]
 
 df_name[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/names.csv", sep="\t", index=None)
-
-# keep original
-df_orig = df
 
 # filter not comp | comp vb | name
 test1 = df_orig['Grammar'] != "comp"
@@ -68,9 +78,6 @@ test3 = df_orig['Grammar'] != "desid"
 filter = test1 & test2 & test3
 df_orig = df_orig.loc[filter]
 
-# filter what is done
-df = df.head(1610)
-
 # filter not comp | comp vb | name
 test1 = df['Grammar'] != "comp"
 test3 = df_orig['Grammar'] != "desid"
@@ -78,14 +85,12 @@ test3 = df_orig['Grammar'] != "desid"
 filter = test1 & test2 & test3
 df = df.loc[filter]
 
-# save all done
-df[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/frequent-words.csv", sep="\t", index=None)
-
 # filter masc
 
 test1 = df['POS'] == "masc"
 test2 = df['Pattern'] == "a masc"
 test3 = df['Pattern'] == "i masc"
+test4 = df['Pattern'] == "a masc pl"
 
 test9 = df['Pattern'] == "ar2 masc"
 
@@ -99,7 +104,14 @@ test18 = df['Grammar'] != "neg"
 
 filter = test1 & test2 & test10 & test11 & test16
 df_a_masc = df.loc[filter]
-df_a_masc = df_a_masc.head(200)
+# df_a_masc = df_a_masc.head(200)
+
+filter = test1 & test4 & test10 & test11 & test16
+df_a_masc_pl = df.loc[filter]
+# df_a_masc_pl = df_a_masc_pl.head(200)
+
+df_a_masc = pd.concat([df_a_masc, df_a_masc_pl])
+df_a_masc.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_a_masc['count'])))
 
 filter = test1 & test3 & test11
 df_i_masc = df.loc[filter]
@@ -117,7 +129,16 @@ test7 = df_orig['Pattern'] == "ū masc"
 
 filter = test1 & test4
 df_ii_masc = df_orig.loc[filter]
-df_ii_masc = df_ii_masc.head(10)
+df_ii_masc = df_ii_masc.head(14)
+
+
+test8 = df_orig['Grammar'] == "masc"
+test9 = df_orig['Pattern'] == "ī adj"
+filter = test8 & test9
+df_ii_adj = df_orig.loc[filter]
+
+df_ii_masc = pd.concat([df_ii_masc, df_ii_adj])
+df_ii_masc.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_ii_masc['count'])))
 
 filter = test1 & test5
 df_u_masc = df_orig.loc[filter]
@@ -125,11 +146,20 @@ df_u_masc = df_u_masc.head(12)
 
 filter = test1 & test6
 df_ar_masc = df_orig.loc[filter]
-df_ar_masc = df_ar_masc.head(10)
+df_ar_masc = df_ar_masc.head(20)
 
 filter = test1 & test7
 df_uu_masc = df_orig.loc[filter]
-# df_uu_masc = df_uu_masc.head(6)
+
+
+test8 = df_orig['Grammar'] == "masc"
+test9 = df_orig['Pattern'] == "ū adj"
+filter = test8 & test9
+df_uu_adj = df_orig.loc[filter]
+
+df_uu_masc = pd.concat([df_uu_masc, df_uu_adj])
+df_uu_masc.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_uu_masc['count'])))
+
 
 
 # save masc csv
@@ -149,20 +179,22 @@ df_ar_masc[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/masc-ar.cs
 df_ar2_masc[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/masc-ar2.csv", sep="\t", index=None)
 
 # filter ant adj
-test1 = df['POS'] == "adj"
-test2 = df['Pattern'] == "ant adj"
+test1 = df_orig['POS'] == "adj"
+test2 = df_orig['Pattern'] == "ant adj"
 filter = test1 & test2
-df_ant_adj = df.loc[filter]
+df_ant_adj = df_orig.loc[filter]
 
 # filter ant masc
-test1 = df['POS'] == "masc"
-test2 = df['Pattern'] == "ant masc"
+test1 = df_orig['POS'] == "masc"
+test2 = df_orig['Pattern'] == "ant masc"
 filter = test1 & test2
-df_ant_masc = df.loc[filter]
+df_ant_masc = df_orig.loc[filter]
 
 #combine ant
 df_ant = pd.concat([df_ant_adj, df_ant_masc])
-df_ant = df_ant.sort_values(by=['count'], ascending = False)
+df_ant.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_ant['count'])))
+
+df_ant = df_ant.head(25)
 
 # save ant csv
 df_ant[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/masc-ant.csv", sep="\t", index=None)
@@ -192,10 +224,19 @@ test19 = df['Grammar'] != "neg"
 
 filter = test1 & test2 & test15 & test16 & test17 & test18 & test19
 df_ati_pr = df.loc[filter]
-df_ati_pr = df_ati_pr.head(100)
+# df_ati_pr = df_ati_pr.head(100)
 
 filter = test1 & test3 & test15 & test16 & test17 & test18 & test19
 df_eti_pr = df.loc[filter]
+
+test10 = df['Pattern'] == "eti pr 2"
+filter = test1 & test10
+df_eti_2_pr = df.loc[filter]
+
+df_eti_pr = pd.concat([df_eti_pr, df_eti_2_pr])
+df_eti_pr.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_eti_pr['count'])))
+
+
 
 filter = test1 & test4 & test15 & test16 & test17 & test18 & test19
 df_aati_pr = df.loc[filter]
@@ -207,7 +248,8 @@ filter = test1 & test6 & test15 & test16 & test17 & test18 & test19
 df_karoti = df.loc[filter]
 
 df_oti_pr = pd.concat([df_oti_pr, df_karoti])
-df_oti_pr = df_oti_pr.sort_values(by=['count'], ascending = False)
+df_oti_pr.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_oti_pr['count'])))
+
 
 df_pr = pd.concat([df_ati_pr, df_eti_pr, df_aati_pr, df_oti_pr])
 
@@ -218,28 +260,15 @@ df_pr_2 = df_pr.loc[filter]
 filter = test3
 df_pr_3 = df_pr.loc[filter]
 
-
-
-
-# test1 = df_pr['Grammar'] == "pass"
-# test2 = df_pr['Grammar'] == "caus"
-# filter = test1 & test2
-# df_pr_act = df_pr.loc[filter]
-
-# df_pr_act = df_pr_act.sort_values(by=['count'], ascending = False)
-
-
 filter = test1 & test7
 df_hoti = df.loc[filter]
 
 filter = test1 & test8
 df_atthi = df.loc[filter]
 
-# filter = test1 & test9 & test18
-# df_natthi = df.loc[filter]
-
 df_be_pr = pd.concat([df_hoti, df_atthi])
-df_be_pr = df_be_pr.sort_values(by=['count'], ascending = False)
+df_be_pr.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_be_pr['count'])))
+
 
 # save pr csv
 
@@ -296,7 +325,7 @@ filter = test1 & test9 & test15 & test16 & test17 & test18
 df_hari = df.loc[filter]
 
 df_i_aor = pd.concat([df_i_aor, df_hari])
-df_i_aor = df_i_aor.sort_values(by=['count'], ascending = False)
+df_i_aor.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_i_aor['count'])))
 
 filter = test1 & test7 & test15 & test16 & test17
 df_ahosi = df.loc[filter]
@@ -305,7 +334,7 @@ filter = test1 & test8 & test15 & test16 & test17
 df_aasi = df.loc[filter]
 
 df_be_aor = pd.concat([df_aasi, df_ahosi])
-df_be_aor = df_be_aor.sort_values(by=['count'], ascending = False)
+df_be_aor.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_be_aor['count'])))
 
 test1 = df_orig['POS'] == "aor"
 test3 = df_orig['Pattern'] == "esi aor"
@@ -318,7 +347,7 @@ test18 = df_orig['Grammar'] != "neg"
 
 filter = test1 & test3 & test15 & test16 & test17 & test18
 df_esi_aor = df_orig.loc[filter]
-df_esi_aor = df_esi_aor.head(8)
+df_esi_aor = df_esi_aor.head(6)
 
 filter = test1 & test4 & test15 & test16 & test17 & test18
 df_aasi_aor = df_orig.loc[filter]
@@ -379,8 +408,12 @@ df_other_pron[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/other-p
 
 # filter fut
 test1 = df_orig['POS'] == "fut"
-test2 = df_orig['Grammar'] != "irreg"
-filter = test1 & test2
+# pass and caus fut
+test15 = df_orig['Grammar'] != "pass"
+test16 = df_orig['Grammar'] != "caus"
+test17 = df_orig['Grammar'] != "irreg"
+test18 = df_orig['Grammar'] != "neg"
+filter = test1 & test15 & test16 & test17 & test18
 df_fut = df_orig.loc[filter]
 df_fut = df_fut.head(25)
 
@@ -411,7 +444,7 @@ test18 = df['Grammar'] != "neg"
 
 filter = test1 & test2 & test16
 df_aa_fem = df.loc[filter]
-df_aa_fem = df_aa_fem.head(200)
+# df_aa_fem = df_aa_fem.head(200)
 
 filter = test1 & test3 & test16
 df_i_fem = df.loc[filter]
@@ -463,8 +496,7 @@ test10 = df['Grammar'] != "dat"
 
 filter = test1 & test2 & test10
 df_a_nt = df.loc[filter]
-
-df_a_nt = df_a_nt.head(200)
+# df_a_nt = df_a_nt.head(200)
 
 test1 = df_orig['POS'] == "nt"
 test3 = df_orig['Pattern'] == "i nt"
@@ -660,7 +692,7 @@ test18 = df['Grammar'] != "irreg"
 
 filter = test1 & test15 & test16 & test17 & test18
 df_pp = df.loc[filter]
-df_pp = df_pp.head(100)
+# df_pp = df_pp.head(100)
 
 df_pp[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/pp.csv", sep="\t", index=None)
 
@@ -670,10 +702,11 @@ test2 = df['Grammar'] != "def-art"
 test3 = df['Grammar'] != "+inf"
 test4 = df['Grammar'] != "inf kāma"
 test5 = df['Pattern'] != "ant adj"
+test6 = df['Grammar'] != "masc"
 
-filter = test1 & test2 & test3 & test4 & test5
+filter = test1 & test2 & test3 & test4 & test5 & test6
 df_adj = df.loc[filter]
-df_adj = df_adj.head(150)
+# df_adj = df_adj.head(150)
 
 df_adj[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/adj.csv", sep="\t", index=None)
 
@@ -682,7 +715,7 @@ test1 = df['Grammar'] == "abl"
 
 filter = test1
 df_abl = df.loc[filter]
-df_abl = df_abl.head(150)
+# df_abl = df_abl.head(150)
 
 df_abl[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/abl.csv", sep="\t", index=None)
 
@@ -760,7 +793,7 @@ df_adv_pure[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/adv-pure.
 df_adv_adv[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/adv-adv.csv", sep="\t", index=None)
 
 df_adv = pd.concat([df_adv_dhā, df_adv_so, df_adv_khattum, df_adv_tham, df_adv_to, df_adv_tra, df_adv_tha, df_adv_pure, df_adv_adv])
-df_adv = df_adv.sort_values(by=['count'], ascending = False)
+df_adv.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_adv['count'])))
 
 df_adv[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/adv.csv", sep="\t", index=None)
 
@@ -808,9 +841,12 @@ df_pass_prp[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/prp-pass.
 
 # filter ptp
 test1 = df['POS'] == "ptp"
+test2 = df['Grammar'] != "caus"
+test3 = df['Grammar'] != "pass"
 
-filter = test1
+filter = test1 & test2 & test3
 df_ptp = df.loc[filter]
+
 
 df_ptp[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/ptp.csv", sep="\t", index=None)
 
@@ -819,97 +855,97 @@ df_ptp[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/ptp.csv", sep=
 
 # save summary csv
 df_summary = pd.concat([df_a_masc, df_ati_pr, df_eti_pr, df_aati_pr, df_oti_pr, df_be_pr, df_i_masc, df_i_aor, df_be_aor, df_esi_aor, df_pers_pron, df_fut, df_ii_masc, df_u_masc, df_ar_masc, df_ant, df_uu_masc, df_time, df_ar2_masc, df_neg, df_with])
-df_summary = df_summary.sort_values(by=['count'], ascending = False)
+df_summary.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_summary['count'])))
 
 df_summary = df_summary[['Pāli1', 'POS', 'Pattern', 'count']]
 
 # save comp for 1 class
 df_comb_1 = pd.concat([df_a_masc])
-df_comb_1 = df_comb_1.sort_values(by=['count'], ascending = False)
+df_comb_1.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_comb_1['count'])))
 df_comb_1['class'] = "1"
 df_comb_1 = df_comb_1[['Pāli1', 'POS', 'Pattern', 'class', 'count']]
 df_comb_1.to_csv("csv-for-classes/class-1.csv", sep="\t", index=None)
 
 # save comp for 2 class
 df_comb_2 = pd.concat([df_pr_2])
-df_comb_2 = df_comb_2.sort_values(by=['count'], ascending = False)
+df_comb_2.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_comb_2['count'])))
 df_comb_2['class'] = "2"
 df_comb_2 = df_comb_2[['Pāli1', 'POS', 'Pattern', 'class', 'count']]
 df_comb_2.to_csv("csv-for-classes/class-2.csv", sep="\t", index=None)
 
 # save comp for 3 class
 df_comb_3 = pd.concat([df_pr_3, df_be_pr, df_i_masc, df_i_aor, df_be_aor, df_esi_aor, df_aasi_aor])
-df_comb_3 = df_comb_3.sort_values(by=['count'], ascending = False)
+df_comb_3.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_comb_3['count'])))
 df_comb_3['class'] = "3"
 df_comb_3 = df_comb_3[['Pāli1', 'POS', 'Pattern', 'class', 'count']]
 df_comb_3.to_csv("csv-for-classes/class-3.csv", sep="\t", index=None)
 
 # save comp for 4 class
 df_comb_4 = pd.concat([df_pers_pron, df_fut, df_ii_masc, df_neg, df_neg_4, df_with])
-df_comb_4 = df_comb_4.sort_values(by=['count'], ascending = False)
+df_comb_4.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_comb_4['count'])))
 df_comb_4['class'] = "4"
 df_comb_4 = df_comb_4[['Pāli1', 'POS', 'Pattern', 'class', 'count']]
 df_comb_4.to_csv("csv-for-classes/class-4.csv", sep="\t", index=None)
 
 # save comp for 5 class
 df_comb_5 = pd.concat([df_u_masc, df_ar_masc, df_ar2_masc, df_ant, df_uu_masc, df_time])
-df_comb_5 = df_comb_5.sort_values(by=['count'], ascending = False)
+df_comb_5.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_comb_5['count'])))
 df_comb_5['class'] = "5"
 df_comb_5 = df_comb_5[['Pāli1', 'POS', 'Pattern', 'class', 'count']]
 df_comb_5.to_csv("csv-for-classes/class-5.csv", sep="\t", index=None)
 
 # save comp for 6 class
 df_comb_6 = pd.concat([df_aa_fem, df_opt, df_opt_be])
-df_comb_6 = df_comb_6.sort_values(by=['count'], ascending = False)
+df_comb_6.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_comb_6['count'])))
 df_comb_6['class'] = "6"
 df_comb_6 = df_comb_6[['Pāli1', 'POS', 'Pattern', 'class', 'count']]
 df_comb_6.to_csv("csv-for-classes/class-6.csv", sep="\t", index=None)
 
 # save comp for 7 class
 df_comb_7 = pd.concat([df_ger, df_abs, df_i_fem, df_ii_fem, df_u_fem, df_ar_fem, df_place])
-df_comb_7 = df_comb_7.sort_values(by=['count'], ascending = False)
+df_comb_7.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_comb_7['count'])))
 df_comb_7['class'] = "7"
 df_comb_7 = df_comb_7[['Pāli1', 'POS', 'Pattern', 'class', 'count']]
 df_comb_7.to_csv("csv-for-classes/class-7.csv", sep="\t", index=None)
 
 # save comp for 8 class
 df_comb_8 = pd.concat([df_a_nt, df_i_nt, df_u_nt, df_inf, df_plus_inf, df_inf_kam, df_dat, df_until, df_interr])
-df_comb_8 = df_comb_8.sort_values(by=['count'], ascending = False)
+df_comb_8.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_comb_8['count'])))
 df_comb_8['class'] = "8"
 df_comb_8 = df_comb_8[['Pāli1', 'POS', 'Pattern', 'class', 'count']]
 df_comb_8.to_csv("csv-for-classes/class-8.csv", sep="\t", index=None)
 
 # save comp for 9 class
 df_comb_9 = pd.concat([df_anta_prp, df_enta_prp, df_mana_prp, df_onta_prp, df_ana_prp, df_def, df_pron])
-df_comb_9 = df_comb_9.sort_values(by=['count'], ascending = False)
+df_comb_9.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_comb_9['count'])))
 df_comb_9['class'] = "9"
 df_comb_9 = df_comb_9[['Pāli1', 'POS', 'Pattern', 'class', 'count']]
 df_comb_9.to_csv("csv-for-classes/class-9.csv", sep="\t", index=None)
 
 # save comp for 10 class
 df_comb_10 = pd.concat([df_pp, df_adj, df_abl])
-df_comb_10 = df_comb_10.sort_values(by=['count'], ascending = False)
+df_comb_10.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_comb_10['count'])))
 df_comb_10['class'] = "10"
 df_comb_10 = df_comb_10[['Pāli1', 'POS', 'Pattern', 'class', 'count']]
 df_comb_10.to_csv("csv-for-classes/class-10.csv", sep="\t", index=None)
 
 # save comp for 11 class
 df_comb_11 = pd.concat([df_card, df_ordin, df_money])
-df_comb_11 = df_comb_11.sort_values(by=['count'], ascending = False)
+df_comb_11.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_comb_11['count'])))
 df_comb_11['class'] = "11"
 df_comb_11 = df_comb_11[['Pāli1', 'POS', 'Pattern', 'class', 'count']]
 df_comb_11.to_csv("csv-for-classes/class-11.csv", sep="\t", index=None)
 
 # save comp for 12 class
 df_comb_12 = pd.concat([df_adv, df_pass])
-df_comb_12 = df_comb_12.sort_values(by=['count'], ascending = False)
+df_comb_12.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_comb_12['count'])))
 df_comb_12['class'] = "12"
 df_comb_12 = df_comb_12[['Pāli1', 'POS', 'Pattern', 'class', 'count']]
 df_comb_12.to_csv("csv-for-classes/class-12.csv", sep="\t", index=None)
 
 # save comp for 13 class
 df_comb_13 = pd.concat([df_caus, df_caus_pass_pr, df_caus_pass_prp, df_pass_prp, df_ptp])
-df_comb_13 = df_comb_13.sort_values(by=['count'], ascending = False)
+df_comb_13.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_comb_13['count'])))
 df_comb_13['class'] = "13"
 df_comb_13 = df_comb_13[['Pāli1', 'POS', 'Pattern', 'class', 'count']]
 df_comb_13.to_csv("csv-for-classes/class-13.csv", sep="\t", index=None)
@@ -930,10 +966,13 @@ df_comb = pd.concat([df_comb_1, df_comb_2, df_comb_3, df_comb_4, df_comb_5, df_c
 
 # dps
 
-df_dps = pd.read_csv("../spreadsheets/dps.csv", sep="\t", dtype= str)
-df_dps.fillna("", inplace=True)
+df_dps = pd.read_csv("../spreadsheets/dps.ods-pali.csv", sep="\t", dtype= str)
+df_dps.fillna("")
 
-df_dps['Pāli2'] = df_dps['Pāli1']
+# choosing order of columns
+df_dps = df_dps[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Stem', 'Pattern']]
+
+# df_dps['Pāli2'] = df_dps['Pāli1']
 df_dps['Pāli1'] = df_dps['Pāli1'].str.replace('\d+', '')
 df_dps['Pāli1'] = df_dps['Pāli1'].str.replace(' ', '')
 
@@ -951,18 +990,23 @@ df_absent = df_comb[logix]
 df_absent.to_csv(f"frequent-words-dps/absent.csv", sep="\t", index=None)
 
 # retern numbers
-df_dps_merged['Pāli1']=df_dps_merged['Pāli2']
+# df_dps_merged['Pāli1']=df_dps_merged['Pāli2']
 
 # adding feedback
 # df_dps_merged['Pāli2'] = f"""Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLScNC5v2gQbBCM3giXfYIib9zrp-WMzwJuf_iVXEMX2re4BFFw/viewform">Fix it here</a>."""
 
-# df_dps_merged = df_dps_merged.sort_values(by=['Pāli1'])
+# df_or = pd.read_csv("pāli-course/frequent-words.ods-original.csv", sep="\t", dtype= str)
+# df_or.fillna("")
+# df_or = df_or[['Pāli1', 'POS', 'Pattern', 'count']]
+
+# df_dps_merged_2 = pd.merge(df_dps_merged, df_or)
+
 df_dps_merged.to_csv("frequent-words-dps/summary-for-class.csv", sep="\t", index=None)
 
 # nidh
 
-df_nid = pd.read_csv("../spreadsheets/nidh_bold.csv", sep="\t", dtype= str)
-df_nid.fillna("", inplace=True)
+df_nid = pd.read_csv("../spreadsheets/nidh_bold.xlsx.csv", sep="\t", dtype= str)
+df_nid.fillna("")
 
 df_nid['Pāli2'] = df_nid['Pāli1']
 df_nid['Pāli1'] = df_nid['Pāli1'].str.replace('\d+', '')
@@ -988,7 +1032,7 @@ df_nid_merged['Pāli1']=df_nid_merged['Pāli2']
 # adding feedback
 # df_nid_merged['Pāli2'] = f"""Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLScNC5v2gQbBCM3giXfYIib9zrp-WMzwJuf_iVXEMX2re4BFFw/viewform">Fix it here</a>."""
 
-# test1 = df_nid_merged['count'] != ""
+# test1 = df_nid_merged['class'] != ""
 # filter = test1
 # df_nid_merged = df_nid_merged[filter]
 
@@ -996,7 +1040,8 @@ df_nid_merged['Pāli1']=df_nid_merged['Pāli2']
 # filter = test2
 # df_nid_merged = df_nid_merged.loc[filter]
 
-# df_nid_merged = df_nid_merged.sort_values(by=['Pāli1'])
+df_nid_merged.sort_values(by='class', inplace=True, ascending = True, key=lambda x: np.argsort(index_natsorted(df_nid_merged['count'])))
+
 
 df_nid_merged.to_csv("frequent-words-dps/to-add.csv", sep="\t", index=None)
 
@@ -1007,7 +1052,7 @@ df_comb[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/for-class.csv
 # df_absent = df_absent df_class_1[logix]
 
 # adding feedback ?
-# df_absent.reset_index(drop=True, inplace=True)
+# df_absent.reset_index(drop=True)
 
 
 # print lenght
