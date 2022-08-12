@@ -15,5 +15,6 @@ __pycache__/wordtree.cpython-310.pyc
 .vscode/settings.json
 .~lock.frequent-words.ods#
 absent-nid.csv
-test.txt
-test.py
+test*
+
+.~lock*#

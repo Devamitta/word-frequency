@@ -23,10 +23,10 @@ df.reset_index(drop=True, inplace=True)
 df['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSc0KxEDyN5G2Mqr4t3AvDpXxSOIbIBi0GrZsAGhDB207sjLow/viewform?usp=pp_url&entry.438735500=""" + df.Pāli1 + """&entry.644913945=Anki Deck Vocab Pāli Class">Fix it here</a>."""
 
 # choosing order of columns
-df = df[['Pāli1', 'POS', 'Grammar', 'Derived from', 'Neg', 'Verb', 'Trans', 'Case', 'Meaning IN CONTEXT', 'Meaning in native language', 'Pāli Root', 'Base', 'Construction', 'Sanskrit', 'Sk Root', 'Variant', 'Commentary', 'Notes', 'Source1', 'Sutta1', 'Example1', 'Source 2', 'Sutta2', 'Example 2', 'Pali chant 2', 'English chant 2', 'Chapter 2', 'Source 3', 'Sutta 3', 'Example 3', 'Pali chant 3', 'English chant 3', 'Chapter 3', 'Stem', 'Pattern', 'Test', 'ex', 'class', 'count', 'recording', 'Feedback']]
+# df = df[['Pāli1', 'POS', 'Grammar', 'Derived from', 'Neg', 'Verb', 'Trans', 'Case', 'Meaning IN CONTEXT', 'Meaning in native language', 'Pāli Root', 'Base', 'Construction', 'Sanskrit', 'Sk Root', 'Variant', 'Commentary', 'Notes', 'Source1', 'Sutta1', 'Example1', 'Source 2', 'Sutta2', 'Example 2', 'Pali chant 2', 'English chant 2', 'Chapter 2', 'Source 3', 'Sutta 3', 'Example 3', 'Pali chant 3', 'English chant 3', 'Chapter 3', 'Stem', 'Pattern', 'Test', 'ex', 'class', 'count', 'audio', 'Feedback']]
 
 # sort by frequency
-df.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df['count'])))
+df.sort_values(by='Example 3', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df['Example 3'])))
 
 # save csv
 # df.to_csv("csv-for-examples/all.csv", sep="\t", index=None)
@@ -332,9 +332,9 @@ test2 = df['Pattern'] == ""
 filter = test2
 df.loc[filter, ['Pattern']] = df['POS']
 
-df = df[['Pāli1', 'POS', 'Grammar', 'Derived from', 'Neg', 'Verb', 'Trans', 'Case', 'Meaning IN CONTEXT', 'Meaning in native language', 'Pāli Root', 'Base', 'Construction', 'Sanskrit', 'Sk Root', 'Variant', 'Commentary', 'Notes', 'Source1', 'Sutta1', 'Example1', 'Source 2', 'Sutta2', 'Example 2', 'Pali chant 2', 'English chant 2', 'Chapter 2', 'Source 3', 'Sutta 3', 'Example 3', 'Pali chant 3', 'English chant 3', 'Chapter 3', 'Pattern', 'Test', 'ex', 'count',  'recording','Feedback']]
+# df = df[['Pāli1', 'POS', 'Grammar', 'Derived from', 'Neg', 'Verb', 'Trans', 'Case', 'Meaning IN CONTEXT', 'Meaning in native language', 'Pāli Root', 'Base', 'Construction', 'Sanskrit', 'Sk Root', 'Variant', 'Commentary', 'Notes', 'Source1', 'Sutta1', 'Example1', 'Source 2', 'Sutta2', 'Example 2', 'Pali chant 2', 'English chant 2', 'Chapter 2', 'Source 3', 'Sutta 3', 'Example 3', 'Pali chant 3', 'English chant 3', 'Chapter 3', 'Pattern', 'Test', 'ex', 'count',  'audio','Feedback']]
 
-df.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df['count'])))
+df.sort_values(by='Example 3', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df['Example 3'])))
 
 # replace ṁ
 # df['Pāli1'] = df['Pāli1'].str.replace('ṃ', 'ṁ')
@@ -358,7 +358,19 @@ df.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.arg
 # df['Pali chant 4'] = df['Pali chant 4'].str.replace('ṃ', 'ṁ')
 # df['Pattern'] = df['Pattern'].str.replace('ṃ', 'ṁ')
 
+# filter all classes words
+test15 = df['ex'] != ""
+filter = test15
+df_all = df.loc[filter]
 
+df_all = df_all.drop(['count', 'class'], axis=1)
+
+df_all.to_csv("csv-for-anki/all-class.csv", sep="\t", index=None)
+
+
+# remove column count from df
+
+df = df.drop(['count', 'class'], axis=1)
 
 # filter 1 classes words
 test2 = df['ex'] == "1"
@@ -460,10 +472,8 @@ df_14.to_csv("csv-for-anki/14-class.csv", sep="\t", index=None)
 # df_comb = pd.concat([df_1, df_2 df_3, df_4, df_5, df_6, df_7, df_8, df_9, df_10, df_11])
 # df_comb = pd.concat([df_1, df_2 df_3, df_4, df_5, df_6, df_7, df_8, df_9, df_10, df_11 df_12])
 # df_comb = pd.concat([df_1, df_2 df_3, df_4, df_5, df_6, df_7, df_8, df_9, df_10, df_11 df_12, df_13])
-df_comb = pd.concat([df_1, df_2, df_3, df_4, df_5, df_6, df_7, df_8, df_9, df_10, df_11, df_12, df_13, df_14])
+# df_comb = pd.concat([df_1, df_2, df_3, df_4, df_5, df_6, df_7, df_8, df_9, df_10, df_11, df_12, df_13, df_14])
 
+# df_comb.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_comb['count'])))
 
-df_comb.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_comb['count'])))
-
-
-df_comb.to_csv("csv-for-anki/all-class.csv", sep="\t", index=None)
+# df_comb.to_csv("csv-for-anki/all-class.csv", sep="\t", index=None)
