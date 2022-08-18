@@ -6,12 +6,12 @@ from nltk.util import ngrams
 from wordtree import search_and_draw
 import pandas as pd
 
-# open ebts_REPLACED.txt
-with open ("curated-sources/ebts_REPLACED.txt", "r") as f:
+# open ebts.txt
+with open ("original-sources/ebts.txt", "r") as f:
 	text = str(f.read())
 
 # open ebt freq csv and make a list
-ebt_freq_df = pd.read_csv("csv-for-pic/vocab-class2.csv", sep="\t", dtype= str)
+ebt_freq_df = pd.read_csv("../csv-for-anki/classes/0-class-anki.csv", sep="\t", dtype= str)
 ebt_freq_df['Pāli1'] = ebt_freq_df['Pāli1'].str.replace('\d+', '')
 ebt_freq_df['Pāli1'] = ebt_freq_df['Pāli1'].str.replace(' ', '')
 df_length = ebt_freq_df.shape[0]
@@ -28,4 +28,4 @@ ngrams_text = get_ngrams(text, 5)
 for row in range(100):
     word = ebt_freq_list[row]
     g = search_and_draw(corpus=ngrams_text, keyword=word, max_n=5)
-    g.render(f"pics/{word}") 
+    g.render(f"pics/{word}-orig") 

@@ -20,16 +20,21 @@ df.loc[filter, ['Meaning in native language']] = ""
 
 # adding feedback
 df.reset_index(drop=True, inplace=True)
-df['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSc0KxEDyN5G2Mqr4t3AvDpXxSOIbIBi0GrZsAGhDB207sjLow/viewform?usp=pp_url&entry.438735500=""" + df.Pāli1 + """&entry.644913945=Anki Deck Vocab Pāli Class">Fix it here</a>."""
+df['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSc0KxEDyN5G2Mqr4t3AvDpXxSOIbIBi0GrZsAGhDB207sjLow/viewform?usp=pp_url&entry.438735500=""" + df.Pāli1 + """&entry.644913945=Anki Deck Vocab Beginner Pāli Course">Fix it here</a>."""
 
 # choosing order of columns
 # df = df[['Pāli1', 'POS', 'Grammar', 'Derived from', 'Neg', 'Verb', 'Trans', 'Case', 'Meaning IN CONTEXT', 'Meaning in native language', 'Pāli Root', 'Base', 'Construction', 'Sanskrit', 'Sk Root', 'Variant', 'Commentary', 'Notes', 'Source1', 'Sutta1', 'Example1', 'Source 2', 'Sutta2', 'Example 2', 'Pali chant 2', 'English chant 2', 'Chapter 2', 'Source 3', 'Sutta 3', 'Example 3', 'Pali chant 3', 'English chant 3', 'Chapter 3', 'Stem', 'Pattern', 'Test', 'ex', 'class', 'count', 'audio', 'Feedback']]
 
-# sort by frequency
+# sort by
 df.sort_values(by='Example 3', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df['Example 3'])))
 
 # save csv
 # df.to_csv("csv-for-examples/all.csv", sep="\t", index=None)
+
+# filter 0 classes words
+test2 = df['ex'] == "-"
+filter = test2
+df_0 = df.loc[filter]
 
 # filter 1 classes words
 test2 = df['ex'] == "1"
@@ -45,7 +50,7 @@ test2 = df['ex'] == "2"
 filter = test2
 df_2 = df.loc[filter]
 
-df_comb_2 = pd.concat([df_1, df_2])
+df_comb_2 = pd.concat([df_0, df_1, df_2])
 
 # keep only unique 2
 logix = df_2_cl['Pāli1'].isin(df_comb_2['Pāli1'])
@@ -65,7 +70,7 @@ test3 = df['ex'] == "3"
 filter = test3
 df_3 = df.loc[filter]
 
-df_comb_3 = pd.concat([df_1, df_2, df_3])
+df_comb_3 = pd.concat([df_0, df_1, df_2, df_3])
 
 # keep only unique 3
 logix = df_3_cl_comb['Pāli1'].isin(df_comb_3['Pāli1'])
@@ -85,7 +90,7 @@ test4 = df['ex'] == "4"
 filter = test4
 df_4 = df.loc[filter]
 
-df_comb_4 = pd.concat([df_1, df_2, df_3, df_4])
+df_comb_4 = pd.concat([df_0, df_1, df_2, df_3, df_4])
 
 # keep only unique 4
 logix = df_4_cl_comb['Pāli1'].isin(df_comb_4['Pāli1'])
@@ -105,7 +110,7 @@ test5 = df['ex'] == "5"
 filter = test5
 df_5 = df.loc[filter]
 
-df_comb_5 = pd.concat([df_1, df_2, df_3, df_4, df_5])
+df_comb_5 = pd.concat([df_0, df_1, df_2, df_3, df_4, df_5])
 
 # keep only unique 5
 logix = df_5_cl_comb['Pāli1'].isin(df_comb_5['Pāli1'])
@@ -125,7 +130,7 @@ test6 = df['ex'] == "6"
 filter = test6
 df_6 = df.loc[filter]
 
-df_comb_6 = pd.concat([df_1, df_2, df_3, df_4, df_5, df_6])
+df_comb_6 = pd.concat([df_0, df_1, df_2, df_3, df_4, df_5, df_6])
 
 # keep only unique 6
 logix = df_6_cl_comb['Pāli1'].isin(df_comb_6['Pāli1'])
@@ -145,7 +150,7 @@ test7 = df['ex'] == "7"
 filter = test7
 df_7 = df.loc[filter]
 
-df_comb_7 = pd.concat([df_1, df_2, df_3, df_4, df_5, df_6, df_7])
+df_comb_7 = pd.concat([df_0, df_1, df_2, df_3, df_4, df_5, df_6, df_7])
 
 # keep only unique 7
 logix = df_7_cl_comb['Pāli1'].isin(df_comb_7['Pāli1'])
@@ -165,7 +170,7 @@ test8 = df['ex'] == "8"
 filter = test8
 df_8 = df.loc[filter]
 
-df_comb_8 = pd.concat([df_1, df_2, df_3, df_4, df_5, df_6, df_7, df_8])
+df_comb_8 = pd.concat([df_0, df_1, df_2, df_3, df_4, df_5, df_6, df_7, df_8])
 
 # keep only unique 8
 logix = df_8_cl_comb['Pāli1'].isin(df_comb_8['Pāli1'])
@@ -185,7 +190,7 @@ test9 = df['ex'] == "9"
 filter = test9
 df_9 = df.loc[filter]
 
-df_comb_9 = pd.concat([df_1, df_2, df_3, df_4, df_5, df_6, df_7, df_8, df_9])
+df_comb_9 = pd.concat([df_0, df_1, df_2, df_3, df_4, df_5, df_6, df_7, df_8, df_9])
 
 # keep only unique 9
 logix = df_9_cl_comb['Pāli1'].isin(df_comb_9['Pāli1'])
@@ -205,7 +210,7 @@ test10 = df['ex'] == "10"
 filter = test10
 df_10 = df.loc[filter]
 
-df_comb_10 = pd.concat([df_1, df_2, df_3, df_4, df_5, df_6, df_7, df_8, df_9, df_10])
+df_comb_10 = pd.concat([df_0, df_1, df_2, df_3, df_4, df_5, df_6, df_7, df_8, df_9, df_10])
 
 # keep only unique 10
 logix = df_10_cl_comb['Pāli1'].isin(df_comb_10['Pāli1'])
@@ -225,7 +230,7 @@ test11 = df['ex'] == "11"
 filter = test11
 df_11 = df.loc[filter]
 
-df_comb_11 = pd.concat([df_1, df_2, df_3, df_4, df_5, df_6, df_7, df_8, df_9, df_10, df_11])
+df_comb_11 = pd.concat([df_0, df_1, df_2, df_3, df_4, df_5, df_6, df_7, df_8, df_9, df_10, df_11])
 
 # keep only unique 11
 logix = df_11_cl_comb['Pāli1'].isin(df_comb_11['Pāli1'])
@@ -245,7 +250,7 @@ test12 = df['ex'] == "12"
 filter = test12
 df_12 = df.loc[filter]
 
-df_comb_12 = pd.concat([df_1, df_2, df_3, df_4, df_5, df_6, df_7, df_8, df_9, df_10, df_11, df_12])
+df_comb_12 = pd.concat([df_0, df_1, df_2, df_3, df_4, df_5, df_6, df_7, df_8, df_9, df_10, df_11, df_12])
 
 # keep only unique 12
 logix = df_12_cl_comb['Pāli1'].isin(df_comb_12['Pāli1'])
@@ -265,7 +270,7 @@ test13 = df['ex'] == "13"
 filter = test13
 df_13 = df.loc[filter]
 
-df_comb_13 = pd.concat([df_1, df_2, df_3, df_4, df_5, df_6, df_7, df_8, df_9, df_10, df_11, df_12, df_13])
+df_comb_13 = pd.concat([df_0, df_1, df_2, df_3, df_4, df_5, df_6, df_7, df_8, df_9, df_10, df_11, df_12, df_13])
 
 # keep only unique 13
 logix = df_13_cl_comb['Pāli1'].isin(df_comb_13['Pāli1'])
@@ -285,7 +290,7 @@ test14 = df['ex'] == "14"
 filter = test14
 df_14 = df.loc[filter]
 
-df_comb_14 = pd.concat([df_1, df_2, df_3, df_4, df_5, df_6, df_7, df_8, df_9, df_10, df_11, df_12, df_13, df_14])
+df_comb_14 = pd.concat([df_0, df_1, df_2, df_3, df_4, df_5, df_6, df_7, df_8, df_9, df_10, df_11, df_12, df_13, df_14])
 
 # keep only unique 14
 logix = df_14_cl_comb['Pāli1'].isin(df_comb_14['Pāli1'])
@@ -313,16 +318,21 @@ df_comb_14_f.to_csv("csv-for-examples/14-class.csv", sep="\t", index=None)
 
 print("csv-for-examples saved")
 
-# generate random number 2-210
-ran = random.sample(range(2, 210), 2)
-ran = str(ran[1])
+# # generate random number 2-210
+# ran = random.sample(range(2, 210), 2)
+# ran = str(ran[1])
+
+# # change Test
+# test2 = df['Pāli1'] != ""
+# filter = test2
+# df.loc[filter, ['Test']] = ran
+
+# print(f"test number : {ran}")
 
 # change Test
 test2 = df['Pāli1'] != ""
 filter = test2
-df.loc[filter, ['Test']] = ran
-
-print(f"test number : {ran}")
+df.loc[filter, ['Test']] = ""
 
 # replace all Pattern with '_'
 df['Pattern'] = df['Pattern'].str.replace(' ', '-')
@@ -365,12 +375,88 @@ df_all = df.loc[filter]
 
 df_all = df_all.drop(['count', 'class'], axis=1)
 
-df_all.to_csv("csv-for-anki/all-class.csv", sep="\t", index=None)
+df_all.to_csv("../csv-for-anki/classes/all-class.csv", sep="\t", index=None)
+
+
+
+df.sort_values(by=['class', 'Pattern'], inplace=True, key=lambda x: np.argsort(index_natsorted(df['class'])))
+
+# df.sort_values(by='class', inplace=True, key=lambda x: np.argsort(index_natsorted(df['class'])))
+
+# make words for class 2
+
+options = ['1', '2']
+
+df_words_cl2 = df.loc[df['class'].isin(options) & df['ex'].isin(options)] 
+
+# df_words_cl2 = df.loc[(df['class'] < 3) & (df['ex'] < 3)]
+
+df_words_cl2 = df_words_cl2[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl2 = df_words_cl2.sort_values(by=['class', 'Pattern'])
+
+df_words_cl2.to_csv("csv-for-pic/vocab-class2.csv", sep="\t", index=None)
+
+# make words for class 3
+
+options = ['1', '2', '3']
+
+df_words_cl3 = df.loc[df['class'].isin(options) & df['ex'].isin(options)] 
+
+df_words_cl3 = df_words_cl3[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl3 = df_words_cl3.sort_values(by=['class', 'Pattern'])
+
+df_words_cl3.to_csv("csv-for-pic/vocab-class3.csv", sep="\t", index=None)
+
+# make words for class 4
+
+options = ['1', '2', '3', '4']
+
+df_words_cl4 = df.loc[df['class'].isin(options) & df['ex'].isin(options)] 
+
+df_words_cl4 = df_words_cl4[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl4 = df_words_cl4.sort_values(by=['class', 'Pattern'])
+
+df_words_cl4.to_csv("csv-for-pic/vocab-class4.csv", sep="\t", index=None)
+
+# make words for class 5
+
+options = ['1', '2', '3', '4', '5']
+
+df_words_cl5 = df.loc[df['class'].isin(options) & df['ex'].isin(options)] 
+
+df_words_cl5 = df_words_cl5[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl5 = df_words_cl5.sort_values(by=['class', 'Pattern'])
+
+df_words_cl5.to_csv("csv-for-pic/vocab-class5.csv", sep="\t", index=None)
+
+# make words for class 6
+
+options = ['1', '2', '3', '4', '5', '6']
+
+df_words_cl6 = df.loc[df['class'].isin(options) & df['ex'].isin(options)] 
+
+df_words_cl6 = df_words_cl6[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl6 = df_words_cl6.sort_values(by=['class', 'Pattern'])
+
+df_words_cl6.to_csv("csv-for-pic/vocab-class6.csv", sep="\t", index=None)
+
 
 
 # remove column count from df
 
+df.sort_values(by='Example 3', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df['Example 3'])))
+
 df = df.drop(['count', 'class'], axis=1)
+
+# filter 0 classes words
+test2 = df['ex'] == "-"
+filter = test2
+df_0 = df.loc[filter]
 
 # filter 1 classes words
 test2 = df['ex'] == "1"
@@ -444,20 +530,21 @@ df_14 = df.loc[filter]
 
 # save classes csv
 
-df_1.to_csv("csv-for-anki/1-class.csv", sep="\t", index=None)
-df_2.to_csv("csv-for-anki/2-class.csv", sep="\t", index=None)
-df_3.to_csv("csv-for-anki/3-class.csv", sep="\t", index=None)
-df_4.to_csv("csv-for-anki/4-class.csv", sep="\t", index=None)
-df_5.to_csv("csv-for-anki/5-class.csv", sep="\t", index=None)
-df_6.to_csv("csv-for-anki/6-class.csv", sep="\t", index=None)
-df_7.to_csv("csv-for-anki/7-class.csv", sep="\t", index=None)
-df_8.to_csv("csv-for-anki/8-class.csv", sep="\t", index=None)
-df_9.to_csv("csv-for-anki/9-class.csv", sep="\t", index=None)
-df_10.to_csv("csv-for-anki/10-class.csv", sep="\t", index=None)
-df_11.to_csv("csv-for-anki/11-class.csv", sep="\t", index=None)
-df_12.to_csv("csv-for-anki/12-class.csv", sep="\t", index=None)
-df_13.to_csv("csv-for-anki/13-class.csv", sep="\t", index=None)
-df_14.to_csv("csv-for-anki/14-class.csv", sep="\t", index=None)
+df_0.to_csv("../csv-for-anki/classes/0-class-anki.csv", sep="\t", index=None)
+df_1.to_csv("../csv-for-anki/classes/1-class-anki.csv", sep="\t", index=None)
+df_2.to_csv("../csv-for-anki/classes/2-class-anki.csv", sep="\t", index=None)
+df_3.to_csv("../csv-for-anki/classes/3-class-anki.csv", sep="\t", index=None)
+df_4.to_csv("../csv-for-anki/classes/4-class-anki.csv", sep="\t", index=None)
+df_5.to_csv("../csv-for-anki/classes/5-class-anki.csv", sep="\t", index=None)
+df_6.to_csv("../csv-for-anki/classes/6-class-anki.csv", sep="\t", index=None)
+df_7.to_csv("../csv-for-anki/classes/7-class-anki.csv", sep="\t", index=None)
+df_8.to_csv("../csv-for-anki/classes/8-class-anki.csv", sep="\t", index=None)
+df_9.to_csv("../csv-for-anki/classes/9-class-anki.csv", sep="\t", index=None)
+df_10.to_csv("../csv-for-anki/classes/10-class-anki.csv", sep="\t", index=None)
+df_11.to_csv("../csv-for-anki/classes/11-class-anki.csv", sep="\t", index=None)
+df_12.to_csv("../csv-for-anki/classes/12-class-anki.csv", sep="\t", index=None)
+df_13.to_csv("../csv-for-anki/classes/13-class-anki.csv", sep="\t", index=None)
+df_14.to_csv("../csv-for-anki/classes/14-class-anki.csv", sep="\t", index=None)
 
 # combine classes
 # df_comb = pd.concat([df_1, df_2])

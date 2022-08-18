@@ -3,6 +3,7 @@ output-replaced/
 pics/
 pāli-course/
 csv-for-anki/
+csv-for-pic/
 csv-all-pos/
 csv-for-classes/
 grammar-csv/
@@ -16,5 +17,5 @@ __pycache__/wordtree.cpython-310.pyc
 .~lock.frequent-words.ods#
 absent-nid.csv
 test*
-
+test.txt
 .~lock*#

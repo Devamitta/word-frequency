@@ -1,23 +1,266 @@
-{'vadeyya': 703, 'vadesi': 222, 'vadeti': 155, 'vadeyyuṃ': 109, 'vadehi': 73, 'vadeyyaṃ': 55, 'vadetha': 37, 'vadeyyāsi': 21, 'vade': 16, 'vadema': 11, 'vadeyyātha': 10, 'vademase': 8, 'vadeyyāma': 4, 'vadetu': 2, 'vadessāmi': 2, 'vademi': 1}
-{'bhāveti': 887, 'bhāveyyāsi': 48, 'bhāvemi': 34, 'bhāvehi': 35, 'bhāveyya': 29, 'bhāvessanti': 28, 'bhāvessati': 28, 'bhāvetha': 27, 'bhāvesi': 16, 'bhāventi': 15, 'bhāvessasi': 11, 'bhāveyyaṃ': 8, 'bhāvetu': 4, 'bhāventaṃ': 2, 'bhāvessāma': 1, 'bhāve': 1}
-{'deseti': 414, 'desessāmi': 257, 'desetu': 100, 'desenti': 72, 'desemi': 47, 'deseyyaṃ': 51, 'desesi': 36, 'desessanti': 47, 'deseyya': 24, 'desetha': 14, 'desema': 14, 'desentaṃ': 11, 'desassu': 5, 'deseyyuṃ': 5, 'desessati': 4, 'desessāma': 3, 'desessatha': 3, 'dese': 3, 'desessasi': 1}
-{'deti': 367, 'dehi': 121, 'denti': 95, 'detha': 111, 'demi': 16, 'dentu': 13, 'desi': 5, 'dema': 7, 'deyyaṃ': 3, 'dissasi': 2, 'dessanti': 1}
-{'dhāreti': 159, 'dhāretu': 133, 'dhāremi': 74, 'dhāreyya': 72, 'dhārenti': 31, 'dhārehi': 53, 'dhāresi': 27, 'dhāretha': 37, 'dhārema': 20, 'dhāreyyātha': 30, 'dhāreyyāma': 7, 'dhāreyyāsi': 11, 'dhāressanti': 52, 'dhāressatha': 5, 'dhāre': 5, 'dhāressasi': 2, 'dhārissanti': 1, 'dhāressati': 1, 'dhāreyyuṃ': 1, 'dhārentaṃ': 1, 'dhāressāma': 15}
-{'paññapenti': 331, 'paññapeti': 108, 'paññapemi': 30, 'paññapesi': 25, 'paññapessanti': 19, 'paññapeyya': 15, 'paññapehi': 20, 'paññapessāmi': 17, 'paññapema': 10, 'paññapeyyaṃ': 2, 'paññapessāma': 2, 'paññapetha': 12, 'paññapessati': 2, 'paññapentu': 2}
-{'samādapeti': 346, 'samādapesi': 54, 'samādapenti': 9, 'samādapeyya': 8, 'samādapessanti': 6, 'samādapemi': 4, 'samādapeyyuṃ': 2, 'samādapentaṃ': 1}
-{'vipācenti': 373, 'vipāceti': 37}
-{'samenti': 219, 'sameti': 91, 'samessanti': 16, 'same': 8, 'samessati': 8, 'samehi': 6, 'samissāmi': 1, 'samemi': 1, 'sametu': 1}
-{'paṭisaṃvedeti': 223, 'paṭisaṃvedenti': 59, 'paṭisaṃvedemi': 7, 'paṭisaṃvedesi': 5, 'paṭisaṃvedissati': 4, 'paṭisaṃvedeyyaṃ': 3, 'paṭisaṃvedeyya': 1, 'paṭisaṃvedema': 1, 'paṭisaṃvedissasi': 1, 'paṭisaṃvedissanti': 27}
-{'upeti': 206, 'upenti': 68, 'upetaṃ': 10, 'upetha': 5, 'upemi': 5, 'upetu': 6, 'upema': 2, 'upehi': 2, 'upesi': 2, 'upessaṃ': 1, 'upeyyāsi': 1, 'upeyya': 4}
-{'kappeti': 126, 'kappenti': 52, 'kappesi': 25, 'kappeyya': 21, 'kappemi': 17, 'kappessasi': 8, 'kappe': 8, 'kappeyyāma': 5, 'kappessanti': 4, 'kappessatha': 3, 'kappeyyuṃ': 2, 'kappeyyaṃ': 2, 'kappeyyāsi': 2, 'kappissanti': 2, 'kappehi': 1, 'kappessāma': 1, 'kappema': 1, 'kappetha': 4}
-{'ārocesi': 128, 'āroceti': 43, 'ārocenti': 24, 'āroceyya': 12, 'āroceyyaṃ': 9, 'ārocehi': 11, 'āroceyyāma': 7, 'ārocessāma': 9, 'ārocessanti': 3, 'āroceyyāsi': 12, 'ārocemi': 3, 'āroceyyātha': 3, 'ārocessatha': 1, 'ārocessati': 5, 'ārocessaṃ': 1, 'ārocema': 4, 'āroceyyuṃ': 1, 'āroceyyāmi': 1, 'ārocessāmi': 4, 'ārocetu': 2}
-{'ceteti': 227, 'cetessasi': 9, 'cete': 5, 'ceteyyaṃ': 4, 'cetemi': 2, 'ceteyyuṃ': 2, 'cetehi': 2, 'cetessanti': 1, 'cetesi': 1}
-{'gameti': 59, 'gamissāmi': 65, 'gamissanti': 27, 'gamissasi': 29, 'gamissati': 19, 'gamenti': 16, 'gamissāma': 32, 'gamemi': 1}
-{'paripūreti': 120, 'paripūrenti': 104, 'paripūressāmi': 10, 'paripūreyya': 6, 'paripūrissanti': 2, 'paripūressati': 1, 'paripūrehi': 1, 'paripūressanti': 3}
-{'viññāpeti': 134, 'viññāpeyya': 15, 'viññāpenti': 9, 'viññāpessanti': 7, 'viññāpema': 4, 'viññāpessati': 3, 'viññāpetha': 2, 'viññāpessatha': 2, 'viññāpessasi': 1}
-{'adhivāsesi': 63, 'adhivāsetu': 49, 'adhivāseti': 42, 'adhivāsentu': 5, 'adhivāseyya': 5, 'adhivāsehi': 4, 'adhivāsenti': 4, 'adhivāsentaṃ': 1}
-{'janeti': 123, 'janehi': 14, 'jane': 8, 'janeyya': 8, 'janessati': 4, 'janesi': 1, 'janeyyuṃ': 1, 'janetha': 1}
-{'vedeti': 137, 'vede': 6, 'vedesi': 3, 'vedehi': 2, 'vedetu': 1, 'vedemi': 1, 'vedissāma': 4}
-{'pavedeti': 50, 'pavedesi': 51, 'pavedemi': 26, 'pavedenti': 9, 'pavedeyyuṃ': 3, 'pavedessati': 1, 'pavedeyyāsi': 1, 'pavedetha': 1, 'pavedema': 2}
-{'seti': 76, 'senti': 16, 'sesi': 9, 'setaṃ': 8, 'sassu': 8, 'sehi': 7, 'setu': 4, 'seyya': 2, 'semi': 2, 'sessaṃ': 1}
-{'vuṭṭhāpeti': 70, 'vuṭṭhāpeyya': 22, 'vuṭṭhāpessanti': 16, 'vuṭṭhāpenti': 15, 'vuṭṭhāpessati': 7, 'vuṭṭhāpessāmi': 2, 'vuṭṭhāpesi': 1}
+<div style='font-size: 60%;'><I> {{#Tags}} #{{Tags}}   {{/Tags}}{{SBS_index}}</I></div>
+
+<div id=front><div style='font-size: 60%;'><I> {{#fin}}[{{fin}}] {{/fin}} </I></div></div>
+
+<script>
+var frontElement = document.getElementById("front");
+if (!frontElement.textContent.toLowerCase().includes('n')) {
+    frontElement.textContent = '';
+}
+</script>
+
+{{#SBS_chapter1}}
+<div class=smallclass><i>{{SBS_chapter1}}{{#SBS_pali_chant1}}; {{SBS_pali_chant1}}{{/SBS_pali_chant1}}{{#SBS_eng_chant1}}; {{SBS_eng_chant1}}{{/SBS_eng_chant1}} </i>
+</div>
+
+{{/SBS_chapter1}}
+
+<div style='font-size: 90%;'><I>{{sutta1}}</I></div>
+
+
+<div style='font-size: 75%;'><i>{{source1}}</i></div>
+
+<div>{{sentence1}}</div>
+
+{{#source2}} 
+<br>
+ {{/source2}}
+
+{{#SBS_chapter2}}
+<div class=smallclass><i>{{SBS_chapter2}}{{#SBS_pali_chant2}}; {{SBS_pali_chant2}}{{/SBS_pali_chant2}}{{#SBS_eng_chant2}}; {{SBS_eng_chant2}}{{/SBS_eng_chant2}} </i>
+</div>
+
+{{/SBS_chapter2}}
+
+<div style='font-size: 90%;'><I>{{sutta2}}</I></div>
+
+
+<div style='font-size: 75%;
+ '><i>{{source2}}</i></div>
+
+<div>{{sentence2}}</div>
+
+<div style='font-size: 80%;'><I>{{#ex}}<b> class {{ex}}{{/ex}}</b></I></div>
+{{#SBS_chapter3}}
+<hr id=answer>
+
+{{/SBS_chapter3}}
+
+{{#SBS_chapter3}}
+<div class=smallclass><i>{{SBS_chapter3}}{{#SBS_pali_chant3}}; {{SBS_pali_chant3}}{{/SBS_pali_chant3}}{{#SBS_eng_chant3}}; {{SBS_eng_chant3}}{{/SBS_eng_chant3}}</i>
+</div>
+
+{{/SBS_chapter3}}
+<div class=myclass>
+<I>{{sutta3}}</I></div>
+
+
+<div class=myclass><i>{{source3}}</i></div>
+
+<div>{{sentence3}}</div>
+<hr id=answer>
+
+<div><b>{{pali}}</b></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{{FrontSide}}
+
+<hr id=answer>
+
+<div>{{audio}}</div>
+
+<div><i>{{marks}}</i></div>
+
+{{#marks}} <div class=brclass><br></div> {{/marks}}
+
+<div class=myclass>
+{{constr}}
+{{#base}}
+<br>
+{{base}}
+{{/base}}
+</div>
+
+<div class=brclass><br></div>
+
+<div>
+<i>{{pos}}{{#gram}}, {{gram}}{{/gram}}{{#derived}}, from  {{derived}}{{/derived}}{{#neg}}, {{neg}}{{/neg}}{{#verb}}, {{verb}}{{/verb}}{{#trans}}, {{trans}}{{/trans}}{{#case}} ({{case}}){{/case}}</i></div>
+
+
+
+<div style='font-size: 75%;'>
+{{pattern}}; {{stem}}
+</div>
+
+
+
+
+<div class=brclass><br></div>
+
+<div>
+<b>
+{{eng}} 
+</b>
+</div>
+<div class=brclass><br></div>
+<div>
+
+{{#SBSmeaning}} 
+<div style='font-size: 8px;
+color: grey; '>=====================================</div>
+
+<i>SBS: <i><b>{{SBSmeaning}}</b>
+</div>
+
+<div class=brclass><br></div>
+{{/SBSmeaning}} 
+
+<div>
+{{native}}
+</div>
+
+<div class=brclass><br></div>
+
+<div class=myclass>
+ {{root}}
+</div>
+
+<div class=brclass><br></div>
+
+<div style='font-size: 90%;'>
+{{#sk}} <i>Sk:</I> {{/sk}}{{sk}}
+</div>
+
+<div style='font-size: 90%;'> 
+{{#skroot}} <i>Sk:</I> {{/skroot}} {{skroot}}
+</div>
+
+<div class=brclass><br></div>
+{{#notes}}
+<div class=smallclass> <i>{{comment}}</I></div>
+<div class=brclass><br></div>
+<div class=smallclass> <i>{{notes}}</I></div>
+ {{/notes}}
+{{#var}}
+<div class=brclass><br></div>
+<div class=smallclass>   <i>Var:</I>
+ {{var}}</div>
+ {{/var}}
+
+<div>{{picture}}</div>
+<br>
+<div style='font-size: 75%; text-align: right;'>{{feedback}}</div>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card {
+ 	font-family: sans serif;
+ 	font-size: 20px;
+ 	text-align: center;
+ 	vertical-align: top;
+ 	word-wrap: break-word;
+}
+
+.myclass {
+ 	font-weight: normal;
+ 	color: #996c29;
+}
+
+.brclass {
+  line-height: 0.3;
+	font-weight: normal;
+}
+
+.smallclass {
+	font-size: 75%;
+	line-height: 110%;
+ 	font-weight: normal;
+}
+
+b {
+ 	color: #493414;
+  font-size: 105%;
+}
+
+.nightMode.card {
+ 	font-family: sans serif;
+ 	font-size: 20px;
+ 	text-align: center;
+ 	vertical-align: top;
+ 	word-wrap: break-word;
+}
+
+.nightMode .myclass {
+ 	color: #F1C40F;
+  font-weight: normal;
+}
+
+.nightMode b {
+ 	color: #F9E79F;
+ font-size: 105%;
+
+.link {
+    color: black;
+}
+
+img {width: auto;height: auto; max-width: 400px; max-height: 400px;}
