@@ -8,19 +8,25 @@ from natsort import index_natsorted
 df = pd.read_csv("../spreadsheets/dps-full.csv", sep="\t", dtype= str)
 df.fillna("", inplace=True)
 
-# change Meaning in native language
-test2 = df['Pāli1'] != ""
-filter = test2
-df.loc[filter, ['Meaning in native language']] = ""
-
 # filter all classes words
 # test3 = df['class'] != ""
 # filter = test3
 # df = df.loc[filter]
 
+
+
 # adding feedback
 df.reset_index(drop=True, inplace=True)
-df['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSc0KxEDyN5G2Mqr4t3AvDpXxSOIbIBi0GrZsAGhDB207sjLow/viewform?usp=pp_url&entry.438735500=""" + df.Pāli1 + """&entry.644913945=Anki Deck Vocab Beginner Pāli Course">Fix it here</a>."""
+df['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSc0KxEDyN5G2Mqr4t3AvDpXxSOIbIBi0GrZsAGhDB207sjLow/viewform?usp=pp_url&entry.438735500=""" + df['Pāli1'] + """&entry.644913945=Anki Deck Vocab Beginner Pāli Course">Fix it here</a>."""
+
+df_anki = df.drop(['class', 'count'], axis=1)
+
+df_anki.to_csv("../csv-for-anki/dps-feedback.csv", sep="\t", index=None)
+
+# change Meaning in native language
+test2 = df['Pāli1'] != ""
+filter = test2
+df.loc[filter, ['Meaning in native language']] = ""
 
 # choosing order of columns
 # df = df[['Pāli1', 'POS', 'Grammar', 'Derived from', 'Neg', 'Verb', 'Trans', 'Case', 'Meaning IN CONTEXT', 'Meaning in native language', 'Pāli Root', 'Base', 'Construction', 'Sanskrit', 'Sk Root', 'Variant', 'Commentary', 'Notes', 'Source1', 'Sutta1', 'Example1', 'Source 2', 'Sutta2', 'Example 2', 'Pali chant 2', 'English chant 2', 'Chapter 2', 'Source 3', 'Sutta 3', 'Example 3', 'Pali chant 3', 'English chant 3', 'Chapter 3', 'Stem', 'Pattern', 'Test', 'ex', 'class', 'count', 'audio', 'Feedback']]
@@ -377,12 +383,6 @@ df_all = df_all.drop(['count', 'class'], axis=1)
 
 df_all.to_csv("../csv-for-anki/classes/all-class.csv", sep="\t", index=None)
 
-
-
-df.sort_values(by=['class', 'Pattern'], inplace=True, key=lambda x: np.argsort(index_natsorted(df['class'])))
-
-# df.sort_values(by='class', inplace=True, key=lambda x: np.argsort(index_natsorted(df['class'])))
-
 # make words for class 2
 
 options = ['1', '2']
@@ -444,8 +444,6 @@ df_words_cl6 = df_words_cl6[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', '
 df_words_cl6 = df_words_cl6.sort_values(by=['class', 'Pattern'])
 
 df_words_cl6.to_csv("csv-for-pic/vocab-class6.csv", sep="\t", index=None)
-
-
 
 # remove column count from df
 
