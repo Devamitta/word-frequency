@@ -874,8 +874,53 @@ df_ptp = df.loc[filter]
 
 df_ptp[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/ptp.csv", sep="\t", index=None)
 
+# extra words for class 3
+test1 = df_orig['Grammar'] == "3"
+df_extra3 = df_orig.loc[filter]
 
+# extra words for class 4
+test1 = df_orig['Grammar'] == "4"
+df_extra4 = df_orig.loc[filter]
 
+# extra words for class 5
+test1 = df_orig['Grammar'] == "5"
+df_extra5 = df_orig.loc[filter]
+
+# extra words for class 6
+test1 = df_orig['Grammar'] == "6"
+df_extra6 = df_orig.loc[filter]
+
+# extra words for class 7
+test1 = df_orig['Grammar'] == "7"
+df_extra7 = df_orig.loc[filter]
+
+# extra words for class 8
+test1 = df_orig['Grammar'] == "8"
+df_extra8 = df_orig.loc[filter]
+
+# extra words for class 9
+test1 = df_orig['Grammar'] == "9"
+df_extra9 = df_orig.loc[filter]
+
+# extra words for class 10
+test1 = df_orig['Grammar'] == "10"
+df_extra10 = df_orig.loc[filter]
+
+# extra words for class 11
+test1 = df_orig['Grammar'] == "11"
+df_extra11 = df_orig.loc[filter]
+
+# extra words for class 12
+test1 = df_orig['Grammar'] == "12"
+df_extra12 = df_orig.loc[filter]
+
+# extra words for class 13
+test1 = df_orig['Grammar'] == "13"
+df_extra13 = df_orig.loc[filter]
+
+# extra words for class 14
+test1 = df_orig['Grammar'] == "14"
+df_extra14 = df_orig.loc[filter]
 
 # save summary csv
 df_summary = pd.concat([df_a_masc, df_ati_pr, df_eti_pr, df_aati_pr, df_oti_pr, df_be_pr, df_i_masc, df_i_aor, df_be_aor, df_esi_aor, df_pers_pron, df_fut, df_ii_masc, df_u_masc, df_ar_masc, df_ant, df_uu_masc, df_time, df_ar2_masc, df_neg, df_with])
@@ -891,84 +936,84 @@ df_comb_2 = df_comb_2[['Pāli1', 'POS', 'Pattern', 'class', 'count']]
 df_comb_2.to_csv("csv-for-classes/class-2.csv", sep="\t", index=None)
 
 # save comp for 3 class
-df_comb_3 = pd.concat([df_pr_3, df_imp_3])
+df_comb_3 = pd.concat([df_pr_3, df_imp_3, df_extra3])
 df_comb_3.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_comb_3['count'])))
 df_comb_3['class'] = "3"
 df_comb_3 = df_comb_3[['Pāli1', 'POS', 'Pattern', 'class', 'count']]
 df_comb_3.to_csv("csv-for-classes/class-3.csv", sep="\t", index=None)
 
 # save comp for 4 class
-df_comb_4 = pd.concat([df_pr_4, df_imp_4, df_be_pr, df_i_masc, df_i_aor, df_be_aor, df_esi_aor, df_aasi_aor])
+df_comb_4 = pd.concat([df_pr_4, df_imp_4, df_be_pr, df_i_masc, df_i_aor, df_be_aor, df_esi_aor, df_aasi_aor, df_extra4])
 df_comb_4.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_comb_4['count'])))
 df_comb_4['class'] = "4"
 df_comb_4 = df_comb_4[['Pāli1', 'POS', 'Pattern', 'class', 'count']]
 df_comb_4.to_csv("csv-for-classes/class-4.csv", sep="\t", index=None)
 
 # save comp for 5 class
-df_comb_5 = pd.concat([df_pers_pron, df_fut, df_ii_masc, df_neg, df_neg_5, df_with])
+df_comb_5 = pd.concat([df_pers_pron, df_fut, df_ii_masc, df_neg, df_neg_5, df_with, df_extra5])
 df_comb_5.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_comb_5['count'])))
 df_comb_5['class'] = "5"
 df_comb_5 = df_comb_5[['Pāli1', 'POS', 'Pattern', 'class', 'count']]
 df_comb_5.to_csv("csv-for-classes/class-5.csv", sep="\t", index=None)
 
 # save comp for 6 class
-df_comb_6 = pd.concat([df_u_masc, df_ar_masc, df_ar2_masc, df_ant, df_uu_masc, df_time])
+df_comb_6 = pd.concat([df_u_masc, df_ar_masc, df_ar2_masc, df_ant, df_uu_masc, df_time, df_extra6])
 df_comb_6.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_comb_6['count'])))
 df_comb_6['class'] = "6"
 df_comb_6 = df_comb_6[['Pāli1', 'POS', 'Pattern', 'class', 'count']]
 df_comb_6.to_csv("csv-for-classes/class-6.csv", sep="\t", index=None)
 
 # save comp for 7 class
-df_comb_7 = pd.concat([df_aa_fem, df_opt, df_opt_be])
+df_comb_7 = pd.concat([df_aa_fem, df_opt, df_opt_be, df_extra7])
 df_comb_7.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_comb_7['count'])))
 df_comb_7['class'] = "7"
 df_comb_7 = df_comb_7[['Pāli1', 'POS', 'Pattern', 'class', 'count']]
 df_comb_7.to_csv("csv-for-classes/class-7.csv", sep="\t", index=None)
 
 # save comp for 8 class
-df_comb_8 = pd.concat([df_ger, df_abs, df_i_fem, df_ii_fem, df_u_fem, df_ar_fem, df_place])
+df_comb_8 = pd.concat([df_ger, df_abs, df_i_fem, df_ii_fem, df_u_fem, df_ar_fem, df_place, df_extra8])
 df_comb_8.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_comb_8['count'])))
 df_comb_8['class'] = "8"
 df_comb_8 = df_comb_8[['Pāli1', 'POS', 'Pattern', 'class', 'count']]
 df_comb_8.to_csv("csv-for-classes/class-8.csv", sep="\t", index=None)
 
 # save comp for 9 class
-df_comb_9 = pd.concat([df_a_nt, df_i_nt, df_u_nt, df_inf, df_plus_inf, df_inf_kam, df_dat, df_until, df_interr])
+df_comb_9 = pd.concat([df_a_nt, df_i_nt, df_u_nt, df_inf, df_plus_inf, df_inf_kam, df_dat, df_until, df_interr, df_extra9])
 df_comb_9.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_comb_9['count'])))
 df_comb_9['class'] = "9"
 df_comb_9 = df_comb_9[['Pāli1', 'POS', 'Pattern', 'class', 'count']]
 df_comb_9.to_csv("csv-for-classes/class-9.csv", sep="\t", index=None)
 
 # save comp for 10 class
-df_comb_10 = pd.concat([df_anta_prp, df_enta_prp, df_mana_prp, df_onta_prp, df_ana_prp, df_def, df_pron])
+df_comb_10 = pd.concat([df_anta_prp, df_enta_prp, df_mana_prp, df_onta_prp, df_ana_prp, df_def, df_pron, df_extra10])
 df_comb_10.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_comb_10['count'])))
 df_comb_10['class'] = "10"
 df_comb_10 = df_comb_10[['Pāli1', 'POS', 'Pattern', 'class', 'count']]
 df_comb_10.to_csv("csv-for-classes/class-10.csv", sep="\t", index=None)
 
 # save comp for 11 class
-df_comb_11 = pd.concat([df_pp, df_adj, df_abl])
+df_comb_11 = pd.concat([df_pp, df_adj, df_abl, df_extra11])
 df_comb_11.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_comb_11['count'])))
 df_comb_11['class'] = "11"
 df_comb_11 = df_comb_11[['Pāli1', 'POS', 'Pattern', 'class', 'count']]
 df_comb_11.to_csv("csv-for-classes/class-11.csv", sep="\t", index=None)
 
 # save comp for 12 class
-df_comb_12 = pd.concat([df_card, df_ordin, df_money])
+df_comb_12 = pd.concat([df_card, df_ordin, df_money, df_extra12])
 df_comb_12.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_comb_12['count'])))
 df_comb_12['class'] = "12"
 df_comb_12 = df_comb_12[['Pāli1', 'POS', 'Pattern', 'class', 'count']]
 df_comb_12.to_csv("csv-for-classes/class-12.csv", sep="\t", index=None)
 
 # save comp for 13 class
-df_comb_13 = pd.concat([df_adv, df_pass])
+df_comb_13 = pd.concat([df_adv, df_pass, df_extra13])
 df_comb_13.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_comb_13['count'])))
 df_comb_13['class'] = "13"
 df_comb_13 = df_comb_13[['Pāli1', 'POS', 'Pattern', 'class', 'count']]
 df_comb_13.to_csv("csv-for-classes/class-13.csv", sep="\t", index=None)
 
 # save comp for 14 class
-df_comb_14 = pd.concat([df_caus, df_caus_pass_pr, df_caus_pass_prp, df_pass_prp, df_ptp])
+df_comb_14 = pd.concat([df_caus, df_caus_pass_pr, df_caus_pass_prp, df_pass_prp, df_ptp, df_extra14])
 df_comb_14.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_comb_14['count'])))
 df_comb_14['class'] = "14"
 df_comb_14 = df_comb_14[['Pāli1', 'POS', 'Pattern', 'class', 'count']]
