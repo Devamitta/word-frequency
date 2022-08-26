@@ -16,7 +16,7 @@ df.fillna("", inplace=True)
 
 
 # adding feedback
-df.reset_index(drop=True, inplace=True)
+# df.reset_index(drop=True, inplace=True)
 df['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSc0KxEDyN5G2Mqr4t3AvDpXxSOIbIBi0GrZsAGhDB207sjLow/viewform?usp=pp_url&entry.438735500=""" + df['Pāli1'] + """&entry.644913945=Anki Deck Vocab Beginner Pāli Course">Fix it here</a>."""
 
 df_anki = df.drop(['class', 'count'], axis=1)
@@ -29,10 +29,10 @@ filter = test2
 df.loc[filter, ['Meaning in native language']] = ""
 
 # choosing order of columns
-# df = df[['Pāli1', 'POS', 'Grammar', 'Derived from', 'Neg', 'Verb', 'Trans', 'Case', 'Meaning IN CONTEXT', 'Meaning in native language', 'Pāli Root', 'Base', 'Construction', 'Sanskrit', 'Sk Root', 'Variant', 'Commentary', 'Notes', 'Source1', 'Sutta1', 'Example1', 'Source 2', 'Sutta2', 'Example 2', 'Pali chant 2', 'English chant 2', 'Chapter 2', 'Source 3', 'Sutta 3', 'Example 3', 'Pali chant 3', 'English chant 3', 'Chapter 3', 'Stem', 'Pattern', 'Test', 'ex', 'class', 'count', 'audio', 'Feedback']]
+# df = df[['Pāli1', 'POS', 'Grammar', 'Derived from', 'Neg', 'Verb', 'Trans', 'Case', 'Meaning IN CONTEXT', 'Meaning in native language', 'Pāli Root', 'Base', 'Construction', 'Sanskrit', 'Sk Root', 'Variant', 'Commentary', 'Notes', 'Source1', 'Sutta1', 'Example1', 'Source2', 'Sutta2', 'Example2', 'Pali chant 2', 'English chant 2', 'Chapter 2', 'Source3', 'Sutta3', 'Example3', 'Pali chant 3', 'English chant 3', 'Chapter 3', 'Stem', 'Pattern', 'Test', 'ex', 'class', 'count', 'audio', 'Feedback']]
 
 # sort by
-df.sort_values(by='Example 3', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df['Example 3'])))
+df.sort_values(by='Example3', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df['Example3'])))
 
 # save csv
 # df.to_csv("csv-for-examples/all.csv", sep="\t", index=None)
@@ -348,9 +348,9 @@ test2 = df['Pattern'] == ""
 filter = test2
 df.loc[filter, ['Pattern']] = df['POS']
 
-# df = df[['Pāli1', 'POS', 'Grammar', 'Derived from', 'Neg', 'Verb', 'Trans', 'Case', 'Meaning IN CONTEXT', 'Meaning in native language', 'Pāli Root', 'Base', 'Construction', 'Sanskrit', 'Sk Root', 'Variant', 'Commentary', 'Notes', 'Source1', 'Sutta1', 'Example1', 'Source 2', 'Sutta2', 'Example 2', 'Pali chant 2', 'English chant 2', 'Chapter 2', 'Source 3', 'Sutta 3', 'Example 3', 'Pali chant 3', 'English chant 3', 'Chapter 3', 'Pattern', 'Test', 'ex', 'count',  'audio','Feedback']]
+# df = df[['Pāli1', 'POS', 'Grammar', 'Derived from', 'Neg', 'Verb', 'Trans', 'Case', 'Meaning IN CONTEXT', 'Meaning in native language', 'Pāli Root', 'Base', 'Construction', 'Sanskrit', 'Sk Root', 'Variant', 'Commentary', 'Notes', 'Source1', 'Sutta1', 'Example1', 'Source2', 'Sutta2', 'Example2', 'Pali chant 2', 'English chant 2', 'Chapter 2', 'Source3', 'Sutta3', 'Example3', 'Pali chant 3', 'English chant 3', 'Chapter 3', 'Pattern', 'Test', 'ex', 'count',  'audio','Feedback']]
 
-df.sort_values(by='Example 3', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df['Example 3'])))
+df.sort_values(by='Example3', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df['Example3'])))
 
 # replace ṁ
 # df['Pāli1'] = df['Pāli1'].str.replace('ṃ', 'ṁ')
@@ -367,7 +367,7 @@ df.sort_values(by='Example 3', inplace=True, ascending = False, key=lambda x: np
 # df['Sutta2'] = df['Sutta2'].str.replace('ṃ', 'ṁ')
 # df['Example2'] = df['Example2'].str.replace('ṃ', 'ṁ')
 # df['Sutta3'] = df['Sutta3'].str.replace('ṃ', 'ṁ')
-# df['Example 3'] = df['Example 3'].str.replace('ṃ', 'ṁ')
+# df['Example3'] = df['Example3'].str.replace('ṃ', 'ṁ')
 # df['Pali chant 3'] = df['Pali chant 3'].str.replace('ṃ', 'ṁ')
 # df['Sutta 4'] = df['Sutta 4'].str.replace('ṃ', 'ṁ')
 # df['Example 4'] = df['Example 4'].str.replace('ṃ', 'ṁ')
@@ -447,7 +447,7 @@ df_words_cl6.to_csv("csv-for-pic/vocab-class6.csv", sep="\t", index=None)
 
 # remove column count from df
 
-df.sort_values(by='Example 3', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df['Example 3'])))
+df.sort_values(by='Example3', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df['Example3'])))
 
 df = df.drop(['count', 'class'], axis=1)
 
@@ -529,6 +529,8 @@ df_14 = df.loc[filter]
 # save classes csv
 
 df_0.to_csv("../csv-for-anki/classes/0-class-anki.csv", sep="\t", index=None)
+# df_1 = df_1.drop(['Feedback'], axis=1)
+# df_1['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSc0KxEDyN5G2Mqr4t3AvDpXxSOIbIBi0GrZsAGhDB207sjLow/viewform?usp=pp_url&amp;entry.644913945=Anki Deck Vocab Beginner Pāli Course">Fix it here</a>."""
 df_1.to_csv("../csv-for-anki/classes/1-class-anki.csv", sep="\t", index=None)
 df_2.to_csv("../csv-for-anki/classes/2-class-anki.csv", sep="\t", index=None)
 df_3.to_csv("../csv-for-anki/classes/3-class-anki.csv", sep="\t", index=None)

@@ -309,8 +309,9 @@ test17 = df_orig['Grammar'] != "caus, pass"
 test18 = df_orig['Grammar'] != "irreg"
 test19 = df_orig['Grammar'] != "neg"
 test20 = df_orig['Grammar'] != "reflx"
+test21 = df_orig['Grammar'] != "be"
 
-filter = test1 & test15 & test16 & test17 & test18 & test19 & test20
+filter = test1 & test15 & test16 & test17 & test18 & test19 & test20 & test21
 df_imp = df_orig.loc[filter]
 
 test2 = df_imp['Pāli Root'].str.contains('1|4|5|6|8')
@@ -319,6 +320,11 @@ filter = test2
 df_imp_3 = df_imp.loc[filter]
 filter = test3
 df_imp_4 = df_imp.loc[filter]
+
+test1 = df_orig['POS'] == "imp"
+test21 = df_orig['Grammar'] == "be"
+filter = test1 & test21
+df_be_imp = df_orig.loc[filter]
 
 # save imp csv
 df_imp[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/imp.csv", sep="\t", index=None)
@@ -876,50 +882,62 @@ df_ptp[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/ptp.csv", sep=
 
 # extra words for class 3
 test1 = df_orig['Grammar'] == "3"
+filter = test1
 df_extra3 = df_orig.loc[filter]
 
 # extra words for class 4
 test1 = df_orig['Grammar'] == "4"
+filter = test1
 df_extra4 = df_orig.loc[filter]
 
 # extra words for class 5
 test1 = df_orig['Grammar'] == "5"
+filter = test1
 df_extra5 = df_orig.loc[filter]
 
 # extra words for class 6
 test1 = df_orig['Grammar'] == "6"
+filter = test1
 df_extra6 = df_orig.loc[filter]
 
 # extra words for class 7
 test1 = df_orig['Grammar'] == "7"
+filter = test1
 df_extra7 = df_orig.loc[filter]
 
 # extra words for class 8
 test1 = df_orig['Grammar'] == "8"
+filter = test1
 df_extra8 = df_orig.loc[filter]
 
 # extra words for class 9
 test1 = df_orig['Grammar'] == "9"
+filter = test1
 df_extra9 = df_orig.loc[filter]
 
 # extra words for class 10
 test1 = df_orig['Grammar'] == "10"
+filter = test1
 df_extra10 = df_orig.loc[filter]
 
 # extra words for class 11
 test1 = df_orig['Grammar'] == "11"
+filter = test1
 df_extra11 = df_orig.loc[filter]
 
 # extra words for class 12
 test1 = df_orig['Grammar'] == "12"
+filter = test1
 df_extra12 = df_orig.loc[filter]
 
 # extra words for class 13
 test1 = df_orig['Grammar'] == "13"
+filter = test1
 df_extra13 = df_orig.loc[filter]
 
 # extra words for class 14
 test1 = df_orig['Grammar'] == "14"
+filter = test1
 df_extra14 = df_orig.loc[filter]
 
 # save summary csv
@@ -943,7 +961,7 @@ df_comb_3 = df_comb_3[['Pāli1', 'POS', 'Pattern', 'class', 'count']]
 df_comb_3.to_csv("csv-for-classes/class-3.csv", sep="\t", index=None)
 
 # save comp for 4 class
-df_comb_4 = pd.concat([df_pr_4, df_imp_4, df_be_pr, df_i_masc, df_i_aor, df_be_aor, df_esi_aor, df_aasi_aor, df_extra4])
+df_comb_4 = pd.concat([df_pr_4, df_imp_4, df_be_imp, df_be_pr, df_i_masc, df_i_aor, df_be_aor, df_esi_aor, df_aasi_aor, df_extra4])
 df_comb_4.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_comb_4['count'])))
 df_comb_4['class'] = "4"
 df_comb_4 = df_comb_4[['Pāli1', 'POS', 'Pattern', 'class', 'count']]
