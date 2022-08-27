@@ -59,4 +59,17 @@ df_aor['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs.goog
 
 df_aor.to_csv("../csv-for-anki/grammar/df_aor.csv", sep="\t", index=None)
 
+# df_i_masc
+df_i_masc = pd.read_excel("pāli-course/grammar.xlsx", sheet_name="i_masc", dtype=str)
+df_i_masc.fillna("", inplace=True)
+
+df_i_masc.reset_index(drop=True, inplace=True)
+df_i_masc['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSc0KxEDyN5G2Mqr4t3AvDpXxSOIbIBi0GrZsAGhDB207sjLow/viewform?usp=pp_url&entry.438735500=""" + df_i_masc['pali'] + """&entry.644913945=Anki Deck Grammar Beginner Pāli Course">Fix it here</a>."""
+
+df_i_masc.to_csv("../csv-for-anki/grammar/df_i_masc.csv", sep="\t", index=None)
+
+df_4_class = pd.concat([df_i_masc, df_aor, df_pr_aor_be])
+
+df_4_class.to_csv("../csv-for-anki/grammar/4_class.csv", sep="\t", index=None)
+
 
