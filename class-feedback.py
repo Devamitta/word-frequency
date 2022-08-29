@@ -14,6 +14,8 @@ df.fillna("", inplace=True)
 # df = df.loc[filter]
 
 
+# Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSc0KxEDyN5G2Mqr4t3AvDpXxSOIbIBi0GrZsAGhDB207sjLow/viewform?usp=pp_url&entry.644913945=Anki Deck Vocab Beginner Pāli Course">Fix it here</a>.
+
 
 # adding feedback
 # df.reset_index(drop=True, inplace=True)
@@ -375,9 +377,13 @@ df.sort_values(by='Example3', inplace=True, ascending = False, key=lambda x: np.
 # df['Pattern'] = df['Pattern'].str.replace('ṃ', 'ṁ')
 
 # filter all classes words
-test15 = df['ex'] != ""
-filter = test15
-df_all = df.loc[filter]
+# test15 = df['ex'] != ""
+# filter = test15
+# df_all = df.loc[filter]
+
+options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14']
+
+df_all = df.loc[df['ex'].isin(options)] 
 
 df_all = df_all.drop(['count', 'class'], axis=1)
 
@@ -395,7 +401,7 @@ df_words_cl2 = df_words_cl2[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', '
 
 df_words_cl2 = df_words_cl2.sort_values(by=['class', 'Pattern'])
 
-df_words_cl2.to_csv("csv-for-pic/vocab-class2.csv", sep="\t", index=None)
+df_words_cl2.to_csv("vocab/vocab-class2.csv", sep="\t", index=None)
 
 # make words for class 3
 
@@ -407,7 +413,7 @@ df_words_cl3 = df_words_cl3[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', '
 
 df_words_cl3 = df_words_cl3.sort_values(by=['class', 'Pattern'])
 
-df_words_cl3.to_csv("csv-for-pic/vocab-class3.csv", sep="\t", index=None)
+df_words_cl3.to_csv("vocab/vocab-class3.csv", sep="\t", index=None)
 
 # make words for class 4
 
@@ -419,7 +425,7 @@ df_words_cl4 = df_words_cl4[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', '
 
 df_words_cl4 = df_words_cl4.sort_values(by=['class', 'Pattern'])
 
-df_words_cl4.to_csv("csv-for-pic/vocab-class4.csv", sep="\t", index=None)
+df_words_cl4.to_csv("vocab/vocab-class4.csv", sep="\t", index=None)
 
 # make words for class 5
 
@@ -431,7 +437,7 @@ df_words_cl5 = df_words_cl5[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', '
 
 df_words_cl5 = df_words_cl5.sort_values(by=['class', 'Pattern'])
 
-df_words_cl5.to_csv("csv-for-pic/vocab-class5.csv", sep="\t", index=None)
+df_words_cl5.to_csv("vocab/vocab-class5.csv", sep="\t", index=None)
 
 # make words for class 6
 
@@ -443,7 +449,290 @@ df_words_cl6 = df_words_cl6[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', '
 
 df_words_cl6 = df_words_cl6.sort_values(by=['class', 'Pattern'])
 
-df_words_cl6.to_csv("csv-for-pic/vocab-class6.csv", sep="\t", index=None)
+df_words_cl6.to_csv("vocab/vocab-class6.csv", sep="\t", index=None)
+
+# make words for class 7
+
+options = ['1', '2', '3', '4', '5', '6', '7']
+
+df_words_cl7 = df.loc[df['class'].isin(options) & df['ex'].isin(options)] 
+
+df_words_cl7 = df_words_cl7[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl7 = df_words_cl7.sort_values(by=['class', 'Pattern'])
+
+df_words_cl7.to_csv("vocab/vocab-class7.csv", sep="\t", index=None)
+
+# make words for class 8
+
+options = ['1', '2', '3', '4', '5', '6', '7', '8']
+
+df_words_cl8 = df.loc[df['class'].isin(options) & df['ex'].isin(options)] 
+
+df_words_cl8 = df_words_cl8[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl8 = df_words_cl8.sort_values(by=['class', 'Pattern'])
+
+df_words_cl8.to_csv("vocab/vocab-class8.csv", sep="\t", index=None)
+
+# make words for class 9
+
+options = ['1', '2', '3', '4', '5', '6', '7', '8', '9']
+
+df_words_cl9 = df.loc[df['class'].isin(options) & df['ex'].isin(options)] 
+
+df_words_cl9 = df_words_cl9[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl9 = df_words_cl9.sort_values(by=['class', 'Pattern'])
+
+df_words_cl9.to_csv("vocab/vocab-class9.csv", sep="\t", index=None)
+
+# make words for class 10
+
+options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10']
+
+df_words_cl10 = df.loc[df['class'].isin(options) & df['ex'].isin(options)] 
+
+df_words_cl10 = df_words_cl10[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl10 = df_words_cl10.sort_values(by=['class', 'Pattern'])
+
+df_words_cl10.to_csv("vocab/vocab-class10.csv", sep="\t", index=None)
+
+# make words for class 11
+
+options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11']
+
+df_words_cl11 = df.loc[df['class'].isin(options) & df['ex'].isin(options)] 
+
+df_words_cl11 = df_words_cl11[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl11 = df_words_cl11.sort_values(by=['class', 'Pattern'])
+
+df_words_cl11.to_csv("vocab/vocab-class11.csv", sep="\t", index=None)
+
+# make words for class 12
+
+options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12']
+
+df_words_cl12 = df.loc[df['class'].isin(options) & df['ex'].isin(options)] 
+
+df_words_cl12 = df_words_cl12[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl12 = df_words_cl12.sort_values(by=['class', 'Pattern'])
+
+df_words_cl12.to_csv("vocab/vocab-class12.csv", sep="\t", index=None)
+
+# make words for class 13
+
+options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13']
+
+df_words_cl13 = df.loc[df['class'].isin(options) & df['ex'].isin(options)] 
+
+df_words_cl13 = df_words_cl13[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl13 = df_words_cl13.sort_values(by=['class', 'Pattern'])
+
+df_words_cl13.to_csv("vocab/vocab-class13.csv", sep="\t", index=None)
+
+# make words for class 14
+
+options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14']
+
+df_words_cl14 = df.loc[df['class'].isin(options) & df['ex'].isin(options)] 
+
+df_words_cl14 = df_words_cl14[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl14 = df_words_cl14.sort_values(by=['class', 'Pattern'])
+
+df_words_cl14.to_csv("vocab/vocab-class14.csv", sep="\t", index=None)
+
+
+
+
+# make words for pict class 2
+
+options = ['1', '2']
+
+cl = ['2']
+
+df_words_cl2 = df.loc[df['class'].isin(options) & df['ex'].isin(cl)] 
+
+df_words_cl2 = df_words_cl2[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl2 = df_words_cl2.sort_values(by=['class', 'Pattern'])
+
+df_words_cl2.to_csv("csv-for-pic/class2.csv", sep="\t", index=None)
+
+# make words for pict class 3
+
+options = ['1', '2', '3']
+
+cl = ['3']
+
+df_words_cl3 = df.loc[df['class'].isin(options) & df['ex'].isin(cl)] 
+
+df_words_cl3 = df_words_cl3[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl3 = df_words_cl3.sort_values(by=['class', 'Pattern'])
+
+df_words_cl3.to_csv("csv-for-pic/class3.csv", sep="\t", index=None)
+
+# make words for pict class 4
+
+options = ['1', '2', '3', '4']
+
+cl = ['4']
+
+df_words_cl4 = df.loc[df['class'].isin(options) & df['ex'].isin(cl)] 
+
+df_words_cl4 = df_words_cl4[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl4 = df_words_cl4.sort_values(by=['class', 'Pattern'])
+
+df_words_cl4.to_csv("csv-for-pic/class4.csv", sep="\t", index=None)
+
+# make words for pict class 5
+
+options = ['1', '2', '3', '4', '5']
+
+cl = ['5']
+
+df_words_cl5 = df.loc[df['class'].isin(options) & df['ex'].isin(cl)] 
+
+df_words_cl5 = df_words_cl5[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl5 = df_words_cl5.sort_values(by=['class', 'Pattern'])
+
+df_words_cl5.to_csv("csv-for-pic/class5.csv", sep="\t", index=None)
+
+# make words for pict class 6
+
+options = ['1', '2', '3', '4', '5', '6']
+
+cl = ['6']
+
+df_words_cl6 = df.loc[df['class'].isin(options) & df['ex'].isin(cl)] 
+
+df_words_cl6 = df_words_cl6[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl6 = df_words_cl6.sort_values(by=['class', 'Pattern'])
+
+df_words_cl6.to_csv("csv-for-pic/class6.csv", sep="\t", index=None)
+
+# make words for pict class 7
+
+options = ['1', '2', '3', '4', '5', '6', '7']
+
+cl = ['7']
+
+df_words_cl7 = df.loc[df['class'].isin(options) & df['ex'].isin(cl)] 
+
+df_words_cl7 = df_words_cl7[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl7 = df_words_cl7.sort_values(by=['class', 'Pattern'])
+
+df_words_cl7.to_csv("csv-for-pic/class7.csv", sep="\t", index=None)
+
+# make words for pict class 8
+
+options = ['1', '2', '3', '4', '5', '6', '7', '8']
+
+cl = ['8']
+
+df_words_cl8 = df.loc[df['class'].isin(options) & df['ex'].isin(cl)] 
+
+df_words_cl8 = df_words_cl8[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl8 = df_words_cl8.sort_values(by=['class', 'Pattern'])
+
+df_words_cl8.to_csv("csv-for-pic/class8.csv", sep="\t", index=None)
+
+# make words for pict class 9
+
+options = ['1', '2', '3', '4', '5', '6', '7', '8', '9']
+
+cl = ['9']
+
+df_words_cl9 = df.loc[df['class'].isin(options) & df['ex'].isin(cl)] 
+
+df_words_cl9 = df_words_cl9[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl9 = df_words_cl9.sort_values(by=['class', 'Pattern'])
+
+df_words_cl9.to_csv("csv-for-pic/class9.csv", sep="\t", index=None)
+
+# make words for pict class 10
+
+options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10']
+
+cl = ['10']
+
+df_words_cl10 = df.loc[df['class'].isin(options) & df['ex'].isin(cl)] 
+
+df_words_cl10 = df_words_cl10[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl10 = df_words_cl10.sort_values(by=['class', 'Pattern'])
+
+df_words_cl10.to_csv("csv-for-pic/class10.csv", sep="\t", index=None)
+
+# make words for pict class 11
+
+options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11']
+
+cl = ['11']
+
+df_words_cl11 = df.loc[df['class'].isin(options) & df['ex'].isin(cl)] 
+
+df_words_cl11 = df_words_cl11[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl11 = df_words_cl11.sort_values(by=['class', 'Pattern'])
+
+df_words_cl11.to_csv("csv-for-pic/class11.csv", sep="\t", index=None)
+
+# make words for pict class 12
+
+options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12']
+
+cl = ['12']
+
+df_words_cl12 = df.loc[df['class'].isin(options) & df['ex'].isin(cl)] 
+
+df_words_cl12 = df_words_cl12[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl12 = df_words_cl12.sort_values(by=['class', 'Pattern'])
+
+df_words_cl12.to_csv("csv-for-pic/class12.csv", sep="\t", index=None)
+
+# make words for pict class 13
+
+options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13']
+
+cl = ['13']
+
+df_words_cl13 = df.loc[df['class'].isin(options) & df['ex'].isin(cl)] 
+
+df_words_cl13 = df_words_cl13[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl13 = df_words_cl13.sort_values(by=['class', 'Pattern'])
+
+df_words_cl13.to_csv("csv-for-pic/class13.csv", sep="\t", index=None)
+
+# make words for pict class 14
+
+options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14']
+
+cl = ['14']
+
+df_words_cl14 = df.loc[df['class'].isin(options) & df['ex'].isin(cl)] 
+
+df_words_cl14 = df_words_cl14[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl14 = df_words_cl14.sort_values(by=['class', 'Pattern'])
+
+df_words_cl14.to_csv("csv-for-pic/class14.csv", sep="\t", index=None)
+
+
 
 # remove column count from df
 
@@ -532,6 +821,7 @@ df_0.to_csv("../csv-for-anki/classes/0-class-anki.csv", sep="\t", index=None)
 # df_1 = df_1.drop(['Feedback'], axis=1)
 # df_1['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSc0KxEDyN5G2Mqr4t3AvDpXxSOIbIBi0GrZsAGhDB207sjLow/viewform?usp=pp_url&amp;entry.644913945=Anki Deck Vocab Beginner Pāli Course">Fix it here</a>."""
 df_1.to_csv("../csv-for-anki/classes/1-class-anki.csv", sep="\t", index=None)
+df_1.to_csv("csv-for-pic/class1.csv", sep="\t", index=None)
 df_2.to_csv("../csv-for-anki/classes/2-class-anki.csv", sep="\t", index=None)
 df_3.to_csv("../csv-for-anki/classes/3-class-anki.csv", sep="\t", index=None)
 df_4.to_csv("../csv-for-anki/classes/4-class-anki.csv", sep="\t", index=None)

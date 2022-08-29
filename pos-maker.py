@@ -221,16 +221,17 @@ test16 = df['Grammar'] != "caus"
 test17 = df['Grammar'] != "caus, pass"
 test18 = df['Grammar'] != "irreg"
 test19 = df['Grammar'] != "neg"
+test20 = df['Grammar'] != "4"
 
-filter = test1 & test2 & test15 & test16 & test17 & test18 & test19
+filter = test1 & test2 & test15 & test16 & test17 & test18 & test19 & test20
 df_ati_pr = df.loc[filter]
 # df_ati_pr = df_ati_pr.head(100)
 
-filter = test1 & test3 & test15 & test16 & test17 & test18 & test19
+filter = test1 & test3 & test15 & test16 & test17 & test18 & test19 & test20
 df_eti_pr = df.loc[filter]
 
 test10 = df['Pattern'] == "eti pr 2"
-filter = test1 & test10
+filter = test1 & test10 & test20
 df_eti_2_pr = df.loc[filter]
 
 df_eti_pr = pd.concat([df_eti_pr, df_eti_2_pr])
@@ -238,13 +239,13 @@ df_eti_pr.sort_values(by='count', inplace=True, ascending = False, key=lambda x:
 
 
 
-filter = test1 & test4 & test15 & test16 & test17 & test18 & test19
+filter = test1 & test4 & test15 & test16 & test17 & test18 & test19 & test20
 df_aati_pr = df.loc[filter]
 
-filter = test1 & test5 & test15 & test16 & test17 & test18 & test19
+filter = test1 & test5 & test15 & test16 & test17 & test18 & test19 & test20
 df_oti_pr = df.loc[filter]
 
-filter = test1 & test6 & test15 & test16 & test17 & test18 & test19
+filter = test1 & test6 & test15 & test16 & test17 & test18 & test19 & test20
 df_karoti = df.loc[filter]
 
 df_oti_pr = pd.concat([df_oti_pr, df_karoti])
@@ -260,10 +261,10 @@ df_pr_3 = df_pr.loc[filter]
 filter = test3
 df_pr_4 = df_pr.loc[filter]
 
-filter = test1 & test7
+filter = test1 & test7 & test20
 df_hoti = df.loc[filter]
 
-filter = test1 & test8
+filter = test1 & test8 & test20
 df_atthi = df.loc[filter]
 
 df_be_pr = pd.concat([df_hoti, df_atthi])
@@ -310,8 +311,9 @@ test18 = df_orig['Grammar'] != "irreg"
 test19 = df_orig['Grammar'] != "neg"
 test20 = df_orig['Grammar'] != "reflx"
 test21 = df_orig['Grammar'] != "be"
+test22 = df_orig['Grammar'] != "4"
 
-filter = test1 & test15 & test16 & test17 & test18 & test19 & test20 & test21
+filter = test1 & test15 & test16 & test17 & test18 & test19 & test20 & test21 & test22
 df_imp = df_orig.loc[filter]
 
 test2 = df_imp['Pāli Root'].str.contains('1|4|5|6|8')
@@ -323,7 +325,7 @@ df_imp_4 = df_imp.loc[filter]
 
 test1 = df_orig['POS'] == "imp"
 test21 = df_orig['Grammar'] == "be"
-filter = test1 & test21
+filter = test1 & test21 & test22
 df_be_imp = df_orig.loc[filter]
 
 # save imp csv
@@ -346,21 +348,22 @@ test15 = df['Grammar'] != "pass"
 test16 = df['Grammar'] != "caus"
 test17 = df['Grammar'] != "irreg"
 test18 = df['Grammar'] != "neg"
+test19 = df['Grammar'] != "4"
 
-filter = test1 & test2 & test15 & test16 & test17 & test18
+filter = test1 & test2 & test15 & test16 & test17 & test18 & test19
 df_i_aor = df.loc[filter]
 # df_esi_aor = df_esi_aor.head(8)
 
-filter = test1 & test9 & test15 & test16 & test17 & test18
+filter = test1 & test9 & test15 & test16 & test17 & test18 & test19
 df_hari = df.loc[filter]
 
 df_i_aor = pd.concat([df_i_aor, df_hari])
 df_i_aor.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_i_aor['count'])))
 
-filter = test1 & test7 & test15 & test16 & test17
+filter = test1 & test7 & test15 & test16 & test17 & test19
 df_ahosi = df.loc[filter]
 
-filter = test1 & test8 & test15 & test16 & test17
+filter = test1 & test8 & test15 & test16 & test17 & test19
 df_aasi = df.loc[filter]
 
 df_be_aor = pd.concat([df_aasi, df_ahosi])
@@ -374,12 +377,13 @@ test15 = df_orig['Grammar'] != "pass"
 test16 = df_orig['Grammar'] != "caus"
 test17 = df_orig['Grammar'] != "irreg"
 test18 = df_orig['Grammar'] != "neg"
+test19 = df_orig['Grammar'] != "4"
 
-filter = test1 & test3 & test15 & test16 & test17 & test18
+filter = test1 & test3 & test15 & test16 & test17 & test18 & test19
 df_esi_aor = df_orig.loc[filter]
 df_esi_aor = df_esi_aor.head(6)
 
-filter = test1 & test4 & test15 & test16 & test17 & test18
+filter = test1 & test4 & test15 & test16 & test17 & test18 & test19
 df_aasi_aor = df_orig.loc[filter]
 df_aasi_aor = df_aasi_aor.head(10)
 

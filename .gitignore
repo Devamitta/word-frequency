@@ -1,10 +1,11 @@
 output/
 output-replaced/
-pics/
+pics-wordtree/
 pāli-course/
 csv-for-anki/
 csv-for-pic/
 csv-all-pos/
+vocab/
 csv-for-classes/
 grammar-csv/
 frequent-words-dps/
