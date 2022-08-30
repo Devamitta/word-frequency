@@ -3,6 +3,7 @@ import numpy as np
 from pandas_ods_reader import read_ods 
 import re
 import sys
+import csv
 
 # df_abbr
 df_abbr = pd.read_excel("pāli-course/grammar.xlsx", sheet_name="abbr", dtype=str)
@@ -17,6 +18,9 @@ filter = test1
 df_abbr_class = df_abbr.loc[filter]
 
 df_abbr_class = df_abbr_class[['abbrev', 'meaning', 'pāli', 'example', 'explanation']]
+
+df_abbr_class.to_excel("../csv-for-anki/abbr.xlsx", index=None)
+
 # adding feedback
 df_abbr_class.reset_index(drop=True, inplace=True)
 df_abbr_class['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSc0KxEDyN5G2Mqr4t3AvDpXxSOIbIBi0GrZsAGhDB207sjLow/viewform?usp=pp_url&entry.438735500=""" + df_abbr_class['abbrev'] + """&entry.644913945=Anki Deck Grammar Beginner Pāli Course">Fix it here</a>."""
@@ -70,6 +74,6 @@ df_i_masc.to_csv("../csv-for-anki/grammar/df_i_masc.csv", sep="\t", index=None)
 
 df_4_class = pd.concat([df_i_masc, df_aor, df_pr_aor_be])
 
-df_4_class.to_csv("../csv-for-anki/grammar/4_class.csv", sep="\t", index=None)
+df_4_class.to_csv("../csv-for-anki/grammar/gr_4_class.csv", sep="\t", index=None)
 
 

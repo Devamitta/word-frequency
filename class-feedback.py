@@ -3,6 +3,7 @@ import random
 import numpy as np
 from pandas_ods_reader import read_ods 
 import re
+import csv
 from natsort import index_natsorted
 
 df = pd.read_csv("../spreadsheets/dps-full.csv", sep="\t", dtype= str)
@@ -401,7 +402,8 @@ df_words_cl2 = df_words_cl2[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', '
 
 df_words_cl2 = df_words_cl2.sort_values(by=['class', 'Pattern'])
 
-df_words_cl2.to_csv("vocab/vocab-class2.csv", sep="\t", index=None)
+# df_words_cl2.to_csv("vocab/vocab-class2.csv", sep="\t", index=None)
+df_words_cl2.to_excel("vocab/vocab-class2.xlsx", index=None)
 
 # make words for class 3
 
@@ -413,7 +415,8 @@ df_words_cl3 = df_words_cl3[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', '
 
 df_words_cl3 = df_words_cl3.sort_values(by=['class', 'Pattern'])
 
-df_words_cl3.to_csv("vocab/vocab-class3.csv", sep="\t", index=None)
+# df_words_cl3.to_csv("vocab/vocab-class3.csv", sep="\t", index=None)
+df_words_cl3.to_excel("vocab/vocab-class3.xlsx", index=None)
 
 # make words for class 4
 
@@ -425,7 +428,8 @@ df_words_cl4 = df_words_cl4[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', '
 
 df_words_cl4 = df_words_cl4.sort_values(by=['class', 'Pattern'])
 
-df_words_cl4.to_csv("vocab/vocab-class4.csv", sep="\t", index=None)
+# df_words_cl4.to_csv("vocab/vocab-class4.csv", sep="\t", index=None)
+df_words_cl4.to_excel("vocab/vocab-class4.xlsx", index=None)
 
 # make words for class 5
 
@@ -437,7 +441,8 @@ df_words_cl5 = df_words_cl5[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', '
 
 df_words_cl5 = df_words_cl5.sort_values(by=['class', 'Pattern'])
 
-df_words_cl5.to_csv("vocab/vocab-class5.csv", sep="\t", index=None)
+# df_words_cl5.to_csv("vocab/vocab-class5.csv", sep="\t", index=None)
+df_words_cl5.to_excel("vocab/vocab-class5.xlsx", index=None)
 
 # make words for class 6
 
@@ -449,7 +454,8 @@ df_words_cl6 = df_words_cl6[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', '
 
 df_words_cl6 = df_words_cl6.sort_values(by=['class', 'Pattern'])
 
-df_words_cl6.to_csv("vocab/vocab-class6.csv", sep="\t", index=None)
+# df_words_cl6.to_csv("vocab/vocab-class6.csv", sep="\t", index=None)
+df_words_cl6.to_excel("vocab/vocab-class6.xlsx", index=None)
 
 # make words for class 7
 
@@ -461,7 +467,8 @@ df_words_cl7 = df_words_cl7[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', '
 
 df_words_cl7 = df_words_cl7.sort_values(by=['class', 'Pattern'])
 
-df_words_cl7.to_csv("vocab/vocab-class7.csv", sep="\t", index=None)
+# df_words_cl7.to_csv("vocab/vocab-class7.csv", sep="\t", index=None)
+df_words_cl7.to_excel("vocab/vocab-class7.xlsx", index=None)
 
 # make words for class 8
 
@@ -473,7 +480,8 @@ df_words_cl8 = df_words_cl8[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', '
 
 df_words_cl8 = df_words_cl8.sort_values(by=['class', 'Pattern'])
 
-df_words_cl8.to_csv("vocab/vocab-class8.csv", sep="\t", index=None)
+# df_words_cl8.to_csv("vocab/vocab-class8.csv", sep="\t", index=None)
+df_words_cl8.to_excel("vocab/vocab-class8.xlsx", index=None)
 
 # make words for class 9
 
@@ -485,7 +493,8 @@ df_words_cl9 = df_words_cl9[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', '
 
 df_words_cl9 = df_words_cl9.sort_values(by=['class', 'Pattern'])
 
-df_words_cl9.to_csv("vocab/vocab-class9.csv", sep="\t", index=None)
+# df_words_cl9.to_csv("vocab/vocab-class9.csv", sep="\t", index=None)
+df_words_cl9.to_excel("vocab/vocab-class9.xlsx", index=None)
 
 # make words for class 10
 
@@ -497,7 +506,8 @@ df_words_cl10 = df_words_cl10[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern',
 
 df_words_cl10 = df_words_cl10.sort_values(by=['class', 'Pattern'])
 
-df_words_cl10.to_csv("vocab/vocab-class10.csv", sep="\t", index=None)
+# df_words_cl10.to_csv("vocab/vocab-class10.csv", sep="\t", index=None)
+df_words_cl10.to_excel("vocab/vocab-class10.xlsx", index=None)
 
 # make words for class 11
 
@@ -509,7 +519,8 @@ df_words_cl11 = df_words_cl11[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern',
 
 df_words_cl11 = df_words_cl11.sort_values(by=['class', 'Pattern'])
 
-df_words_cl11.to_csv("vocab/vocab-class11.csv", sep="\t", index=None)
+# df_words_cl11.to_csv("vocab/vocab-class11.csv", sep="\t", index=None)
+df_words_cl11.to_excel("vocab/vocab-class11.xlsx", index=None)
 
 # make words for class 12
 
@@ -521,7 +532,8 @@ df_words_cl12 = df_words_cl12[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern',
 
 df_words_cl12 = df_words_cl12.sort_values(by=['class', 'Pattern'])
 
-df_words_cl12.to_csv("vocab/vocab-class12.csv", sep="\t", index=None)
+# df_words_cl12.to_csv("vocab/vocab-class12.csv", sep="\t", index=None)
+df_words_cl12.to_excel("vocab/vocab-class12.xlsx", index=None)
 
 # make words for class 13
 
@@ -533,7 +545,8 @@ df_words_cl13 = df_words_cl13[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern',
 
 df_words_cl13 = df_words_cl13.sort_values(by=['class', 'Pattern'])
 
-df_words_cl13.to_csv("vocab/vocab-class13.csv", sep="\t", index=None)
+# df_words_cl13.to_csv("vocab/vocab-class13.csv", sep="\t", index=None)
+df_words_cl13.to_excel("vocab/vocab-class13.xlsx", index=None)
 
 # make words for class 14
 
@@ -545,7 +558,8 @@ df_words_cl14 = df_words_cl14[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern',
 
 df_words_cl14 = df_words_cl14.sort_values(by=['class', 'Pattern'])
 
-df_words_cl14.to_csv("vocab/vocab-class14.csv", sep="\t", index=None)
+# df_words_cl14.to_csv("vocab/vocab-class14.csv", sep="\t", index=None)
+df_words_cl14.to_excel("vocab/vocab-class14.xlsx", index=None)
 
 
 

@@ -349,21 +349,22 @@ test16 = df['Grammar'] != "caus"
 test17 = df['Grammar'] != "irreg"
 test18 = df['Grammar'] != "neg"
 test19 = df['Grammar'] != "4"
+test20 = df['Grammar'] != "5"
 
-filter = test1 & test2 & test15 & test16 & test17 & test18 & test19
+filter = test1 & test2 & test15 & test16 & test17 & test18 & test19 & test20
 df_i_aor = df.loc[filter]
 # df_esi_aor = df_esi_aor.head(8)
 
-filter = test1 & test9 & test15 & test16 & test17 & test18 & test19
+filter = test1 & test9 & test15 & test16 & test17 & test18 & test19 & test20
 df_hari = df.loc[filter]
 
 df_i_aor = pd.concat([df_i_aor, df_hari])
 df_i_aor.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_i_aor['count'])))
 
-filter = test1 & test7 & test15 & test16 & test17 & test19
+filter = test1 & test7 & test15 & test16 & test17 & test19 & test20
 df_ahosi = df.loc[filter]
 
-filter = test1 & test8 & test15 & test16 & test17 & test19
+filter = test1 & test8 & test15 & test16 & test17 & test19 & test20
 df_aasi = df.loc[filter]
 
 df_be_aor = pd.concat([df_aasi, df_ahosi])
@@ -378,12 +379,13 @@ test16 = df_orig['Grammar'] != "caus"
 test17 = df_orig['Grammar'] != "irreg"
 test18 = df_orig['Grammar'] != "neg"
 test19 = df_orig['Grammar'] != "4"
+test20 = df_orig['Grammar'] != "5"
 
-filter = test1 & test3 & test15 & test16 & test17 & test18 & test19
+filter = test1 & test3 & test15 & test16 & test17 & test18 & test19 & test20
 df_esi_aor = df_orig.loc[filter]
 df_esi_aor = df_esi_aor.head(6)
 
-filter = test1 & test4 & test15 & test16 & test17 & test18 & test19
+filter = test1 & test4 & test15 & test16 & test17 & test18 & test19 & test20
 df_aasi_aor = df_orig.loc[filter]
 df_aasi_aor = df_aasi_aor.head(10)
 
