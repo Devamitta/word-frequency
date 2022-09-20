@@ -116,16 +116,13 @@ df_a_masc.sort_values(by='count', inplace=True, ascending = False, key=lambda x:
 filter = test1 & test3 & test11
 df_i_masc = df.loc[filter]
 
-filter = test1 & test9
-df_ar2_masc = df.loc[filter]
-
-
 test1 = df_orig['POS'] == "masc"
 
 test4 = df_orig['Pattern'] == "ī masc"
 test5 = df_orig['Pattern'] == "u masc"
 test6 = df_orig['Pattern'] == "ar masc"
 test7 = df_orig['Pattern'] == "ū masc"
+test10 = df_orig['Pattern'] == "ar2 masc"
 
 filter = test1 & test4
 df_ii_masc = df_orig.loc[filter]
@@ -142,11 +139,14 @@ df_ii_masc.sort_values(by='count', inplace=True, ascending = False, key=lambda x
 
 filter = test1 & test5
 df_u_masc = df_orig.loc[filter]
-df_u_masc = df_u_masc.head(12)
+# df_u_masc = df_u_masc.head(12)
 
 filter = test1 & test6
 df_ar_masc = df_orig.loc[filter]
-df_ar_masc = df_ar_masc.head(20)
+# df_ar_masc = df_ar_masc.head(20)
+
+filter = test1 & test10
+df_ar2_masc = df_orig.loc[filter]
 
 filter = test1 & test7
 df_uu_masc = df_orig.loc[filter]
@@ -947,10 +947,10 @@ filter = test1
 df_extra14 = df_orig.loc[filter]
 
 # save summary csv
-df_summary = pd.concat([df_a_masc, df_ati_pr, df_eti_pr, df_aati_pr, df_oti_pr, df_be_pr, df_i_masc, df_i_aor, df_be_aor, df_esi_aor, df_pers_pron, df_fut, df_ii_masc, df_u_masc, df_ar_masc, df_ant, df_uu_masc, df_time, df_ar2_masc, df_neg, df_with])
-df_summary.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_summary['count'])))
+# df_summary = pd.concat([df_a_masc, df_ati_pr, df_eti_pr, df_aati_pr, df_oti_pr, df_be_pr, df_i_masc, df_i_aor, df_be_aor, df_esi_aor, df_pers_pron, df_fut, df_ii_masc, df_u_masc, df_ar_masc, df_ant, df_uu_masc, df_time, df_ar2_masc, df_neg, df_with])
+# df_summary.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_summary['count'])))
 
-df_summary = df_summary[['Pāli1', 'POS', 'Pattern', 'count']]
+# df_summary = df_summary[['Pāli1', 'POS', 'Pattern', 'count']]
 
 # save comp for 2 class
 df_comb_2 = pd.concat([df_a_masc])

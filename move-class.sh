@@ -16,9 +16,9 @@ cd "/home/deva/Downloads"
 
 mv -f "Exercises Beginner Pāli Course.docx" "/home/deva/filesrv1/share1/Sharing between users/13 For Pāli class/Exercises Beginner Pāli Course.docx"
 
-mv -f "SBS Beginner Pāli Course.docx.pdf" "/home/deva/filesrv1/share1/Sharing between users/13 For Pāli class/SBS Beginner Pāli Course.pdf"
+mv -f "SBS Beginner Pāli Course.pdf" "/home/deva/filesrv1/share1/Sharing between users/13 For Pāli class/SBS Beginner Pāli Course.pdf"
 
-mv -f "Key to Exercises Beginner Pāli Course.docx.pdf" "/home/deva/filesrv1/share1/Sharing between users/13 For Pāli class/Key to Exercises Beginner Pāli Course.pdf"
+mv -f "Key to Exercises Beginner Pāli Course.pdf" "/home/deva/filesrv1/share1/Sharing between users/13 For Pāli class/Key to Exercises Beginner Pāli Course.pdf"
 
 echo "all pdf and docx - done"
 
