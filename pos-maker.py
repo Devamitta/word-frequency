@@ -543,7 +543,7 @@ df_i_nt = df_orig.loc[filter]
 
 filter = test1 & test4
 df_u_nt = df_orig.loc[filter]
-df_u_nt = df_u_nt.head(10)
+# df_u_nt = df_u_nt.head(10)
 
 
 # save nt csv
@@ -565,7 +565,7 @@ test18 = df['Grammar'] != "neg"
 
 filter = test1 & test15 & test16
 df_inf = df_orig.loc[filter]
-df_inf = df_inf.head(20)
+df_inf = df_inf.head(40)
 
 # save inf csv
 df_inf[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/inf.csv", sep="\t", index=None)
@@ -679,11 +679,11 @@ test18 = df_orig['Grammar'] != "irreg"
 
 filter = test1 & test4 & test15 & test16 & test17 & test18
 df_enta_prp = df_orig.loc[filter]
-df_enta_prp = df_enta_prp.head(5)
+df_enta_prp = df_enta_prp.head(20)
 
 filter = test1 & test5 & test15 & test16 & test17 & test18
 df_onta_prp = df_orig.loc[filter]
-df_onta_prp = df_onta_prp.head(5)
+df_onta_prp = df_onta_prp.head(20)
 
 filter = test1 & test6 & test15 & test16 & test17 & test18
 df_ana_prp = df_orig.loc[filter]
@@ -747,10 +747,9 @@ df_adj = df.loc[filter]
 df_adj[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/adj.csv", sep="\t", index=None)
 
 # filter abl of separation
-test1 = df['Grammar'] == "abl"
-
+test1 = df_orig['Grammar'] == "abl"
 filter = test1
-df_abl = df.loc[filter]
+df_abl = df_orig.loc[filter]
 # df_abl = df_abl.head(150)
 
 df_abl[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/abl.csv", sep="\t", index=None)
@@ -886,6 +885,11 @@ df_ptp = df.loc[filter]
 
 df_ptp[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/ptp.csv", sep="\t", index=None)
 
+# extra words for class 2
+test1 = df_orig['Grammar'] == "2"
+filter = test1
+df_extra2 = df_orig.loc[filter]
+
 # extra words for class 3
 test1 = df_orig['Grammar'] == "3"
 filter = test1
@@ -953,7 +957,7 @@ df_extra14 = df_orig.loc[filter]
 # df_summary = df_summary[['Pāli1', 'POS', 'Pattern', 'count']]
 
 # save comp for 2 class
-df_comb_2 = pd.concat([df_a_masc])
+df_comb_2 = pd.concat([df_a_masc, df_extra2])
 df_comb_2.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_comb_2['count'])))
 df_comb_2['class'] = "2"
 df_comb_2 = df_comb_2[['Pāli1', 'POS', 'Pattern', 'class', 'count']]

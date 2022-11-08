@@ -5,18 +5,11 @@ from pandas_ods_reader import read_ods
 import re
 import csv
 from natsort import index_natsorted
+import random
+import markdown
 
-df = pd.read_csv("../spreadsheets/dps-full.csv", sep="\t", dtype= str)
+df = pd.read_csv("../spreadsheets/dps-test.csv", sep="\t", dtype= str)
 df.fillna("", inplace=True)
-
-# filter all classes words
-# test3 = df['class'] != ""
-# filter = test3
-# df = df.loc[filter]
-
-
-# Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSc0KxEDyN5G2Mqr4t3AvDpXxSOIbIBi0GrZsAGhDB207sjLow/viewform?usp=pp_url&entry.644913945=Anki Deck Vocab Beginner Pāli Course">Fix it here</a>.
-
 
 # adding feedback
 # df.reset_index(drop=True, inplace=True)
@@ -31,14 +24,8 @@ test2 = df['Pāli1'] != ""
 filter = test2
 df.loc[filter, ['Meaning in native language']] = ""
 
-# choosing order of columns
-# df = df[['Pāli1', 'POS', 'Grammar', 'Derived from', 'Neg', 'Verb', 'Trans', 'Case', 'Meaning IN CONTEXT', 'Meaning in native language', 'Pāli Root', 'Base', 'Construction', 'Sanskrit', 'Sk Root', 'Variant', 'Commentary', 'Notes', 'Source1', 'Sutta1', 'Example1', 'Source2', 'Sutta2', 'Example2', 'Pali chant 2', 'English chant 2', 'Chapter 2', 'Source3', 'Sutta3', 'Example3', 'Pali chant 3', 'English chant 3', 'Chapter 3', 'Stem', 'Pattern', 'Test', 'ex', 'class', 'count', 'audio', 'Feedback']]
-
 # sort by
 df.sort_values(by='Example3', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df['Example3'])))
-
-# save csv
-# df.to_csv("csv-for-examples/all.csv", sep="\t", index=None)
 
 # filter 0 classes words
 test2 = df['ex'] == "-"
@@ -67,7 +54,7 @@ df_2_cl_u = df_2_cl.drop(df_2_cl[logix].index)
 
 df_comb_2_f = pd.concat([df_comb_2, df_2_cl_u])
 
-print("2 done")
+# print("2 done")
 
 # filter 3
 test3 = df['class'] == "3"
@@ -87,7 +74,7 @@ df_3_cl_u = df_3_cl_comb.drop(df_3_cl_comb[logix].index)
 
 df_comb_3_f = pd.concat([df_comb_3, df_3_cl_u])
 
-print("3 done")
+# print("3 done")
 
 # filter 4
 test4 = df['class'] == "4"
@@ -107,7 +94,7 @@ df_4_cl_u = df_4_cl_comb.drop(df_4_cl_comb[logix].index)
 
 df_comb_4_f = pd.concat([df_comb_4, df_4_cl_u])
 
-print("4 done")
+# print("4 done")
 
 # filter 5
 test5 = df['class'] == "5"
@@ -127,7 +114,7 @@ df_5_cl_u = df_5_cl_comb.drop(df_5_cl_comb[logix].index)
 
 df_comb_5_f = pd.concat([df_comb_5, df_5_cl_u])
 
-print("5 done")
+# print("5 done")
 
 # filter 6
 test6 = df['class'] == "6"
@@ -147,7 +134,7 @@ df_6_cl_u = df_6_cl_comb.drop(df_6_cl_comb[logix].index)
 
 df_comb_6_f = pd.concat([df_comb_6, df_6_cl_u])
 
-print("6 done")
+# print("6 done")
 
 # filter 7
 test7 = df['class'] == "7"
@@ -167,7 +154,7 @@ df_7_cl_u = df_7_cl_comb.drop(df_7_cl_comb[logix].index)
 
 df_comb_7_f = pd.concat([df_comb_7, df_7_cl_u])
 
-print("7 done")
+# print("7 done")
 
 # filter 8
 test8 = df['class'] == "8"
@@ -187,7 +174,7 @@ df_8_cl_u = df_8_cl_comb.drop(df_8_cl_comb[logix].index)
 
 df_comb_8_f = pd.concat([df_comb_8, df_8_cl_u])
 
-print("8 done")
+# print("8 done")
 
 # filter 9
 test9 = df['class'] == "9"
@@ -207,7 +194,7 @@ df_9_cl_u = df_9_cl_comb.drop(df_9_cl_comb[logix].index)
 
 df_comb_9_f = pd.concat([df_comb_9, df_9_cl_u])
 
-print("9 done")
+# print("9 done")
 
 # filter 10
 test10 = df['class'] == "10"
@@ -227,7 +214,7 @@ df_10_cl_u = df_10_cl_comb.drop(df_10_cl_comb[logix].index)
 
 df_comb_10_f = pd.concat([df_comb_10, df_10_cl_u])
 
-print("10 done")
+# print("10 done")
 
 # filter 11
 test11 = df['class'] == "11"
@@ -247,7 +234,7 @@ df_11_cl_u = df_11_cl_comb.drop(df_11_cl_comb[logix].index)
 
 df_comb_11_f = pd.concat([df_comb_11, df_11_cl_u])
 
-print("11 done")
+# print("11 done")
 
 # filter 12
 test12 = df['class'] == "12"
@@ -267,7 +254,7 @@ df_12_cl_u = df_12_cl_comb.drop(df_12_cl_comb[logix].index)
 
 df_comb_12_f = pd.concat([df_comb_12, df_12_cl_u])
 
-print("12 done")
+# print("12 done")
 
 # filter 13
 test13 = df['class'] == "13"
@@ -287,7 +274,7 @@ df_13_cl_u = df_13_cl_comb.drop(df_13_cl_comb[logix].index)
 
 df_comb_13_f = pd.concat([df_comb_13, df_13_cl_u])
 
-print("13 done")
+# print("13 done")
 
 # filter 14
 test14 = df['class'] == "14"
@@ -307,7 +294,7 @@ df_14_cl_u = df_14_cl_comb.drop(df_14_cl_comb[logix].index)
 
 df_comb_14_f = pd.concat([df_comb_14, df_14_cl_u])
 
-print("14 done")
+# print("14 done")
 
 # save classes csv
 df_1.to_csv("csv-for-examples/1-class.csv", sep="\t", index=None)
@@ -327,21 +314,11 @@ df_comb_14_f.to_csv("csv-for-examples/14-class.csv", sep="\t", index=None)
 
 print("csv-for-examples saved")
 
-# # generate random number 2-210
-# ran = random.sample(range(2, 210), 2)
-# ran = str(ran[1])
-
-# # change Test
-# test2 = df['Pāli1'] != ""
-# filter = test2
-# df.loc[filter, ['Test']] = ran
-
-# print(f"test number : {ran}")
 
 # change Test
-test2 = df['Pāli1'] != ""
-filter = test2
-df.loc[filter, ['Test']] = ""
+# test2 = df['Pāli1'] != ""
+# filter = test2
+# df.loc[filter, ['Test']] = ""
 
 # replace all Pattern with '_'
 df['Pattern'] = df['Pattern'].str.replace(' ', '-')
@@ -831,7 +808,7 @@ df_14 = df.loc[filter]
 
 # save classes csv
 
-df_0.to_csv("../csv-for-anki/classes/0-class-anki.csv", sep="\t", index=None)
+# df_0.to_csv("../csv-for-anki/classes/0-class-anki.csv", sep="\t", index=None)
 # df_1 = df_1.drop(['Feedback'], axis=1)
 # df_1['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSc0KxEDyN5G2Mqr4t3AvDpXxSOIbIBi0GrZsAGhDB207sjLow/viewform?usp=pp_url&amp;entry.644913945=Anki Deck Vocab Beginner Pāli Course">Fix it here</a>."""
 df_1.to_csv("../csv-for-anki/classes/1-class-anki.csv", sep="\t", index=None)
