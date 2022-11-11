@@ -57,63 +57,52 @@ cp -f "/home/deva/Documents/dps/csv-for-anki/abbr.xlsx" "/home/deva/filesrv1/sha
 
 cp -f "/home/deva/Documents/dps/test.md" "/home/deva/Documents/sasanarakkha/study-tools/pali-class/class-test.md"
 
-# !clean folders before
+echo "making wordtree"
+
+cd "/home/deva/Documents/dps/word-frequency/"
+
+bash wordtree-for-all-class.sh
+
+echo "wordtree cleaning"
+
+cd "/home/deva/filesrv1/share1/Sharing between users/13 For Pāli class/pics-wordtree"
+
+find . -wholename './class1/*' | xargs rm -rf
+find . -wholename './class2/*' | xargs rm -rf
+find . -wholename './class3/*' | xargs rm -rf
+find . -wholename './class4/*' | xargs rm -rf
+find . -wholename './class5/*' | xargs rm -rf
+find . -wholename './class6/*' | xargs rm -rf
+find . -wholename './class7/*' | xargs rm -rf
+find . -wholename './class8/*' | xargs rm -rf
+find . -wholename './class9/*' | xargs rm -rf
+find . -wholename './class10/*' | xargs rm -rf
+find . -wholename './class11/*' | xargs rm -rf
+find . -wholename './class12/*' | xargs rm -rf
+find . -wholename './class13/*' | xargs rm -rf
+find . -wholename './class14/*' | xargs rm -rf
+
+cd "/home/deva/Documents/sasanarakkha/study-tools/pali-class/pics-wordtree"
+
+find . -wholename './class1/*' | xargs rm -rf
+find . -wholename './class2/*' | xargs rm -rf
+find . -wholename './class3/*' | xargs rm -rf
+find . -wholename './class4/*' | xargs rm -rf
+find . -wholename './class5/*' | xargs rm -rf
+find . -wholename './class6/*' | xargs rm -rf
+find . -wholename './class7/*' | xargs rm -rf
+find . -wholename './class8/*' | xargs rm -rf
+find . -wholename './class9/*' | xargs rm -rf
+find . -wholename './class10/*' | xargs rm -rf
+find . -wholename './class11/*' | xargs rm -rf
+find . -wholename './class12/*' | xargs rm -rf
+find . -wholename './class13/*' | xargs rm -rf
+find . -wholename './class14/*' | xargs rm -rf
 
 
-# cd "/home/deva/filesrv1/share1/Sharing between users/13 For Pāli class/"
+cp -rf "/home/deva/Documents/dps/word-frequency/pics-wordtree/wordtree" "/home/deva/filesrv1/share1/Sharing between users/13 For Pāli class/"
 
-# find . -wholename './class1/*' | xargs rm -rf
-# find . -wholename './class2/*' | xargs rm -rf
-# find . -wholename './class3/*' | xargs rm -rf
-# find . -wholename './class4/*' | xargs rm -rf
-# find . -wholename './class5/*' | xargs rm -rf
-# find . -wholename './class6/*' | xargs rm -rf
-# find . -wholename './class7/*' | xargs rm -rf
-# find . -wholename './class8/*' | xargs rm -rf
-# find . -wholename './class9/*' | xargs rm -rf
-# find . -wholename './class10/*' | xargs rm -rf
-# find . -wholename './class11/*' | xargs rm -rf
-# find . -wholename './class12/*' | xargs rm -rf
-# find . -wholename './class13/*' | xargs rm -rf
-# find . -wholename './class14/*' | xargs rm -rf
-
-# cd "/home/deva/Documents/sasanarakkha/study-tools/pali-class/"
-
-# find . -wholename './class1/*' | xargs rm -rf
-# find . -wholename './class2/*' | xargs rm -rf
-# find . -wholename './class3/*' | xargs rm -rf
-# find . -wholename './class4/*' | xargs rm -rf
-# find . -wholename './class5/*' | xargs rm -rf
-# find . -wholename './class6/*' | xargs rm -rf
-# find . -wholename './class7/*' | xargs rm -rf
-# find . -wholename './class8/*' | xargs rm -rf
-# find . -wholename './class9/*' | xargs rm -rf
-# find . -wholename './class10/*' | xargs rm -rf
-# find . -wholename './class11/*' | xargs rm -rf
-# find . -wholename './class12/*' | xargs rm -rf
-# find . -wholename './class13/*' | xargs rm -rf
-# find . -wholename './class14/*' | xargs rm -rf
-
-# cd "/home/deva/Documents/dps/word-frequency/pics-wordtree"
-
-# find . -wholename './class1/*.png' -exec mv {} ./wordtree/class1 \;
-# find . -wholename './class2/*.png' -exec mv {} ./wordtree/class2 \;
-# find . -wholename './class3/*.png' -exec mv {} ./wordtree/class3 \;
-# find . -wholename './class4/*.png' -exec mv {} ./wordtree/class4 \;
-# find . -wholename './class5/*.png' -exec mv {} ./wordtree/class5 \;
-# find . -wholename './class6/*.png' -exec mv {} ./wordtree/class6 \;
-# find . -wholename './class7/*.png' -exec mv {} ./wordtree/class7 \;
-# find . -wholename './class8/*.png' -exec mv {} ./wordtree/class8 \;
-# find . -wholename './class9/*.png' -exec mv {} ./wordtree/class9 \;
-# find . -wholename './class10/*.png' -exec mv {} ./wordtree/class10 \;
-# find . -wholename './class11/*.png' -exec mv {} ./wordtree/class11 \;
-# find . -wholename './class12/*.png' -exec mv {} ./wordtree/class12 \;
-# find . -wholename './class13/*.png' -exec mv {} ./wordtree/class13 \;
-# find . -wholename './class14/*.png' -exec mv {} ./wordtree/class14 \;
-
-cp -rf "/home/deva/Documents/dps/word-frequency/pics-wordtree" "/home/deva/filesrv1/share1/Sharing between users/13 For Pāli class/"
-
-cp -rf "/home/deva/Documents/dps/word-frequency/pics-wordtree" "/home/deva/Documents/sasanarakkha/study-tools/pali-class/"
+cp -rf "/home/deva/Documents/dps/word-frequency/pics-wordtree/wordtree" "/home/deva/Documents/sasanarakkha/study-tools/pali-class/"
 
 
 echo "all pics-wordtree - done"
