@@ -1,10 +1,8 @@
-cd "/home/deva/.local/bin/"
+cd "/home/deva/Documents/dps/scripts"
 
 bash push-sbs-pd.sh
 
-echo "sbs-pd on the sever - done"
-
-cp -f "/home/deva/Documents/dps/exporter/share/sbs-pd.zip" "/home/deva/Documents/sasanarakkha/study-tools/temp-push/sbs-pd.zip"
+bash push-ru.sh
 
 cp -f "/home/deva/Documents/Docs/SBS/analysis-of-sbs-pāli-english-recitations.pdf" "/home/deva/Documents/sasanarakkha/study-tools/temp-push/analysis-of-sbs-pali-english-recitations.pdf"
 
@@ -12,11 +10,9 @@ cp -f "/home/deva/Documents/Docs/SBS/analysis-of-sbs-pāli-english-recitations.p
 
 cd "/home/deva/Documents/sasanarakkha/study-tools"
 
-gh release upload --clobber 'artifacts-08.11.2022_14-30-08' temp-push/sbs-pd.zip
-
 gh release upload --clobber 'artifacts-08.11.2022_14-30-08' temp-push/analysis-of-sbs-pali-english-recitations.pdf
 
-echo "sbs-pd and analysis on the GitHub - done"
+echo "analysis on the GitHub - done"
 
 cd "/home/deva/Downloads"
 
