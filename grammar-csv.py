@@ -232,3 +232,71 @@ df_ar_fem['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs.g
 df_8_class = pd.concat([df_i_fem, df_u_fem, df_ar_fem])
 
 df_8_class.to_csv("../csv-for-anki/grammar/gr_8_class.csv", sep="\t", index=None)
+
+# df_a_nt
+df_a_nt = pd.read_excel("pāli-course/grammar.xlsx", sheet_name="a_nt", dtype=str)
+df_a_nt.fillna("", inplace=True)
+
+df_a_nt.reset_index(drop=True, inplace=True)
+df_a_nt['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSc0KxEDyN5G2Mqr4t3AvDpXxSOIbIBi0GrZsAGhDB207sjLow/viewform?usp=pp_url&entry.438735500=""" + df_a_nt['pali'] + """&entry.644913945=Anki Deck Grammar Beginner Pāli Course">Fix it here</a>."""
+
+# df_i_nt
+df_i_nt = pd.read_excel("pāli-course/grammar.xlsx", sheet_name="i_nt", dtype=str)
+df_i_nt.fillna("", inplace=True)
+
+df_i_nt.reset_index(drop=True, inplace=True)
+df_i_nt['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSc0KxEDyN5G2Mqr4t3AvDpXxSOIbIBi0GrZsAGhDB207sjLow/viewform?usp=pp_url&entry.438735500=""" + df_i_nt['pali'] + """&entry.644913945=Anki Deck Grammar Beginner Pāli Course">Fix it here</a>."""
+
+# df_u_nt
+df_u_nt = pd.read_excel("pāli-course/grammar.xlsx", sheet_name="u_nt", dtype=str)
+df_u_nt.fillna("", inplace=True)
+
+df_u_nt.reset_index(drop=True, inplace=True)
+df_u_nt['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSc0KxEDyN5G2Mqr4t3AvDpXxSOIbIBi0GrZsAGhDB207sjLow/viewform?usp=pp_url&entry.438735500=""" + df_u_nt['pali'] + """&entry.644913945=Anki Deck Grammar Beginner Pāli Course">Fix it here</a>."""
+
+# df_9_class
+
+df_9_class = pd.concat([df_a_nt, df_i_nt, df_u_nt])
+
+df_9_class.to_csv("../csv-for-anki/grammar/gr_9_class.csv", sep="\t", index=None)
+
+# df_ta_pron
+df_ta_pron = pd.read_excel("pāli-course/grammar.xlsx", sheet_name="ta_pron", dtype=str)
+df_ta_pron.fillna("", inplace=True)
+
+df_ta_pron.reset_index(drop=True, inplace=True)
+df_ta_pron['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSc0KxEDyN5G2Mqr4t3AvDpXxSOIbIBi0GrZsAGhDB207sjLow/viewform?usp=pp_url&entry.438735500=""" + df_ta_pron['pali'] + """&entry.644913945=Anki Deck Grammar Beginner Pāli Course">Fix it here</a>."""
+
+# df_ima_pron
+df_ima_pron = pd.read_excel("pāli-course/grammar.xlsx", sheet_name="ima_pron", dtype=str)
+df_ima_pron.fillna("", inplace=True)
+
+df_ima_pron.reset_index(drop=True, inplace=True)
+df_ima_pron['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSc0KxEDyN5G2Mqr4t3AvDpXxSOIbIBi0GrZsAGhDB207sjLow/viewform?usp=pp_url&entry.438735500=""" + df_ima_pron['pali'] + """&entry.644913945=Anki Deck Grammar Beginner Pāli Course">Fix it here</a>."""
+
+# df_a_pron
+df_a_pron = pd.read_excel("pāli-course/grammar.xlsx", sheet_name="a_pron", dtype=str)
+df_a_pron.fillna("", inplace=True)
+
+df_a_pron.reset_index(drop=True, inplace=True)
+df_a_pron['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSc0KxEDyN5G2Mqr4t3AvDpXxSOIbIBi0GrZsAGhDB207sjLow/viewform?usp=pp_url&entry.438735500=""" + df_a_pron['pali'] + """&entry.644913945=Anki Deck Grammar Beginner Pāli Course">Fix it here</a>."""
+
+# df_mana_prp
+df_mana_prp = pd.read_excel("pāli-course/grammar.xlsx", sheet_name="mana_prp", dtype=str)
+df_mana_prp.fillna("", inplace=True)
+
+df_mana_prp.reset_index(drop=True, inplace=True)
+df_mana_prp['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSc0KxEDyN5G2Mqr4t3AvDpXxSOIbIBi0GrZsAGhDB207sjLow/viewform?usp=pp_url&entry.438735500=""" + df_mana_prp['pali'] + """&entry.644913945=Anki Deck Grammar Beginner Pāli Course">Fix it here</a>."""
+
+# df_anta_prp
+df_anta_prp = pd.read_excel("pāli-course/grammar.xlsx", sheet_name="anta_prp", dtype=str)
+df_anta_prp.fillna("", inplace=True)
+
+df_anta_prp.reset_index(drop=True, inplace=True)
+df_anta_prp['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSc0KxEDyN5G2Mqr4t3AvDpXxSOIbIBi0GrZsAGhDB207sjLow/viewform?usp=pp_url&entry.438735500=""" + df_anta_prp['pali'] + """&entry.644913945=Anki Deck Grammar Beginner Pāli Course">Fix it here</a>."""
+
+# df_10_class
+
+df_10_class = pd.concat([df_ta_pron, df_ima_pron, df_a_pron, df_mana_prp, df_anta_prp])
+
+df_10_class.to_csv("../csv-for-anki/grammar/gr_10_class.csv", sep="\t", index=None)

@@ -1034,14 +1034,14 @@ df_comb_12 = df_comb_12[['Pāli1', 'POS', 'Pattern', 'class', 'count']]
 df_comb_12.to_csv("csv-for-classes/class-12.csv", sep="\t", index=None)
 
 # save comp for 13 class
-df_comb_13 = pd.concat([df_adv, df_pass, df_extra13])
+df_comb_13 = pd.concat([df_adv, df_pass, df_pass_prp, df_extra13])
 df_comb_13.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_comb_13['count'])))
 df_comb_13['class'] = "13"
 df_comb_13 = df_comb_13[['Pāli1', 'POS', 'Pattern', 'class', 'count']]
 df_comb_13.to_csv("csv-for-classes/class-13.csv", sep="\t", index=None)
 
 # save comp for 14 class
-df_comb_14 = pd.concat([df_caus, df_caus_pass_pr, df_caus_pass_prp, df_pass_prp, df_ptp, df_extra14])
+df_comb_14 = pd.concat([df_caus, df_caus_pass_pr, df_caus_pass_prp, df_ptp, df_extra14])
 df_comb_14.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_comb_14['count'])))
 df_comb_14['class'] = "14"
 df_comb_14 = df_comb_14[['Pāli1', 'POS', 'Pattern', 'class', 'count']]

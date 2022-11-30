@@ -6,30 +6,19 @@ echo "sbs-pd on the sever - done"
 
 cp -f "/home/deva/Documents/dps/exporter/share/sbs-pd.zip" "/home/deva/Documents/sasanarakkha/study-tools/temp-push/sbs-pd.zip"
 
+cp -f "/home/deva/Documents/Docs/SBS/analysis-of-sbs-pāli-english-recitations.pdf" "/home/deva/Documents/sasanarakkha/study-tools/temp-push/analysis-of-sbs-pali-english-recitations.pdf"
+
+cp -f "/home/deva/Documents/Docs/SBS/analysis-of-sbs-pāli-english-recitations.pdf" "/home/deva/filesrv1/share1/Sharing between users/1 For Everyone/SBS Pāli-English Recitations/analysis-of-sbs-pāli-english-recitations.pdf"
+
 cd "/home/deva/Documents/sasanarakkha/study-tools"
 
 gh release upload --clobber 'artifacts-08.11.2022_14-30-08' temp-push/sbs-pd.zip
 
-cp -f "/home/deva/Documents/Docs/SBS/analysis-of-sbs-pāli-english-recitations.pdf" "/home/deva/Documents/sasanarakkha/study-tools/temp-push/analysis-of-sbs-pāli-english-recitations.pdf"
+gh release upload --clobber 'artifacts-08.11.2022_14-30-08' temp-push/analysis-of-sbs-pali-english-recitations.pdf
 
-cp -f "/home/deva/Documents/Docs/SBS/analysis-of-sbs-pāli-english-recitations.pdf" "/home/deva/filesrv1/share1/Sharing between users/1 For Everyone/SBS Pāli-English Recitations/analysis-of-sbs-pāli-english-recitations.pdf"
-
-gh release upload --clobber 'artifacts-08.11.2022_14-30-08' temp-push/analysis-of-sbs-pāli-english-recitations.pdf
-
-echo "sbs-pd on the GitHub - done"
+echo "sbs-pd and analysis on the GitHub - done"
 
 cd "/home/deva/Downloads"
-
-# mv -f "Exercises Beginner Pāli Course.docx" "/home/deva/filesrv1/share1/Sharing between users/13 For Pāli class/Exercises Beginner Pāli Course.docx"
-
-# mv -f "SBS Beginner Pāli Course.pdf" "/home/deva/filesrv1/share1/Sharing between users/13 For Pāli class/SBS Beginner Pāli Course.pdf"
-
-# mv -f "Key to Exercises Beginner Pāli Course.pdf" "/home/deva/filesrv1/share1/Sharing between users/13 For Pāli class/Key to Exercises Beginner Pāli Course.pdf"
-
-# mv -f "Examples from Tipiṭaka Beginner Course.docx" "/home/deva/filesrv1/share1/Sharing between users/13 For Pāli class/Examples from Tipiṭaka Beginner Course.docx"
-
-# echo "all pdf and docx - done"
-
 
 cp -f "Vocab Pāli Class.apkg" "/home/deva/Documents/sasanarakkha/study-tools/pali-class/Vocab Pāli Class.apkg"
 
@@ -38,6 +27,10 @@ mv -f "Vocab Pāli Class.apkg" "/home/deva/filesrv1/share1/Sharing between users
 cp -f "Grammar Pāli Class.apkg" "/home/deva/Documents/sasanarakkha/study-tools/pali-class/Grammar Pāli Class.apkg"
 
 mv -f "Grammar Pāli Class.apkg" "/home/deva/filesrv1/share1/Sharing between users/13 For Pāli class/Anki Decks/Grammar Pāli Class.apkg"
+
+cp -f "Roots Pāli Class.apkg" "/home/deva/Documents/sasanarakkha/study-tools/pali-class/Roots Pāli Class.apkg"
+
+mv -f "Roots Pāli Class.apkg" "/home/deva/filesrv1/share1/Sharing between users/13 For Pāli class/Anki Decks/Roots Pāli Class.apkg"
 
 echo "all apkg - done"
 
@@ -61,11 +54,20 @@ echo "making wordtree"
 
 cd "/home/deva/Documents/dps/word-frequency/"
 
+while true; do
+    read -p "upcoming class in the wordtree-for-all-class.sh?" yn
+    case $yn in
+        [Yy]* ) break;;
+        [Nn]* ) exit;;
+        *  ) echo "only yes or no";;
+    esac
+done
+
 bash wordtree-for-all-class.sh
 
 echo "wordtree cleaning"
 
-cd "/home/deva/filesrv1/share1/Sharing between users/13 For Pāli class/pics-wordtree"
+cd "/home/deva/filesrv1/share1/Sharing between users/13 For Pāli class/wordtree"
 
 find . -wholename './class1/*' | xargs rm -rf
 find . -wholename './class2/*' | xargs rm -rf
@@ -82,7 +84,7 @@ find . -wholename './class12/*' | xargs rm -rf
 find . -wholename './class13/*' | xargs rm -rf
 find . -wholename './class14/*' | xargs rm -rf
 
-cd "/home/deva/Documents/sasanarakkha/study-tools/pali-class/pics-wordtree"
+cd "/home/deva/Documents/sasanarakkha/study-tools/pali-class/wordtree"
 
 find . -wholename './class1/*' | xargs rm -rf
 find . -wholename './class2/*' | xargs rm -rf
@@ -107,5 +109,10 @@ cp -rf "/home/deva/Documents/dps/word-frequency/pics-wordtree/wordtree" "/home/d
 
 echo "all pics-wordtree - done"
 
-echo "can announce - new class updated"
+echo "all done - new class updated"
+
+cd "/home/deva/Desktop"
+
+code study-tools.code-workspace
+
 
