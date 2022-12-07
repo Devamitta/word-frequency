@@ -300,3 +300,84 @@ df_anta_prp['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs
 df_10_class = pd.concat([df_ta_pron, df_ima_pron, df_a_pron, df_mana_prp, df_anta_prp])
 
 df_10_class.to_csv("../csv-for-anki/grammar/gr_10_class.csv", sep="\t", index=None)
+
+# df_a_pp
+df_a_pp = pd.read_excel("pāli-course/grammar.xlsx", sheet_name="a_pp", dtype=str)
+df_a_pp.fillna("", inplace=True)
+
+df_a_pp.reset_index(drop=True, inplace=True)
+df_a_pp['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSc0KxEDyN5G2Mqr4t3AvDpXxSOIbIBi0GrZsAGhDB207sjLow/viewform?usp=pp_url&entry.438735500=""" + df_a_pp['pali'] + """&entry.644913945=Anki Deck Grammar Beginner Pāli Course">Fix it here</a>."""
+
+# df_a_adj
+df_a_adj = pd.read_excel("pāli-course/grammar.xlsx", sheet_name="a_adj", dtype=str)
+df_a_adj.fillna("", inplace=True)
+
+df_a_adj.reset_index(drop=True, inplace=True)
+df_a_adj['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSc0KxEDyN5G2Mqr4t3AvDpXxSOIbIBi0GrZsAGhDB207sjLow/viewform?usp=pp_url&entry.438735500=""" + df_a_adj['pali'] + """&entry.644913945=Anki Deck Grammar Beginner Pāli Course">Fix it here</a>."""
+
+# df_i_adj
+df_i_adj = pd.read_excel("pāli-course/grammar.xlsx", sheet_name="i_adj", dtype=str)
+df_i_adj.fillna("", inplace=True)
+
+df_i_adj.reset_index(drop=True, inplace=True)
+df_i_adj['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSc0KxEDyN5G2Mqr4t3AvDpXxSOIbIBi0GrZsAGhDB207sjLow/viewform?usp=pp_url&entry.438735500=""" + df_i_adj['pali'] + """&entry.644913945=Anki Deck Grammar Beginner Pāli Course">Fix it here</a>."""
+
+# df_u_adj
+df_u_adj = pd.read_excel("pāli-course/grammar.xlsx", sheet_name="u_adj", dtype=str)
+df_u_adj.fillna("", inplace=True)
+
+df_u_adj.reset_index(drop=True, inplace=True)
+df_u_adj['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSc0KxEDyN5G2Mqr4t3AvDpXxSOIbIBi0GrZsAGhDB207sjLow/viewform?usp=pp_url&entry.438735500=""" + df_u_adj['pali'] + """&entry.644913945=Anki Deck Grammar Beginner Pāli Course">Fix it here</a>."""
+
+# df_11_class
+
+df_11_class = pd.concat([df_a_pp, df_a_adj, df_i_adj, df_u_adj])
+
+df_11_class.to_csv("../csv-for-anki/grammar/gr_11_class.csv", sep="\t", index=None)
+
+# df_card
+df_card = pd.read_excel("pāli-course/grammar.xlsx", sheet_name="card", dtype=str)
+df_card.fillna("", inplace=True)
+
+df_card.reset_index(drop=True, inplace=True)
+df_card['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSc0KxEDyN5G2Mqr4t3AvDpXxSOIbIBi0GrZsAGhDB207sjLow/viewform?usp=pp_url&entry.438735500=""" + df_card['pali'] + """&entry.644913945=Anki Deck Grammar Beginner Pāli Course">Fix it here</a>."""
+
+# df_a_card
+df_a_card = pd.read_excel("pāli-course/grammar.xlsx", sheet_name="a_card", dtype=str)
+df_a_card.fillna("", inplace=True)
+
+df_a_card.reset_index(drop=True, inplace=True)
+df_a_card['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSc0KxEDyN5G2Mqr4t3AvDpXxSOIbIBi0GrZsAGhDB207sjLow/viewform?usp=pp_url&entry.438735500=""" + df_a_card['pali'] + """&entry.644913945=Anki Deck Grammar Beginner Pāli Course">Fix it here</a>."""
+
+# df_i_card
+df_i_card = pd.read_excel("pāli-course/grammar.xlsx", sheet_name="i_card", dtype=str)
+df_i_card.fillna("", inplace=True)
+
+df_i_card.reset_index(drop=True, inplace=True)
+df_i_card['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSc0KxEDyN5G2Mqr4t3AvDpXxSOIbIBi0GrZsAGhDB207sjLow/viewform?usp=pp_url&entry.438735500=""" + df_i_card['pali'] + """&entry.644913945=Anki Deck Grammar Beginner Pāli Course">Fix it here</a>."""
+
+# df_ordin
+df_ordin = pd.read_excel("pāli-course/grammar.xlsx", sheet_name="ordin", dtype=str)
+df_ordin.fillna("", inplace=True)
+
+df_ordin.reset_index(drop=True, inplace=True)
+df_ordin['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSc0KxEDyN5G2Mqr4t3AvDpXxSOIbIBi0GrZsAGhDB207sjLow/viewform?usp=pp_url&entry.438735500=""" + df_ordin['pali'] + """&entry.644913945=Anki Deck Grammar Beginner Pāli Course">Fix it here</a>."""
+
+# df_12_class
+
+df_12_class = pd.concat([df_card, df_a_card, df_i_card, df_ordin])
+
+df_12_class.to_csv("../csv-for-anki/grammar/gr_12_class.csv", sep="\t", index=None)
+
+# df_a_ptp
+df_a_ptp = pd.read_excel("pāli-course/grammar.xlsx", sheet_name="a_ptp", dtype=str)
+df_a_ptp.fillna("", inplace=True)
+
+df_a_ptp.reset_index(drop=True, inplace=True)
+df_a_ptp['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSc0KxEDyN5G2Mqr4t3AvDpXxSOIbIBi0GrZsAGhDB207sjLow/viewform?usp=pp_url&entry.438735500=""" + df_a_ptp['pali'] + """&entry.644913945=Anki Deck Grammar Beginner Pāli Course">Fix it here</a>."""
+
+# df_14_class
+
+df_14_class = pd.concat([df_a_ptp])
+
+df_14_class.to_csv("../csv-for-anki/grammar/gr_14_class.csv", sep="\t", index=None)

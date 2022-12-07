@@ -8,8 +8,8 @@ find . -wholename './class2/*' | xargs rm -rf
 find . -wholename './class3/*' | xargs rm -rf
 find . -wholename './class4/*' | xargs rm -rf
 find . -wholename './class5/*' | xargs rm -rf
-# find . -wholename './class6/*' | xargs rm -rf
-# find . -wholename './class7/*' | xargs rm -rf
+find . -wholename './class6/*' | xargs rm -rf
+find . -wholename './class7/*' | xargs rm -rf
 # find . -wholename './class8/*' | xargs rm -rf
 # find . -wholename './class9/*' | xargs rm -rf
 # find . -wholename './class10/*' | xargs rm -rf
@@ -27,8 +27,8 @@ python3 wordtree-pali.py 2
 python3 wordtree-pali.py 3
 python3 wordtree-pali.py 4
 python3 wordtree-pali.py 5
-# python3 wordtree-pali.py 6
-# python3 wordtree-pali.py 7
+python3 wordtree-pali.py 6
+python3 wordtree-pali.py 7
 # python3 wordtree-pali.py 8
 # python3 wordtree-pali.py 9
 # python3 wordtree-pali.py 10
@@ -46,8 +46,8 @@ find . -wholename './class2/*.png' -exec mv {} ./wordtree/class2 \;
 find . -wholename './class3/*.png' -exec mv {} ./wordtree/class3 \;
 find . -wholename './class4/*.png' -exec mv {} ./wordtree/class4 \;
 find . -wholename './class5/*.png' -exec mv {} ./wordtree/class5 \;
-# find . -wholename './class6/*.png' -exec mv {} ./wordtree/class6 \;
-# find . -wholename './class7/*.png' -exec mv {} ./wordtree/class7 \;
+find . -wholename './class6/*.png' -exec mv {} ./wordtree/class6 \;
+find . -wholename './class7/*.png' -exec mv {} ./wordtree/class7 \;
 # find . -wholename './class8/*.png' -exec mv {} ./wordtree/class8 \;
 # find . -wholename './class9/*.png' -exec mv {} ./wordtree/class9 \;
 # find . -wholename './class10/*.png' -exec mv {} ./wordtree/class10 \;
