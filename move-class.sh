@@ -10,7 +10,7 @@ cp -f "/home/deva/Documents/Docs/SBS/analysis-of-sbs-pāli-english-recitations.p
 
 cd "/home/deva/Documents/sasanarakkha/study-tools"
 
-gh release upload --clobber 'artifacts-08.11.2022_14-30-08' temp-push/analysis-of-sbs-pali-english-recitations.pdf
+gh release upload --clobber 'artifacts-15.12.2022_10-34-00' temp-push/analysis-of-sbs-pali-english-recitations.pdf
 
 echo "analysis on the GitHub - done"
 
@@ -49,15 +49,6 @@ cp -f "/home/deva/Documents/dps/test.md" "/home/deva/Documents/sasanarakkha/stud
 echo "making wordtree"
 
 cd "/home/deva/Documents/dps/word-frequency/"
-
-while true; do
-    read -p "upcoming class in the wordtree-for-all-class.sh?" yn
-    case $yn in
-        [Yy]* ) break;;
-        [Nn]* ) exit;;
-        *  ) echo "only yes or no";;
-    esac
-done
 
 bash wordtree-for-all-class.sh
 
