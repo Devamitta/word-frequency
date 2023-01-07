@@ -296,6 +296,306 @@ df_comb_14_f = pd.concat([df_comb_14, df_14_cl_u])
 
 # print("14 done")
 
+# filter 15
+test15 = df['class'] == "15"
+filter = test15
+df_15_cl = df.loc[filter]
+df_15_cl_comb = pd.concat([df_2_cl, df_3_cl, df_4_cl, df_5_cl, df_6_cl, df_7_cl, df_8_cl, df_9_cl, df_10_cl, df_11_cl, df_12_cl, df_13_cl, df_14_cl, df_15_cl])
+
+test15 = df['ex'] == "15"
+filter = test15
+df_15 = df.loc[filter]
+
+df_comb_15 = pd.concat([df_0, df_1, df_2, df_3, df_4, df_5, df_6, df_7, df_8, df_9, df_10, df_11, df_12, df_13, df_14, df_15])
+
+# keep only unique 15
+logix = df_15_cl_comb['Pāli1'].isin(df_comb_15['Pāli1'])
+df_15_cl_u = df_15_cl_comb.drop(df_15_cl_comb[logix].index)
+
+df_comb_15_f = pd.concat([df_comb_15, df_15_cl_u])
+
+# print("15 done")
+
+# filter 16
+test16 = df['class'] == "16"
+filter = test16
+df_16_cl = df.loc[filter]
+df_16_cl_comb = pd.concat([df_2_cl, df_3_cl, df_4_cl, df_5_cl, df_6_cl, df_7_cl, df_8_cl, df_9_cl, df_10_cl, df_11_cl, df_12_cl, df_13_cl, df_14_cl, df_15_cl, df_16_cl])
+
+test16 = df['ex'] == "16"
+filter = test16
+df_16 = df.loc[filter]
+
+df_comb_16 = pd.concat([df_0, df_1, df_2, df_3, df_4, df_5, df_6, df_7, df_8, df_9, df_10, df_11, df_12, df_13, df_14, df_15, df_16])
+
+# keep only unique 16
+logix = df_16_cl_comb['Pāli1'].isin(df_comb_16['Pāli1'])
+df_16_cl_u = df_16_cl_comb.drop(df_16_cl_comb[logix].index)
+
+df_comb_16_f = pd.concat([df_comb_16, df_16_cl_u])
+
+# print("16 done")
+
+# filter 17
+test17 = df['class'] == "17"
+filter = test17
+df_17_cl = df.loc[filter]
+df_17_cl_comb = pd.concat([df_2_cl, df_3_cl, df_4_cl, df_5_cl, df_6_cl, df_7_cl, df_8_cl, df_9_cl, df_10_cl, df_11_cl, df_12_cl, df_13_cl, df_14_cl, df_15_cl, df_16_cl, df_17_cl])
+
+test17 = df['ex'] == "17"
+filter = test17
+df_17 = df.loc[filter]
+
+df_comb_17 = pd.concat([df_0, df_1, df_2, df_3, df_4, df_5, df_6, df_7, df_8, df_9, df_10, df_11, df_12, df_13, df_14, df_15, df_16, df_17])
+
+# keep only unique 17
+logix = df_17_cl_comb['Pāli1'].isin(df_comb_17['Pāli1'])
+df_17_cl_u = df_17_cl_comb.drop(df_17_cl_comb[logix].index)
+
+df_comb_17_f = pd.concat([df_comb_17, df_17_cl_u])
+
+# print("17 done")
+
+# filter 18
+test18 = df['class'] == "18"
+filter = test18
+df_18_cl = df.loc[filter]
+df_18_cl_comb = pd.concat([df_2_cl, df_3_cl, df_4_cl, df_5_cl, df_6_cl, df_7_cl, df_8_cl, df_9_cl, df_10_cl, df_11_cl, df_12_cl, df_13_cl, df_14_cl, df_15_cl, df_16_cl, df_17_cl, df_18_cl])
+
+test18 = df['ex'] == "18"
+filter = test18
+df_18 = df.loc[filter]
+
+df_comb_18 = pd.concat([df_0, df_1, df_2, df_3, df_4, df_5, df_6, df_7, df_8, df_9, df_10, df_11, df_12, df_13, df_14, df_15, df_16, df_17, df_18])
+
+# keep only unique 18
+logix = df_18_cl_comb['Pāli1'].isin(df_comb_18['Pāli1'])
+df_18_cl_u = df_18_cl_comb.drop(df_18_cl_comb[logix].index)
+
+df_comb_18_f = pd.concat([df_comb_18, df_18_cl_u])
+
+# print("18 done")
+
+# filter 19
+test19 = df['class'] == "19"
+filter = test19
+df_19_cl = df.loc[filter]
+df_19_cl_comb = pd.concat([df_2_cl, df_3_cl, df_4_cl, df_5_cl, df_6_cl, df_7_cl, df_8_cl, df_9_cl, df_10_cl, df_11_cl, df_12_cl, df_13_cl, df_14_cl, df_15_cl, df_16_cl, df_17_cl, df_18_cl, df_19_cl])
+
+test19 = df['ex'] == "19"
+filter = test19
+df_19 = df.loc[filter]
+
+df_comb_19 = pd.concat([df_0, df_1, df_2, df_3, df_4, df_5, df_6, df_7, df_8, df_9, df_10, df_11, df_12, df_13, df_14, df_15, df_16, df_17, df_18, df_19])
+
+# keep only unique 19
+logix = df_19_cl_comb['Pāli1'].isin(df_comb_19['Pāli1'])
+df_19_cl_u = df_19_cl_comb.drop(df_19_cl_comb[logix].index)
+
+df_comb_19_f = pd.concat([df_comb_19, df_19_cl_u])
+
+# print("19 done")
+
+# filter 20
+test20 = df['class'] == "20"
+filter = test20
+df_20_cl = df.loc[filter]
+df_20_cl_comb = pd.concat([df_2_cl, df_3_cl, df_4_cl, df_5_cl, df_6_cl, df_7_cl, df_8_cl, df_9_cl, df_10_cl, df_11_cl, df_12_cl, df_13_cl, df_14_cl, df_15_cl, df_16_cl, df_17_cl, df_18_cl, df_19_cl, df_20_cl])
+
+test20 = df['ex'] == "20"
+filter = test20
+df_20 = df.loc[filter]
+
+df_comb_20 = pd.concat([df_0, df_1, df_2, df_3, df_4, df_5, df_6, df_7, df_8, df_9, df_10, df_11, df_12, df_13, df_14, df_15, df_16, df_17, df_18, df_19, df_20])
+
+# keep only unique 20
+logix = df_20_cl_comb['Pāli1'].isin(df_comb_20['Pāli1'])
+df_20_cl_u = df_20_cl_comb.drop(df_20_cl_comb[logix].index)
+
+df_comb_20_f = pd.concat([df_comb_20, df_20_cl_u])
+
+# print("20 done")
+
+# filter 21
+test21 = df['class'] == "21"
+filter = test21
+df_21_cl = df.loc[filter]
+df_21_cl_comb = pd.concat([df_2_cl, df_3_cl, df_4_cl, df_5_cl, df_6_cl, df_7_cl, df_8_cl, df_9_cl, df_10_cl, df_11_cl, df_12_cl, df_13_cl, df_14_cl, df_15_cl, df_16_cl, df_17_cl, df_18_cl, df_19_cl, df_20_cl, df_21_cl])
+
+test21 = df['ex'] == "21"
+filter = test21
+df_21 = df.loc[filter]
+
+df_comb_21 = pd.concat([df_0, df_1, df_2, df_3, df_4, df_5, df_6, df_7, df_8, df_9, df_10, df_11, df_12, df_13, df_14, df_15, df_16, df_17, df_18, df_19, df_20, df_21])
+
+# keep only unique 21
+logix = df_21_cl_comb['Pāli1'].isin(df_comb_21['Pāli1'])
+df_21_cl_u = df_21_cl_comb.drop(df_21_cl_comb[logix].index)
+
+df_comb_21_f = pd.concat([df_comb_21, df_21_cl_u])
+
+# print("21 done")
+
+# filter 22
+test22 = df['class'] == "22"
+filter = test22
+df_22_cl = df.loc[filter]
+df_22_cl_comb = pd.concat([df_2_cl, df_3_cl, df_4_cl, df_5_cl, df_6_cl, df_7_cl, df_8_cl, df_9_cl, df_10_cl, df_11_cl, df_12_cl, df_13_cl, df_14_cl, df_15_cl, df_16_cl, df_17_cl, df_18_cl, df_19_cl, df_20_cl, df_21_cl, df_22_cl])
+
+test22 = df['ex'] == "22"
+filter = test22
+df_22 = df.loc[filter]
+
+df_comb_22 = pd.concat([df_0, df_1, df_2, df_3, df_4, df_5, df_6, df_7, df_8, df_9, df_10, df_11, df_12, df_13, df_14, df_15, df_16, df_17, df_18, df_19, df_20, df_21, df_22])
+
+# keep only unique 22
+logix = df_22_cl_comb['Pāli1'].isin(df_comb_22['Pāli1'])
+df_22_cl_u = df_22_cl_comb.drop(df_22_cl_comb[logix].index)
+
+df_comb_22_f = pd.concat([df_comb_22, df_22_cl_u])
+
+# print("22 done")
+
+# filter 23
+test23 = df['class'] == "23"
+filter = test23
+df_23_cl = df.loc[filter]
+df_23_cl_comb = pd.concat([df_2_cl, df_3_cl, df_4_cl, df_5_cl, df_6_cl, df_7_cl, df_8_cl, df_9_cl, df_10_cl, df_11_cl, df_12_cl, df_13_cl, df_14_cl, df_15_cl, df_16_cl, df_17_cl, df_18_cl, df_19_cl, df_20_cl, df_21_cl, df_22_cl, df_23_cl])
+
+test23 = df['ex'] == "23"
+filter = test23
+df_23 = df.loc[filter]
+
+df_comb_23 = pd.concat([df_0, df_1, df_2, df_3, df_4, df_5, df_6, df_7, df_8, df_9, df_10, df_11, df_12, df_13, df_14, df_15, df_16, df_17, df_18, df_19, df_20, df_21, df_22, df_23])
+
+# keep only unique 23
+logix = df_23_cl_comb['Pāli1'].isin(df_comb_23['Pāli1'])
+df_23_cl_u = df_23_cl_comb.drop(df_23_cl_comb[logix].index)
+
+df_comb_23_f = pd.concat([df_comb_23, df_23_cl_u])
+
+# print("23 done")
+
+# filter 24
+test24 = df['class'] == "24"
+filter = test24
+df_24_cl = df.loc[filter]
+df_24_cl_comb = pd.concat([df_2_cl, df_3_cl, df_4_cl, df_5_cl, df_6_cl, df_7_cl, df_8_cl, df_9_cl, df_10_cl, df_11_cl, df_12_cl, df_13_cl, df_14_cl, df_15_cl, df_16_cl, df_17_cl, df_18_cl, df_19_cl, df_20_cl, df_21_cl, df_22_cl, df_23_cl, df_24_cl])
+
+test24 = df['ex'] == "24"
+filter = test24
+df_24 = df.loc[filter]
+
+df_comb_24 = pd.concat([df_0, df_1, df_2, df_3, df_4, df_5, df_6, df_7, df_8, df_9, df_10, df_11, df_12, df_13, df_14, df_15, df_16, df_17, df_18, df_19, df_20, df_21, df_22, df_23, df_24])
+
+# keep only unique 24
+logix = df_24_cl_comb['Pāli1'].isin(df_comb_24['Pāli1'])
+df_24_cl_u = df_24_cl_comb.drop(df_24_cl_comb[logix].index)
+
+df_comb_24_f = pd.concat([df_comb_24, df_24_cl_u])
+
+# print("24 done")
+
+# filter 25
+test25 = df['class'] == "25"
+filter = test25
+df_25_cl = df.loc[filter]
+df_25_cl_comb = pd.concat([df_2_cl, df_3_cl, df_4_cl, df_5_cl, df_6_cl, df_7_cl, df_8_cl, df_9_cl, df_10_cl, df_11_cl, df_12_cl, df_13_cl, df_14_cl, df_15_cl, df_16_cl, df_17_cl, df_18_cl, df_19_cl, df_20_cl, df_21_cl, df_22_cl, df_23_cl, df_24_cl, df_25_cl])
+
+test25 = df['ex'] == "25"
+filter = test25
+df_25 = df.loc[filter]
+
+df_comb_25 = pd.concat([df_0, df_1, df_2, df_3, df_4, df_5, df_6, df_7, df_8, df_9, df_10, df_11, df_12, df_13, df_14, df_15, df_16, df_17, df_18, df_19, df_20, df_21, df_22, df_23, df_24, df_25])
+
+# keep only unique 25
+logix = df_25_cl_comb['Pāli1'].isin(df_comb_25['Pāli1'])
+df_25_cl_u = df_25_cl_comb.drop(df_25_cl_comb[logix].index)
+
+df_comb_25_f = pd.concat([df_comb_25, df_25_cl_u])
+
+# print("25 done")
+
+# filter 26
+test26 = df['class'] == "26"
+filter = test26
+df_26_cl = df.loc[filter]
+df_26_cl_comb = pd.concat([df_2_cl, df_3_cl, df_4_cl, df_5_cl, df_6_cl, df_7_cl, df_8_cl, df_9_cl, df_10_cl, df_11_cl, df_12_cl, df_13_cl, df_14_cl, df_15_cl, df_16_cl, df_17_cl, df_18_cl, df_19_cl, df_20_cl, df_21_cl, df_22_cl, df_23_cl, df_24_cl, df_25_cl, df_26_cl])
+
+test26 = df['ex'] == "26"
+filter = test26
+df_26 = df.loc[filter]
+
+df_comb_26 = pd.concat([df_0, df_1, df_2, df_3, df_4, df_5, df_6, df_7, df_8, df_9, df_10, df_11, df_12, df_13, df_14, df_15, df_16, df_17, df_18, df_19, df_20, df_21, df_22, df_23, df_24, df_25, df_26])
+
+# keep only unique 26
+logix = df_26_cl_comb['Pāli1'].isin(df_comb_26['Pāli1'])
+df_26_cl_u = df_26_cl_comb.drop(df_26_cl_comb[logix].index)
+
+df_comb_26_f = pd.concat([df_comb_26, df_26_cl_u])
+
+# print("26 done")
+
+# filter 27
+test27 = df['class'] == "27"
+filter = test27
+df_27_cl = df.loc[filter]
+df_27_cl_comb = pd.concat([df_2_cl, df_3_cl, df_4_cl, df_5_cl, df_6_cl, df_7_cl, df_8_cl, df_9_cl, df_10_cl, df_11_cl, df_12_cl, df_13_cl, df_14_cl, df_15_cl, df_16_cl, df_17_cl, df_18_cl, df_19_cl, df_20_cl, df_21_cl, df_22_cl, df_23_cl, df_24_cl, df_25_cl, df_26_cl, df_27_cl])
+
+test27 = df['ex'] == "27"
+filter = test27
+df_27 = df.loc[filter]
+
+df_comb_27 = pd.concat([df_0, df_1, df_2, df_3, df_4, df_5, df_6, df_7, df_8, df_9, df_10, df_11, df_12, df_13, df_14, df_15, df_16, df_17, df_18, df_19, df_20, df_21, df_22, df_23, df_24, df_25, df_26, df_27])
+
+# keep only unique 27
+logix = df_27_cl_comb['Pāli1'].isin(df_comb_27['Pāli1'])
+df_27_cl_u = df_27_cl_comb.drop(df_27_cl_comb[logix].index)
+
+df_comb_27_f = pd.concat([df_comb_27, df_27_cl_u])
+
+# print("27 done")
+
+# filter 28
+test28 = df['class'] == "28"
+filter = test28
+df_28_cl = df.loc[filter]
+df_28_cl_comb = pd.concat([df_2_cl, df_3_cl, df_4_cl, df_5_cl, df_6_cl, df_7_cl, df_8_cl, df_9_cl, df_10_cl, df_11_cl, df_12_cl, df_13_cl, df_14_cl, df_15_cl, df_16_cl, df_17_cl, df_18_cl, df_19_cl, df_20_cl, df_21_cl, df_22_cl, df_23_cl, df_24_cl, df_25_cl, df_26_cl, df_27_cl, df_28_cl])
+
+test28 = df['ex'] == "28"
+filter = test28
+df_28 = df.loc[filter]
+
+df_comb_28 = pd.concat([df_0, df_1, df_2, df_3, df_4, df_5, df_6, df_7, df_8, df_9, df_10, df_11, df_12, df_13, df_14, df_15, df_16, df_17, df_18, df_19, df_20, df_21, df_22, df_23, df_24, df_25, df_26, df_27, df_28])
+
+# keep only unique 28
+logix = df_28_cl_comb['Pāli1'].isin(df_comb_28['Pāli1'])
+df_28_cl_u = df_28_cl_comb.drop(df_28_cl_comb[logix].index)
+
+df_comb_28_f = pd.concat([df_comb_28, df_28_cl_u])
+
+# print("28 done")
+
+# filter 29
+test29 = df['class'] == "29"
+filter = test29
+df_29_cl = df.loc[filter]
+df_29_cl_comb = pd.concat([df_2_cl, df_3_cl, df_4_cl, df_5_cl, df_6_cl, df_7_cl, df_8_cl, df_9_cl, df_10_cl, df_11_cl, df_12_cl, df_13_cl, df_14_cl, df_15_cl, df_16_cl, df_17_cl, df_18_cl, df_19_cl, df_20_cl, df_21_cl, df_22_cl, df_23_cl, df_24_cl, df_25_cl, df_26_cl, df_27_cl, df_28_cl, df_29_cl])
+
+test29 = df['ex'] == "29"
+filter = test29
+df_29 = df.loc[filter]
+
+df_comb_29 = pd.concat([df_0, df_1, df_2, df_3, df_4, df_5, df_6, df_7, df_8, df_9, df_10, df_11, df_12, df_13, df_14, df_15, df_16, df_17, df_18, df_19, df_20, df_21, df_22, df_23, df_24, df_25, df_26, df_27, df_28, df_29])
+
+# keep only unique 29
+logix = df_29_cl_comb['Pāli1'].isin(df_comb_29['Pāli1'])
+df_29_cl_u = df_29_cl_comb.drop(df_29_cl_comb[logix].index)
+
+df_comb_29_f = pd.concat([df_comb_29, df_29_cl_u])
+
+# print("29 done")
+
 # save classes csv
 df_1.to_csv("csv-for-examples/1-class.csv", sep="\t", index=None)
 df_comb_2_f.to_csv("csv-for-examples/2-class.csv", sep="\t", index=None)
@@ -311,6 +611,22 @@ df_comb_11_f.to_csv("csv-for-examples/11-class.csv", sep="\t", index=None)
 df_comb_12_f.to_csv("csv-for-examples/12-class.csv", sep="\t", index=None)
 df_comb_13_f.to_csv("csv-for-examples/13-class.csv", sep="\t", index=None)
 df_comb_14_f.to_csv("csv-for-examples/14-class.csv", sep="\t", index=None)
+df_comb_15_f.to_csv("csv-for-examples/15-class.csv", sep="\t", index=None)
+df_comb_16_f.to_csv("csv-for-examples/16-class.csv", sep="\t", index=None)
+df_comb_17_f.to_csv("csv-for-examples/17-class.csv", sep="\t", index=None)
+df_comb_18_f.to_csv("csv-for-examples/18-class.csv", sep="\t", index=None)
+df_comb_19_f.to_csv("csv-for-examples/19-class.csv", sep="\t", index=None)
+df_comb_20_f.to_csv("csv-for-examples/20-class.csv", sep="\t", index=None)
+df_comb_21_f.to_csv("csv-for-examples/21-class.csv", sep="\t", index=None)
+df_comb_22_f.to_csv("csv-for-examples/22-class.csv", sep="\t", index=None)
+df_comb_23_f.to_csv("csv-for-examples/23-class.csv", sep="\t", index=None)
+df_comb_24_f.to_csv("csv-for-examples/24-class.csv", sep="\t", index=None)
+df_comb_25_f.to_csv("csv-for-examples/25-class.csv", sep="\t", index=None)
+df_comb_26_f.to_csv("csv-for-examples/26-class.csv", sep="\t", index=None)
+df_comb_27_f.to_csv("csv-for-examples/27-class.csv", sep="\t", index=None)
+df_comb_28_f.to_csv("csv-for-examples/28-class.csv", sep="\t", index=None)
+df_comb_29_f.to_csv("csv-for-examples/29-class.csv", sep="\t", index=None)
+
 
 print("csv-for-examples saved")
 
@@ -359,7 +675,7 @@ df.sort_values(by='Example3', inplace=True, ascending = False, key=lambda x: np.
 # filter = test15
 # df_all = df.loc[filter]
 
-options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14']
+options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29']
 
 df_all = df.loc[df['ex'].isin(options)] 
 
@@ -538,8 +854,202 @@ df_words_cl14 = df_words_cl14.sort_values(by=['class', 'Pattern'])
 # df_words_cl14.to_csv("vocab/vocab-class14.csv", sep="\t", index=None)
 df_words_cl14.to_excel("vocab/vocab-class14.xlsx", index=None)
 
+# make words for class 15
 
+options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15']
 
+df_words_cl15 = df.loc[df['class'].isin(options) & df['ex'].isin(options)] 
+
+df_words_cl15 = df_words_cl15[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl15 = df_words_cl15.sort_values(by=['class', 'Pattern'])
+
+# df_words_cl15.to_csv("vocab/vocab-class15.csv", sep="\t", index=None)
+df_words_cl15.to_excel("vocab/vocab-class15.xlsx", index=None)
+
+# make words for class 16
+
+options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16']
+
+df_words_cl16 = df.loc[df['class'].isin(options) & df['ex'].isin(options)] 
+
+df_words_cl16 = df_words_cl16[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl16 = df_words_cl16.sort_values(by=['class', 'Pattern'])
+
+# df_words_cl16.to_csv("vocab/vocab-class16.csv", sep="\t", index=None)
+df_words_cl16.to_excel("vocab/vocab-class16.xlsx", index=None)
+
+# make words for class 17
+
+options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17']
+
+df_words_cl17 = df.loc[df['class'].isin(options) & df['ex'].isin(options)] 
+
+df_words_cl17 = df_words_cl17[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl17 = df_words_cl17.sort_values(by=['class', 'Pattern'])
+
+# df_words_cl17.to_csv("vocab/vocab-class17.csv", sep="\t", index=None)
+df_words_cl17.to_excel("vocab/vocab-class17.xlsx", index=None)
+
+# make words for class 18
+
+options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18']
+
+df_words_cl18 = df.loc[df['class'].isin(options) & df['ex'].isin(options)] 
+
+df_words_cl18 = df_words_cl18[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl18 = df_words_cl18.sort_values(by=['class', 'Pattern'])
+
+# df_words_cl18.to_csv("vocab/vocab-class18.csv", sep="\t", index=None)
+df_words_cl18.to_excel("vocab/vocab-class18.xlsx", index=None)
+
+# make words for class 19
+
+options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19']
+
+df_words_cl19 = df.loc[df['class'].isin(options) & df['ex'].isin(options)] 
+
+df_words_cl19 = df_words_cl19[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl19 = df_words_cl19.sort_values(by=['class', 'Pattern'])
+
+# df_words_cl19.to_csv("vocab/vocab-class19.csv", sep="\t", index=None)
+df_words_cl19.to_excel("vocab/vocab-class19.xlsx", index=None)
+
+# make words for class 20
+
+options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20']
+
+df_words_cl20 = df.loc[df['class'].isin(options) & df['ex'].isin(options)] 
+
+df_words_cl20 = df_words_cl20[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl20 = df_words_cl20.sort_values(by=['class', 'Pattern'])
+
+# df_words_cl20.to_csv("vocab/vocab-class20.csv", sep="\t", index=None)
+df_words_cl20.to_excel("vocab/vocab-class20.xlsx", index=None)
+
+# make words for class 21
+
+options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21']
+
+df_words_cl21 = df.loc[df['class'].isin(options) & df['ex'].isin(options)] 
+
+df_words_cl21 = df_words_cl21[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl21 = df_words_cl21.sort_values(by=['class', 'Pattern'])
+
+# df_words_cl21.to_csv("vocab/vocab-class21.csv", sep="\t", index=None)
+df_words_cl21.to_excel("vocab/vocab-class21.xlsx", index=None)
+
+# make words for class 22
+
+options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22']
+
+df_words_cl22 = df.loc[df['class'].isin(options) & df['ex'].isin(options)] 
+
+df_words_cl22 = df_words_cl22[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl22 = df_words_cl22.sort_values(by=['class', 'Pattern'])
+
+# df_words_cl22.to_csv("vocab/vocab-class22.csv", sep="\t", index=None)
+df_words_cl22.to_excel("vocab/vocab-class22.xlsx", index=None)
+
+# make words for class 23
+
+options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23']
+
+df_words_cl23 = df.loc[df['class'].isin(options) & df['ex'].isin(options)] 
+
+df_words_cl23 = df_words_cl23[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl23 = df_words_cl23.sort_values(by=['class', 'Pattern'])
+
+# df_words_cl23.to_csv("vocab/vocab-class23.csv", sep="\t", index=None)
+df_words_cl23.to_excel("vocab/vocab-class23.xlsx", index=None)
+
+# make words for class 24
+
+options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24']
+
+df_words_cl24 = df.loc[df['class'].isin(options) & df['ex'].isin(options)] 
+
+df_words_cl24 = df_words_cl24[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl24 = df_words_cl24.sort_values(by=['class', 'Pattern'])
+
+# df_words_cl24.to_csv("vocab/vocab-class24.csv", sep="\t", index=None)
+df_words_cl24.to_excel("vocab/vocab-class24.xlsx", index=None)
+
+# make words for class 25
+
+options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25']
+
+df_words_cl25 = df.loc[df['class'].isin(options) & df['ex'].isin(options)] 
+
+df_words_cl25 = df_words_cl25[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl25 = df_words_cl25.sort_values(by=['class', 'Pattern'])
+
+# df_words_cl25.to_csv("vocab/vocab-class25.csv", sep="\t", index=None)
+df_words_cl25.to_excel("vocab/vocab-class25.xlsx", index=None)
+
+# make words for class 26
+
+options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26']
+
+df_words_cl26 = df.loc[df['class'].isin(options) & df['ex'].isin(options)] 
+
+df_words_cl26 = df_words_cl26[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl26 = df_words_cl26.sort_values(by=['class', 'Pattern'])
+
+# df_words_cl26.to_csv("vocab/vocab-class26.csv", sep="\t", index=None)
+df_words_cl26.to_excel("vocab/vocab-class26.xlsx", index=None)
+
+# make words for class 27
+
+options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27']
+
+df_words_cl27 = df.loc[df['class'].isin(options) & df['ex'].isin(options)] 
+
+df_words_cl27 = df_words_cl27[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl27 = df_words_cl27.sort_values(by=['class', 'Pattern'])
+
+# df_words_cl27.to_csv("vocab/vocab-class27.csv", sep="\t", index=None)
+df_words_cl27.to_excel("vocab/vocab-class27.xlsx", index=None)
+
+# make words for class 28
+
+options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28']
+
+df_words_cl28 = df.loc[df['class'].isin(options) & df['ex'].isin(options)] 
+
+df_words_cl28 = df_words_cl28[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl28 = df_words_cl28.sort_values(by=['class', 'Pattern'])
+
+# df_words_cl28.to_csv("vocab/vocab-class28.csv", sep="\t", index=None)
+df_words_cl28.to_excel("vocab/vocab-class28.xlsx", index=None)
+
+# make words for class 29
+
+options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29']
+
+df_words_cl29 = df.loc[df['class'].isin(options) & df['ex'].isin(options)] 
+
+df_words_cl29 = df_words_cl29[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl29 = df_words_cl29.sort_values(by=['class', 'Pattern'])
+
+# df_words_cl29.to_csv("vocab/vocab-class29.csv", sep="\t", index=None)
+df_words_cl29.to_excel("vocab/vocab-class29.xlsx", index=None)
+
+# make words for pict
 
 # make words for pict class 2
 
@@ -723,6 +1233,215 @@ df_words_cl14 = df_words_cl14.sort_values(by=['class', 'Pattern'])
 
 df_words_cl14.to_csv("csv-for-pic/class14.csv", sep="\t", index=None)
 
+# make words for pict class 15
+
+options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15']
+
+cl = ['15']
+
+df_words_cl15 = df.loc[df['class'].isin(options) & df['ex'].isin(cl)] 
+
+df_words_cl15 = df_words_cl15[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl15 = df_words_cl15.sort_values(by=['class', 'Pattern'])
+
+df_words_cl15.to_csv("csv-for-pic/class15.csv", sep="\t", index=None)
+
+# make words for pict class 16
+
+options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16']
+
+cl = ['16']
+
+df_words_cl16 = df.loc[df['class'].isin(options) & df['ex'].isin(cl)] 
+
+df_words_cl16 = df_words_cl16[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl16 = df_words_cl16.sort_values(by=['class', 'Pattern'])
+
+df_words_cl16.to_csv("csv-for-pic/class16.csv", sep="\t", index=None)
+
+# make words for pict class 17
+
+options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17']
+
+cl = ['17']
+
+df_words_cl17 = df.loc[df['class'].isin(options) & df['ex'].isin(cl)] 
+
+df_words_cl17 = df_words_cl17[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl17 = df_words_cl17.sort_values(by=['class', 'Pattern'])
+
+df_words_cl17.to_csv("csv-for-pic/class17.csv", sep="\t", index=None)
+
+# make words for pict class 18
+
+options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18']
+
+cl = ['18']
+
+df_words_cl18 = df.loc[df['class'].isin(options) & df['ex'].isin(cl)] 
+
+df_words_cl18 = df_words_cl18[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl18 = df_words_cl18.sort_values(by=['class', 'Pattern'])
+
+df_words_cl18.to_csv("csv-for-pic/class18.csv", sep="\t", index=None)
+
+# make words for pict class 19
+
+options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19']
+
+cl = ['19']
+
+df_words_cl19 = df.loc[df['class'].isin(options) & df['ex'].isin(cl)] 
+
+df_words_cl19 = df_words_cl19[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl19 = df_words_cl19.sort_values(by=['class', 'Pattern'])
+
+df_words_cl19.to_csv("csv-for-pic/class19.csv", sep="\t", index=None)
+
+# make words for pict class 20
+
+options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20']
+
+cl = ['20']
+
+df_words_cl20 = df.loc[df['class'].isin(options) & df['ex'].isin(cl)] 
+
+df_words_cl20 = df_words_cl20[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl20 = df_words_cl20.sort_values(by=['class', 'Pattern'])
+
+df_words_cl20.to_csv("csv-for-pic/class20.csv", sep="\t", index=None)
+
+# make words for pict class 21
+
+options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21']
+
+cl = ['21']
+
+df_words_cl21 = df.loc[df['class'].isin(options) & df['ex'].isin(cl)] 
+
+df_words_cl21 = df_words_cl21[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl21 = df_words_cl21.sort_values(by=['class', 'Pattern'])
+
+df_words_cl21.to_csv("csv-for-pic/class21.csv", sep="\t", index=None)
+
+# make words for pict class 22
+
+options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22']
+
+cl = ['22']
+
+df_words_cl22 = df.loc[df['class'].isin(options) & df['ex'].isin(cl)] 
+
+df_words_cl22 = df_words_cl22[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl22 = df_words_cl22.sort_values(by=['class', 'Pattern'])
+
+df_words_cl22.to_csv("csv-for-pic/class22.csv", sep="\t", index=None)
+
+# make words for pict class 23
+
+options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23']
+
+cl = ['23']
+
+df_words_cl23 = df.loc[df['class'].isin(options) & df['ex'].isin(cl)] 
+
+df_words_cl23 = df_words_cl23[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl23 = df_words_cl23.sort_values(by=['class', 'Pattern'])
+
+df_words_cl23.to_csv("csv-for-pic/class23.csv", sep="\t", index=None)
+
+# make words for pict class 24
+
+options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24']
+
+cl = ['24']
+
+df_words_cl24 = df.loc[df['class'].isin(options) & df['ex'].isin(cl)] 
+
+df_words_cl24 = df_words_cl24[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl24 = df_words_cl24.sort_values(by=['class', 'Pattern'])
+
+df_words_cl24.to_csv("csv-for-pic/class24.csv", sep="\t", index=None)
+
+# make words for pict class 25
+
+options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25']
+
+cl = ['25']
+
+df_words_cl25 = df.loc[df['class'].isin(options) & df['ex'].isin(cl)] 
+
+df_words_cl25 = df_words_cl25[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl25 = df_words_cl25.sort_values(by=['class', 'Pattern'])
+
+df_words_cl25.to_csv("csv-for-pic/class25.csv", sep="\t", index=None)
+
+# make words for pict class 26
+
+options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26']
+
+cl = ['26']
+
+df_words_cl26 = df.loc[df['class'].isin(options) & df['ex'].isin(cl)] 
+
+df_words_cl26 = df_words_cl26[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl26 = df_words_cl26.sort_values(by=['class', 'Pattern'])
+
+df_words_cl26.to_csv("csv-for-pic/class26.csv", sep="\t", index=None)
+
+# make words for pict class 27
+
+options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27']
+
+cl = ['27']
+
+df_words_cl27 = df.loc[df['class'].isin(options) & df['ex'].isin(cl)] 
+
+df_words_cl27 = df_words_cl27[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl27 = df_words_cl27.sort_values(by=['class', 'Pattern'])
+
+df_words_cl27.to_csv("csv-for-pic/class27.csv", sep="\t", index=None)
+
+# make words for pict class 28
+
+options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28']
+
+cl = ['28']
+
+df_words_cl28 = df.loc[df['class'].isin(options) & df['ex'].isin(cl)] 
+
+df_words_cl28 = df_words_cl28[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl28 = df_words_cl28.sort_values(by=['class', 'Pattern'])
+
+df_words_cl28.to_csv("csv-for-pic/class28.csv", sep="\t", index=None)
+
+# make words for pict class 29
+
+options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29']
+
+cl = ['29']
+
+df_words_cl29 = df.loc[df['class'].isin(options) & df['ex'].isin(cl)] 
+
+df_words_cl29 = df_words_cl29[['Pāli1', 'POS', 'Meaning IN CONTEXT', 'Pattern', 'class']]
+
+df_words_cl29 = df_words_cl29.sort_values(by=['class', 'Pattern'])
+
+df_words_cl29.to_csv("csv-for-pic/class29.csv", sep="\t", index=None)
 
 
 # remove column count from df
@@ -806,6 +1525,81 @@ test14 = df['ex'] == "14"
 filter = test14
 df_14 = df.loc[filter]
 
+# filter 15 classes words
+test15 = df['ex'] == "15"
+filter = test15
+df_15 = df.loc[filter]
+
+# filter 16 classes words
+test16 = df['ex'] == "16"
+filter = test16
+df_16 = df.loc[filter]
+
+# filter 17 classes words
+test17 = df['ex'] == "17"
+filter = test17
+df_17 = df.loc[filter]
+
+# filter 18 classes words
+test18 = df['ex'] == "18"
+filter = test18
+df_18 = df.loc[filter]
+
+# filter 19 classes words
+test19 = df['ex'] == "19"
+filter = test19
+df_19 = df.loc[filter]
+
+# filter 20 classes words
+test20 = df['ex'] == "20"
+filter = test20
+df_20 = df.loc[filter]
+
+# filter 21 classes words
+test21 = df['ex'] == "21"
+filter = test21
+df_21 = df.loc[filter]
+
+# filter 22 classes words
+test22 = df['ex'] == "22"
+filter = test22
+df_22 = df.loc[filter]
+
+# filter 23 classes words
+test23 = df['ex'] == "23"
+filter = test23
+df_23 = df.loc[filter]
+
+# filter 24 classes words
+test24 = df['ex'] == "24"
+filter = test24
+df_24 = df.loc[filter]
+
+# filter 25 classes words
+test25 = df['ex'] == "25"
+filter = test25
+df_25 = df.loc[filter]
+
+# filter 26 classes words
+test26 = df['ex'] == "26"
+filter = test26
+df_26 = df.loc[filter]
+
+# filter 27 classes words
+test27 = df['ex'] == "27"
+filter = test27
+df_27 = df.loc[filter]
+
+# filter 28 classes words
+test28 = df['ex'] == "28"
+filter = test28
+df_28 = df.loc[filter]
+
+# filter 29 classes words
+test29 = df['ex'] == "29"
+filter = test29
+df_29 = df.loc[filter]
+
 # save classes csv
 
 # df_0.to_csv("../csv-for-anki/classes/0-class-anki.csv", sep="\t", index=None)
@@ -826,6 +1620,22 @@ df_11.to_csv("../csv-for-anki/classes/11-class-anki.csv", sep="\t", index=None)
 df_12.to_csv("../csv-for-anki/classes/12-class-anki.csv", sep="\t", index=None)
 df_13.to_csv("../csv-for-anki/classes/13-class-anki.csv", sep="\t", index=None)
 df_14.to_csv("../csv-for-anki/classes/14-class-anki.csv", sep="\t", index=None)
+df_15.to_csv("../csv-for-anki/classes/15-class-anki.csv", sep="\t", index=None)
+df_16.to_csv("../csv-for-anki/classes/16-class-anki.csv", sep="\t", index=None)
+df_17.to_csv("../csv-for-anki/classes/17-class-anki.csv", sep="\t", index=None)
+df_18.to_csv("../csv-for-anki/classes/18-class-anki.csv", sep="\t", index=None)
+df_19.to_csv("../csv-for-anki/classes/19-class-anki.csv", sep="\t", index=None)
+df_20.to_csv("../csv-for-anki/classes/20-class-anki.csv", sep="\t", index=None)
+df_21.to_csv("../csv-for-anki/classes/21-class-anki.csv", sep="\t", index=None)
+df_22.to_csv("../csv-for-anki/classes/22-class-anki.csv", sep="\t", index=None)
+df_23.to_csv("../csv-for-anki/classes/23-class-anki.csv", sep="\t", index=None)
+df_24.to_csv("../csv-for-anki/classes/24-class-anki.csv", sep="\t", index=None)
+df_25.to_csv("../csv-for-anki/classes/25-class-anki.csv", sep="\t", index=None)
+df_26.to_csv("../csv-for-anki/classes/26-class-anki.csv", sep="\t", index=None)
+df_27.to_csv("../csv-for-anki/classes/27-class-anki.csv", sep="\t", index=None)
+df_28.to_csv("../csv-for-anki/classes/28-class-anki.csv", sep="\t", index=None)
+df_29.to_csv("../csv-for-anki/classes/29-class-anki.csv", sep="\t", index=None)
+
 
 # combine classes
 # df_comb = pd.concat([df_1, df_2])
