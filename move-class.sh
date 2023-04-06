@@ -10,7 +10,7 @@ cp -f "/home/deva/Documents/Docs/SBS/analysis-of-sbs-pāli-english-recitations.p
 
 cd "/home/deva/Documents/sasanarakkha/study-tools"
 
-gh release upload --clobber 'artifacts-15.12.2022_10-34-00' temp-push/analysis-of-sbs-pali-english-recitations.pdf
+gh release upload --clobber 'artifacts-07.02.2023_12-59-44' temp-push/analysis-of-sbs-pali-english-recitations.pdf
 
 echo "analysis on the GitHub - done"
 
@@ -51,55 +51,55 @@ cp -f "/home/deva/Documents/dps/csv-for-anki/abbr.xlsx" "/home/deva/filesrv1/sha
 
 cp -f "/home/deva/Documents/dps/test.md" "/home/deva/Documents/sasanarakkha/study-tools/pali-class/class-test.md"
 
-echo "making wordtree"
+# echo "making wordtree"
 
-cd "/home/deva/Documents/dps/word-frequency/"
+# cd "/home/deva/Documents/dps/word-frequency/"
 
-bash wordtree-for-all-class.sh
+# bash wordtree-for-all-class.sh
 
-echo "wordtree cleaning"
+# echo "wordtree cleaning"
 
-cd "/home/deva/filesrv1/share1/Sharing between users/13 For Pāli class/wordtree"
+# cd "/home/deva/filesrv1/share1/Sharing between users/13 For Pāli class/wordtree"
 
-find . -wholename './class1/*' | xargs rm -rf
-find . -wholename './class2/*' | xargs rm -rf
-find . -wholename './class3/*' | xargs rm -rf
-find . -wholename './class4/*' | xargs rm -rf
-find . -wholename './class5/*' | xargs rm -rf
-find . -wholename './class6/*' | xargs rm -rf
-find . -wholename './class7/*' | xargs rm -rf
-find . -wholename './class8/*' | xargs rm -rf
-find . -wholename './class9/*' | xargs rm -rf
-find . -wholename './class10/*' | xargs rm -rf
-find . -wholename './class11/*' | xargs rm -rf
-find . -wholename './class12/*' | xargs rm -rf
-find . -wholename './class13/*' | xargs rm -rf
-find . -wholename './class14/*' | xargs rm -rf
+# find . -wholename './class1/*' | xargs rm -rf
+# find . -wholename './class2/*' | xargs rm -rf
+# find . -wholename './class3/*' | xargs rm -rf
+# find . -wholename './class4/*' | xargs rm -rf
+# find . -wholename './class5/*' | xargs rm -rf
+# find . -wholename './class6/*' | xargs rm -rf
+# find . -wholename './class7/*' | xargs rm -rf
+# find . -wholename './class8/*' | xargs rm -rf
+# find . -wholename './class9/*' | xargs rm -rf
+# find . -wholename './class10/*' | xargs rm -rf
+# find . -wholename './class11/*' | xargs rm -rf
+# find . -wholename './class12/*' | xargs rm -rf
+# find . -wholename './class13/*' | xargs rm -rf
+# find . -wholename './class14/*' | xargs rm -rf
 
-cd "/home/deva/Documents/sasanarakkha/study-tools/pali-class/wordtree"
+# cd "/home/deva/Documents/sasanarakkha/study-tools/pali-class/wordtree"
 
-find . -wholename './class1/*' | xargs rm -rf
-find . -wholename './class2/*' | xargs rm -rf
-find . -wholename './class3/*' | xargs rm -rf
-find . -wholename './class4/*' | xargs rm -rf
-find . -wholename './class5/*' | xargs rm -rf
-find . -wholename './class6/*' | xargs rm -rf
-find . -wholename './class7/*' | xargs rm -rf
-find . -wholename './class8/*' | xargs rm -rf
-find . -wholename './class9/*' | xargs rm -rf
-find . -wholename './class10/*' | xargs rm -rf
-find . -wholename './class11/*' | xargs rm -rf
-find . -wholename './class12/*' | xargs rm -rf
-find . -wholename './class13/*' | xargs rm -rf
-find . -wholename './class14/*' | xargs rm -rf
-
-
-cp -rf "/home/deva/Documents/dps/word-frequency/pics-wordtree/wordtree" "/home/deva/filesrv1/share1/Sharing between users/13 For Pāli class/"
-
-cp -rf "/home/deva/Documents/dps/word-frequency/pics-wordtree/wordtree" "/home/deva/Documents/sasanarakkha/study-tools/pali-class/"
+# find . -wholename './class1/*' | xargs rm -rf
+# find . -wholename './class2/*' | xargs rm -rf
+# find . -wholename './class3/*' | xargs rm -rf
+# find . -wholename './class4/*' | xargs rm -rf
+# find . -wholename './class5/*' | xargs rm -rf
+# find . -wholename './class6/*' | xargs rm -rf
+# find . -wholename './class7/*' | xargs rm -rf
+# find . -wholename './class8/*' | xargs rm -rf
+# find . -wholename './class9/*' | xargs rm -rf
+# find . -wholename './class10/*' | xargs rm -rf
+# find . -wholename './class11/*' | xargs rm -rf
+# find . -wholename './class12/*' | xargs rm -rf
+# find . -wholename './class13/*' | xargs rm -rf
+# find . -wholename './class14/*' | xargs rm -rf
 
 
-echo "all pics-wordtree - done"
+# cp -rf "/home/deva/Documents/dps/word-frequency/pics-wordtree/wordtree" "/home/deva/filesrv1/share1/Sharing between users/13 For Pāli class/"
+
+# cp -rf "/home/deva/Documents/dps/word-frequency/pics-wordtree/wordtree" "/home/deva/Documents/sasanarakkha/study-tools/pali-class/"
+
+
+# echo "all pics-wordtree - done"
 
 echo "all done - new class updated"
 

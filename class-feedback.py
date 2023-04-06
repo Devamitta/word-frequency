@@ -13,9 +13,10 @@ df.fillna("", inplace=True)
 
 # adding feedback
 # df.reset_index(drop=True, inplace=True)
-df['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSc0KxEDyN5G2Mqr4t3AvDpXxSOIbIBi0GrZsAGhDB207sjLow/viewform?usp=pp_url&entry.438735500=""" + df['Pāli1'] + """&entry.644913945=Anki Deck Vocab Beginner Pāli Course">Fix it here</a>."""
+df['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSc0KxEDyN5G2Mqr4t3AvDpXxSOIbIBi0GrZsAGhDB207sjLow/viewform?usp=pp_url&entry.438735500=""" + df['Pāli1'] + """&entry.644913945=Anki Deck Vocab Pāli Course">Fix it here</a>."""
 
-df_anki = df.drop(['class', 'count'], axis=1)
+df_anki = df.drop(['class', 'count', 'Pāli-old', 'eng-old', 'DPD', 'move', 'sync'], axis=1)
+print("columns 'class', 'count', 'Pāli-old', 'eng-old', 'DPD', 'move', 'sync' has been dropped for anki")
 
 df_anki.to_csv("../csv-for-anki/dps-feedback.csv", sep="\t", index=None)
 
@@ -679,7 +680,8 @@ options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', 
 
 df_all = df.loc[df['ex'].isin(options)] 
 
-df_all = df_all.drop(['count', 'class'], axis=1)
+df_all = df_all.drop(['class', 'count', 'Pāli-old', 'eng-old', 'DPD', 'move', 'sync'], axis=1)
+print("columns 'class', 'count', 'Pāli-old', 'eng-old', 'DPD', 'move', 'sync' has been dropped for df_all")
 
 df_all.to_csv("../csv-for-anki/classes/all-class.csv", sep="\t", index=None)
 
@@ -1448,7 +1450,8 @@ df_words_cl29.to_csv("csv-for-pic/class29.csv", sep="\t", index=None)
 
 df.sort_values(by='Example3', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df['Example3'])))
 
-df = df.drop(['count', 'class'], axis=1)
+df = df.drop(['class', 'count', 'Pāli-old', 'eng-old', 'DPD', 'move', 'sync'], axis=1)
+print("columns 'class', 'count', 'Pāli-old', 'eng-old', 'DPD', 'move', 'sync' has been dropped for df")
 
 # filter 0 classes words
 test2 = df['ex'] == "-"
@@ -1604,7 +1607,7 @@ df_29 = df.loc[filter]
 
 # df_0.to_csv("../csv-for-anki/classes/0-class-anki.csv", sep="\t", index=None)
 # df_1 = df_1.drop(['Feedback'], axis=1)
-# df_1['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSc0KxEDyN5G2Mqr4t3AvDpXxSOIbIBi0GrZsAGhDB207sjLow/viewform?usp=pp_url&amp;entry.644913945=Anki Deck Vocab Beginner Pāli Course">Fix it here</a>."""
+# df_1['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSc0KxEDyN5G2Mqr4t3AvDpXxSOIbIBi0GrZsAGhDB207sjLow/viewform?usp=pp_url&amp;entry.644913945=Anki Deck Vocab Pāli Course">Fix it here</a>."""
 df_1.to_csv("../csv-for-anki/classes/1-class-anki.csv", sep="\t", index=None)
 df_1.to_csv("csv-for-pic/class1.csv", sep="\t", index=None)
 df_2.to_csv("../csv-for-anki/classes/2-class-anki.csv", sep="\t", index=None)

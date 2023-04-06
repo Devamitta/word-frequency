@@ -19,7 +19,7 @@ df.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.arg
 df_orig = df
 
 # filter what is done
-df = df.head(2000)
+df = df.head(3100)
 
 # save all what is done
 df[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/frequent-words.csv", sep="\t", index=None)
@@ -104,11 +104,9 @@ test18 = df['Grammar'] != "neg"
 
 filter = test1 & test2 & test10 & test11 & test16
 df_a_masc = df.loc[filter]
-# df_a_masc = df_a_masc.head(200)
 
 filter = test1 & test4 & test10 & test11 & test16
 df_a_masc_pl = df.loc[filter]
-# df_a_masc_pl = df_a_masc_pl.head(200)
 
 df_a_masc = pd.concat([df_a_masc, df_a_masc_pl])
 df_a_masc.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_a_masc['count'])))
@@ -126,7 +124,7 @@ test10 = df_orig['Pattern'] == "ar2 masc"
 
 filter = test1 & test4
 df_ii_masc = df_orig.loc[filter]
-df_ii_masc = df_ii_masc.head(14)
+# df_ii_masc = df_ii_masc.head(14)
 
 
 test8 = df_orig['Grammar'] == "masc"
@@ -139,11 +137,9 @@ df_ii_masc.sort_values(by='count', inplace=True, ascending = False, key=lambda x
 
 filter = test1 & test5
 df_u_masc = df_orig.loc[filter]
-# df_u_masc = df_u_masc.head(12)
 
 filter = test1 & test6
 df_ar_masc = df_orig.loc[filter]
-# df_ar_masc = df_ar_masc.head(20)
 
 filter = test1 & test10
 df_ar2_masc = df_orig.loc[filter]
@@ -225,7 +221,7 @@ test20 = df['Grammar'] != "4"
 
 filter = test1 & test2 & test15 & test16 & test17 & test18 & test19 & test20
 df_ati_pr = df.loc[filter]
-# df_ati_pr = df_ati_pr.head(100)
+
 
 filter = test1 & test3 & test15 & test16 & test17 & test18 & test19 & test20
 df_eti_pr = df.loc[filter]
@@ -353,7 +349,7 @@ test20 = df['Grammar'] != "5"
 
 filter = test1 & test2 & test15 & test16 & test17 & test18 & test19 & test20
 df_i_aor = df.loc[filter]
-# df_esi_aor = df_esi_aor.head(8)
+
 
 filter = test1 & test9 & test15 & test16 & test17 & test18 & test19 & test20
 df_hari = df.loc[filter]
@@ -480,7 +476,7 @@ test18 = df['Grammar'] != "neg"
 
 filter = test1 & test2 & test16
 df_aa_fem = df.loc[filter]
-# df_aa_fem = df_aa_fem.head(200)
+
 
 filter = test1 & test3 & test16
 df_i_fem = df.loc[filter]
@@ -498,7 +494,7 @@ df_ii_fem = df_ii_fem.head(15)
 
 filter = test1 & test5
 df_u_fem = df_orig.loc[filter]
-# df_u_fem = df_u_fem.head(12)
+
 
 filter = test1 & test6
 df_ar_fem = df_orig.loc[filter]
@@ -506,7 +502,7 @@ df_ar_fem = df_ar_fem.head(10)
 
 filter = test1 & test7
 df_uu_fem = df_orig.loc[filter]
-# df_uu_fem = df_uu_fem.head(6)
+
 
 # save fem csv
 
@@ -532,7 +528,7 @@ test10 = df['Grammar'] != "dat"
 
 filter = test1 & test2 & test10
 df_a_nt = df.loc[filter]
-# df_a_nt = df_a_nt.head(200)
+
 
 test1 = df_orig['POS'] == "nt"
 test3 = df_orig['Pattern'] == "i nt"
@@ -543,7 +539,7 @@ df_i_nt = df_orig.loc[filter]
 
 filter = test1 & test4
 df_u_nt = df_orig.loc[filter]
-# df_u_nt = df_u_nt.head(10)
+
 
 
 # save nt csv
@@ -574,7 +570,7 @@ df_inf[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/inf.csv", sep=
 test2 = df_orig['Grammar'] == "+inf"
 filter = test2
 df_plus_inf = df_orig.loc[filter]
-# df_plus_inf = df_plus_inf.head(20)
+
 
 # save +inf csv
 df_plus_inf[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/+inf.csv", sep="\t", index=None)
@@ -583,7 +579,7 @@ df_plus_inf[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/+inf.csv"
 test2 = df_orig['Grammar'] == "inf kāma"
 filter = test2
 df_inf_kam = df_orig.loc[filter]
-# df_inf_kam = df_inf_kam.head(20)
+
 
 # save inf kāma
 df_inf_kam[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/inf-kāma.csv", sep="\t", index=None)
@@ -592,7 +588,7 @@ df_inf_kam[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/inf-kāma.
 test2 = df_orig['Grammar'] == "dat"
 filter = test2
 df_dat = df_orig.loc[filter]
-# df_dat = df_dat.head(20)
+
 
 # save dat of purpose
 df_dat[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/dat.csv", sep="\t", index=None)
@@ -661,7 +657,7 @@ test18 = df['Grammar'] != "irreg"
 
 filter = test1 & test2 & test15 & test16 & test17 & test18
 df_anta_prp = df.loc[filter]
-# df_anta_prp = df_anta_prp.head(100)
+
 
 filter = test1 & test3 & test15 & test16 & test17 & test18
 df_mana_prp = df.loc[filter]
@@ -728,7 +724,7 @@ test18 = df['Grammar'] != "irreg"
 
 filter = test1 & test15 & test16 & test17 & test18
 df_pp = df.loc[filter]
-# df_pp = df_pp.head(100)
+
 
 df_pp[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/pp.csv", sep="\t", index=None)
 
@@ -742,7 +738,7 @@ test6 = df['Grammar'] != "masc"
 
 filter = test1 & test2 & test3 & test4 & test5 & test6
 df_adj = df.loc[filter]
-# df_adj = df_adj.head(150)
+
 
 df_adj[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/adj.csv", sep="\t", index=None)
 
@@ -750,7 +746,7 @@ df_adj[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/adj.csv", sep=
 test1 = df_orig['Grammar'] == "abl"
 filter = test1
 df_abl = df_orig.loc[filter]
-# df_abl = df_abl.head(150)
+
 
 df_abl[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/abl.csv", sep="\t", index=None)
 
@@ -815,7 +811,7 @@ test2 = df['Grammar'] == "adv"
 
 filter = test1 & test2
 df_adv_adv = df.loc[filter]
-# df_adv = df_adv.head(30)
+
 
 df_adv_dhā[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/adv-dhā.csv", sep="\t", index=None)
 df_adv_so[['Pāli1', 'POS', 'Pattern', 'count']].to_csv("csv-all-pos/adv-so.csv", sep="\t", index=None)
