@@ -15,8 +15,8 @@ df.fillna("", inplace=True)
 # df.reset_index(drop=True, inplace=True)
 df['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSc0KxEDyN5G2Mqr4t3AvDpXxSOIbIBi0GrZsAGhDB207sjLow/viewform?usp=pp_url&entry.438735500=""" + df['Pāli1'] + """&entry.644913945=Anki Deck Vocab Pāli Course">Fix it here</a>."""
 
-df_anki = df.drop(['class', 'count', 'Pāli-old', 'eng-old', 'DPD', 'move', 'sync'], axis=1)
-print("columns 'class', 'count', 'Pāli-old', 'eng-old', 'DPD', 'move', 'sync' has been dropped for anki")
+df_anki = df.drop(['class', 'count', 'Pāli-old', 'eng-old', 'DPD', 'move', 'sync', 'no. for class filter', 'Notes SBS', 'Notes RU'], axis=1)
+print("columns 'class', 'count', 'Pāli-old', 'eng-old', 'DPD', 'move', 'sync', 'no. for class filter', 'Notes SBS', 'Notes RU' has been dropped for anki")
 
 df_anki.to_csv("../csv-for-anki/dps-feedback.csv", sep="\t", index=None)
 
@@ -676,14 +676,8 @@ df.sort_values(by='Example3', inplace=True, ascending = False, key=lambda x: np.
 # filter = test15
 # df_all = df.loc[filter]
 
-options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29']
+# options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29']
 
-df_all = df.loc[df['ex'].isin(options)] 
-
-df_all = df_all.drop(['class', 'count', 'Pāli-old', 'eng-old', 'DPD', 'move', 'sync'], axis=1)
-print("columns 'class', 'count', 'Pāli-old', 'eng-old', 'DPD', 'move', 'sync' has been dropped for df_all")
-
-df_all.to_csv("../csv-for-anki/classes/all-class.csv", sep="\t", index=None)
 
 # make words for class 2
 
@@ -1450,8 +1444,8 @@ df_words_cl29.to_csv("csv-for-pic/class29.csv", sep="\t", index=None)
 
 df.sort_values(by='Example3', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df['Example3'])))
 
-df = df.drop(['class', 'count', 'Pāli-old', 'eng-old', 'DPD', 'move', 'sync'], axis=1)
-print("columns 'class', 'count', 'Pāli-old', 'eng-old', 'DPD', 'move', 'sync' has been dropped for df")
+df = df.drop(['class', 'count', 'Pāli-old', 'eng-old', 'DPD', 'move', 'sync', 'no. for class filter', 'Notes SBS', 'Notes RU'], axis=1)
+print("columns 'class', 'count', 'Pāli-old', 'eng-old', 'DPD', 'move', 'sync', 'no. for class filter', 'Notes SBS', 'Notes RU' has been dropped for df")
 
 # filter 0 classes words
 test2 = df['ex'] == "-"
@@ -1658,3 +1652,11 @@ df_29.to_csv("../csv-for-anki/classes/29-class-anki.csv", sep="\t", index=None)
 # df_comb.sort_values(by='count', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df_comb['count'])))
 
 # df_comb.to_csv("csv-for-anki/all-class.csv", sep="\t", index=None)
+
+# save all finished classes
+
+options = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24']
+
+df_all = df.loc[df['ex'].isin(options)] 
+
+df_all.to_csv("../csv-for-anki/classes/all-class.csv", sep="\t", index=None)

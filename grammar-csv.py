@@ -17,7 +17,7 @@ test1 = df_abbr['type'] != ""
 filter = test1
 df_abbr_class = df_abbr.loc[filter]
 
-df_abbr_class = df_abbr_class[['abbrev', 'meaning', 'pāli', 'example', 'explanation', 'pattern']]
+df_abbr_class = df_abbr_class[['ID', 'abbrev', 'meaning', 'pāli', 'example', 'explanation', 'pattern']]
 
 df_abbr_class.to_excel("../csv-for-anki/abbr.xlsx", index=None)
 
@@ -594,7 +594,7 @@ df_irr_base = pd.read_excel("pāli-course/grammar.xlsx", sheet_name="irr_base", 
 df_irr_base.fillna("", inplace=True)
 
 df_irr_base.reset_index(drop=True, inplace=True)
-df_irr_base['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSc0KxEDyN5G2Mqr4t3AvDpXxSOIbIBi0GrZsAGhDB207sjLow/viewform?usp=pp_url&entry.438735500=""" + df_irr_base['example'] + """&entry.644913945=Anki Deck Grammar Pāli Course">Fix it here</a>."""
+df_irr_base['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSc0KxEDyN5G2Mqr4t3AvDpXxSOIbIBi0GrZsAGhDB207sjLow/viewform?usp=pp_url&entry.438735500=""" + df_irr_base['result'] + """&entry.644913945=Anki Deck Grammar Pāli Course">Fix it here</a>."""
 
 # df_22_class
 
@@ -602,9 +602,9 @@ df_22_class = pd.concat([df_cond])
 
 df_22_class.to_csv("../csv-for-anki/grammar/gr_22_class.csv", sep="\t", index=None)
 
-df_22_class_b = pd.concat([df_irr_base])
+df_22_class_s = pd.concat([df_irr_base])
 
-df_22_class_b.to_csv("../csv-for-anki/grammar/gr_22_class_b.csv", sep="\t", index=None)
+df_22_class_s.to_csv("../csv-for-anki/grammar/gr_22_class_s.csv", sep="\t", index=None)
 
 
 # df_upasagga
@@ -633,6 +633,59 @@ df_app['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs.goog
 
 # df_24_class
 
-df_24_class = pd.concat([df_upasagga])
+df_24_class = pd.concat([df_app])
 
 df_24_class.to_csv("../csv-for-anki/grammar/gr_24_class.csv", sep="\t", index=None)
+
+
+# concat df_sum_abbr
+
+df_sum_abbr = pd.concat([df_abbr_class, df_alph, df_samasa, df_upasagga
+])
+
+df_sum_abbr.to_csv("../csv-for-anki/grammar/gr_sum_abbr.csv", sep="\t", index=None)
+
+# concat df_sum_gramm
+
+df_sum_gramm = pd.concat([df_a_masc, df_pr, df_4_class, df_5_class, df_6_class, df_7_class, df_8_class, df_9_class, df_10_class, df_11_class, df_12_class, df_13_class, df_14_class, df_18_class, df_21_class, df_22_class, df_24_class])
+
+df_sum_gramm.to_csv("../csv-for-anki/grammar/gr_sum_gramm.csv", sep="\t", index=None)
+
+# concat df_sum_sandhi
+
+df_sum_sandhi = pd.concat([df_16_class, df_17_class, df_18_class_s, df_change_s, df_irr_base])
+
+df_sum_sandhi.to_csv("../csv-for-anki/grammar/gr_sum_sandhi.csv", sep="\t", index=None)
+
+# for ID inserstion
+
+# concat df_sum_abbr before 21
+
+# df_upd_sum_abbr = pd.concat([df_abbr_class, df_alph, df_samasa])
+
+# df_upd_sum_abbr.to_csv("../csv-for-anki/grammar/upd_gr_sum_abbr.csv", sep="\t", index=None)
+
+# df_upd_sum_abbr_ID = df_upd_sum_abbr[['abbrev', 'meaning', 'pāli', 'example', 'explanation', 'pattern', 'ID']]
+
+# df_upd_sum_abbr_ID.to_csv("../csv-for-anki/grammar/upd_gr_sum_abbr_ID.csv", sep="\t", index=None)
+
+# # concat df_sum_gramm before 21
+
+# df_upd_sum_gramm = pd.concat([df_a_masc, df_pr, df_4_class, df_5_class, df_6_class, df_7_class, df_8_class, df_9_class, df_10_class, df_11_class, df_12_class, df_13_class, df_14_class, df_18_class, df_21_class])
+
+# df_upd_sum_gramm.to_csv("../csv-for-anki/grammar/upd_gr_sum_gramm.csv", sep="\t", index=None)
+
+# df_upd_sum_gramm_ID = df_upd_sum_gramm[['pali', 'gram', 'of', 'transl', 'decl-con', 'pattern', 'ID']]
+
+# df_upd_sum_gramm_ID.to_csv("../csv-for-anki/grammar/upd_gr_sum_gramm_ID.csv", sep="\t", index=None)
+
+# # concat df_sum_sandhi before 21
+
+# df_upd_sum_sandhi = pd.concat([df_16_class, df_17_class, df_18_class_s, df_change_s])
+
+# df_upd_sum_sandhi.to_csv("../csv-for-anki/grammar/upd_gr_sum_sandhi.csv", sep="\t", index=None)
+
+# df_upd_sum_sandhi_ID = df_upd_sum_sandhi[['example', 'sandhi', 'details', 'result', 'meeting', 'pattern', 'ID']]
+
+# df_upd_sum_sandhi_ID.to_csv("../csv-for-anki/grammar/upd_gr_sum_sandhi_ID.csv", sep="\t", index=None)
+
