@@ -28,6 +28,10 @@ cp -f "Roots Class.apkg" "/home/deva/Documents/sasanarakkha/study-tools/pali-cla
 
 mv -f "Roots Class.apkg" "/home/deva/filesrv1/share1/Sharing between users/13 For Pāli class/Anki Decks/Roots Class.apkg"
 
+cp -f "Phonetic Changes Pāli Class.apkg" "/home/deva/Documents/sasanarakkha/study-tools/pali-class/Phonetic Changes Pāli Class.apkg"
+
+mv -f "Phonetic Changes Pāli Class.apkg" "/home/deva/filesrv1/share1/Sharing between users/13 For Pāli class/Anki Decks/Phonetic Changes Pāli Class.apkg"
+
 cp -f "Common Roots Pāli Class.apkg" "/home/deva/Documents/sasanarakkha/study-tools/pali-class/Common Roots Pāli Class.apkg"
 
 mv -f "Common Roots Pāli Class.apkg" "/home/deva/filesrv1/share1/Sharing between users/13 For Pāli class/Anki Decks/Common Roots Pāli Class.apkg"
