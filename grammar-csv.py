@@ -17,7 +17,7 @@ test1 = df_abbr['type'] != ""
 filter = test1
 df_abbr_class = df_abbr.loc[filter]
 
-df_abbr_class = df_abbr_class[['ID', 'abbrev', 'meaning', 'pāli', 'example', 'explanation', 'pattern']]
+df_abbr_class = df_abbr_class[['id', 'abbrev', 'meaning', 'pāli', 'example', 'explanation', 'pattern']]
 
 df_abbr_class.to_excel("../csv-for-anki/abbr.xlsx", index=None)
 
@@ -665,7 +665,7 @@ df_sum_sandhi.to_csv("../csv-for-anki/grammar/gr_sum_sandhi.csv", sep="\t", inde
 
 # df_upd_sum_abbr.to_csv("../csv-for-anki/grammar/upd_gr_sum_abbr.csv", sep="\t", index=None)
 
-# df_upd_sum_abbr_ID = df_upd_sum_abbr[['abbrev', 'meaning', 'pāli', 'example', 'explanation', 'pattern', 'ID']]
+# df_upd_sum_abbr_ID = df_upd_sum_abbr[['abbrev', 'meaning', 'pāli', 'example', 'explanation', 'pattern', 'id']]
 
 # df_upd_sum_abbr_ID.to_csv("../csv-for-anki/grammar/upd_gr_sum_abbr_ID.csv", sep="\t", index=None)
 
@@ -675,7 +675,7 @@ df_sum_sandhi.to_csv("../csv-for-anki/grammar/gr_sum_sandhi.csv", sep="\t", inde
 
 # df_upd_sum_gramm.to_csv("../csv-for-anki/grammar/upd_gr_sum_gramm.csv", sep="\t", index=None)
 
-# df_upd_sum_gramm_ID = df_upd_sum_gramm[['pali', 'gram', 'of', 'transl', 'decl-con', 'pattern', 'ID']]
+# df_upd_sum_gramm_ID = df_upd_sum_gramm[['pali', 'gram', 'of', 'transl', 'decl-con', 'pattern', 'id']]
 
 # df_upd_sum_gramm_ID.to_csv("../csv-for-anki/grammar/upd_gr_sum_gramm_ID.csv", sep="\t", index=None)
 
@@ -685,7 +685,7 @@ df_sum_sandhi.to_csv("../csv-for-anki/grammar/gr_sum_sandhi.csv", sep="\t", inde
 
 # df_upd_sum_sandhi.to_csv("../csv-for-anki/grammar/upd_gr_sum_sandhi.csv", sep="\t", index=None)
 
-# df_upd_sum_sandhi_ID = df_upd_sum_sandhi[['example', 'sandhi', 'details', 'result', 'meeting', 'pattern', 'ID']]
+# df_upd_sum_sandhi_ID = df_upd_sum_sandhi[['example', 'sandhi', 'details', 'result', 'meeting', 'pattern', 'id']]
 
 # df_upd_sum_sandhi_ID.to_csv("../csv-for-anki/grammar/upd_gr_sum_sandhi_ID.csv", sep="\t", index=None)
 

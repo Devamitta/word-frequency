@@ -15,10 +15,10 @@ with open ("curated-sources/ebts_REPLACED.txt", "r") as f:
 
 # open ebt freq csv and make a list
 ebt_freq_df = pd.read_csv(f"csv-for-pic/class{class_file_name}.csv", sep="\t", dtype= str)
-ebt_freq_df['Pāli1'] = ebt_freq_df['Pāli1'].str.replace('\d+', '')
-ebt_freq_df['Pāli1'] = ebt_freq_df['Pāli1'].str.replace(' ', '')
+ebt_freq_df['pali_1'] = ebt_freq_df['pali_1'].str.replace('\d+', '')
+ebt_freq_df['pali_1'] = ebt_freq_df['pali_1'].str.replace(' ', '')
 df_length = ebt_freq_df.shape[0]
-ebt_freq_list = ebt_freq_df['Pāli1'].to_list()
+ebt_freq_list = ebt_freq_df['pali_1'].to_list()
 print(ebt_freq_list[:200])
 
 # make ngrams

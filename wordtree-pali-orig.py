@@ -12,10 +12,10 @@ with open ("original-sources/ebts.txt", "r") as f:
 
 # open ebt freq csv and make a list
 ebt_freq_df = pd.read_csv("../csv-for-anki/classes/0-class-anki.csv", sep="\t", dtype= str)
-ebt_freq_df['Pāli1'] = ebt_freq_df['Pāli1'].str.replace('\d+', '')
-ebt_freq_df['Pāli1'] = ebt_freq_df['Pāli1'].str.replace(' ', '')
+ebt_freq_df['pali_1'] = ebt_freq_df['pali_1'].str.replace('\d+', '')
+ebt_freq_df['pali_1'] = ebt_freq_df['pali_1'].str.replace(' ', '')
 df_length = ebt_freq_df.shape[0]
-ebt_freq_list = ebt_freq_df['Pāli1'].to_list()
+ebt_freq_list = ebt_freq_df['pali_1'].to_list()
 print(ebt_freq_list[:100])
 
 # make ngrams
