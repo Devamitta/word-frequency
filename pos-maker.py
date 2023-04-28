@@ -4,10 +4,10 @@ from pandas_ods_reader import read_ods
 import re
 from natsort import index_natsorted
 
-df = pd.read_csv("pāli-course/frequent-words.ods-words.csv", sep="\t", dtype= str)
+df = pd.read_csv("../pāli-course/frequent-words.ods-words.csv", sep="\t", dtype= str)
 df.fillna("")
 
-# df = read_ods("pāli-course/frequent-words.ods")
+# df = read_ods("../pāli-course/frequent-words.ods")
 # df.fillna("")
 # df = df.astype(str)
 # df = df.replace(to_replace ="\.0", value = "", regex = True) #removes all flaots .0
@@ -1088,7 +1088,7 @@ df_absent.to_csv(f"frequent-words-dps/absent.csv", sep="\t", index=None)
 # adding feedback
 # df_dps_merged['Pāli2'] = f"""Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLScNC5v2gQbBCM3giXfYIib9zrp-WMzwJuf_iVXEMX2re4BFFw/viewform">Fix it here</a>."""
 
-# df_or = pd.read_csv("pāli-course/frequent-words.ods-original.csv", sep="\t", dtype= str)
+# df_or = pd.read_csv("../pāli-course/frequent-words.ods-original.csv", sep="\t", dtype= str)
 # df_or.fillna("")
 # df_or = df_or[['pali_1', 'pos', 'pattern', 'count']]
 
