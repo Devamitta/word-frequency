@@ -643,19 +643,19 @@ df_24_class.to_csv("../csv-for-anki/grammar/gr_24_class.csv", sep="\t", index=No
 df_sum_abbr = pd.concat([df_abbr_class, df_alph, df_samasa, df_upasagga
 ])
 
-df_sum_abbr.to_csv("../csv-for-anki/grammar/gr_sum_abbr.csv", sep="\t", index=None)
+df_sum_abbr.to_csv("../csv-for-anki/grammar/cl_sum_abbr.csv", sep="\t", index=None)
 
 # concat df_sum_gramm
 
 df_sum_gramm = pd.concat([df_a_masc, df_pr, df_4_class, df_5_class, df_6_class, df_7_class, df_8_class, df_9_class, df_10_class, df_11_class, df_12_class, df_13_class, df_14_class, df_18_class, df_21_class, df_22_class, df_24_class])
 
-df_sum_gramm.to_csv("../csv-for-anki/grammar/gr_sum_gramm.csv", sep="\t", index=None)
+df_sum_gramm.to_csv("../csv-for-anki/grammar/cl_sum_gramm.csv", sep="\t", index=None)
 
 # concat df_sum_sandhi
 
 df_sum_sandhi = pd.concat([df_16_class, df_17_class, df_18_class_s, df_change_s, df_irr_base])
 
-df_sum_sandhi.to_csv("../csv-for-anki/grammar/gr_sum_sandhi.csv", sep="\t", index=None)
+df_sum_sandhi.to_csv("../csv-for-anki/grammar/cl_sum_sandhi.csv", sep="\t", index=None)
 
 # for ID inserstion
 
