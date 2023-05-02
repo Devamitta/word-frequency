@@ -12,7 +12,8 @@ frequent-words-dps/
 grams-combined/
 csv-for-classes/
 original-csv-frequency/
-__pycache__/wordtree.cpython-310.pyc
+__pycache__/
+__pycache__/
 .vscode/settings.json
 .~lock.frequent-words.ods#
 absent-nid.csv
