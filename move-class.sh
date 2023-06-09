@@ -107,8 +107,8 @@ cp -f "/home/deva/Documents/dps/test.md" "/home/deva/Documents/sasanarakkha/stud
 
 echo "all done - new class updated"
 
-cd "/home/deva/Desktop"
+cd "/home/deva/Documents"
 
-code study-tools.code-workspace
+code sbs.code-workspace
 
 
