@@ -638,6 +638,37 @@ df_24_class = pd.concat([df_app])
 df_24_class.to_csv("../csv-for-anki/grammar/gr_24_class.csv", sep="\t", index=None)
 
 
+# df_taddhita
+df_taddhita = pd.read_excel("../pāli-course/grammar.xlsx", sheet_name="taddhita", dtype=str)
+df_taddhita.fillna("", inplace=True)
+
+df_taddhita.reset_index(drop=True, inplace=True)
+df_taddhita['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSc0KxEDyN5G2Mqr4t3AvDpXxSOIbIBi0GrZsAGhDB207sjLow/viewform?usp=pp_url&entry.438735500=""" + df_taddhita['example'] + """&entry.644913945=Anki Deck Grammar Pāli Course">Fix it here</a>."""
+
+# df_25_class
+
+df_25_class = pd.concat([df_taddhita])
+
+df_25_class.to_csv("../csv-for-anki/grammar/gr_25_class.csv", sep="\t", index=None)
+
+
+# df_kitaka
+df_kitaka = pd.read_excel("../pāli-course/grammar.xlsx", sheet_name="kitaka", dtype=str)
+df_kitaka.fillna("", inplace=True)
+
+df_kitaka.reset_index(drop=True, inplace=True)
+df_kitaka['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSc0KxEDyN5G2Mqr4t3AvDpXxSOIbIBi0GrZsAGhDB207sjLow/viewform?usp=pp_url&entry.438735500=""" + df_kitaka['example'] + """&entry.644913945=Anki Deck Grammar Pāli Course">Fix it here</a>."""
+
+# df_27_class
+
+df_27_class = pd.concat([df_kitaka])
+
+df_27_class.to_csv("../csv-for-anki/grammar/gr_27_class.csv", sep="\t", index=None)
+
+
+
+
+
 # concat df_sum_abbr
 
 df_sum_abbr = pd.concat([df_abbr_class, df_alph, df_samasa, df_upasagga
@@ -653,9 +684,18 @@ df_sum_gramm.to_csv("../csv-for-anki/grammar/cl_sum_gramm.csv", sep="\t", index=
 
 # concat df_sum_sandhi
 
-df_sum_sandhi = pd.concat([df_16_class, df_17_class, df_18_class_s, df_change_s, df_irr_base])
+df_sum_sandhi = pd.concat([df_16_class, df_17_class, df_18_class_s, df_change_s, df_irr_base, df_25_class, df_27_class])
 
 df_sum_sandhi.to_csv("../csv-for-anki/grammar/cl_sum_sandhi.csv", sep="\t", index=None)
+
+
+
+
+
+
+
+
+
 
 # for ID inserstion
 
