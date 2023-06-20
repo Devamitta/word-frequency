@@ -10,7 +10,7 @@ cp -f "/home/deva/Documents/Docs/SBS/analysis-of-sbs-pāli-english-recitations.p
 
 cd "/home/deva/Documents/sasanarakkha/study-tools"
 
-gh release upload --clobber 'artifacts-13.05.2023_14-26-57' temp-push/analysis-of-sbs-pali-english-recitations.pdf
+gh release upload --clobber 'artifacts-20.06.2023_13-45-06' temp-push/analysis-of-sbs-pali-english-recitations.pdf
 
 echo "analysis on the GitHub - done"
 
