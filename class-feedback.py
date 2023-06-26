@@ -16,7 +16,7 @@ df.fillna("", inplace=True)
 df['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSc0KxEDyN5G2Mqr4t3AvDpXxSOIbIBi0GrZsAGhDB207sjLow/viewform?usp=pp_url&entry.438735500=""" + df['pali_1'] + """&entry.644913945=Anki Deck Vocab Pāli Course">Fix it here</a>."""
 
 df_anki = df.drop(['sbs_category', 'sbs_class', 'count', 'sbs_source_5', 'sbs_sutta_5', 'sbs_example_5', 'move', 'sbs_chant_pali_5', 'sbs_chant_eng_5', 'sbs_chapter_5', 'sbs_notes', 'ru_notes'], axis=1)
-print("columns 'sbs_category' 'sbs_class', 'count', 'sbs_source_5', 'sbs_sutta_5', 'sbs_example_5', 'move', 'sbs_chant_pali_5', 'sbs_chant_eng_5', 'sbs_chapter_5', 'sbs_notes', 'ru_notes' has been dropped for anki")
+# print("columns 'sbs_category' 'sbs_class', 'count', 'sbs_source_5', 'sbs_sutta_5', 'sbs_example_5', 'move', 'sbs_chant_pali_5', 'sbs_chant_eng_5', 'sbs_chapter_5', 'sbs_notes', 'ru_notes' has been dropped for anki")
 
 df_anki.to_csv("../csv-for-anki/dps-feedback.csv", sep="\t", index=None)
 
@@ -1445,7 +1445,7 @@ df_words_cl29.to_csv("csv-for-pic/class29.csv", sep="\t", index=None)
 df.sort_values(by='sbs_example_3', inplace=True, ascending = False, key=lambda x: np.argsort(index_natsorted(df['sbs_example_3'])))
 
 df = df.drop(['sbs_category', 'sbs_class', 'count', 'sbs_source_5', 'sbs_sutta_5', 'sbs_example_5', 'move', 'sbs_chant_pali_5', 'sbs_chant_eng_5', 'sbs_chapter_5', 'sbs_notes', 'ru_notes'], axis=1)
-print("columns 'sbs_category' 'sbs_class', 'count', 'sbs_source_5', 'sbs_sutta_5', 'sbs_example_5', 'move', 'sbs_chant_pali_5', 'sbs_chant_eng_5', 'sbs_chapter_5', 'sbs_notes', 'ru_notes' has been dropped for df")
+# print("columns 'sbs_category' 'sbs_class', 'count', 'sbs_source_5', 'sbs_sutta_5', 'sbs_example_5', 'move', 'sbs_chant_pali_5', 'sbs_chant_eng_5', 'sbs_chapter_5', 'sbs_notes', 'ru_notes' has been dropped for df")
 
 # filter 0 classes words
 test2 = df['sbs_class_anki'] == "-"
