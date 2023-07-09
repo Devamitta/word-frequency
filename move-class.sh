@@ -36,22 +36,27 @@ cp -f "Common Roots Pāli Class.apkg" "/home/deva/Documents/sasanarakkha/study-t
 
 mv -f "Common Roots Pāli Class.apkg" "/home/deva/filesrv1/share1/Sharing between users/13 For Pāli class/Anki Decks/Common Roots Pāli Class.apkg"
 
+cp -f "Suttas Advanced.apkg" "/home/deva/Documents/sasanarakkha/study-tools/pali-class/Suttas Advanced.apkg"
+
+mv -f "Suttas Advanced.apkg" "/home/deva/filesrv1/share1/Sharing between users/13 For Pāli class/Anki Decks/Suttas Advanced.apkg"
+
+
 
 echo "all apkg - done"
 
-cp -rf "/home/deva/Documents/dps/word-frequency/vocab" "/home/deva/Documents/sasanarakkha/study-tools/pali-class/"
+# cp -rf "/home/deva/Documents/dps/word-frequency/vocab" "/home/deva/Documents/sasanarakkha/study-tools/pali-class/"
 
-cp -rf "/home/deva/Documents/dps/word-frequency/vocab" "/home/deva/filesrv1/share1/Sharing between users/13 For Pāli class/"
+# cp -rf "/home/deva/Documents/dps/word-frequency/vocab" "/home/deva/filesrv1/share1/Sharing between users/13 For Pāli class/"
 
-echo "all vocab.xlsx - done"
+# echo "all vocab.xlsx - done"
 
 cp -rf "/home/deva/Documents/dps/csv-for-anki/classes" "/home/deva/filesrv1/share1/Sharing between users/13 For Pāli class/Anki Decks/"
-
-echo "all csv for anki - done"
 
 cp -rf "/home/deva/Documents/dps/csv-for-anki/grammar" "/home/deva/filesrv1/share1/Sharing between users/13 For Pāli class/Anki Decks/"
 
 cp -f "/home/deva/Documents/dps/csv-for-anki/abbr.xlsx" "/home/deva/filesrv1/share1/Sharing between users/13 For Pāli class/Anki Decks/abbreviations.xlsx"
+
+echo "all csv for anki - done"
 
 cp -f "/home/deva/Documents/dps/test.md" "/home/deva/Documents/sasanarakkha/study-tools/pali-class/class-test.md"
 
@@ -107,7 +112,7 @@ cp -f "/home/deva/Documents/dps/test.md" "/home/deva/Documents/sasanarakkha/stud
 
 echo "all done - new class updated"
 
-cd "/home/deva/Documents"
+cd "/home/deva"
 
 code sbs.code-workspace
 
