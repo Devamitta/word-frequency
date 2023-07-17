@@ -1,5 +1,6 @@
 mkdir "csv-all-pos"
 mkdir "csv-for-classes"
+mkdir "csv-for-examples"
 mkdir "csv-for-pic"
 mkdir "frequent-words-dps"
 mkdir "output"
