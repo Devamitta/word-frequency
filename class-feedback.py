@@ -13,7 +13,7 @@ df.fillna("", inplace=True)
 
 # adding feedback
 # df.reset_index(drop=True, inplace=True)
-df['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSc0KxEDyN5G2Mqr4t3AvDpXxSOIbIBi0GrZsAGhDB207sjLow/viewform?usp=pp_url&entry.438735500=""" + df['pali_1'] + """&entry.644913945=Anki Deck Vocab Pāli Course">Fix it here</a>."""
+df['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSc0KxEDyN5G2Mqr4t3AvDpXxSOIbIBi0GrZsAGhDB207sjLow/viewform?usp=pp_url&entry.438735500=""" + df['pali_1'] + """&entry.644913945=Anki Deck Vocab">Fix it here</a>."""
 
 df_anki = df.drop(['sbs_class', 'count', 'sbs_source_5', 'sbs_sutta_5', 'sbs_example_5', 'move', 'sbs_chant_pali_5', 'sbs_chant_eng_5', 'sbs_chapter_5', 'sbs_notes', 'ru_notes'], axis=1)
 # print("columns 'sbs_category' 'sbs_class', 'count', 'sbs_source_5', 'sbs_sutta_5', 'sbs_example_5', 'move', 'sbs_chant_pali_5', 'sbs_chant_eng_5', 'sbs_chapter_5', 'sbs_notes', 'ru_notes' has been dropped for anki")
@@ -1601,7 +1601,7 @@ df_29 = df.loc[filter]
 
 # df_0.to_csv("../csv-for-anki/classes/0-class-anki.csv", sep="\t", index=None)
 # df_1 = df_1.drop(['Feedback'], axis=1)
-# df_1['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSc0KxEDyN5G2Mqr4t3AvDpXxSOIbIBi0GrZsAGhDB207sjLow/viewform?usp=pp_url&amp;entry.644913945=Anki Deck Vocab Pāli Course">Fix it here</a>."""
+# df_1['Feedback'] = f"""Spot a mistake? <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSc0KxEDyN5G2Mqr4t3AvDpXxSOIbIBi0GrZsAGhDB207sjLow/viewform?usp=pp_url&amp;entry.644913945=Anki Deck Vocab">Fix it here</a>."""
 df_1.to_csv("../csv-for-anki/classes/1-class-anki.csv", sep="\t", index=None)
 df_1.to_csv("csv-for-pic/class1.csv", sep="\t", index=None)
 df_2.to_csv("../csv-for-anki/classes/2-class-anki.csv", sep="\t", index=None)
